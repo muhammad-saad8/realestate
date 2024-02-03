@@ -1,0 +1,19 @@
+.ube-accordion{
+	@include border-radius(5px);
+	.card-header{
+		padding-left: 30px;
+	}
+	.card-body{
+		font-size: 13px;
+		line-height: 2;
+		padding: 22px 40px 30px 30px;
+		p{
+			margin-bottom: 0;
+		}
+	}
+}
+.ube-accordion-link{
+	font-size: 16px;
+	line-height: 2.2;
+}
+

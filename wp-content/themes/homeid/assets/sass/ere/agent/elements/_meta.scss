@@ -1,0 +1,36 @@
+.g5ere__lam-icon {
+	color: var(--g5-color-accent);
+}
+.g5ere__lam-content {
+	a:hover {
+		color: var(--g5-color-heading);
+	}
+}
+
+.g5ere__loop-agent-fax,
+.g5ere__loop-agent-office-number,
+.g5ere__loop-agent-phone {
+	.g5ere__lam-content {
+		color: var(--g5-color-heading);
+		font-weight: 500;
+	}
+}
+
+.g5ere__lam-has-title {
+	@include d-flex();
+	.g5ere__lam-label {
+		min-width: 100px;
+	}
+}
+
+.g5ere__lam-has-title + .g5ere__lam-has-title {
+	margin-top: 5px;
+	&.g5ere__loop-agent-social {
+		margin-top: 10px;
+	}
+}
+
+
+.g5ere__lam-label {
+	font-size: 13px;
+}

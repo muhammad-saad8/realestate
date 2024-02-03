@@ -1,0 +1,21 @@
+.g5ere__property-address-item {
+	strong {
+		min-width: 120px;
+	}
+	a {
+		color: inherit;
+	}
+}
+
+.g5ere__property-address-list {
+	margin-top: -0.5rem;
+	li {
+		padding-top: 0.5rem;
+
+	}
+	.address {
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+}

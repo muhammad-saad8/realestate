@@ -1,0 +1,101 @@
+@import "../scss/_mixin";
+@import "../scss/_variable";
+
+.gel-countdown {
+    @include d-flex();
+    @include justify-content-center();
+    text-align: center;
+    input {
+        display: none;
+    }
+    span {
+        line-height: 1;
+    }
+}
+
+.gel-countdown-section + .gel-countdown-section {
+    margin-left: 35px;
+}
+
+.gel-countdown-value {
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 0.29em;
+    color: #1b1b1b;
+}
+
+.gel-countdown-text {
+    display: block;
+    font-weight: 600;
+}
+
+.gel-countdown-style-01 .gel-countdown-section + .gel-countdown-section {
+    margin-left: 55px;
+}
+
+.gel-countdown-style-02 {
+    .gel-countdown-value {
+        width: 2.8em;
+        padding: 1.3em 0;
+        margin-bottom: 0.48em;
+        @include border-radius(3px);
+        background-color: #fafafa;
+    }
+    .gel-countdown-text {
+        text-transform: uppercase;
+        color: #fff;
+    }
+}
+
+.gel-countdown-style-03 {
+    .gel-countdown-section {
+        position: relative;
+        div:first-child {
+            display: block !important;
+        }
+        &:after {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 3px;
+            right: 3px;
+            bottom: 3px;
+            left: 3px;
+            z-index: 1;
+            @include border-radius(50%);
+        }
+    }
+    .gel-countdown-section-inner {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        z-index: 2;
+        @include transform(translateY(-50%));
+    }
+    .gel-countdown-value {
+        font-size: 50px;
+        margin-bottom: 0.26em;
+    }
+    .gel-countdown-text {
+        text-transform: uppercase;
+    }
+}
+
+@media(max-width: 767px) {
+    .gel-countdown {
+        @include flex-wrap(wrap);
+        @include justify-content-between();
+    }
+    .gel-countdown-section {
+        width: 50%;
+        margin-bottom: 2rem;
+        + .gel-countdown-section {
+            margin-left: 0 !important;
+        }
+    }
+    .gel-countdown-style-03 .gel-countdown-section div:first-child {
+        display: inline !important;
+    }
+}

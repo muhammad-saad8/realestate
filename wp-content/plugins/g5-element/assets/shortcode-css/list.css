@@ -1,0 +1,118 @@
+@charset "UTF-8";
+.gel-list ul {
+  counter-reset: item;
+}
+.gel-list ul .list-type {
+  min-width: 30px;
+  line-height: 1.4rem;
+  color: inherit;
+}
+.gel-list .item-list {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  line-height: 1.4rem;
+  margin: 0;
+}
+.gel-list .item-list:before {
+  counter-increment: item;
+  min-width: 30px;
+  line-height: 1.4rem;
+}
+.gel-list .content-list {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.gel-list .content-list a {
+  color: inherit;
+}
+.gel-list .content-list a:hover {
+  color: inherit;
+}
+.gel-list .circle-type li:before {
+  font-family: "Font Awesome 5 Pro";
+  content: "";
+  font-weight: 600;
+  font-size: 8px;
+}
+.gel-list .square-type li:before {
+  content: counter(item, square);
+}
+
+.gel-list-style-01 .item-list:not(:first-child), .gel-list-style-02 .item-list:not(:first-child) {
+  padding-top: 3px;
+}
+.gel-list-style-01 .item-list:not(:last-child), .gel-list-style-02 .item-list:not(:last-child) {
+  padding-bottom: 3px;
+}
+
+.gel-list-style-01 ul .list-type {
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+.gel-list-style-01 .roman-number-type li:before {
+  content: counter(item, upper-roman) ". ";
+}
+.gel-list-style-01 .alpha-type li:before {
+  content: counter(item, lower-alpha) ". ";
+}
+.gel-list-style-01 .number-type li:before {
+  content: counter(item, decimal-leading-zero) ". ";
+}
+
+.gel-list-style-02 ul li {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-flow: row-reverse;
+  flex-flow: row-reverse;
+  text-align: right;
+}
+.gel-list-style-02 ul li:before {
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+.gel-list-style-02 ul .list-type {
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+.gel-list-style-02 .roman-number-type li:before {
+  content: " ." counter(item, upper-roman);
+}
+.gel-list-style-02 .alpha-type li:before {
+  content: " ." counter(item, lower-alpha);
+}
+.gel-list-style-02 .number-type li:before {
+  content: ". " counter(item, decimal-leading-zero);
+}
+
+.gel-list-style-03 ul {
+  display: -ms-flexbox;
+  display: flex;
+}
+.gel-list-style-03 ul li:before {
+  display: none;
+}
+.gel-list-style-03 ul span {
+  display: none;
+}
+.gel-list-style-03 ul li:not(:last-child) {
+  padding-right: 20px;
+}
+.gel-list-style-03 ul li:not(:first-child) {
+  padding-left: 20px;
+}
+.gel-list-style-03.align-left ul {
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+.gel-list-style-03.align-right ul {
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+.gel-list-style-03.align-center ul {
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=list.css.map */

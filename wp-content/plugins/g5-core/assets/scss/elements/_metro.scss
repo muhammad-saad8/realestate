@@ -1,0 +1,100 @@
+.g5core__metro-link {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+}
+.g5core__metro-more {
+	z-index: 3;
+	font-weight: 500;
+}
+
+.g5core__metro-more-number {
+	font-size: 40px;
+	line-height: 1;
+}
+
+.g5core__metro-more-label {
+	text-transform: uppercase;
+	font-size: 13px;
+}
+
+@media (max-width: 767px) {
+	.g5core__metro-more-label {
+		display: none;
+	}
+	.g5core__metro-more-number {
+		font-size: 20px;
+	}
+}
+
+.g5core__metro-inner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	@include d-flex();
+	@include align-items-center();
+	@include justify-content-center();
+}
+
+.g5core__metro-gutter-5 {
+	margin-left: -2.5px;
+	margin-right: -2.5px;
+	margin-top: -2.5px;
+	.g5core__metro-inner {
+		padding: 2.5px;
+	}
+}
+
+.g5core__metro-gutter-10 {
+	margin-left: -5px;
+	margin-right: -5px;
+	margin-top: -5px;
+	.g5core__metro-inner {
+		padding: 5px;
+	}
+}
+
+.g5core__metro-gutter-20 {
+	margin-left: -10px;
+	margin-right: -10px;
+	margin-top: -10px;
+	.g5core__metro-inner {
+		padding: 10px;
+	}
+}
+
+.g5core__metro-gutter-30 {
+	margin-left: -15px;
+	margin-right: -15px;
+	margin-top: -15px;
+	.g5core__metro-inner {
+		padding: 15px;
+	}
+}
+
+.g5core__metro-gutter-40 {
+	margin-left: -20px;
+	margin-right: -20px;
+	margin-top: -20px;
+	.g5core__metro-inner {
+		padding: 20px;
+	}
+}
+
+@media (max-width: 1199px) {
+	.g5core__metro-gutter-20,
+	.g5core__metro-gutter-30,
+	.g5core__metro-gutter-40 {
+		margin-left: -5px;
+		margin-right: -5px;
+		margin-top: -5px;
+		.g5core__metro-inner {
+			padding: 5px;
+		}
+	}
+}

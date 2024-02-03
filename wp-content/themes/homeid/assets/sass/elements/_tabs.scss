@@ -1,0 +1,155 @@
+
+.wpb-js-composer.wpb-js-composer .vc_tta.vc_general {
+	&.vc_tta-tabs {
+		.vc_tta-tab > a,
+		.vc_tta-panel-title > a{
+			font-size: 13px;
+			font-weight: 500;
+			text-transform: uppercase;
+			line-height: 2;
+			padding: 12px 37px;
+		}
+		.vc_tta-tab > a:hover{
+			cursor: pointer;
+		}
+	}
+	&.custom-tab-01{
+		.vc_tta-tab.vc_active > a,
+		.vc_tta-tab > a:hover{
+			color: var(--g5-color-primary);
+			border-color: var(--g5-color-light);
+			background-color: var(--g5-color-light);
+		}
+		.vc_tta-tab > a {
+			background-color: transparent;
+			border-color: transparent;
+			color: rgba(37, 37, 37, 0.4);
+		}
+		.vc_tta-tab > a,
+		.vc_tta-panel-title > a{
+			letter-spacing: 0.81px;
+			padding: 7px 40px;
+		}
+		.vc_tta-panel-body{
+			overflow: unset;
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+	&.custom-tab-02{
+		.vc_tta-tab.vc_active > a,
+		.vc_tta-tab > a:hover{
+			background-color: #ffffff;
+			color: var(--g5-color-accent);
+			@include box-shadow(0 0 10px 0 rgba(51, 51, 51, 0.15));
+		}
+		.vc_tta-tab > a {
+			background-color: $color_border_input;
+			border-color: $color_border_input;
+			color: var(--g5-color-heading);
+			@include transition(all .3s);
+		}
+		.vc_tta-panel-body{
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+	&.custom-tab-03{
+		.vc_tta-tab > a,
+		.vc_tta-panel-title > a{
+			font-size: 14px;
+			letter-spacing: 0.88px;
+		}
+		.vc_tta-tab {
+			> a {
+				background-color: transparent;
+				color: rgba(37, 37, 37, 0.4);
+				.vc_tta-title-text:before{
+					content: "";
+					bottom: 0;
+					left: 0;
+					width: 0;
+					height: 2px;
+					position: absolute;
+					transition: width 0.3s;
+					background-color: #0ec6d5;
+				}
+			}
+		}
+		.vc_tta-tab.vc_active > a,
+		.vc_tta-tab > a:hover{
+			color: var(--g5-color-heading);
+			.vc_tta-title-text:before{
+				width: 100%;
+			}
+		}
+	}
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+	.wpb-js-composer.wpb-js-composer .vc_tta.vc_general {
+		&.custom-tab-01{
+			.vc_tta-tab > a,
+			.vc_tta-panel-title > a{
+				padding: 7px 20px;
+			}
+		}
+	}
+}
+
+@media (min-width: 768px){
+	.wpb-js-composer.wpb-js-composer .vc_tta-tabs.vc_tta.vc_general {
+		&.vc_tta-tabs {
+			.vc_tta-tab > a,
+			.vc_tta-panel-title > a{
+				padding: 12px 20px;
+			}
+		}
+		&.custom-tab-01{
+			.vc_tta-panels{
+				background-color: $color_background_input;
+				border-color: $color_background_input;
+			}
+			.vc_tta-panel-body{
+				border: none;
+			}
+			.vc_tta-panels:before{
+				content: '';
+				position: absolute;
+				height: 100%;
+				top: 0;
+				width: 100vw;
+				left: 50%;
+				margin-left: -50vw;
+				background-color: $color_border_input;
+			}
+		}
+		&.custom-tab-02{
+			.vc_tta-panels{
+				background-color: transparent;
+				border-color: transparent;
+			}
+		}
+		&.custom-tab-03{
+			.vc_tta-panels{
+				background-color: transparent;
+				border-color: transparent;
+			}
+			&.vc_tta-tabs {
+				.vc_tta-tab > a,
+				.vc_tta-panel-title > a{
+					border: 0;
+					padding: 0;
+				}
+				.vc_tta-title-text{
+					padding-bottom: 5px;
+					display: block;
+				}
+			}
+			.vc_tta-tab{
+				margin: 40px;
+			}
+		}
+	}
+}
+

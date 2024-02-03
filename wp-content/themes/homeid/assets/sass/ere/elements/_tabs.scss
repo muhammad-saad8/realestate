@@ -1,0 +1,134 @@
+.g5ere__panel-heading {
+	border: 1px solid var(--g5-color-border);
+	h4 {
+		margin: 0;
+		cursor: pointer;
+		font-weight: 500;
+		padding: 10px 30px;
+	}
+}
+
+.g5ere__panel-body {
+	p:last-child {
+		margin-bottom: 0;
+	}
+}
+
+
+@media (max-width: 767px) {
+	.g5ere__tab-panel {
+		margin-bottom: 1rem;
+	}
+
+	.g5ere__panel-body {
+		padding: 1.25rem;
+	}
+
+}
+
+.g5ere__single-block-tabs {
+	.g5ere__tabs-container {
+		margin-bottom: -2px;
+		position: relative;
+		z-index: 2;
+	}
+
+	.g5ere__panels-container {
+		padding: 0;
+
+		.card-body {
+			background-color: #fff;
+			padding: 40px 30px;
+			border-radius: 5px;
+		}
+	}
+	@media (max-width: 767px) {
+		.card-header {
+			padding: 15px !important;
+			background: #fff !important;
+			margin: 0 !important;
+			h2 {
+				font-size: 1rem !important;
+				margin-bottom: 0 !important;
+			}
+		}
+		.card-body {
+			padding: 15px !important;
+			border-top-left-radius: 0 !important;
+			border-top-right-radius: 0 !important;
+			border-width:0 1px 1px 1px;
+			border-style: solid;
+			border-color: $color_border;
+		}
+		.g5ere__panels-container {
+			> .tab-pane{
+				margin-bottom: 15px;
+			}
+		}
+	}
+	.nav {
+		border-width: 1px 1px 0;
+		border-style: solid;
+		border-color: var(--g5-color-border);
+		background: #eee;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+		@include d-inline-flex();
+
+
+		.nav-item {
+			margin: 0;
+			position: relative;
+		}
+
+		.nav-item:not(:last-child) .nav-link:not(.active) {
+			&::after {
+				content: '';
+				position: absolute;
+				top: 50%;
+				right: 0;
+				@include transform(translateY(-50%));
+				width: 1px;
+				height: 24px;
+				background-color: #dfdfdf;
+			}
+
+		}
+
+		.nav-link {
+			padding: .5rem 1.875rem;
+			text-transform: uppercase;
+			font-size: 13px;
+			border: none;
+
+			&.active {
+				border-top-left-radius: 5px;
+				border-top-right-radius: 5px;
+				border-color: var(--g5-color-accent);
+			}
+		}
+
+		.nav-link:not(.active) {
+			color: var(--g5-color-muted);
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	.g5ere__single-block-tabs{
+		.g5ere__panels-container{
+			padding: 30px;
+			background-color: $color_white;
+			@include border-radius(5px);
+			border: 1px solid var(--g5-color-border);
+		}
+	}
+	.g5ere__single-content .g5ere__single-block-tabs {
+		.g5ere__single-block,
+		.g5ere__single-block .card-body{
+			padding: 0;
+			margin: 0;
+			border: 0;
+		}
+	}
+}

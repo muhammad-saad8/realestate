@@ -1,0 +1,78 @@
+.text-color {
+	color: var(--g5-color-text-main);
+}
+
+.text-accent {
+	color: var(--g5-color-accent);
+}
+
+
+.border-color {
+	border-color: var(--g5-color-border);
+}
+
+.heading-color {
+	color: var(--g5-color-heading);
+}
+
+.heading-bg-color {
+	background-color: var(--g5-color-heading);
+}
+
+.heading-border-color  {
+	border-color: var(--g5-color-heading);
+}
+
+.primary-color {
+	color: var(--g5-color-primary);
+}
+
+.primary-bg-color {
+	background-color: var(--g5-color-primary);
+}
+
+
+.dark-color {
+	color: var(--g5-color-dark);
+}
+
+.gray-color {
+	color: var(--g5-color-gray);
+}
+
+.color-muted {
+	color: var(--g5-color-muted);
+}
+
+.color-bg-muted{
+	background-color: var(--g5-color-muted);
+}
+
+
+
+.light-text-color {
+	color: var(--g5-color-light);
+}
+
+.h1 {
+	@include h1(important);
+}
+
+.h2 {
+	@include h2(important);
+}
+
+.h3  {
+	@include h3(important);
+}
+.h4 {
+	@include h4(important);
+}
+
+.h5 {
+	@include h5(important);
+}
+
+.h6 {
+	@include h6(important);
+}

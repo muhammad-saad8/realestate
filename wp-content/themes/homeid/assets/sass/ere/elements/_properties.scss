@@ -1,0 +1,7 @@
+@media (max-width: 991px) {
+	.custom-slider-tabs-md{
+		.g5core__pretty-tabs{
+			@include justify-content-start();
+		}
+	}
+}

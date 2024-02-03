@@ -1,0 +1,11 @@
+.g5ere__li-bordered {
+	border: 1px solid var(--g5-color-border);
+	@include border-radius(5px);
+}
+.g5ere__li-hover-box-shadow {
+	@include transition(box-shadow .3s);
+	&:hover {
+		@include box-shadow(0 5px 15px 0 rgba(51, 51, 51, 0.08));
+	}
+
+}

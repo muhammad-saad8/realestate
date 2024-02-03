@@ -1,0 +1,31 @@
+
+.g5ere__single-property-tabs{
+	.nav-tabs{
+		.nav-link{
+			padding-left: 1rem;
+			padding-right: 1rem;
+			text-transform: capitalize;
+			font-size: 14px;
+			color: var(--g5-color-text-main);
+			background-color: $color_border;
+		}
+		.nav-link.active{
+			font-weight: 600;
+			background-color: $color_white;
+			color: var(--g5-color-text-main);
+		}
+		.nav-item:first-child .nav-link{
+			padding-left: 30px;
+		}
+	}
+	 .g5ere__property-block-floor-plans{
+		 .g5ere__property_floors-item {
+			 .card-body{
+				 border: 0;
+			 }
+			 .card-header{
+				 padding: 0 !important;
+			 }
+		}
+	}
+}

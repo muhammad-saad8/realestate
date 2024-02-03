@@ -1,0 +1,31 @@
+.g5blog__post-large-image {
+  .g5blog__post-featured {
+    margin-bottom: 1.5625rem;
+  }
+  .g5blog__post-title {
+    margin-bottom: 1rem;
+  }
+  .g5blog__post-meta + .g5blog__post-excerpt {
+    margin-top: 1.25rem;
+  }
+
+
+  &.sticky {
+    .g5blog__post-inner {
+      padding: 2rem;
+    }
+
+    .g5blog__post-featured {
+      margin-left: -2rem;
+      margin-right: -2rem;
+      margin-top: -2rem;
+    }
+
+  }
+}
+
+.g5blog__layout-large-image {
+  .g5blog__post-default {
+    padding-bottom: 4rem;
+  }
+}

@@ -1,0 +1,20 @@
+.ere-mini-search-properties-form {
+	button {
+		padding: 0 15px;
+		border-radius: 0;
+	}
+
+	.ere-status {
+		border-radius: 0;
+		position: relative;
+	}
+
+	input {
+		padding-left: 15px !important;
+	}
+
+	select + input {
+		width: calc(100% - 123px);
+		margin-left: 123px;
+	}
+}

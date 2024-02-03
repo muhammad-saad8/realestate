@@ -1,0 +1,43 @@
+.g5ere__property-skin-10 {
+	.g5ere__loop-property-price{
+		font-size: 16px;
+		font-weight: 600;
+	}
+	.g5ere__lpp-postfix{
+		font-size: 14px;
+	}
+}
+@media (min-width: 576px) {
+	.g5ere__property-skin-10 {
+		.g5ere__loop-content {
+			position: absolute;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			z-index: 2;
+			padding: 20px 24px 15px 20px;
+			margin: 15px;
+			background-color: #fff;
+			@include border-radius(5px);
+			@include box-shadow(0 0 15px 0 rgba(51, 51, 51, 0.15));
+			&:before{
+				content: '\f105';
+				font-family: 'Font Awesome 5 Pro';
+				font-size: 20px;
+				color: var(--g5-color-heading);
+				position: absolute;
+				top: 50%;
+				@include transform(translateY(-50%));
+				right: 15px;
+			}
+		}
+	}
+}
+
+@media (max-width: 575px) {
+	.g5ere__property-skin-10 {
+		.g5core__entry-thumbnail {
+			margin-bottom: 15px;
+		}
+	}
+}

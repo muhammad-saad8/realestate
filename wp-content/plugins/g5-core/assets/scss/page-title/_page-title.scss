@@ -1,0 +1,69 @@
+.g5core-page-title-default {
+	background-color: #fafafa;
+
+	.page-title-inner {
+		@include d-flex();
+		@include align-items-center();
+		padding: 50px 0;
+	}
+
+	@include media-sm() {
+		.page-title-inner {
+			@include flex-flow-column();
+			@include justify-content-center();
+			@include align-items-start();
+		}
+	}
+
+	.page-title-content {
+		@include d-flex();
+		@include flex-flow-column();
+		margin-right: auto;
+	}
+
+	.page-sub-title {
+		margin-bottom: 0;
+	}
+}
+
+.g5core-breadcrumbs {
+	@include d-flex();
+	@include flex-wrap();
+	@include justify-content-end();
+	margin: 0;
+	padding: 0;
+	font-size: 0.875rem;
+
+	list-style: none;
+
+	li.breadcrumb-sep {
+		margin: 0 10px;
+	}
+
+	li.breadcrumb-sep:last-child {
+		display: none !important;
+	}
+
+	li a {
+		color: inherit;
+		@include transition(color .3s);
+	}
+
+	@include media-sm() {
+		@include justify-content-start();
+		margin-left: 0;
+	}
+}
+
+@include media-sm() {
+	.g5core-page-title .page-title-inner {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+}
+
+.g5core-page-title.page-title-layout-full_width > .container {
+	max-width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+}

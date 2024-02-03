@@ -1,0 +1,91 @@
+.ube-team-member.ube-tm-style-01 {
+	background-color: transparent;
+
+	.ube-tm-name {
+		color: var(--g5-color-heading);
+		font-size: 16px;
+		margin-bottom: 10px;
+	}
+
+	.ube-tm-pos {
+		font-size: 14px;
+		color: var(--g5-color-text-main);
+	}
+
+	.ube-tm-image {
+		margin-bottom: 28px;
+		overflow: hidden;
+		position: relative;
+		display: inline-block;
+		border-radius: 5px;
+
+		&:before {
+			content: '';
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			opacity: 0;
+			background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(#333));
+			background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), #333);
+			background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #333);
+			@include transition(opacity 0.4s 0.1s ease-out);
+			z-index: 1;
+		}
+
+	}
+
+	.ube-tm-social {
+		position: absolute;
+		width: 100%;
+		z-index: 2;
+	}
+
+	.elementor-icon {
+		margin-left: 2.5px;
+		margin-right: 2.5px;
+		display: inline-block;
+		width: 33px;
+		height: 33px;
+		color: var(--g5-color-text-main);
+		background-color: #fff;
+		border-radius: 5px;
+		@include transition(all 0.2s ease-out);
+		@include d-inline-flex();
+		@include justify-content-center();
+		@include align-items-center();
+
+		&:hover {
+			@include transition-delay(unset !important);
+			color: var(--g5-color-accent-foreground);
+			background-color: var(--g5-color-accent);
+		}
+	}
+
+	@for $i from 1 through 10 {
+		.elementor-icon:nth-child(#{$i}) {
+			@include transition-delay($i * (1s / 15));
+		}
+	}
+
+	.elementor-icon {
+		@include transition(all 0.4s 0.1s ease-out);
+		opacity: 0;
+		@include transform(translateY(0px));
+		visibility: hidden;
+	}
+
+	&:hover {
+		.ube-tm-image:before {
+			opacity: 1;
+		}
+
+		.elementor-icon {
+			@include transform(translateY(-75px));
+			visibility: visible;
+			opacity: 1
+		}
+	}
+
+}

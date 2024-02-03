@@ -1,0 +1,437 @@
+@import "../scss/variable";
+@import "../scss/mixin";
+
+// Background full
+.g5element-bg-full {
+    position: absolute!important;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+// Progress bar
+.vc_progress_bar {
+    .vc_general.vc_single_bar {
+        @include box-shadow(none);
+    }
+    .vc_general.vc_single_bar .vc_bar .vc_label_units {
+        display: none;
+    }
+}
+
+.vc_progress_bar.prb_value_move {
+    .vc_general.vc_single_bar .vc_label .vc_label_units {
+        display: none;
+    }
+    .vc_general.vc_single_bar .vc_bar .vc_label_units {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 7px;
+        font-size: 80%;
+        color: #fff;
+    }
+}
+.vc_progress_bar.prb_label_above,
+.vc_progress_bar.prb_label_bellow {
+    .vc_general.vc_single_bar .vc_label.vc_label {
+        text-shadow: none;
+        color: inherit;
+    }
+    .vc_general.vc_single_bar {
+        background-color: transparent;
+        box-shadow: none;
+    }
+    .vc_general.vc_single_bar .vc_label {
+        padding: 0.5em 0;
+        font-size: inherit;
+    }
+    .vc_general.vc_single_bar .vc_bar {
+        height: 10px;
+        bottom: -5px;
+        top: auto;
+    }
+
+}
+.vc_progress_bar.prb_label_bellow {
+    .vc_general.vc_single_bar {
+        padding-top: 5px;
+        margin-bottom: 7px;
+    }
+    .vc_general.vc_single_bar .vc_bar {
+        top: 0;
+        bottom: auto;
+    }
+}
+
+.get-btn {
+    &-inline {
+        display: inline-block;
+    }
+    &-left {
+        text-align: left;
+    }
+    &-center {
+        text-align: center;
+    }
+    &-right {
+        text-align: right;
+    }
+}
+
+
+.wpb-js-composer .vc_tta.vc_tta-accordion.vc_tta-style-underline {
+    .vc_tta-controls-icon-position-left {
+        .vc_tta-controls-icon {
+            left: 0;
+        }
+        &.vc_tta-panel-title>a {
+            padding-left: 26px;
+        }
+    }
+
+    .vc_tta-controls-icon-position-right {
+        .vc_tta-controls-icon {
+            right: 0;
+        }
+
+        &.vc_tta-panel-title>a {
+            padding-right: 26px;
+        }
+
+    }
+
+    .vc_tta-panel-body {
+        padding-left: 26px;
+        padding-right: 26px;
+    }
+}
+
+
+//image-effectr
+.gel-image-effectr-wrap{
+    &:hover {
+        .gel-image-effect {
+            &:after, .gel-effect-content:before, .gel-effect-content:after {
+                opacity: 1;
+            }
+        }
+
+        .suprema-effect .gel-effect-content {
+            &:before {
+                @include transition(opacity .3s ease 50ms, transform 2s cubic-bezier(.26, .63, 0, .96));
+                @include transform(rotate(-45deg) translateX(-1000px));
+            }
+
+            &:after {
+                @include transition(opacity .4s ease, transform 2s cubic-bezier(.26, .63, 0, .96));
+                @include transform(rotate(-45deg) translateX(1000px));
+            }
+        }
+
+        .layla-effect .gel-effect-content {
+            &:after {
+                left: 10px;
+                right: 10px;
+            }
+
+            &:before {
+                top: 10px;
+                bottom: 10px;
+            }
+        }
+
+        .bubba-effect .gel-effect-content {
+            &:after {
+                left: 25px;
+                right: 25px;
+            }
+
+            &:before {
+                top: 25px;
+                bottom: 25px;
+            }
+        }
+
+        .jazz-effect .gel-effect-content:before {
+            @include transform(rotate(45deg) scale(1));
+        }
+
+        .flash-effect {
+            .gel-effect-content:before {
+                @include transform(scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, -45deg) translate3d(0, 150%, 0));
+            }
+        }
+
+        .symmetry-effect .gel-effect-content {
+            &:after,
+            &:before {
+                height: 100%;
+                width: 100%;
+            }
+        }
+
+        .ming-effect .gel-effect-content {
+            &:before {
+                opacity: 1;
+                @include transform(scale3d(1, 1, 1));
+            }
+        }
+
+        .gel-image-effect-img-zoom-in {
+            .gel-effect-content {
+                @include transform(scale3d(1.2, 1.2, 1));
+            }
+        }
+
+        .gel-image-effect-img-zoom-out {
+            .gel-effect-content {
+                @include transform(scale3d(1, 1, 1));
+            }
+        }
+
+        .gel-image-effect-img-slide-right {
+            .gel-effect-content {
+                @include transform(translate3d(0, 0, 0) scale(1.2));
+            }
+        }
+
+        .gel-image-effect-img-slide-left {
+            .gel-effect-content {
+                @include transform(translate3d(-10%, 0, 0) scale(1.2));
+            }
+        }
+
+
+        .gel-image-effect-img-slide-top {
+            .gel-effect-content {
+                @include transform(translate3d(0, -10%, 0) scale(1.25));
+            }
+        }
+
+        .gel-image-effect-img-slide-bottom {
+            .gel-effect-content {
+                @include transform(translate3d(0, 0, 0) scale(1.25));
+            }
+        }
+
+        .gel-image-effect-img-rotate {
+            .gel-effect-content {
+                @include transform(scale(1.4) rotate(10deg));
+            }
+        }
+    }
+}
+
+.gel-image-effect {
+    overflow: hidden;
+    position: relative;
+    &:after {
+        @include transition(opacity .8s ease .15s);
+        position: absolute;
+        content: '';
+        display: block;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        opacity: 0;
+        z-index: 0;
+    }
+    .gel-effect-content {
+        position: relative;
+        &:before, &:after {
+            position: absolute;
+            content: '';
+            display: block;
+        }
+    }
+}
+
+.suprema-effect .gel-effect-content {
+    &:before, &:after {
+        width: 45%;
+        height: 2px;
+        top: 50%;
+        background: #fff;
+        opacity: 0;
+        z-index: 2;
+        @include transition(opacity .2s ease, transform 0s .2s);
+    }
+    &:before {
+        -webkit-transform-origin: 0 50%;
+        transform-origin: 0 50%;
+        @include transform(rotate(-45deg));
+        left: 50%;
+    }
+    &:after {
+        right: 50%;
+        -webkit-transform-origin: 100% 50%;
+        transform-origin: 100% 50%;
+        @include transform(rotate(-45deg));
+    }
+}
+
+.layla-effect, .bubba-effect {
+    .gel-effect-content {
+        &:after, &:before {
+            content: '';
+            display: block;
+            background-color: transparent;
+            position: absolute;
+            z-index: 2;
+            @include transition(all 0.5s);
+        }
+        &:after {
+            top: 25px;
+            bottom: 25px;
+            left: 50%;
+            right: 50%;
+            border-top-width: 1px;
+            border-top-style: solid;
+            border-top-color: #fff;
+            border-bottom-width: 1px;
+            border-bottom-style: solid;
+            border-bottom-color: #fff;
+        }
+        &:before {
+            top: 50%;
+            bottom: 50%;
+            left: 25px;
+            right: 25px;
+            border-left-width: 1px;
+            border-left-style: solid;
+            border-left-color: #fff;
+            border-right-width: 1px;
+            border-right-style: solid;
+            border-right-color: #fff;
+        }
+    }
+}
+
+.jazz-effect .gel-effect-content:before {
+    background-color: transparent;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0;
+    @include transition(all 0.5s);
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #fff;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #fff;
+    @include transform(rotate(45deg) scale(0.5));
+}
+
+.flash-effect {
+    overflow: hidden;
+    position: relative;
+    .gel-effect-content {
+        position: relative;
+        &:before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.5);
+            content: '';
+            @include transition(all 0.6s);
+            z-index: 2;
+            @include transform(scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, -45deg) translate3d(0, -150%, 0));
+        }
+    }
+}
+
+.symmetry-effect .gel-effect-content {
+    &:before,
+    &:after {
+        width: 0;
+        height: 0;
+        background-color: rgba(48, 133, 163, 0.3);
+        @include transition(all 0.5s ease 0s);
+    }
+
+    &:before {
+        left: 0;
+        top: 0;
+    }
+
+    &:after {
+        bottom: 0;
+        right: 0;
+    }
+}
+
+.ming-effect .gel-effect-content {
+    position: relative;
+    &:before {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        bottom: 30px;
+        left: 30px;
+        border: 2px solid #fff;
+        @include box-shadow(0 0 0 30px rgb(255 255 255 / 20%));
+        content: "";
+        opacity: 0;
+        @include transition(opacity .35s, transform .35s);
+        @include transform(scale3d(1.4, 1.4, 1));
+    }
+}
+.gel-image-effect-img-zoom-in {
+    .gel-effect-content {
+        @include transition(opacity .35s, transform .35s);
+    }
+}
+
+.gel-image-effect-img-zoom-out {
+    .gel-effect-content {
+        @include transition(opacity .35s, transform .35s);
+        @include transform(scale3d(1.2, 1.2, 1));
+    }
+}
+
+.gel-image-effect-img-slide-right {
+    .gel-effect-content {
+        @include transition(opacity .35s, transform .35s);
+        @include transform(translate3d(-10%, 0, 0) scale(1.2));
+        @include backface-visibility(hidden);
+    }
+}
+
+.gel-image-effect-img-slide-left {
+    .gel-effect-content {
+        @include transition(opacity .35s, transform .35s);
+        @include transform(translate3d(0, 0, 0) scale(1.2));
+        @include backface-visibility(hidden);
+    }
+}
+
+.gel-image-effect-img-slide-top {
+    .gel-effect-content {
+        @include transition(opacity .35s, transform .35s);
+        @include transform(translate3d(0, 0, 0) scale(1.2));
+        @include backface-visibility(hidden);
+    }
+}
+
+.gel-image-effect-img-slide-bottom {
+    .gel-effect-content {
+        @include transition(opacity .35s, transform .35s);
+        @include transform(translate3d(0, -10%, 0) scale(1.2));
+        @include backface-visibility(hidden);
+    }
+}
+
+.gel-image-effect-img-rotate {
+    .gel-effect-content {
+        @include transition(opacity .35s, transform .35s);
+    }
+}
+

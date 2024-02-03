@@ -1,0 +1,93 @@
+.g5core-search-button {
+	a {
+		border: none;
+		width: auto;
+		padding: 0;
+	}
+	i {
+		font-size: 20px;
+	}
+}
+
+.g5core-login-button {
+	i {
+		font-weight: 900;
+	}
+	span {
+		text-transform: uppercase;
+		font-size: 12px;
+		font-weight: 500;
+	}
+}
+
+.g5core-header-customize-item + .g5core-header-customize-item {
+	margin-left: 2.25rem;
+}
+
+.g5core-header-customize {
+	ul.g5core-social-networks.g5core-social-networks {
+		li {
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+		a {
+			color: inherit;
+			background-color: transparent;
+			border-width: 0;
+			width: auto;
+			i {
+				color: inherit;
+			}
+		}
+		li + li {
+			margin-left: 1.5rem;
+		}
+	}
+}
+
+.g5core-header-customize:not(.no-items) + .g5core-menu-popup-button,
+.g5core-header-customize:not(.no-items) + .g5core-primary-menu,
+.g5core-menu-popup-button + .g5core-header-customize:not(.no-items),
+.g5core-primary-menu + .g5core-header-customize:not(.no-items) {
+	margin-left: 35px;
+}
+
+.g5core-search-form {
+	input[type="search"] {
+		padding: 0 30px;
+	}
+}
+
+.g5core-search-popup {
+	.g5core-search-form {
+		input[type="search"] {
+			@include border-radius(0);
+		}
+	}
+}
+
+.g5core-login-button {
+	i {
+		font-weight: 400;
+	}
+	span {
+		font-size: 14px;
+		font-weight: 500;
+		letter-spacing: 1px;
+	}
+}
+
+//custom
+.g5core-site-branding{
+	padding: 0 45px 0 0;
+}
+
+.custom-header-02{
+	padding-top: 10px;
+	padding-bottom: 53px;
+	position: static;
+}
+
+.g5core-search-form .remove {
+	@include transform(scale(1));
+}

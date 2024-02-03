@@ -1,0 +1,51 @@
+.gel-list .gel-list-item {
+	font-size: 14px;
+}
+
+.gel-list-style-01 .item-list:not(:last-child),
+.gel-list-style-02 .item-list:not(:last-child) {
+	padding-bottom: 10px;
+}
+
+.gel-list ul .list-type,
+.gel-list .item-list:before {
+	min-width: 21px;
+}
+
+.gel-list-style-03 {
+	ul li:not(:last-child) {
+		padding-right: 13px;
+	}
+	ul li:not(:first-child) {
+		padding-left: 13px;
+	}
+}
+
+div.custom-list {
+	ul li:not(:last-child) {
+		padding-right: 28px;
+	}
+	ul li:not(:first-child) {
+		padding-left: 28px;
+	}
+}
+
+@media (max-width: 768px) {
+	.list-left-sm ul.content-list {
+		@include justify-content-start();
+	}
+}
+
+@media (min-width: 480px) {
+	.custom-list-width-50{
+		.content-list{
+			@include d-flex();
+			@include flex-wrap();
+		}
+		.gel-list-item{
+			width: 50%;
+		}
+	}
+}
+
+

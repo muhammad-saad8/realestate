@@ -1,0 +1,50 @@
+.g5core__cate-filer {
+	border: none;
+	padding-bottom: 0;
+	> li {
+		+ li {
+			margin-left: 15px;
+		}
+		> a {
+			opacity: 0.7;
+			font-weight: 500;
+			letter-spacing: 0.87px;
+			text-transform: uppercase;
+			display: inline-block;
+			@include btn-size(40px, 20px, 13px);
+			font-size: var(--g5-btn-font-size);
+			line-height: var(--g5-btn-line-height);
+			padding: var(--g5-btn-padding-y) var(--g5-btn-padding-x);
+
+			border: solid 1px transparent;
+			background-color: #f8f8f8;
+			color: var(--g5-color-primary);
+			@include border-radius(5px);
+			@include transition(color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out);
+			&:hover,
+			&:active {
+				background-color: var(--g5-color-accent);
+				color: var(--g5-color-accent-foreground);
+			}
+
+		}
+		&.active {
+			> a {
+				background-color: var(--g5-color-accent);
+				color: var(--g5-color-accent-foreground);
+			}
+		}
+
+	}
+
+	.dropdown-menu {
+		font-size: 1em;
+		li {
+			a:hover,
+			a:active,
+			a.active {
+				color: var(--g5-color-heading);
+			}
+		}
+	}
+}

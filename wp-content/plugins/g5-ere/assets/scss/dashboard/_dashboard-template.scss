@@ -1,0 +1,39 @@
+.g5ere__page-dashboard-wrapper {
+	position: relative;
+	overflow: hidden;
+	.g5ere__db-sidebar {
+		flex: 0 1 320px;
+		max-width: 320px;
+			@media only screen and (max-width: 1200px) {
+			flex: 1 1 100%;
+			max-width: 100%;
+		}
+	}
+
+	.g5ere__page-content {
+		width: calc(100% - 320px);
+		max-width: 100%;
+		flex: 1 1 auto;
+		min-height: calc(100vh - 113px);
+		@media only screen and (max-width: 1200px) {
+			width: 100%;
+			flex: 1 1 100%;
+
+			.g5ere__page-main {
+				padding-top: 74px;
+			}
+		}
+		@media only screen and (max-width: 576px) {
+			height: auto;
+			.g5ere__page-main {
+				padding-top: 30px;
+			}
+		}
+
+		.g5ere__page-main {
+			background-color: #f8f8f8;
+			height: 100%;
+		}
+	}
+}
+

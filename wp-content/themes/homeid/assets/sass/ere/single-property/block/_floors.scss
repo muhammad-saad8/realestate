@@ -1,0 +1,54 @@
+.g5ere__property-block-floor-plans {
+	.g5ere__property-floor-image {
+		margin-bottom: 35px !important;
+	}
+	.g5ere__property_floors-item{
+		background-color: transparent;
+		@include border-radius(5px);
+		@include box-shadow(0 0 10px 0 rgba(51, 51, 20, 0.1));
+		.card-body{
+			border: 0;
+			padding: 15px;
+		}
+		div.card-header{
+			margin-bottom: 0;
+			padding: 0;
+		}
+	}
+}
+
+.g5ere__property_floors-details{
+	padding-right: 30px;
+	.label{
+		color: var(--g5-color-muted);
+	}
+	.value{
+		font-weight: 500;
+		color: var(--g5-color-heading);
+	}
+}
+.g5ere__property_floors-item-heading{
+	padding: 17px 30px;
+	background-color: #f8f8f8;
+	&:not(.collapsed) {
+		background-color: $color-white;
+	}
+	&:before {
+		position: absolute;
+		font-family: $font_icon;
+		right: 30px;
+		font-size: 18px;
+	}
+	&.collapsed:before {
+		content: "\f107";
+	}
+	&:not(.collapsed)::before {
+		content: "\f106";
+	}
+}
+
+@media (max-width: 767px) {
+	.g5ere__property_floors-details{
+		display: none;
+	}
+}

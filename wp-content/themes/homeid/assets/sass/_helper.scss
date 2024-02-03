@@ -1,0 +1,50 @@
+.clearfix:after {
+	@include clearfix;
+}
+
+
+.d-inline-block {
+	display: inline-block !important;
+}
+
+.d-block {
+	display: block !important;
+}
+
+.fl {
+	float: left !important;
+}
+
+.fr {
+	float: right !important;
+}
+
+.fnone {
+	float: none !important;
+}
+
+.fw-500 {
+	font-weight: 500 !important;
+}
+
+.fw-600 {
+	font-weight: 600 !important;
+}
+
+.fs-075rem {
+	font-size: 0.75rem !important;
+}
+.fs-1rem {
+	font-size: 1rem !important;
+}
+.bottom-0 {
+	bottom: 0;
+}
+
+.fs-90 {
+	font-size: 90px !important;
+}
+
+.line-height-1 {
+	line-height: 1 !important;
+}

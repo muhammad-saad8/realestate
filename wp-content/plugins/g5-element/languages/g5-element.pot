@@ -1,0 +1,2632 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: G5 Element\n"
+"POT-Creation-Date: 2023-11-09 14:46+0700\n"
+"PO-Revision-Date: 2017-07-08 15:18+0700\n"
+"Last-Translator: \n"
+"Language-Team: G5Team\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_GB\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;"
+"_n_noop:1,2;_nx_noop:1,2,3c;__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: .idea\n"
+"X-Poedit-SearchPathExcluded-2: .svn\n"
+
+#: g5-element.php:141
+msgid ""
+"action_args should not be overwritten when calling get_plugin_template."
+msgstr ""
+
+#: g5-element.php:163
+msgid "action_args should not be overwritten when calling get_template."
+msgstr ""
+
+#: inc/functions/vc-map.php:5
+msgid "Extra class name"
+msgstr ""
+
+#: inc/functions/vc-map.php:7
+msgid ""
+"Style particular content element differently - add a class name and "
+"refer to it in custom CSS."
+msgstr ""
+
+#: inc/functions/vc-map.php:14
+msgid "Element ID"
+msgstr ""
+
+#: inc/functions/vc-map.php:17
+#, php-format
+msgid ""
+"Enter element ID (Note: make sure it is unique and valid according to "
+"<a href=\"%s\" target=\"_blank\">w3c specification</a>)."
+msgstr ""
+
+#: inc/functions/vc-map.php:23
+msgid "Upload Image Icon:"
+msgstr ""
+
+#: inc/functions/vc-map.php:26
+msgid "Upload the custom image icon."
+msgstr ""
+
+#: inc/functions/vc-map.php:36 vc-lean-map/pricing-table.php:201
+#: vc-lean-map/pricing-table.php:230 vc-lean-map/pricing-table.php:279
+msgid "Icon"
+msgstr ""
+
+#: inc/functions/vc-map.php:38 vc-lean-map/pricing-table.php:232
+msgid "Select icon from library."
+msgstr ""
+
+#: inc/functions/vc-map.php:50
+msgid "CSS Animation"
+msgstr ""
+
+#: inc/functions/vc-map.php:58 vc-customize/custom-vc_progress_bar.php:34
+#: vc-lean-map/icon-box.php:87 vc-lean-map/image-box.php:67
+#: vc-lean-map/slider-container.php:60 vc-lean-map/slider-container.php:79
+#: vc-lean-map/slider-container.php:98
+#: vc-lean-map/slider-container.php:117 vc-lean-map/testimonial.php:94
+#: vc-params/typography/templates/typography.tpl.php:42
+#: vc-params/typography/templates/typography.tpl.php:52
+#: vc-params/typography/templates/typography.tpl.php:77
+#: vc-params/typography/templates/typography.tpl.php:99
+msgid "Default"
+msgstr ""
+
+#: inc/functions/vc-map.php:60
+msgid "Top to bottom"
+msgstr ""
+
+#: inc/functions/vc-map.php:61
+msgid "Bottom to top"
+msgstr ""
+
+#: inc/functions/vc-map.php:62
+msgid "Left to right"
+msgstr ""
+
+#: inc/functions/vc-map.php:63
+msgid "Right to left"
+msgstr ""
+
+#: inc/functions/vc-map.php:64
+msgid "Appear from center"
+msgstr ""
+
+#: inc/functions/vc-map.php:69
+msgid ""
+"Select type of animation for element to be animated when it enters the "
+"browsers viewport (Note: works only in modern browsers)."
+msgstr ""
+
+#: inc/functions/vc-map.php:70 inc/functions/vc-map.php:83
+#: inc/functions/vc-map.php:94 vc-lean-map/gallery-slider.php:29
+#: vc-lean-map/gallery.php:38
+msgid "Animation"
+msgstr ""
+
+#: inc/functions/vc-map.php:79
+msgid "Animation Duration"
+msgstr ""
+
+#: inc/functions/vc-map.php:82
+msgid ""
+"Duration in seconds. You can use decimal points in the value. Use this "
+"field to specify the amount of time the animation plays. <em>The "
+"default value depends on the animation, leave blank to use the default."
+"</em>"
+msgstr ""
+
+#: inc/functions/vc-map.php:90
+msgid "Animation Delay"
+msgstr ""
+
+#: inc/functions/vc-map.php:93
+msgid ""
+"Delay in seconds. You can use decimal points in the value. Use this "
+"field to delay the animation for a few seconds, this is helpful if you "
+"want to chain different effects one after another above the fold."
+msgstr ""
+
+#: inc/functions/vc-map.php:101
+msgid "CSS box"
+msgstr ""
+
+#: inc/functions/vc-map.php:103
+msgid "Design Options"
+msgstr ""
+
+#: inc/functions/vc-map.php:110 inc/shortcode.class.php:246
+#: inc/shortcode.class.php:256 inc/shortcode.class.php:266
+#: inc/shortcode.class.php:276 inc/shortcode.class.php:286
+msgid "Responsive"
+msgstr ""
+
+#: inc/functions/vc-map.php:112
+msgid "Responsive Options"
+msgstr ""
+
+#: inc/functions/vc-map.php:113
+msgid ""
+"Adjust column for different screen sizes. Control visibility settings."
+msgstr ""
+
+#: inc/functions/vc-map.php:121
+msgid "Extra Large Devices"
+msgstr ""
+
+#: inc/functions/vc-map.php:122
+msgid "Width >= 1200px"
+msgstr ""
+
+#: inc/functions/vc-map.php:130 inc/shortcode.class.php:241
+#: vc-lean-map/slider-container.php:56 vc-lean-map/space.php:25
+msgid "Large Devices"
+msgstr ""
+
+#: inc/functions/vc-map.php:132 vc-lean-map/google-map.php:70
+#: vc-lean-map/map-box.php:70 vc-lean-map/slider-container.php:58
+#: vc-lean-map/space.php:26
+msgid "Width < 1200px"
+msgstr ""
+
+#: inc/functions/vc-map.php:140 inc/shortcode.class.php:251
+#: vc-lean-map/slider-container.php:75 vc-lean-map/space.php:34
+msgid "Medium Devices"
+msgstr ""
+
+#: inc/functions/vc-map.php:142 vc-lean-map/google-map.php:78
+#: vc-lean-map/map-box.php:78 vc-lean-map/slider-container.php:77
+#: vc-lean-map/space.php:35
+msgid "Width < 992px"
+msgstr ""
+
+#: inc/functions/vc-map.php:150 inc/shortcode.class.php:261
+#: vc-lean-map/slider-container.php:94 vc-lean-map/space.php:43
+msgid "Small Devices"
+msgstr ""
+
+#: inc/functions/vc-map.php:152 vc-lean-map/google-map.php:86
+#: vc-lean-map/map-box.php:86 vc-lean-map/slider-container.php:96
+#: vc-lean-map/space.php:44
+msgid "Width < 768px"
+msgstr ""
+
+#: inc/functions/vc-map.php:160 inc/shortcode.class.php:271
+#: vc-lean-map/slider-container.php:113 vc-lean-map/space.php:52
+msgid "Extra Small Devices"
+msgstr ""
+
+#: inc/functions/vc-map.php:162 vc-lean-map/google-map.php:94
+#: vc-lean-map/map-box.php:94 vc-lean-map/slider-container.php:115
+#: vc-lean-map/space.php:53
+msgid "Width < 576px"
+msgstr ""
+
+#: inc/functions/vc-map.php:181 vc-lean-map/slider-container.php:259
+msgid "Slide Rows"
+msgstr ""
+
+#: inc/functions/vc-map.php:189
+msgid "Show Pagination"
+msgstr ""
+
+#: inc/functions/vc-map.php:198
+msgid "Show Navigation"
+msgstr ""
+
+#: inc/functions/vc-map.php:207 vc-lean-map/slider-container.php:147
+msgid "Center Mode"
+msgstr ""
+
+#: inc/functions/vc-map.php:216 vc-lean-map/slider-container.php:153
+msgid "Side padding when in center mode (px/%)"
+msgstr ""
+
+#: inc/functions/vc-map.php:225
+msgid "Auto Height Enable"
+msgstr ""
+
+#: inc/functions/vc-map.php:234
+msgid "Loop Mode"
+msgstr ""
+
+#: inc/functions/vc-map.php:243 inc/shortcode.class.php:209
+msgid "Autoplay Enable"
+msgstr ""
+
+#: inc/functions/vc-map.php:252 inc/shortcode.class.php:226
+msgid "Autoplay Timeout"
+msgstr ""
+
+#: inc/functions/vc-sources.php:4
+msgid "Accent"
+msgstr ""
+
+#: inc/functions/vc-sources.php:5
+msgid "Primary"
+msgstr ""
+
+#: inc/functions/vc-sources.php:6
+msgid "Secondary"
+msgstr ""
+
+#: inc/settings.class.php:23
+msgid "Grid"
+msgstr ""
+
+#: inc/settings.class.php:27
+msgid "Masonry"
+msgstr ""
+
+#: inc/settings.class.php:31
+msgid "Masonry 2"
+msgstr ""
+
+#: inc/settings.class.php:35
+msgid "Justified"
+msgstr ""
+
+#: inc/settings.class.php:39
+msgid "Metro 01"
+msgstr ""
+
+#: inc/settings.class.php:43
+msgid "Metro 02"
+msgstr ""
+
+#: inc/settings.class.php:47
+msgid "Metro 03"
+msgstr ""
+
+#: inc/settings.class.php:57 inc/settings.class.php:70
+#: vc-customize/custom-vc_row-parallax.php:11 vc-lean-map/banner.php:99
+#: vc-lean-map/image-box.php:99 vc-lean-map/layout-container.php:86
+#: vc-lean-map/list.php:61 vc-lean-map/pricing-table.php:199
+#: vc-lean-map/testimonial.php:59
+#: vc-params/typography/templates/typography.tpl.php:53
+msgid "None"
+msgstr ""
+
+#: inc/settings.class.php:58 vc-lean-map/banner.php:100
+msgid "Symmetry"
+msgstr ""
+
+#: inc/settings.class.php:59 vc-lean-map/banner.php:101
+msgid "Suprema"
+msgstr ""
+
+#: inc/settings.class.php:60 vc-lean-map/banner.php:102
+msgid "Layla"
+msgstr ""
+
+#: inc/settings.class.php:61 vc-lean-map/banner.php:103
+msgid "Bubba"
+msgstr ""
+
+#: inc/settings.class.php:62 vc-lean-map/banner.php:104
+msgid "Jazz"
+msgstr ""
+
+#: inc/settings.class.php:63 vc-lean-map/banner.php:105
+#: vc-lean-map/image-box.php:104
+msgid "Flash"
+msgstr ""
+
+#: inc/settings.class.php:64 vc-lean-map/banner.php:106
+msgid "Ming"
+msgstr ""
+
+#: inc/settings.class.php:71
+msgid "Zoom In"
+msgstr ""
+
+#: inc/settings.class.php:72
+msgid "Zoom Out"
+msgstr ""
+
+#: inc/settings.class.php:73
+msgid "Slide Left"
+msgstr ""
+
+#: inc/settings.class.php:74
+msgid "Slide Right"
+msgstr ""
+
+#: inc/settings.class.php:75
+msgid "Slide Top"
+msgstr ""
+
+#: inc/settings.class.php:76
+msgid "Slide Bottom"
+msgstr ""
+
+#: inc/settings.class.php:77
+msgid "Rotate"
+msgstr ""
+
+#: inc/shortcode.class.php:119
+msgid "Narrow Category"
+msgstr ""
+
+#: inc/shortcode.class.php:123
+msgid ""
+"Enter categories by names to narrow output (Note: only listed "
+"categories will be displayed, divide categories with linebreak (Enter))."
+msgstr ""
+
+#: inc/shortcode.class.php:149
+#: vc-params/switch/templates/switch.tpl.php:14
+msgid "On"
+msgstr ""
+
+#: inc/shortcode.class.php:150
+#: vc-params/switch/templates/switch.tpl.php:15
+msgid "Off"
+msgstr ""
+
+#: inc/shortcode.class.php:162 vc-lean-map/banner.php:62
+#: vc-lean-map/banner.php:70 vc-lean-map/google-map.php:31
+#: vc-lean-map/heading.php:38 vc-lean-map/heading.php:96
+#: vc-lean-map/icon-box.php:181 vc-lean-map/icon-box.php:219
+#: vc-lean-map/image-box.php:118 vc-lean-map/image-box.php:155
+#: vc-lean-map/image-marker.php:30 vc-lean-map/image-marker.php:80
+#: vc-lean-map/layout-section.php:26 vc-lean-map/map-box.php:31
+#: vc-lean-map/map-box.php:34
+msgid "Title"
+msgstr ""
+
+#: inc/shortcode.class.php:177
+msgid "Show pagination control"
+msgstr ""
+
+#: inc/shortcode.class.php:193
+msgid "Show navigation control"
+msgstr ""
+
+#: inc/shortcode.class.php:242
+msgid "Browser Width >= 1200px"
+msgstr ""
+
+#: inc/shortcode.class.php:253
+msgid "Browser Width < 1200px"
+msgstr ""
+
+#: inc/shortcode.class.php:263
+msgid "Browser Width < 992px"
+msgstr ""
+
+#: inc/shortcode.class.php:273
+msgid "Browser Width < 768px"
+msgstr ""
+
+#: inc/shortcode.class.php:281
+msgid "Extra Extra Small Devices"
+msgstr ""
+
+#: inc/shortcode.class.php:283
+msgid "Browser Width < 576px"
+msgstr ""
+
+#: inc/template.class.php:94
+msgid "No title"
+msgstr ""
+
+#: templates/count-down/style-01.php:9 templates/count-down/style-02.php:9
+#: templates/count-down/style-03.php:14
+msgid "Days"
+msgstr ""
+
+#: templates/count-down/style-01.php:13
+#: templates/count-down/style-02.php:13
+#: templates/count-down/style-03.php:22
+msgid "Hours"
+msgstr ""
+
+#: templates/count-down/style-01.php:17
+#: templates/count-down/style-02.php:17
+#: templates/count-down/style-03.php:30
+msgid "Minutes"
+msgstr ""
+
+#: templates/count-down/style-01.php:21
+#: templates/count-down/style-02.php:21
+#: templates/count-down/style-03.php:38
+msgid "Seconds"
+msgstr ""
+
+#: templates/pricing-table/pricing-price.php:40
+msgid "Free"
+msgstr ""
+
+#: vc-customize/custom-vc_progress_bar.php:31 vc-lean-map/banner.php:19
+#: vc-lean-map/breadcrumbs.php:18 vc-lean-map/count-down.php:18
+#: vc-lean-map/heading.php:18 vc-lean-map/layout-container.php:22
+#: vc-lean-map/pricing-table.php:12
+msgid "Layout Style"
+msgstr ""
+
+#: vc-customize/custom-vc_progress_bar.php:35
+msgid "Value move"
+msgstr ""
+
+#: vc-customize/custom-vc_progress_bar.php:36
+msgid "Label above"
+msgstr ""
+
+#: vc-customize/custom-vc_progress_bar.php:37
+msgid "Label bellow"
+msgstr ""
+
+#: vc-customize/custom-vc_progress_bar.php:40
+msgid "Select Layout Style."
+msgstr ""
+
+#: vc-customize/custom-vc_progress_bar.php:47
+#: vc-customize/custom-vc_row-overlay.php:12
+#: vc-customize/custom-vc_tta_accordions.php:14 vc-lean-map/button.php:61
+#: vc-lean-map/video.php:60
+msgid "Color"
+msgstr ""
+
+#: vc-customize/custom-vc_row-overlay.php:7
+msgid "Background Overlay"
+msgstr ""
+
+#: vc-customize/custom-vc_row-overlay.php:9
+#: vc-customize/custom-vc_row-parallax.php:9
+msgid "Specify overlay mode for the background."
+msgstr ""
+
+#: vc-customize/custom-vc_row-overlay.php:11
+msgid "Hide"
+msgstr ""
+
+#: vc-customize/custom-vc_row-overlay.php:13
+msgid "Gradient Color"
+msgstr ""
+
+#: vc-customize/custom-vc_row-overlay.php:14
+#: vc-lean-map/image-marker.php:18
+msgid "Image"
+msgstr ""
+
+#: vc-customize/custom-vc_row-overlay.php:17
+#: vc-customize/custom-vc_row-overlay.php:25
+#: vc-customize/custom-vc_row-overlay.php:34
+#: vc-customize/custom-vc_row-overlay.php:43
+#: vc-customize/custom-vc_row-overlay.php:51
+#: vc-customize/custom-vc_row-overlay.php:65
+msgid "Overlay"
+msgstr ""
+
+#: vc-customize/custom-vc_row-overlay.php:21
+msgid "From Color"
+msgstr ""
+
+#: vc-customize/custom-vc_row-overlay.php:23
+msgid "Specify an from color for the gradient."
+msgstr ""
+
+#: vc-customize/custom-vc_row-overlay.php:30
+msgid "To Color"
+msgstr ""
+
+#: vc-customize/custom-vc_row-overlay.php:32
+msgid "Specify an to color for the gradient."
+msgstr ""
+
+#: vc-customize/custom-vc_row-overlay.php:39 vc-lean-map/count-down.php:68
+#: vc-lean-map/image-marker.php:109
+msgid "Background Color"
+msgstr ""
+
+#: vc-customize/custom-vc_row-overlay.php:41
+msgid "Specify an overlay color for the background."
+msgstr ""
+
+#: vc-customize/custom-vc_row-overlay.php:47
+msgid "Overlay Image"
+msgstr ""
+
+#: vc-customize/custom-vc_row-overlay.php:49
+msgid "Specify an overlay image for the background."
+msgstr ""
+
+#: vc-customize/custom-vc_row-overlay.php:55
+msgid "Overlay Opacity"
+msgstr ""
+
+#: vc-customize/custom-vc_row-overlay.php:63
+msgid "Specify overlay opacity for the overlay background."
+msgstr ""
+
+#: vc-customize/custom-vc_row-parallax.php:7
+msgid "Parallax Type"
+msgstr ""
+
+#: vc-customize/custom-vc_row-parallax.php:12
+msgid "Fixed"
+msgstr ""
+
+#: vc-customize/custom-vc_row-parallax.php:13
+msgid "Vertical Parallax"
+msgstr ""
+
+#: vc-customize/custom-vc_row-parallax.php:16
+#: vc-customize/custom-vc_row-parallax.php:24
+#: vc-customize/custom-vc_row-parallax.php:38
+#: vc-customize/custom-vc_row-parallax.php:52
+#: vc-customize/custom-vc_row-parallax.php:67
+msgid "Parallax"
+msgstr ""
+
+#: vc-customize/custom-vc_row-parallax.php:20
+msgid "Parallax Image"
+msgstr ""
+
+#: vc-customize/custom-vc_row-parallax.php:22
+msgid "Specify an image for parallax."
+msgstr ""
+
+#: vc-customize/custom-vc_row-parallax.php:28
+msgid "Background Size"
+msgstr ""
+
+#: vc-customize/custom-vc_row-parallax.php:31
+msgid "Cover"
+msgstr ""
+
+#: vc-customize/custom-vc_row-parallax.php:32
+msgid "Contain"
+msgstr ""
+
+#: vc-customize/custom-vc_row-parallax.php:33
+#: vc-params/typography/templates/typography.tpl.php:43
+#: vc-params/typography/templates/typography.tpl.php:57
+msgid "Initial"
+msgstr ""
+
+#: vc-customize/custom-vc_row-parallax.php:36
+msgid "Set parallax background size."
+msgstr ""
+
+#: vc-customize/custom-vc_row-parallax.php:43
+msgid "Background Repeat"
+msgstr ""
+
+#: vc-customize/custom-vc_row-parallax.php:46
+msgid "No Repeat"
+msgstr ""
+
+#: vc-customize/custom-vc_row-parallax.php:47
+msgid "Repeat"
+msgstr ""
+
+#: vc-customize/custom-vc_row-parallax.php:50
+msgid "Set parallax background repeat."
+msgstr ""
+
+#: vc-customize/custom-vc_row-parallax.php:57
+msgid "Parallax Speed"
+msgstr ""
+
+#: vc-customize/custom-vc_row-parallax.php:65
+msgid "Specify parallax speed"
+msgstr ""
+
+#: vc-customize/custom-vc_single_image.php:11
+msgid "Open magnificPopup"
+msgstr ""
+
+#: vc-customize/custom-vc_tta_accordions.php:5
+msgid "Underline"
+msgstr ""
+
+#: vc-customize/custom-vc_tta_section.php:8
+msgid "Add Image?"
+msgstr ""
+
+#: vc-customize/custom-vc_tta_section.php:9
+msgid "Add image next to section title."
+msgstr ""
+
+#: vc-customize/custom-vc_tta_section.php:15
+msgid "Before title"
+msgstr ""
+
+#: vc-customize/custom-vc_tta_section.php:16
+msgid "After title"
+msgstr ""
+
+#: vc-customize/custom-vc_tta_section.php:22
+msgid "Image position"
+msgstr ""
+
+#: vc-customize/custom-vc_tta_section.php:23
+msgid "Select icon position."
+msgstr ""
+
+#: vc-customize/custom-vc_tta_section.php:28
+msgid "Upload Image"
+msgstr ""
+
+#: vc-customize/custom-vc_tta_section.php:31
+msgid "Upload the custom image."
+msgstr ""
+
+#: vc-lean-map/banner.php:11
+msgid "Banner"
+msgstr ""
+
+#: vc-lean-map/banner.php:13
+msgid "Displays the banner image with information"
+msgstr ""
+
+#: vc-lean-map/banner.php:23 vc-lean-map/count-down.php:22
+#: vc-lean-map/icon-box.php:23 vc-lean-map/image-box.php:23
+#: vc-lean-map/list.php:23 vc-lean-map/page-title.php:22
+#: vc-lean-map/testimonial.php:23
+msgid "Style 01"
+msgstr ""
+
+#: vc-lean-map/banner.php:27 vc-lean-map/count-down.php:26
+#: vc-lean-map/icon-box.php:27 vc-lean-map/image-box.php:27
+#: vc-lean-map/list.php:27 vc-lean-map/page-title.php:26
+#: vc-lean-map/testimonial.php:27
+msgid "Style 02"
+msgstr ""
+
+#: vc-lean-map/banner.php:31 vc-lean-map/count-down.php:30
+#: vc-lean-map/icon-box.php:31 vc-lean-map/image-box.php:31
+#: vc-lean-map/list.php:31 vc-lean-map/page-title.php:30
+#: vc-lean-map/testimonial.php:31
+msgid "Style 03"
+msgstr ""
+
+#: vc-lean-map/banner.php:35 vc-lean-map/icon-box.php:35
+#: vc-lean-map/image-box.php:35 vc-lean-map/testimonial.php:35
+msgid "Style 04"
+msgstr ""
+
+#: vc-lean-map/banner.php:39 vc-lean-map/icon-box.php:39
+#: vc-lean-map/image-box.php:39 vc-lean-map/testimonial.php:39
+msgid "Style 05"
+msgstr ""
+
+#: vc-lean-map/banner.php:43 vc-lean-map/icon-box.php:43
+#: vc-lean-map/image-box.php:43 vc-lean-map/testimonial.php:43
+msgid "Style 06"
+msgstr ""
+
+#: vc-lean-map/banner.php:47 vc-lean-map/icon-box.php:47
+#: vc-lean-map/image-box.php:47 vc-lean-map/testimonial.php:47
+msgid "Style 07"
+msgstr ""
+
+#: vc-lean-map/banner.php:56
+msgid "Background Image"
+msgstr ""
+
+#: vc-lean-map/banner.php:65
+msgid "Title on the Banner"
+msgstr ""
+
+#: vc-lean-map/banner.php:74 vc-lean-map/icon-box.php:222
+#: vc-lean-map/image-box.php:158 vc-lean-map/image-marker.php:83
+#: vc-lean-map/image-marker.php:90
+msgid "Title Options"
+msgstr ""
+
+#: vc-lean-map/banner.php:79 vc-lean-map/banner.php:86
+#: vc-lean-map/google-map.php:38 vc-lean-map/heading.php:52
+#: vc-lean-map/heading.php:112 vc-lean-map/icon-box.php:189
+#: vc-lean-map/icon-box.php:227 vc-lean-map/image-box.php:126
+#: vc-lean-map/image-box.php:163 vc-lean-map/image-marker.php:37
+#: vc-lean-map/image-marker.php:94 vc-lean-map/map-box.php:38
+#: vc-lean-map/our-team.php:69 vc-lean-map/our-team.php:75
+#: vc-lean-map/pricing-table.php:204 vc-lean-map/pricing-table.php:217
+#: vc-lean-map/pricing-table.php:225 vc-lean-map/pricing-table.php:236
+#: vc-lean-map/pricing-table.php:244 vc-lean-map/pricing-table.php:252
+#: vc-lean-map/pricing-table.php:259 vc-lean-map/pricing-table.php:267
+#: vc-lean-map/pricing-table.php:299
+msgid "Description"
+msgstr ""
+
+#: vc-lean-map/banner.php:81
+msgid "Description on the Banner"
+msgstr ""
+
+#: vc-lean-map/banner.php:90 vc-lean-map/icon-box.php:230
+#: vc-lean-map/image-box.php:166 vc-lean-map/image-marker.php:97
+#: vc-lean-map/our-team.php:79
+msgid "Description Options"
+msgstr ""
+
+#: vc-lean-map/banner.php:95 vc-lean-map/image-box.php:95
+msgid "Hover Effect"
+msgstr ""
+
+#: vc-lean-map/banner.php:112 vc-lean-map/gallery-slider.php:45
+#: vc-lean-map/gallery.php:54 vc-lean-map/image-box.php:110
+msgid "Hover Image effect"
+msgstr ""
+
+#: vc-lean-map/banner.php:120
+msgid "Size Mode"
+msgstr ""
+
+#: vc-lean-map/banner.php:124
+msgid "Original"
+msgstr ""
+
+#: vc-lean-map/banner.php:129
+msgid "Custom"
+msgstr ""
+
+#: vc-lean-map/banner.php:133
+msgid ""
+"Sizing proportions for height and width. Select \"Original\" to scale "
+"image without cropping."
+msgstr ""
+
+#: vc-lean-map/banner.php:137
+msgid "Show all content before hover over"
+msgstr ""
+
+#: vc-lean-map/banner.php:140 vc-lean-map/icon-box.php:135
+#: vc-lean-map/icon-box.php:148
+msgid "Yes"
+msgstr ""
+
+#: vc-lean-map/banner.php:141 vc-lean-map/icon-box.php:136
+#: vc-lean-map/icon-box.php:149
+msgid "No"
+msgstr ""
+
+#: vc-lean-map/banner.php:148
+msgid "Width"
+msgstr ""
+
+#: vc-lean-map/banner.php:153 vc-lean-map/banner.php:162
+msgid "Enter custom height (include unit)"
+msgstr ""
+
+#: vc-lean-map/banner.php:157
+msgid "Height"
+msgstr ""
+
+#: vc-lean-map/banner.php:166
+msgid "Button title"
+msgstr ""
+
+#: vc-lean-map/banner.php:168 vc-lean-map/button.php:20
+#: vc-lean-map/pricing-table.php:303
+msgid "Text on the button"
+msgstr ""
+
+#: vc-lean-map/banner.php:173 vc-lean-map/our-team.php:83
+#: vc-lean-map/our-team.php:101
+msgid "Link (URL)"
+msgstr ""
+
+#: vc-lean-map/banner.php:179
+msgid "Content Custom"
+msgstr ""
+
+#: vc-lean-map/banner.php:181
+msgid "Content on the Banner"
+msgstr ""
+
+#: vc-lean-map/banner.php:185 vc-lean-map/icon-box.php:234
+#: vc-lean-map/image-box.php:170 vc-lean-map/pricing-table.php:310
+msgid "Button Options"
+msgstr ""
+
+#: vc-lean-map/breadcrumbs.php:11
+msgid "Breadcrumbs"
+msgstr ""
+
+#: vc-lean-map/breadcrumbs.php:13
+msgid "Displays your site breadcrumbs."
+msgstr ""
+
+#: vc-lean-map/breadcrumbs.php:21
+msgid "Alignment Left"
+msgstr ""
+
+#: vc-lean-map/breadcrumbs.php:22
+msgid "Alignment Center"
+msgstr ""
+
+#: vc-lean-map/breadcrumbs.php:23
+msgid "Alignment Right"
+msgstr ""
+
+#: vc-lean-map/breadcrumbs.php:30 vc-lean-map/breadcrumbs.php:34
+#: vc-lean-map/button.php:146 vc-lean-map/pricing-table.php:112
+#: vc-lean-map/pricing-table.php:120 vc-lean-map/pricing-table.php:127
+#: vc-lean-map/pricing-table.php:135 vc-lean-map/pricing-table.php:142
+#: vc-lean-map/pricing-table.php:150 vc-lean-map/pricing-table.php:157
+#: vc-lean-map/pricing-table.php:165
+msgid "Typography"
+msgstr ""
+
+#: vc-lean-map/bullet-one-page-scroll-navigation.php:11
+msgid "Bullet One Page Scroll Navigation"
+msgstr ""
+
+#: vc-lean-map/bullet-one-page-scroll-navigation.php:13
+msgid "Scrollspy of section base on Bootstrap"
+msgstr ""
+
+#: vc-lean-map/bullet-one-page-scroll-navigation.php:18
+msgid "Dots Position"
+msgstr ""
+
+#: vc-lean-map/bullet-one-page-scroll-navigation.php:22
+#: vc-lean-map/button.php:89 vc-lean-map/button.php:104
+#: vc-lean-map/layout-container.php:62 vc-lean-map/layout-container.php:74
+#: vc-lean-map/list.php:88 vc-lean-map/pricing-table.php:211
+#: vc-lean-map/social-icons.php:41 vc-lean-map/testimonial.php:74
+#: vc-params/typography/templates/typography.tpl.php:45
+msgid "Left"
+msgstr ""
+
+#: vc-lean-map/bullet-one-page-scroll-navigation.php:23
+#: vc-lean-map/button.php:90 vc-lean-map/button.php:105
+#: vc-lean-map/layout-container.php:64 vc-lean-map/layout-container.php:76
+#: vc-lean-map/list.php:89 vc-lean-map/pricing-table.php:213
+#: vc-lean-map/social-icons.php:43 vc-lean-map/testimonial.php:75
+#: vc-params/typography/templates/typography.tpl.php:47
+msgid "Right"
+msgstr ""
+
+#: vc-lean-map/bullet-one-page-scroll-navigation.php:28
+#: vc-lean-map/bullet-one-page-scroll-navigation.php:33
+msgid "Section id"
+msgstr ""
+
+#: vc-lean-map/bullet-one-page-scroll-navigation.php:37
+msgid "Enter id of section"
+msgstr ""
+
+#: vc-lean-map/bullet-one-page-scroll-navigation.php:41
+msgid "Section Title"
+msgstr ""
+
+#: vc-lean-map/bullet-one-page-scroll-navigation.php:45
+msgid "Enter Title of section"
+msgstr ""
+
+#: vc-lean-map/bullet-one-page-scroll-navigation.php:49
+msgid "Skin of Dots"
+msgstr ""
+
+#: vc-lean-map/bullet-one-page-scroll-navigation.php:52
+#: vc-lean-map/google-map.php:149 vc-lean-map/google-map.php:156
+msgid "Light"
+msgstr ""
+
+#: vc-lean-map/bullet-one-page-scroll-navigation.php:53
+#: vc-lean-map/google-map.php:152
+msgid "Dark"
+msgstr ""
+
+#: vc-lean-map/button.php:11
+msgid "Button"
+msgstr ""
+
+#: vc-lean-map/button.php:13
+msgid "Eye catching button"
+msgstr ""
+
+#: vc-lean-map/button.php:18 vc-lean-map/count-down.php:77
+#: vc-lean-map/social-icons.php:15 vc-lean-map/video.php:66
+msgid "Text"
+msgstr ""
+
+#: vc-lean-map/button.php:25 vc-lean-map/client-logo.php:49
+#: vc-lean-map/pricing-table.php:97
+msgid "URL (Link)"
+msgstr ""
+
+#: vc-lean-map/button.php:27 vc-lean-map/pricing-table.php:99
+msgid "Add link to button."
+msgstr ""
+
+#: vc-lean-map/button.php:31
+msgid "Style"
+msgstr ""
+
+#: vc-lean-map/button.php:32
+msgid "Select button display style."
+msgstr ""
+
+#: vc-lean-map/button.php:35 vc-lean-map/social-icons.php:14
+#: vc-lean-map/video.php:22
+msgid "Classic"
+msgstr ""
+
+#: vc-lean-map/button.php:36 vc-lean-map/video.php:26
+msgid "Outline"
+msgstr ""
+
+#: vc-lean-map/button.php:37 vc-lean-map/video.php:53
+msgid "Link"
+msgstr ""
+
+#: vc-lean-map/button.php:44 vc-lean-map/social-icons.php:11
+msgid "Shape"
+msgstr ""
+
+#: vc-lean-map/button.php:45
+msgid "Select button shape."
+msgstr ""
+
+#: vc-lean-map/button.php:48
+msgid "Rounded"
+msgstr ""
+
+#: vc-lean-map/button.php:49 vc-lean-map/icon-box.php:90
+#: vc-lean-map/image-box.php:65 vc-lean-map/list.php:57
+msgid "Square"
+msgstr ""
+
+#: vc-lean-map/button.php:50
+msgid "Round"
+msgstr ""
+
+#: vc-lean-map/button.php:63 vc-lean-map/list.php:101
+msgid "Select button color."
+msgstr ""
+
+#: vc-lean-map/button.php:69 vc-lean-map/social-icons.php:26
+#: vc-lean-map/video.php:41
+msgid "Size"
+msgstr ""
+
+#: vc-lean-map/button.php:71
+msgid "Select button display size."
+msgstr ""
+
+#: vc-lean-map/button.php:74 vc-lean-map/icon-box.php:103
+#: vc-lean-map/social-icons.php:29 vc-lean-map/testimonial.php:104
+#: vc-lean-map/video.php:44
+#: vc-params/typography/templates/typography.tpl.php:63
+msgid "Small"
+msgstr ""
+
+#: vc-lean-map/button.php:75 vc-lean-map/social-icons.php:30
+msgid "Normal"
+msgstr ""
+
+#: vc-lean-map/button.php:76 vc-lean-map/icon-box.php:105
+#: vc-lean-map/social-icons.php:31 vc-lean-map/testimonial.php:106
+#: vc-lean-map/video.php:46
+#: vc-params/typography/templates/typography.tpl.php:61
+msgid "Large"
+msgstr ""
+
+#: vc-lean-map/button.php:77
+msgid "Extra Large"
+msgstr ""
+
+#: vc-lean-map/button.php:84
+msgid "Alignment"
+msgstr ""
+
+#: vc-lean-map/button.php:86
+msgid "Select button alignment."
+msgstr ""
+
+#: vc-lean-map/button.php:88
+msgid "Inline"
+msgstr ""
+
+#: vc-lean-map/button.php:91 vc-lean-map/layout-container.php:63
+#: vc-lean-map/layout-container.php:75 vc-lean-map/list.php:90
+#: vc-lean-map/pricing-table.php:212 vc-lean-map/social-icons.php:42
+#: vc-lean-map/testimonial.php:76
+#: vc-params/typography/templates/typography.tpl.php:46
+msgid "Center"
+msgstr ""
+
+#: vc-lean-map/button.php:100
+msgid "Icon Alignment"
+msgstr ""
+
+#: vc-lean-map/button.php:101
+msgid "Select icon alignment."
+msgstr ""
+
+#: vc-lean-map/button.php:115
+msgid "Button 3D?"
+msgstr ""
+
+#: vc-lean-map/button.php:122
+msgid "Set full width button?"
+msgstr ""
+
+#: vc-lean-map/button.php:128
+msgid "Advanced on click action"
+msgstr ""
+
+#: vc-lean-map/button.php:131
+msgid "Insert inline onclick javascript action."
+msgstr ""
+
+#: vc-lean-map/button.php:135
+msgid "On click code"
+msgstr ""
+
+#: vc-lean-map/button.php:137
+msgid "Enter onclick action code."
+msgstr ""
+
+#: vc-lean-map/button.php:150 vc-lean-map/button.php:158
+#: vc-lean-map/button.php:166
+msgid "Customize"
+msgstr ""
+
+#: vc-lean-map/button.php:155
+msgid "Padding Top - Bottom (px)"
+msgstr ""
+
+#: vc-lean-map/button.php:163
+msgid "Padding Left - Right (px)"
+msgstr ""
+
+#: vc-lean-map/client-logo.php:11
+msgid "Client Logo"
+msgstr ""
+
+#: vc-lean-map/client-logo.php:13
+msgid "Display your partner's logo"
+msgstr ""
+
+#: vc-lean-map/client-logo.php:18
+msgid "Logo Effect"
+msgstr ""
+
+#: vc-lean-map/client-logo.php:23
+msgid "Faded"
+msgstr ""
+
+#: vc-lean-map/client-logo.php:24
+msgid "Scale Up"
+msgstr ""
+
+#: vc-lean-map/client-logo.php:25
+msgid "Move Up"
+msgstr ""
+
+#: vc-lean-map/client-logo.php:31 vc-lean-map/gallery-slider.php:16
+#: vc-lean-map/gallery.php:16 vc-lean-map/google-map.php:45
+#: vc-lean-map/map-box.php:45 vc-lean-map/pricing-table.php:43
+msgid "Images"
+msgstr ""
+
+#: vc-lean-map/client-logo.php:34 vc-lean-map/client-logo.php:41
+#: vc-lean-map/google-map.php:48 vc-lean-map/google-map.php:55
+#: vc-lean-map/map-box.php:48 vc-lean-map/map-box.php:55
+#: vc-lean-map/pricing-table.php:45
+msgid "Select images from media library."
+msgstr ""
+
+#: vc-lean-map/client-logo.php:38 vc-lean-map/image-box.php:55
+msgid "Hover Images"
+msgstr ""
+
+#: vc-lean-map/client-logo.php:51
+msgid "Add link ."
+msgstr ""
+
+#: vc-lean-map/client-logo.php:55
+msgid "Images effect value"
+msgstr ""
+
+#: vc-lean-map/client-logo.php:67
+msgid "Images effect value when hover"
+msgstr ""
+
+#: vc-lean-map/count-down.php:11
+msgid "Count Down"
+msgstr ""
+
+#: vc-lean-map/count-down.php:13
+msgid "Countdown Timer."
+msgstr ""
+
+#: vc-lean-map/count-down.php:39
+msgid "Time Off"
+msgstr ""
+
+#: vc-lean-map/count-down.php:44
+msgid "Circle foreground Color"
+msgstr ""
+
+#: vc-lean-map/count-down.php:52
+msgid "Circle background color"
+msgstr ""
+
+#: vc-lean-map/count-down.php:60 vc-lean-map/list.php:58
+#: vc-lean-map/pricing-table.php:200
+msgid "Number"
+msgstr ""
+
+#: vc-lean-map/count-down.php:64 vc-lean-map/count-down.php:73
+msgid "Number Options"
+msgstr ""
+
+#: vc-lean-map/count-down.php:81 vc-lean-map/video.php:69
+msgid "Text Options"
+msgstr ""
+
+#: vc-lean-map/counter.php:11
+msgid "Counter"
+msgstr ""
+
+#: vc-lean-map/counter.php:13
+msgid "Your milestones, achievements, etc."
+msgstr ""
+
+#: vc-lean-map/counter.php:18
+msgid "Value"
+msgstr ""
+
+#: vc-lean-map/counter.php:22 vc-lean-map/counter.php:30
+#: vc-lean-map/counter.php:38 vc-lean-map/counter.php:46
+#: vc-lean-map/counter.php:54 vc-lean-map/counter.php:62
+#: vc-lean-map/counter.php:70 vc-lean-map/counter.php:78
+#: vc-lean-map/counter.php:86
+msgid "Value Options"
+msgstr ""
+
+#: vc-lean-map/counter.php:26 vc-lean-map/counter.php:34
+msgid "Start Value"
+msgstr ""
+
+#: vc-lean-map/counter.php:42
+msgid "Decimals"
+msgstr ""
+
+#: vc-lean-map/counter.php:50
+msgid "Durations"
+msgstr ""
+
+#: vc-lean-map/counter.php:58
+msgid "Separator"
+msgstr ""
+
+#: vc-lean-map/counter.php:66
+msgid "Decimal"
+msgstr ""
+
+#: vc-lean-map/counter.php:74
+msgid "Prefix"
+msgstr ""
+
+#: vc-lean-map/counter.php:82
+msgid "Suffix"
+msgstr ""
+
+#: vc-lean-map/gallery-slider.php:8
+msgid "Image Slider"
+msgstr ""
+
+#: vc-lean-map/gallery-slider.php:10
+msgid "Display slider with images"
+msgstr ""
+
+#: vc-lean-map/gallery-slider.php:21 vc-lean-map/gallery.php:30
+msgid "Columns Gutter"
+msgstr ""
+
+#: vc-lean-map/gallery-slider.php:22 vc-lean-map/gallery.php:31
+msgid "Specify your horizontal space between image."
+msgstr ""
+
+#: vc-lean-map/gallery-slider.php:30 vc-lean-map/gallery.php:39
+msgid "Specify your image animation"
+msgstr ""
+
+#: vc-lean-map/gallery-slider.php:37 vc-lean-map/gallery.php:46
+msgid "Hover effect"
+msgstr ""
+
+#: vc-lean-map/gallery-slider.php:54 vc-lean-map/gallery.php:63
+msgid "Columns"
+msgstr ""
+
+#: vc-lean-map/gallery-slider.php:55
+msgid "Slider Options"
+msgstr ""
+
+#: vc-lean-map/gallery-slider.php:59 vc-lean-map/gallery.php:67
+msgid "Image size"
+msgstr ""
+
+#: vc-lean-map/gallery-slider.php:60 vc-lean-map/gallery.php:68
+msgid ""
+"Enter image size (Example: \"thumbnail\", \"medium\", \"large\", \"full"
+"\" or other sizes defined by theme). Alternatively enter size in pixels "
+"(Example: 300x400)."
+msgstr ""
+
+#: vc-lean-map/gallery-slider.php:64 vc-lean-map/gallery-slider.php:74
+#: vc-lean-map/gallery-slider.php:84 vc-lean-map/gallery.php:72
+#: vc-lean-map/gallery.php:80 vc-lean-map/gallery.php:90
+#: vc-lean-map/gallery.php:100 vc-lean-map/gallery.php:111
+#: vc-lean-map/gallery.php:121 vc-lean-map/testimonial.php:101
+msgid "Image Size"
+msgstr ""
+
+#: vc-lean-map/gallery-slider.php:68 vc-lean-map/gallery.php:84
+msgid "Image ratio width"
+msgstr ""
+
+#: vc-lean-map/gallery-slider.php:69 vc-lean-map/gallery.php:85
+msgid "Enter width for image ratio"
+msgstr ""
+
+#: vc-lean-map/gallery-slider.php:78 vc-lean-map/gallery.php:94
+msgid "Image ratio height"
+msgstr ""
+
+#: vc-lean-map/gallery-slider.php:79 vc-lean-map/gallery.php:95
+msgid "Enter height for image ratio"
+msgstr ""
+
+#: vc-lean-map/gallery.php:8
+msgid "Image Gallery"
+msgstr ""
+
+#: vc-lean-map/gallery.php:10
+msgid "Responsive image gallery"
+msgstr ""
+
+#: vc-lean-map/gallery.php:21
+msgid "Layout"
+msgstr ""
+
+#: vc-lean-map/gallery.php:22
+msgid "Specify your gallery layout"
+msgstr ""
+
+#: vc-lean-map/gallery.php:76
+msgid "Image width"
+msgstr ""
+
+#: vc-lean-map/gallery.php:105
+msgid "Justified Row Height"
+msgstr ""
+
+#: vc-lean-map/gallery.php:106
+msgid "Enter your gallery row height"
+msgstr ""
+
+#: vc-lean-map/gallery.php:115
+msgid "Justified Row Max Height"
+msgstr ""
+
+#: vc-lean-map/gallery.php:116
+msgid "Enter your gallery row max height"
+msgstr ""
+
+#: vc-lean-map/google-map.php:11
+msgid "Google Map"
+msgstr ""
+
+#: vc-lean-map/google-map.php:13
+msgid "Display Google Maps to indicate your location."
+msgstr ""
+
+#: vc-lean-map/google-map.php:18 vc-lean-map/image-marker.php:25
+#: vc-lean-map/map-box.php:18
+msgid "Markers"
+msgstr ""
+
+#: vc-lean-map/google-map.php:23 vc-lean-map/map-box.php:23
+msgid "Address"
+msgstr ""
+
+#: vc-lean-map/google-map.php:24 vc-lean-map/map-box.php:24
+msgid "Enter address or coordinate. Example: 40.735601,-74.165918"
+msgstr ""
+
+#: vc-lean-map/google-map.php:52 vc-lean-map/map-box.php:52
+msgid "Images Marker"
+msgstr ""
+
+#: vc-lean-map/google-map.php:62 vc-lean-map/map-box.php:62
+msgid "Map height"
+msgstr ""
+
+#: vc-lean-map/google-map.php:68 vc-lean-map/map-box.php:68
+msgid "Map height Large Device"
+msgstr ""
+
+#: vc-lean-map/google-map.php:76 vc-lean-map/map-box.php:76
+msgid "Map height Medium Device"
+msgstr ""
+
+#: vc-lean-map/google-map.php:84 vc-lean-map/map-box.php:84
+msgid "Map height Small Device"
+msgstr ""
+
+#: vc-lean-map/google-map.php:92 vc-lean-map/map-box.php:92
+msgid "Map height Extra Small Device"
+msgstr ""
+
+#: vc-lean-map/google-map.php:100 vc-lean-map/map-box.php:100
+msgid "Map Zoom"
+msgstr ""
+
+#: vc-lean-map/google-map.php:106 vc-lean-map/map-box.php:106
+msgid "Zoom by MouseWheel"
+msgstr ""
+
+#: vc-lean-map/google-map.php:113 vc-lean-map/map-box.php:113
+msgid "Marker Effect"
+msgstr ""
+
+#: vc-lean-map/google-map.php:114 vc-lean-map/map-box.php:114
+msgid "Marker has Effection"
+msgstr ""
+
+#: vc-lean-map/google-map.php:121 vc-lean-map/map-box.php:121
+msgid "Color effect circle 1"
+msgstr ""
+
+#: vc-lean-map/google-map.php:132 vc-lean-map/map-box.php:132
+msgid "Color effect circle 2"
+msgstr ""
+
+#: vc-lean-map/google-map.php:143 vc-lean-map/map-box.php:143
+msgid "Map Style"
+msgstr ""
+
+#: vc-lean-map/google-map.php:146
+msgid "Standard"
+msgstr ""
+
+#: vc-lean-map/google-map.php:147
+msgid "Theme"
+msgstr ""
+
+#: vc-lean-map/google-map.php:148
+msgid "Cool Grey"
+msgstr ""
+
+#: vc-lean-map/google-map.php:150
+msgid "Sliver"
+msgstr ""
+
+#: vc-lean-map/google-map.php:151
+msgid "Retro"
+msgstr ""
+
+#: vc-lean-map/google-map.php:153
+msgid "Dark 2"
+msgstr ""
+
+#: vc-lean-map/google-map.php:154
+msgid "Night"
+msgstr ""
+
+#: vc-lean-map/google-map.php:155
+msgid "Aubergine"
+msgstr ""
+
+#: vc-lean-map/heading.php:11
+msgid "Heading"
+msgstr ""
+
+#: vc-lean-map/heading.php:13
+msgid "Awesome heading styles."
+msgstr ""
+
+#: vc-lean-map/heading.php:22
+msgid "Style Left"
+msgstr ""
+
+#: vc-lean-map/heading.php:26
+msgid "Style Center"
+msgstr ""
+
+#: vc-lean-map/heading.php:30
+msgid "Style Right"
+msgstr ""
+
+#: vc-lean-map/heading.php:45 vc-lean-map/heading.php:104
+msgid "SubTitle"
+msgstr ""
+
+#: vc-lean-map/heading.php:59
+msgid "Tag HTML"
+msgstr ""
+
+#: vc-lean-map/heading.php:60
+msgid "Select tag for title."
+msgstr ""
+
+#: vc-lean-map/heading.php:63
+msgid "H1"
+msgstr ""
+
+#: vc-lean-map/heading.php:64
+msgid "H2"
+msgstr ""
+
+#: vc-lean-map/heading.php:65
+msgid "H3"
+msgstr ""
+
+#: vc-lean-map/heading.php:66
+msgid "H4"
+msgstr ""
+
+#: vc-lean-map/heading.php:67
+msgid "H5"
+msgstr ""
+
+#: vc-lean-map/heading.php:68
+msgid "H6"
+msgstr ""
+
+#: vc-lean-map/heading.php:74
+msgid "Line Separate"
+msgstr ""
+
+#: vc-lean-map/heading.php:75
+msgid "Turn on Line separator"
+msgstr ""
+
+#: vc-lean-map/heading.php:81
+msgid "Color line separator"
+msgstr ""
+
+#: vc-lean-map/heading.php:89
+msgid "Limit Width (px)"
+msgstr ""
+
+#: vc-lean-map/heading.php:100 vc-lean-map/heading.php:108
+#: vc-lean-map/heading.php:116
+msgid "Typography Option"
+msgstr ""
+
+#: vc-lean-map/icon-box.php:11
+msgid "Icon Box"
+msgstr ""
+
+#: vc-lean-map/icon-box.php:13
+msgid "Display info box with font icon"
+msgstr ""
+
+#: vc-lean-map/icon-box.php:19 vc-lean-map/image-box.php:19
+#: vc-lean-map/list.php:18 vc-lean-map/our-team.php:18
+#: vc-lean-map/page-title.php:18
+msgid "Layout style"
+msgstr ""
+
+#: vc-lean-map/icon-box.php:55
+msgid "Icon Type"
+msgstr ""
+
+#: vc-lean-map/icon-box.php:58
+msgid "Icon Library"
+msgstr ""
+
+#: vc-lean-map/icon-box.php:59
+msgid "Icon Svg"
+msgstr ""
+
+#: vc-lean-map/icon-box.php:63
+msgid "Select icon type"
+msgstr ""
+
+#: vc-lean-map/icon-box.php:73
+msgid "Upload SVG"
+msgstr ""
+
+#: vc-lean-map/icon-box.php:75
+msgid "You can upload your SVG from this option"
+msgstr ""
+
+#: vc-lean-map/icon-box.php:84
+msgid "Shape Background Icon"
+msgstr ""
+
+#: vc-lean-map/icon-box.php:88 vc-lean-map/image-box.php:63
+#: vc-lean-map/image-box.php:103 vc-lean-map/our-team.php:22
+#: vc-lean-map/testimonial.php:93
+msgid "Circle"
+msgstr ""
+
+#: vc-lean-map/icon-box.php:89
+msgid "Circle (Outline)"
+msgstr ""
+
+#: vc-lean-map/icon-box.php:91
+msgid "Square  (Outline)"
+msgstr ""
+
+#: vc-lean-map/icon-box.php:94
+msgid "Select background icon"
+msgstr ""
+
+#: vc-lean-map/icon-box.php:96 vc-lean-map/icon-box.php:110
+#: vc-lean-map/icon-box.php:119 vc-lean-map/icon-box.php:128
+#: vc-lean-map/icon-box.php:140 vc-lean-map/icon-box.php:153
+#: vc-lean-map/icon-box.php:167 vc-lean-map/icon-box.php:176
+#: vc-lean-map/image-marker.php:68 vc-lean-map/image-marker.php:76
+msgid "Icon Options"
+msgstr ""
+
+#: vc-lean-map/icon-box.php:100
+msgid "Icon Size"
+msgstr ""
+
+#: vc-lean-map/icon-box.php:104 vc-lean-map/testimonial.php:105
+#: vc-lean-map/video.php:45
+#: vc-params/typography/templates/typography.tpl.php:62
+msgid "Medium"
+msgstr ""
+
+#: vc-lean-map/icon-box.php:109 vc-lean-map/testimonial.php:110
+msgid "Select icon size"
+msgstr ""
+
+#: vc-lean-map/icon-box.php:114 vc-lean-map/image-marker.php:72
+msgid "Color Icon"
+msgstr ""
+
+#: vc-lean-map/icon-box.php:116 vc-lean-map/image-marker.php:74
+msgid "Select color for icon."
+msgstr ""
+
+#: vc-lean-map/icon-box.php:123
+msgid "Color Icon Hover"
+msgstr ""
+
+#: vc-lean-map/icon-box.php:125
+msgid "Select color hover for icon."
+msgstr ""
+
+#: vc-lean-map/icon-box.php:132
+msgid "Show SVG Animate"
+msgstr ""
+
+#: vc-lean-map/icon-box.php:145
+msgid "Play on hover"
+msgstr ""
+
+#: vc-lean-map/icon-box.php:158
+msgid "Type"
+msgstr ""
+
+#: vc-lean-map/icon-box.php:161
+msgid "Delayed"
+msgstr ""
+
+#: vc-lean-map/icon-box.php:162
+msgid "Sync"
+msgstr ""
+
+#: vc-lean-map/icon-box.php:163
+msgid "One By One"
+msgstr ""
+
+#: vc-lean-map/icon-box.php:172
+msgid "Transition Duration"
+msgstr ""
+
+#: vc-lean-map/icon-box.php:185
+msgid "Title on the Icon Box"
+msgstr ""
+
+#: vc-lean-map/icon-box.php:192 vc-lean-map/image-box.php:129
+msgid "Provide the description for this element."
+msgstr ""
+
+#: vc-lean-map/icon-box.php:198 vc-lean-map/image-box.php:134
+#: vc-lean-map/image-marker.php:56 vc-lean-map/list.php:130
+msgid "Link (url)"
+msgstr ""
+
+#: vc-lean-map/icon-box.php:204 vc-lean-map/image-box.php:140
+msgid "Show Button"
+msgstr ""
+
+#: vc-lean-map/icon-box.php:205 vc-lean-map/image-box.php:141
+msgid "Operation when link are available"
+msgstr ""
+
+#: vc-lean-map/icon-box.php:211 vc-lean-map/image-box.php:147
+msgid "Text Button"
+msgstr ""
+
+#: vc-lean-map/icon-box.php:213 vc-lean-map/image-box.php:149
+msgid "Click"
+msgstr ""
+
+#: vc-lean-map/image-box.php:11
+msgid "Image Box"
+msgstr ""
+
+#: vc-lean-map/image-box.php:13
+msgid "Display info box with image"
+msgstr ""
+
+#: vc-lean-map/image-box.php:60 vc-lean-map/testimonial.php:90
+msgid "Image style"
+msgstr ""
+
+#: vc-lean-map/image-box.php:64
+msgid "Circle (no border)"
+msgstr ""
+
+#: vc-lean-map/image-box.php:66
+msgid "Square (no border)"
+msgstr ""
+
+#: vc-lean-map/image-box.php:70 vc-lean-map/testimonial.php:97
+msgid "Select Image style."
+msgstr ""
+
+#: vc-lean-map/image-box.php:74 vc-lean-map/image-box.php:88
+msgid "Image Width"
+msgstr ""
+
+#: vc-lean-map/image-box.php:77
+msgid "Small (60px)"
+msgstr ""
+
+#: vc-lean-map/image-box.php:78
+msgid "Medium (80px)"
+msgstr ""
+
+#: vc-lean-map/image-box.php:79
+msgid "Large (120px)"
+msgstr ""
+
+#: vc-lean-map/image-box.php:80 vc-lean-map/testimonial.php:107
+msgid "Origin image"
+msgstr ""
+
+#: vc-lean-map/image-box.php:81
+msgid "Custom width"
+msgstr ""
+
+#: vc-lean-map/image-box.php:84
+msgid "Select image width"
+msgstr ""
+
+#: vc-lean-map/image-box.php:100
+msgid "Gray Scale"
+msgstr ""
+
+#: vc-lean-map/image-box.php:101
+msgid "Opacity"
+msgstr ""
+
+#: vc-lean-map/image-box.php:102
+msgid "Shine"
+msgstr ""
+
+#: vc-lean-map/image-box.php:122
+msgid "Title on the Image Box"
+msgstr ""
+
+#: vc-lean-map/image-marker.php:11
+msgid "Image Marker"
+msgstr ""
+
+#: vc-lean-map/image-marker.php:13
+msgid "Display image with markers"
+msgstr ""
+
+#: vc-lean-map/image-marker.php:21
+msgid "Select image from media library."
+msgstr ""
+
+#: vc-lean-map/image-marker.php:44
+msgid "X Position"
+msgstr ""
+
+#: vc-lean-map/image-marker.php:50
+msgid "Y Position"
+msgstr ""
+
+#: vc-lean-map/image-marker.php:65
+msgid "Icon Animation"
+msgstr ""
+
+#: vc-lean-map/image-marker.php:88
+msgid "Spacing"
+msgstr ""
+
+#: vc-lean-map/image-marker.php:102
+msgid "Show Tooltip Arrow"
+msgstr ""
+
+#: vc-lean-map/image-marker.php:105 vc-lean-map/image-marker.php:113
+msgid "Tooltip Options"
+msgstr ""
+
+#: vc-lean-map/image-marker.php:111
+msgid "Select color background."
+msgstr ""
+
+#: vc-lean-map/image-marker.php:117
+msgid "Padding"
+msgstr ""
+
+#: vc-lean-map/layout-container.php:11
+#: vc-lean-map/layout-container.php:102
+msgid "Layout Container"
+msgstr ""
+
+#: vc-lean-map/layout-container.php:13
+msgid "Display layout container with any content"
+msgstr ""
+
+#: vc-lean-map/layout-container.php:25
+msgid "Fix left content size"
+msgstr ""
+
+#: vc-lean-map/layout-container.php:26
+msgid "Fix right content size"
+msgstr ""
+
+#: vc-lean-map/layout-container.php:32
+msgid "Set Content Size"
+msgstr ""
+
+#: vc-lean-map/layout-container.php:34
+msgid "Leave blank to default width (50%)."
+msgstr ""
+
+#: vc-lean-map/layout-container.php:40
+msgid "Content Spacing"
+msgstr ""
+
+#: vc-lean-map/layout-container.php:42
+msgid "Leave blank to default spacing (30px)."
+msgstr ""
+
+#: vc-lean-map/layout-container.php:48
+msgid "Vertical Alignment"
+msgstr ""
+
+#: vc-lean-map/layout-container.php:51
+msgid "Top"
+msgstr ""
+
+#: vc-lean-map/layout-container.php:52
+msgid "Middle"
+msgstr ""
+
+#: vc-lean-map/layout-container.php:53
+msgid "Bottom"
+msgstr ""
+
+#: vc-lean-map/layout-container.php:59
+msgid "Left Content Alignment"
+msgstr ""
+
+#: vc-lean-map/layout-container.php:71
+msgid "Right Content Alignment"
+msgstr ""
+
+#: vc-lean-map/layout-container.php:83
+msgid "Vertical Mode On Device"
+msgstr ""
+
+#: vc-lean-map/layout-container.php:87
+msgid "Mobile Device"
+msgstr ""
+
+#: vc-lean-map/layout-container.php:88
+msgid "Tablet Device"
+msgstr ""
+
+#: vc-lean-map/layout-container.php:101 vc-lean-map/layout-section.php:32
+msgid "Layout Section Name"
+msgstr ""
+
+#: vc-lean-map/layout-container.php:112
+msgid "Left Content"
+msgstr ""
+
+#: vc-lean-map/layout-container.php:112
+msgid "Right Content"
+msgstr ""
+
+#: vc-lean-map/layout-section.php:11
+msgid "Layout Section"
+msgstr ""
+
+#: vc-lean-map/layout-section.php:13
+msgid "Section for Layout Container"
+msgstr ""
+
+#: vc-lean-map/layout-section.php:27
+msgid "Enter section title (Note: you can leave it empty)."
+msgstr ""
+
+#: vc-lean-map/layout-section.php:35
+msgid "Add item to this section"
+msgstr ""
+
+#: vc-lean-map/list.php:11
+msgid "List"
+msgstr ""
+
+#: vc-lean-map/list.php:13
+msgid "Add a set of multiple icons/text and give some custom style."
+msgstr ""
+
+#: vc-lean-map/list.php:39
+msgid "List Style Type"
+msgstr ""
+
+#: vc-lean-map/list.php:42
+msgid "Style List"
+msgstr ""
+
+#: vc-lean-map/list.php:43
+msgid "Icon List"
+msgstr ""
+
+#: vc-lean-map/list.php:53
+msgid "Shape bullet"
+msgstr ""
+
+#: vc-lean-map/list.php:56
+msgid "Circle List"
+msgstr ""
+
+#: vc-lean-map/list.php:59
+msgid "Roman Number"
+msgstr ""
+
+#: vc-lean-map/list.php:60
+msgid "Alpha"
+msgstr ""
+
+#: vc-lean-map/list.php:64
+msgid "Select List Style Type."
+msgstr ""
+
+#: vc-lean-map/list.php:70
+msgid "Start auto number"
+msgstr ""
+
+#: vc-lean-map/list.php:72
+msgid "1"
+msgstr ""
+
+#: vc-lean-map/list.php:80
+msgid "Customize icon for item."
+msgstr ""
+
+#: vc-lean-map/list.php:85
+msgid "Text Align"
+msgstr ""
+
+#: vc-lean-map/list.php:93
+msgid "Select Text Align."
+msgstr ""
+
+#: vc-lean-map/list.php:99
+msgid "Color Shape bullet"
+msgstr ""
+
+#: vc-lean-map/list.php:110 vc-lean-map/list.php:138
+msgid "Item List"
+msgstr ""
+
+#: vc-lean-map/list.php:115
+msgid "Items"
+msgstr ""
+
+#: vc-lean-map/list.php:118
+msgid "Item on List"
+msgstr ""
+
+#: vc-lean-map/list.php:125
+msgid "Customize icon for each item."
+msgstr ""
+
+#: vc-lean-map/list.php:141
+msgid "Item List Options"
+msgstr ""
+
+#: vc-lean-map/map-box.php:11
+msgid "Map Box"
+msgstr ""
+
+#: vc-lean-map/map-box.php:13
+msgid "Display Map Box to indicate your location."
+msgstr ""
+
+#: vc-lean-map/map-box.php:41
+msgid ""
+"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, "
+"consectetur, adipisci velit..."
+msgstr ""
+
+#: vc-lean-map/map-box.php:146
+msgctxt "Mapbox Skin"
+msgid "Streets"
+msgstr ""
+
+#: vc-lean-map/map-box.php:147
+msgctxt "Mapbox Skin"
+msgid "Outdoors"
+msgstr ""
+
+#: vc-lean-map/map-box.php:148
+msgctxt "Mapbox Skin"
+msgid "Light"
+msgstr ""
+
+#: vc-lean-map/map-box.php:149
+msgctxt "Mapbox Skin"
+msgid "Dark"
+msgstr ""
+
+#: vc-lean-map/map-box.php:151
+msgctxt "Mapbox Skin"
+msgid "Satellite"
+msgstr ""
+
+#: vc-lean-map/map-box.php:152
+msgctxt "Mapbox Skin"
+msgid "Nav Day"
+msgstr ""
+
+#: vc-lean-map/map-box.php:153
+msgctxt "Mapbox Skin"
+msgid "Nav Night"
+msgstr ""
+
+#: vc-lean-map/map-box.php:154
+msgctxt "Mapbox Skin"
+msgid "Guide Day"
+msgstr ""
+
+#: vc-lean-map/map-box.php:155
+msgctxt "Mapbox Skin"
+msgid "Guide Night"
+msgstr ""
+
+#: vc-lean-map/map-box.php:157
+msgctxt "Mapbox Skin"
+msgid "Standard"
+msgstr ""
+
+#: vc-lean-map/our-team.php:11
+msgid "Our Team"
+msgstr ""
+
+#: vc-lean-map/our-team.php:13
+msgid "Show your awesome team."
+msgstr ""
+
+#: vc-lean-map/our-team.php:26
+msgid "Rectangle"
+msgstr ""
+
+#: vc-lean-map/our-team.php:34
+msgid "Avatar"
+msgstr ""
+
+#: vc-lean-map/our-team.php:40 vc-lean-map/our-team.php:47
+#: vc-lean-map/pricing-table.php:53
+msgid "Name"
+msgstr ""
+
+#: vc-lean-map/our-team.php:42
+msgid "Name on the Our Team"
+msgstr ""
+
+#: vc-lean-map/our-team.php:51 vc-lean-map/testimonial.php:196
+msgid "Name Options"
+msgstr ""
+
+#: vc-lean-map/our-team.php:55 vc-lean-map/our-team.php:61
+msgid "Job Title"
+msgstr ""
+
+#: vc-lean-map/our-team.php:57
+msgid "Job Title on the Our Team"
+msgstr ""
+
+#: vc-lean-map/our-team.php:65
+msgid "Job Title Options"
+msgstr ""
+
+#: vc-lean-map/our-team.php:71
+msgid "Description on the Our Team"
+msgstr ""
+
+#: vc-lean-map/our-team.php:88 vc-lean-map/our-team.php:93
+msgid "Social"
+msgstr ""
+
+#: vc-lean-map/page-title.php:11
+msgid "Page Title"
+msgstr ""
+
+#: vc-lean-map/page-title.php:13
+msgid "Display current page title"
+msgstr ""
+
+#: vc-lean-map/page-title.php:38
+msgid "Title Page"
+msgstr ""
+
+#: vc-lean-map/page-title.php:41
+msgid "Title Page Options"
+msgstr ""
+
+#: vc-lean-map/page-title.php:46
+msgid "Sub Title Page"
+msgstr ""
+
+#: vc-lean-map/page-title.php:49
+msgid "Sub Title Page Options"
+msgstr ""
+
+#: vc-lean-map/pricing-table.php:4
+msgid "Pricing Tables"
+msgstr ""
+
+#: vc-lean-map/pricing-table.php:6
+msgid "Create nice looking pricing tables."
+msgstr ""
+
+#: vc-lean-map/pricing-table.php:13
+msgid "Specify your layout style"
+msgstr ""
+
+#: vc-lean-map/pricing-table.php:17
+msgid "Style 1"
+msgstr ""
+
+#: vc-lean-map/pricing-table.php:21
+msgid "Style 2"
+msgstr ""
+
+#: vc-lean-map/pricing-table.php:25
+msgid "Style 3"
+msgstr ""
+
+#: vc-lean-map/pricing-table.php:29
+msgid "Style 4"
+msgstr ""
+
+#: vc-lean-map/pricing-table.php:33
+msgid "Style 5"
+msgstr ""
+
+#: vc-lean-map/pricing-table.php:62
+msgid "Price"
+msgstr ""
+
+#: vc-lean-map/pricing-table.php:70
+msgid "Currency Code"
+msgstr ""
+
+#: vc-lean-map/pricing-table.php:71
+msgid "Enter Currency Code. Ex: $, £, €, ₫ ..."
+msgstr ""
+
+#: vc-lean-map/pricing-table.php:78
+msgid "Duration"
+msgstr ""
+
+#: vc-lean-map/pricing-table.php:79
+msgid "Enter duration. Ex: day, month or year"
+msgstr ""
+
+#: vc-lean-map/pricing-table.php:86
+msgid "Background"
+msgstr ""
+
+#: vc-lean-map/pricing-table.php:92
+msgid "Border Color"
+msgstr ""
+
+#: vc-lean-map/pricing-table.php:104
+msgid "Is Featured?"
+msgstr ""
+
+#: vc-lean-map/pricing-table.php:111
+msgid "Set name typography"
+msgstr ""
+
+#: vc-lean-map/pricing-table.php:118
+msgid "Name Typography"
+msgstr ""
+
+#: vc-lean-map/pricing-table.php:126
+msgid "Set price typography"
+msgstr ""
+
+#: vc-lean-map/pricing-table.php:133
+msgid "Price Typography"
+msgstr ""
+
+#: vc-lean-map/pricing-table.php:141
+msgid "Set currency typography"
+msgstr ""
+
+#: vc-lean-map/pricing-table.php:148
+msgid "Currency Code Typography"
+msgstr ""
+
+#: vc-lean-map/pricing-table.php:156
+msgid "Set duration typography"
+msgstr ""
+
+#: vc-lean-map/pricing-table.php:163
+msgid "Duration Typography"
+msgstr ""
+
+#: vc-lean-map/pricing-table.php:171
+msgid "Featured Caption"
+msgstr ""
+
+#: vc-lean-map/pricing-table.php:173 vc-lean-map/pricing-table.php:182
+#: vc-lean-map/pricing-table.php:190
+msgid "Featured"
+msgstr ""
+
+#: vc-lean-map/pricing-table.php:179
+msgid "Featured item color"
+msgstr ""
+
+#: vc-lean-map/pricing-table.php:187
+msgid "Featured text color"
+msgstr ""
+
+#: vc-lean-map/pricing-table.php:196
+msgid "List Description Style"
+msgstr ""
+
+#: vc-lean-map/pricing-table.php:209
+msgid "Description Align"
+msgstr ""
+
+#: vc-lean-map/pricing-table.php:222
+msgid "Description Padding Bottom (px)"
+msgstr ""
+
+#: vc-lean-map/pricing-table.php:241
+msgid "Prefix description size"
+msgstr ""
+
+#: vc-lean-map/pricing-table.php:249
+msgid "Prefix description color"
+msgstr ""
+
+#: vc-lean-map/pricing-table.php:257
+msgid "Set description text typography"
+msgstr ""
+
+#: vc-lean-map/pricing-table.php:265
+msgid "Description text typography"
+msgstr ""
+
+#: vc-lean-map/pricing-table.php:273
+msgid "Values"
+msgstr ""
+
+#: vc-lean-map/pricing-table.php:285
+msgid "Disable Feature"
+msgstr ""
+
+#: vc-lean-map/pricing-table.php:291
+msgid "Feature"
+msgstr ""
+
+#: vc-lean-map/pricing-table.php:294
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod "
+"tempor incididunt"
+msgstr ""
+
+#: vc-lean-map/pricing-table.php:306
+msgid "Buy Now"
+msgstr ""
+
+#: vc-lean-map/slider-container.php:19
+#: vc-lean-map/slider-container.php:294
+msgid "Slider Container"
+msgstr ""
+
+#: vc-lean-map/slider-container.php:21
+msgid "Create Slick Slider with any content."
+msgstr ""
+
+#: vc-lean-map/slider-container.php:29
+msgid "Slider Type"
+msgstr ""
+
+#: vc-lean-map/slider-container.php:32
+msgid "Horizontal"
+msgstr ""
+
+#: vc-lean-map/slider-container.php:33
+msgid "Vertical"
+msgstr ""
+
+#: vc-lean-map/slider-container.php:40
+msgid "Slides To Show"
+msgstr ""
+
+#: vc-lean-map/slider-container.php:133
+msgid "Navigation Arrow"
+msgstr ""
+
+#: vc-lean-map/slider-container.php:140
+msgid "Dots Navigation"
+msgstr ""
+
+#: vc-lean-map/slider-container.php:161
+msgid "Autoplay Slides"
+msgstr ""
+
+#: vc-lean-map/slider-container.php:167
+msgid "Autoplay Speed"
+msgstr ""
+
+#: vc-lean-map/slider-container.php:174
+msgid "Infinite Loop"
+msgstr ""
+
+#: vc-lean-map/slider-container.php:180
+msgid "Transition Speed"
+msgstr ""
+
+#: vc-lean-map/slider-container.php:187
+msgid "Space between two items (px)"
+msgstr ""
+
+#: vc-lean-map/slider-container.php:189
+msgid "Empty to default: 30px"
+msgstr ""
+
+#: vc-lean-map/slider-container.php:194
+msgid "Adaptive Height"
+msgstr ""
+
+#: vc-lean-map/slider-container.php:198
+#: vc-lean-map/slider-container.php:205
+#: vc-lean-map/slider-container.php:212
+#: vc-lean-map/slider-container.php:219
+#: vc-lean-map/slider-container.php:226
+#: vc-lean-map/slider-container.php:233
+#: vc-lean-map/slider-container.php:241
+#: vc-lean-map/slider-container.php:248
+#: vc-lean-map/slider-container.php:255
+#: vc-lean-map/slider-container.php:263
+#: vc-lean-map/slider-container.php:280
+msgid "Advanced"
+msgstr ""
+
+#: vc-lean-map/slider-container.php:202
+msgid "Pause Autoplay On Hover"
+msgstr ""
+
+#: vc-lean-map/slider-container.php:209
+msgid "Single Slide Scroll"
+msgstr ""
+
+#: vc-lean-map/slider-container.php:216
+msgid "Fade animation"
+msgstr ""
+
+#: vc-lean-map/slider-container.php:223
+msgid "RTL Mode"
+msgstr ""
+
+#: vc-lean-map/slider-container.php:230
+msgid "Slider Syncing"
+msgstr ""
+
+#: vc-lean-map/slider-container.php:237
+msgid "Set the slider syncing"
+msgstr ""
+
+#: vc-lean-map/slider-container.php:245
+msgid "Enable focus on selected element (click)"
+msgstr ""
+
+#: vc-lean-map/slider-container.php:252
+msgid "Enabled Grid Mode"
+msgstr ""
+
+#: vc-lean-map/slider-container.php:268
+msgid "Slides Per Row"
+msgstr ""
+
+#: vc-lean-map/social-icons.php:4
+msgid "Social Icons"
+msgstr ""
+
+#: vc-lean-map/social-icons.php:6
+msgid "Add a set of multiple social profile icons"
+msgstr ""
+
+#: vc-lean-map/social-icons.php:16
+msgid "Circle Fill"
+msgstr ""
+
+#: vc-lean-map/social-icons.php:17
+msgid "Circle Outline"
+msgstr ""
+
+#: vc-lean-map/social-icons.php:18
+msgid "Square Fill"
+msgstr ""
+
+#: vc-lean-map/social-icons.php:19
+msgid "Square Outline"
+msgstr ""
+
+#: vc-lean-map/social-icons.php:38 vc-lean-map/testimonial.php:71
+#: vc-params/typography/templates/typography.tpl.php:149
+msgid "Align"
+msgstr ""
+
+#: vc-lean-map/social-icons.php:51
+msgid "Icon Color"
+msgstr ""
+
+#: vc-lean-map/social-icons.php:57
+msgid "Icon Hover color"
+msgstr ""
+
+#: vc-lean-map/space.php:11
+msgid "Space"
+msgstr ""
+
+#: vc-lean-map/space.php:13
+msgid "Add responsive space element on the page"
+msgstr ""
+
+#: vc-lean-map/space.php:19
+msgid "Spacing (px)"
+msgstr ""
+
+#: vc-lean-map/testimonial.php:11
+msgid "Testimonial"
+msgstr ""
+
+#: vc-lean-map/testimonial.php:13
+msgid "Show customer testimonials"
+msgstr ""
+
+#: vc-lean-map/testimonial.php:18
+msgid "Testimonials Layout"
+msgstr ""
+
+#: vc-lean-map/testimonial.php:19
+msgid "Select our testimonial layout."
+msgstr ""
+
+#: vc-lean-map/testimonial.php:56
+msgid "Rating"
+msgstr ""
+
+#: vc-lean-map/testimonial.php:60
+msgid "1 Star"
+msgstr ""
+
+#: vc-lean-map/testimonial.php:61
+msgid "2 Star"
+msgstr ""
+
+#: vc-lean-map/testimonial.php:62
+msgid "3 Star"
+msgstr ""
+
+#: vc-lean-map/testimonial.php:63
+msgid "4 Star"
+msgstr ""
+
+#: vc-lean-map/testimonial.php:64
+msgid "5 Star"
+msgstr ""
+
+#: vc-lean-map/testimonial.php:83
+msgid "Upload Avatar:"
+msgstr ""
+
+#: vc-lean-map/testimonial.php:86
+msgid "Upload avatar for author."
+msgstr ""
+
+#: vc-lean-map/testimonial.php:114
+msgid "Author Name"
+msgstr ""
+
+#: vc-lean-map/testimonial.php:118
+msgid "Edna Watson"
+msgstr ""
+
+#: vc-lean-map/testimonial.php:122
+msgid "Author Job"
+msgstr ""
+
+#: vc-lean-map/testimonial.php:126
+msgid "Design"
+msgstr ""
+
+#: vc-lean-map/testimonial.php:130
+msgid "Content testimonials of the author"
+msgstr ""
+
+#: vc-lean-map/testimonial.php:132
+msgid ""
+"Thanks for building Crown & for your support. Nice work @crownframework "
+"team!"
+msgstr ""
+
+#: vc-lean-map/testimonial.php:136
+msgid "Show Main Content"
+msgstr ""
+
+#: vc-lean-map/testimonial.php:147 vc-lean-map/testimonial.php:217
+msgid "Main Content"
+msgstr ""
+
+#: vc-lean-map/testimonial.php:154
+msgid "Awesome Design"
+msgstr ""
+
+#: vc-lean-map/testimonial.php:158
+msgid "Content Quote"
+msgstr ""
+
+#: vc-lean-map/testimonial.php:165
+msgid "Content Background"
+msgstr ""
+
+#: vc-lean-map/testimonial.php:176
+msgid "Content Background Color"
+msgstr ""
+
+#: vc-lean-map/testimonial.php:187
+msgid "Author Link"
+msgstr ""
+
+#: vc-lean-map/testimonial.php:193
+msgid "Name Testimonial"
+msgstr ""
+
+#: vc-lean-map/testimonial.php:201
+msgid "Job Testimonial"
+msgstr ""
+
+#: vc-lean-map/testimonial.php:204
+msgid "Job Options"
+msgstr ""
+
+#: vc-lean-map/testimonial.php:209
+msgid "Content Testimonial"
+msgstr ""
+
+#: vc-lean-map/testimonial.php:212
+msgid "Content Options"
+msgstr ""
+
+#: vc-lean-map/testimonial.php:220
+msgid "Main Content Options"
+msgstr ""
+
+#: vc-lean-map/video.php:11
+msgid "Video"
+msgstr ""
+
+#: vc-lean-map/video.php:14
+msgid "Embed video without sacrificing Page speed."
+msgstr ""
+
+#: vc-lean-map/video.php:18
+msgid "Video Layout"
+msgstr ""
+
+#: vc-lean-map/video.php:35
+msgid "Video Text"
+msgstr ""
+
+#: vc-params/icon-picker/templates/icon-picker.tpl.php:21
+msgid "Chose an icon"
+msgstr ""
+
+#: vc-params/icon-picker/templates/icon-picker.tpl.php:22
+msgid "Remove an icon"
+msgstr ""
+
+#: vc-params/responsive/templates/responsive.tpl.php:22
+msgid "Device"
+msgstr ""
+
+#: vc-params/responsive/templates/responsive.tpl.php:49
+msgid "Hide on device?"
+msgstr ""
+
+#: vc-params/typography/templates/typography.tpl.php:44
+#: vc-params/typography/templates/typography.tpl.php:58
+msgid "Inherit"
+msgstr ""
+
+#: vc-params/typography/templates/typography.tpl.php:48
+msgid "Justify"
+msgstr ""
+
+#: vc-params/typography/templates/typography.tpl.php:54
+msgid "Capitalize"
+msgstr ""
+
+#: vc-params/typography/templates/typography.tpl.php:55
+msgid "Lowercase"
+msgstr ""
+
+#: vc-params/typography/templates/typography.tpl.php:56
+msgid "Uppercase"
+msgstr ""
+
+#: vc-params/typography/templates/typography.tpl.php:64
+msgid "Extra small"
+msgstr ""
+
+#: vc-params/typography/templates/typography.tpl.php:74
+msgid "Font Family"
+msgstr ""
+
+#: vc-params/typography/templates/typography.tpl.php:92
+msgid "Font Weight & Style"
+msgstr ""
+
+#: vc-params/typography/templates/typography.tpl.php:115
+msgid "Font Size"
+msgstr ""
+
+#: vc-params/typography/templates/typography.tpl.php:158
+msgid "Text Transform"
+msgstr ""
+
+#: vc-params/typography/templates/typography.tpl.php:169
+msgid "Line Height"
+msgstr ""
+
+#: vc-params/typography/templates/typography.tpl.php:173
+msgid "Letter Spacing"
+msgstr ""
+
+#: vc-params/typography/templates/typography.tpl.php:180
+msgid "Text Color"
+msgstr ""
+
+#: vc-params/typography/templates/typography.tpl.php:214
+msgid "Text Hover Color"
+msgstr ""

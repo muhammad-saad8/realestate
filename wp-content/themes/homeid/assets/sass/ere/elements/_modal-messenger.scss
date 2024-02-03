@@ -1,0 +1,15 @@
+@media (min-width: 768px) {
+	.modal-messenger .modal-dialog {
+		width: 750px;
+	}
+}
+
+.modal-messenger {
+	.modal-dialog {
+		width: 80%;
+	}
+	.close {
+		background-color: transparent;
+		border-color: transparent;
+	}
+}

@@ -1,0 +1,14 @@
+.g5ere__single-property-content-tabs {
+	.g5ere__panels-container {
+		padding-top: 20px;
+	}
+
+	@media (min-width: 768px) {
+		.card {
+			border: none;
+		}
+		.card-body {
+			padding: 0;
+		}
+	}
+}

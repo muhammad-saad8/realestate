@@ -1,0 +1,57 @@
+.gel-video-md .view-video {
+	height: 78px;
+	width: 78px;
+}
+
+.gel-video-classic .view-video {
+	color: var(--g5-color-accent);
+	position: relative;
+	&:after, &:before {
+		-webkit-animation: video-box-shadow 1600ms ease-in-out 0ms;
+		animation: video-box-shadow 1600ms ease-in-out 0ms;
+		-webkit-animation-iteration-count: infinite;
+		animation-iteration-count: infinite;
+		width: 100%;
+		height: 100%;
+		content: '';
+		top: 0;
+		position: absolute;
+		border-radius: 50%;
+		@include transition(transform 0.3s ease-in-out);
+	}
+	&:after {
+		-webkit-animation-delay: 800ms;
+		animation-delay: 800ms;
+	}
+
+	i {
+		color: var(--g5-color-accent-foreground);
+	}
+
+	&:hover {
+		color: var(--g5-color-accent-foreground);
+		i {
+			color: var(--g5-color-accent);
+		}
+	}
+}
+
+@keyframes video-box-shadow {
+	0% {
+		@include transform(scale(1));
+		opacity: 0.6;
+		@include box-shadow(0 0 0 0px $color_white);
+	}
+
+	50% {
+		@include transform(scale(1.2));
+		opacity: 0.3;
+		@include box-shadow(0 0 0 4px $color_white);
+	}
+
+	100% {
+		@include box-shadow(0 0 0 8px $color_white);
+		@include transform(scale(1.4));
+		opacity: 0;
+	}
+}

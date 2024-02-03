@@ -1,0 +1,479 @@
+.primary-sidebar {
+	.widget {
+		padding: 30px;
+		border: 1px solid var(--g5-color-border);
+		@include border-radius(5px);
+		margin-bottom: 20px;
+		background-color: $color_white;
+	}
+
+	.widget:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.widget {
+	position: relative;
+	margin-bottom: 70px;
+	@extend %clearfix;
+
+	.screen-reader-text {
+		display: none;
+	}
+
+	.widgettitle,
+	.widget-title {
+		font-size: 16px;
+		margin-bottom: 25px;
+	}
+
+	.tagcloud {
+		a {
+			background-color: #f5f5f5;
+			color: #ababab;
+			@include border-radius(3px);
+			padding: 0 15px;
+			height: 32px;
+			line-height: 32px;
+			font-size: 13px !important;
+			@include transition(all .3s);
+
+			&:after {
+				display: none;
+			}
+
+			&:hover {
+				background-color: var(--g5-color-accent);
+				color: var(--g5-color-accent-foreground);
+			}
+		}
+	}
+}
+
+.wp-block-group__inner-container > h2 {
+	font-size: 16px;
+	margin-bottom: 25px;
+}
+
+
+.wp-block-search,
+.widget_search form {
+	@include widget-search();
+}
+
+.wp-block-search .wp-block-search__button {
+	background: transparent;
+	border: none;
+	padding: 0;
+	color: inherit;
+	margin: 0;
+	display: block;
+}
+
+.wp-block-search .wp-block-search__input {
+	border: 1px solid var(--g5-color-border);
+}
+
+.widget_archive,
+.widget_categories,
+.widget_product_categories {
+	select {
+		width: 100%;
+	}
+}
+
+
+.widget_archive ul,
+.widget_categories ul,
+.widget_nav_menu ul,
+.widget_pages ul {
+	@include widget-archive();
+}
+
+
+.widget_categories ul {
+	span.count {
+		position: absolute;
+		top: 6px;
+		right: 0;
+	}
+
+	a:hover + .count {
+		color: var(--g5-color-accent);
+	}
+}
+
+.widget_archive ul {
+	span.count {
+		position: absolute;
+		top: 6px;
+		right: 0;
+	}
+}
+
+
+.widget_pages ul {
+	.current_page_item {
+		> a {
+			color: var(--g5-color-accent);
+		}
+	}
+}
+
+.widget_nav_menu ul {
+	.current-menu-item {
+		> a {
+			color: var(--g5-color-accent);
+		}
+	}
+}
+
+.widget_rss ul,
+.widget_recent_entries ul,
+.widget_recent_comments ul,
+.widget_meta ul {
+	@include widget-meta();
+}
+
+.widget_recent_entries ul {
+	a {
+		font-weight: 600;
+		letter-spacing: -0.025em;
+	}
+}
+
+.widget_rss {
+	ul {
+		.rsswidget {
+			display: block;
+			color: var(--g5-color-heading);
+		}
+
+		.rss-date {
+			font-style: italic;
+			font-size: $font_size_xs;
+			margin: 2px 0;
+			display: block;
+		}
+	}
+}
+
+.tagcloud {
+	@include d-flex();
+	@include flex-wrap();
+	@include align-items-center();
+
+	i {
+		margin: 0 5px 5px 0;
+		font-size: 18px;
+		color: var(--g5-color-heading);
+	}
+
+	a {
+		color: var(--g5-color-muted);
+		font-size: 14px !important;
+		margin: 0 5px 5px 0;
+		display: inline-block;
+		@include transition(all .3s);
+		text-transform: lowercase;
+
+		&:after {
+			content: ',';
+		}
+
+		&:hover {
+			color: var(--g5-color-heading);
+		}
+
+		&:last-child {
+			&:after {
+				content: '';
+			}
+		}
+	}
+}
+
+.widget_calendar {
+	table {
+		margin: 0;
+	}
+
+	caption {
+		caption-side: top;
+		padding: 11px 1rem;
+		background-color: #e1e1e1;
+		font-size: 16px;
+		color: var(--g5-color-heading);
+		font-weight: 600;
+		text-align: center;
+	}
+
+	td, th {
+		padding: 0.3rem;
+	}
+
+	thead, tbody {
+		td, th {
+			text-align: center;
+			border-width: 1px;
+			border-color: #eee;
+		}
+	}
+
+	tfoot {
+		td, th {
+			border: none;
+		}
+
+		#next {
+			text-align: right;
+		}
+	}
+}
+
+.custom-menu-services ul {
+	.menu-item {
+		padding-left: 30px;
+
+		+ .menu-item {
+			margin-top: 10px;
+		}
+
+		&:before, &:after {
+			left: 0;
+			position: absolute;
+			transform: translateY(-50%);
+			top: 50%;
+			@include transition(all .3s)
+		}
+
+		&:before {
+			content: "";
+			width: 18px;
+			height: 18px;
+			border-radius: 3px;
+			background-color: $color_border;
+		}
+
+		&:after {
+			font-family: $font_icon;
+			content: "\f14a";
+			font-weight: 600;
+			font-size: 20px;
+			opacity: 0;
+			color: var(--g5-color-accent);
+		}
+	}
+
+	.menu-item:hover, .current-menu-item {
+		&:before {
+			opacity: 0;
+		}
+
+		&:after {
+			opacity: 1;
+		}
+
+		> a {
+			color: var(--g5-color-heading);
+		}
+	}
+}
+
+.ere_widget_featured_properties.ere-property,
+.ere_widget_recent_properties.ere-property {
+	a {
+		color: inherit;
+	}
+
+	.property-item-content .property-title a {
+		font-size: 16px;
+		font-weight: 500;
+
+		&:hover {
+			color: var(--g5-color-accent);
+		}
+	}
+
+	.property-price-postfix {
+		color: var(--g5-color-text-main);
+	}
+
+	.property-location i {
+		color: var(--g5-color-accent);
+	}
+
+	.owl-dot.active span {
+		background-color: var(--g5-color-accent);
+	}
+
+	.property-view-gallery-wrap {
+		background-color: var(--g5-color-accent);
+
+		&:hover a {
+			color: var(--g5-color-accent);
+		}
+	}
+
+	.property-favorite, .compare-property {
+		background-color: var(--g5-color-accent);
+
+		&:hover {
+			color: var(--g5-color-accent);
+		}
+	}
+}
+
+.ere_widget_login_menu {
+	.login-link {
+		i {
+			margin-right: 10px;
+		}
+
+		span {
+			color: var(--g5-color-heading);
+		}
+	}
+
+	.user-dropdown {
+		i {
+			color: var(--g5-color-accent);
+		}
+
+		&:hover .user-display-name {
+			color: var(--g5-color-accent);
+		}
+
+		.badge {
+			position: absolute;
+			background-color: var(--g5-color-accent);
+			color: #fff;
+			right: 1.25rem;
+			transform: translateY(-50%);
+			top: 50%;
+		}
+	}
+}
+
+.ere_widget_listing_property_taxonomy.ere_widget {
+	a {
+		color: inherit;
+	}
+
+	ul li a:hover, i {
+		color: var(--g5-color-accent) !important;
+	}
+}
+
+.ere_widget_mortgage_calculator.ere_widget {
+	.widget-title {
+		margin-bottom: 20px;
+	}
+
+	.form-group {
+		margin-bottom: 10px;
+	}
+
+	.title-mc-item {
+		font-size: 14px;
+		color: var(--g5-color-text-main);
+		font-weight: normal;
+		margin-bottom: 6px;
+	}
+
+	.ere-mortgage-form input {
+		border-color: $color_background_input;
+		height: 52px;
+
+		&:focus {
+			border-color: var(--g5-color-accent);
+		}
+	}
+
+	.btn {
+		margin-top: 20px;
+		background-color: var(--g5-color-accent);
+		border-color: var(--g5-color-accent);
+	}
+
+	.mc-output {
+		b {
+			font-weight: normal;
+			color: var(--g5-color-text-main);
+		}
+
+		p {
+			padding: 7px 0;
+			font-weight: 500;
+			margin-bottom: 0;
+			font-size: 14px;
+			@include d-flex();
+			@include justify-content-between();
+
+			&:first-child {
+				margin-top: 15px;
+			}
+
+			+ p {
+				border-top: solid 1px;
+				border-color: var(--g5-color-border);
+			}
+		}
+	}
+}
+
+.ere_widget_my_package {
+	.btn, .btn:hover, .btn:focus {
+		background-color: var(--g5-color-accent);
+		border-color: var(--g5-color-accent);
+		color: var(--g5-color-accent-foreground);
+	}
+
+}
+
+.ere_widget_search_form.ere_widget {
+	.ere-search-status-tab .btn-status-filter {
+		&.active {
+			background-color: var(--g5-color-accent);
+			border-color: var(--g5-color-accent);
+		}
+	}
+
+	.ere-property-advanced-search .form-search-wrap {
+		input, select {
+			border-color: $color_background_input;
+			height: 52px;
+
+			&:focus {
+				border-color: var(--g5-color-accent);
+			}
+		}
+
+		.form-group {
+			height: auto;
+		}
+	}
+
+	.sidebar-filter .ui-slider-range.ui-widget-header.ui-corner-all {
+		background-color: var(--g5-color-primary);
+	}
+
+	.sidebar-filter .ui-slider-handle.ui-state-default.ui-corner-all {
+		background-color: #fff;
+	}
+}
+
+.widget .register-agent {
+	.register-agent-text {
+		line-height: 1.39;
+	}
+
+	p {
+		font-size: 18px;
+		font-weight: 500;
+	}
+
+	.register-agent-btn {
+		margin-top: 27px;
+	}
+}

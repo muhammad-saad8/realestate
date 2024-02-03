@@ -1,0 +1,25 @@
+@import "layout/layout";
+@import "block-title";
+@import "related";
+.g5blog__single-meta-bottom {
+	padding-top: 0;
+	margin-top: 45px;
+}
+
+.g5blog__single-title {
+	font-size: 32px;
+	font-weight: 500;
+}
+
+.entry-meta-cat {
+	margin-bottom: 10px;
+}
+
+.g5blog__single {
+	margin-bottom: 0;
+	padding-bottom: 55px;
+	border-bottom: 1px solid var(--g5-color-border);
+	.entry-content {
+		margin-bottom: 0;
+	}
+}

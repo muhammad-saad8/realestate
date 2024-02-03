@@ -1,0 +1,162 @@
+:root {
+	--g5-body-font: #{inspect($body_font)};
+	--g5-body-font-size: #{$body_font_size};
+	--g5-body-font-weight: #{$body_font_weight};
+	--g5-body-font-style: #{$body_font_style};
+	--g5-body-text-transform: #{$body_text_transform};
+	--g5-body-letter-spacing: #{$body_letter_spacing};
+	--g5-body-line-height: #{$body_line_height};
+
+	--g5-primary-font: #{inspect($primary_font)};
+
+	--g5-h1-font: #{inspect($h1_font)};
+	--g5-h1-font-size: #{$h1_font_size};
+	--g5-h1-font-weight: #{$h1_font_weight};
+	--g5-h1-text-transform: #{$h1_text_transform};
+	--g5-h1-letter-spacing: #{$h1_letter_spacing};
+	--g5-h1-line-height: #{$h1_line_height};
+
+	--g5-h2-font: #{inspect($h2_font)};
+	--g5-h2-font-size: #{$h2_font_size};
+	--g5-h2-font-weight: #{$h2_font_weight};
+	--g5-h2-text-transform: #{$h2_text_transform};
+	--g5-h2-letter-spacing: #{$h2_letter_spacing};
+	--g5-h2-line-height: #{$h2_line_height};
+
+	--g5-h3-font: #{inspect($h3_font)};
+	--g5-h3-font-size: #{$h3_font_size};
+	--g5-h3-font-weight: #{$h3_font_weight};
+	--g5-h3-text-transform: #{$h3_text_transform};
+	--g5-h3-letter-spacing: #{$h3_letter_spacing};
+	--g5-h3-line-height: #{$h3_line_height};
+
+	--g5-h4-font: #{inspect($h4_font)};
+	--g5-h4-font-size: #{$h4_font_size};
+	--g5-h4-font-weight: #{$h4_font_weight};
+	--g5-h4-text-transform: #{$h4_text_transform};
+	--g5-h4-letter-spacing: #{$h4_letter_spacing};
+	--g5-h4-line-height: #{$h4_line_height};
+
+	--g5-h5-font: #{inspect($h5_font)};
+	--g5-h5-font-size: #{$h5_font_size};
+	--g5-h5-font-weight: #{$h5_font_weight};
+	--g5-h5-text-transform: #{$h5_text_transform};
+	--g5-h5-letter-spacing: #{$h5_letter_spacing};
+	--g5-h5-line-height: #{$h5_line_height};
+
+	--g5-h6-font: #{inspect($h6_font)};
+	--g5-h6-font-size: #{$h6_font_size};
+	--g5-h6-font-weight: #{$h6_font_weight};
+	--g5-h6-text-transform: #{$h6_text_transform};
+	--g5-h6-letter-spacing: #{$h6_letter_spacing};
+	--g5-h6-line-height: #{$h6_line_height};
+
+
+	--g5-color-accent: #{$color_accent};
+	--g5-color-accent-foreground :  #{$color_accent_foreground};
+	--g5-color-accent-brightness : #{$color_accent_brightness};
+	--g5-color-border: #{$color_border};
+	--g5-color-heading: #{$color_text_heading};
+	--g5-color-placeholder: #{$color_placeholder};
+	--g5-color-primary :  #{$color_primary};
+	--g5-color-primary-foreground :  #{$color_primary_foreground};
+	--g5-color-primary-brightness : #{$color_primary_brightness};
+	--g5-color-secondary:  #{$color_secondary};
+	--g5-color-secondary-foreground :  #{$color_secondary_foreground};
+	--g5-color-secondary-brightness : #{$color_secondary_brightness};
+	--g5-color-dark: #{$color_dark};
+	--g5-color-dark-foreground: #{$color_dark_foreground};
+	--g5-color-dark-brightness : #{$color_dark_brightness};
+	--g5-color-light: #{$color_light};
+	--g5-color-light-foreground: #{$color_light_foreground};
+	--g5-color-light-brightness : #{$color_light_brightness};
+	--g5-color-gray: #{$color_gray};
+	--g5-color-gray-foreground: #{$color_gray_foreground};
+	--g5-color-gray-brightness : #{$color_gray_brightness};
+	--g5-color-text-main: #{$color_text_main};
+	--g5-color-muted: #{$color_muted};
+	--g5-color-link: #{$color_link};
+	--g5-color-link-hover: #{$color_link_hover};
+
+	--g5-color-success: #{$color_success};
+	--g5-color-success-foreground: #{$color_success_foreground};
+	--g5-color-success-brightness : #{$color_success_brightness};
+
+	--g5-color-danger: #{$color_danger};
+	--g5-color-danger-foreground: #{$color_danger_foreground};
+	--g5-color-danger-brightness : #{$color_danger_brightness};
+
+	--g5-color-warning: #{$color_warning};
+	--g5-color-warning-foreground: #{$color_warning_foreground};
+	--g5-color-warning-brightness : #{$color_warning_brightness};
+
+	--g5-color-info: #{$color_info};
+	--g5-color-info-foreground: #{$color_info_foreground};
+	--g5-color-info-brightness : #{$color_info_brightness};
+
+	--g5-font-blockquote: #{inspect($font_blockquote)};
+	--g5-font-icon: #{inspect($font_icon)};
+	--g5-color-caption: #{$color_text_caption};
+
+	--g5-color-background-body: #{$color_background_body};
+	--g5-color-background-page-title: #{$color_background_page_title};
+	--g5-color-background-post-sticky: #{$color_background_post_sticky};
+	--g5-color-background-footer: #{$color_background_page_footer};
+
+	--g5-color-text-input: #{$color_text_input};
+	--g5-color-background-input: #{$color_background_input};
+	--g5-color-border-input: #{$color_border_input};
+	--g5-color-border-input-forcus: #{$color_border_input_focus};
+
+
+	--g5-btn-font-weight: #{$btn_font_weight};
+	--g5-btn-border-width: #{$btn_border_width};
+	--g5-btn-border-radius: #{$btn_border_radius};
+	--g5-btn-disabled-opacity: #{$btn_disabled_opacity};
+
+	--g5ere-map-pin-color: #{$color_accent};
+
+	--g5blog-loop-post-title-font-size: 32px;
+	--g5blog-loop-post-meta-font-size: 14px;
+	--g5blog-loop-grid-post-title-font-size: 18px;
+	--g5blog-loop-post-except-line-height: 1.86;
+	--g5blog-loop-grid-post-except-max-height: 3em;
+	--g5blog-loop-medium-image-post-except-max-height: 2em;
+	--g5blog-loop-medium-image-post-image-width: 370px;
+	--g5-content-padding-top: 80px;
+	--g5-content-padding-bottom: 80px;
+
+	--g5-header-height: #{$header_height};
+	--g5-header-sticky-height: #{$header_sticky_height};
+	--g5-header-mobile-height: #{$header_mobile_height};
+	--g5-header-mobile-sticky-height: #{$header_mobile_sticky_height};
+
+	--g5-header-bg-color: #{$header_background_color};
+	--g5-header-text-color: #{$header_text_color};
+	--g5-header-text-hover-color: #{$header_text_hover_color};
+	--g5-header-border-color: #{$header_border_color};
+	--g5-header-disable-color: #{$header_disable_color};
+
+	--g5-menu-font: #{inspect($menu_font)};
+	--g5-menu-font-weight: #{inspect($menu_font_weight)};
+	--g5-menu-line-height: #{inspect($menu_line_height)};
+	--g5-menu-font-size: #{$menu_font_size};
+	--g5-menu-font-style: #{$menu_font_style};
+	--g5-menu-text-transform: #{$menu_text_transform};
+	--g5-menu-letter-spacing: #{$menu_letter_spacing};
+	--g5-menu-spacing: #{$menu_spacing};
+
+	--g5-submenu-font: #{inspect($submenu_font)};
+	--g5-submenu-font-size: #{$submenu_font_size};
+	--g5-submenu-font-style: #{$submenu_font_style};
+	--g5-submenu-font-weight: #{$submenu_font_weight};
+	--g5-submenu-text-transform: #{$submenu_text_transform};
+	--g5-submenu-letter-spacing: #{$submenu_letter_spacing};
+	--g5-submenu-line-height: #{$submenu_line_height};
+
+	--g5-submenu-text-color: #{$submenu_text_color};
+	--g5-submenu-text-hover-color: #{$submenu_text_hover_color};
+	--g5-submenu-bg-color: #{$submenu_background_color};
+	--g5-submenu-bg-hover-color: #{$sub_menu_background_hover_color};
+	--g5-submenu-border-color: #{$submenu_border_color};
+}

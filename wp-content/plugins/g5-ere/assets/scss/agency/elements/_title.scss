@@ -1,0 +1,8 @@
+.g5ere__loop-agency-title {
+	font-size: 1rem;
+	word-break: break-word;
+	@include transition(color .3s);
+	a {
+		color: inherit;
+	}
+}

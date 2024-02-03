@@ -1,0 +1,6292 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: G5 ERE\n"
+"POT-Creation-Date: 2023-04-28 08:34+0700\n"
+"PO-Revision-Date: 2017-07-08 15:18+0700\n"
+"Last-Translator: \n"
+"Language-Team: G5Team\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_GB\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;"
+"_n_noop:1,2;_nx_noop:1,2,3c;__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: .idea\n"
+"X-Poedit-SearchPathExcluded-2: .svn\n"
+
+#: g5-ere.php:72
+msgid ""
+"G5 ERE is enabled but not effective. It requires G5 Core and Essential "
+"Real Estate in order to work."
+msgstr ""
+
+#: g5core/header/customize/button-add-listing.php:9
+msgid "Add Listing"
+msgstr ""
+
+#: g5core/header/customize/button-add-listing.php:10
+#: templates/header/dashboard-header.php:16
+msgid "Add listing"
+msgstr ""
+
+#: g5core/header/customize/button-my-favourite.php:9
+msgid "My Favourite"
+msgstr ""
+
+#: g5core/header/customize/ere-login.php:35
+#: g5core/header/customize/ere-login.php:38
+msgid "Sign in"
+msgstr ""
+
+#: inc/abstract/elementor-listing-agency.class.php:21
+#: inc/abstract/elementor-listing-agent.class.php:21
+#: inc/abstract/elementor-listing.class.php:17
+#: inc/config-options.class.php:194 inc/config-options.class.php:225
+#: inc/config-options.class.php:847 inc/config-options.class.php:918
+#: inc/config-options.class.php:2664 inc/config-options.class.php:3280
+#: inc/widgets/agent-info.class.php:17
+#: inc/widgets/contact-agent.class.php:17
+#: templates/elements/advanced-properties-locations/config.php:238
+#: templates/elements/advanced-properties-locations/config.php:246
+#: templates/elements/agent-singular/config.php:97
+#: templates/elements/agent-singular/config.php:105
+#: templates/elements/properties-locations/config.php:118
+#: templates/elements/properties-locations/config.php:137
+#: templates/elements/properties-slider/config.php:63
+#: templates/elements/properties-slider/config.php:81
+#: templates/elements/property-search-form/config.php:51
+#: templates/shortcodes/agent-singular/config.php:16
+#: templates/shortcodes/properties-slider/config.php:16
+msgid "Layout"
+msgstr ""
+
+#: inc/abstract/elementor-listing-agency.class.php:54
+#: inc/abstract/elementor-listing-agent.class.php:172
+#: inc/abstract/elementor-listing.class.php:405
+#: inc/widgets/agency-search.class.php:17
+#: inc/widgets/agent-search.class.php:17
+#: inc/widgets/property-search.class.php:18
+#: inc/widgets/property.class.php:17
+#: templates/elements/advanced-properties-locations/config.php:386
+#: templates/elements/properties-locations/config.php:320
+#: templates/global/save-search-modal.php:27
+#: templates/property/edit-property/details.php:279
+#: templates/property/edit-property/title_des.php:21
+#: templates/property/my-save-search.php:13
+#: templates/property/submit-property/details.php:224
+#: templates/property/submit-property/title_des.php:20
+msgid "Title"
+msgstr ""
+
+#: inc/abstract/elementor-listing-agency.class.php:71
+#: inc/abstract/elementor-listing-agency.class.php:154
+#: inc/abstract/elementor-listing-agent.class.php:189
+#: inc/abstract/elementor-listing-agent.class.php:272
+#: inc/abstract/elementor-listing-agent.class.php:347
+#: inc/abstract/elementor-listing.class.php:422
+#: inc/abstract/elementor-listing.class.php:504
+#: inc/abstract/elementor-listing.class.php:586
+#: inc/abstract/elementor-listing.class.php:647
+#: templates/elements/advanced-properties-locations/config.php:403
+#: templates/elements/advanced-properties-locations/config.php:485
+#: templates/elements/properties-locations/config.php:337
+#: templates/elements/properties-locations/config.php:418
+msgid "Spacing"
+msgstr ""
+
+#: inc/abstract/elementor-listing-agency.class.php:89
+#: inc/abstract/elementor-listing-agency.class.php:172
+#: inc/abstract/elementor-listing-agency.class.php:302
+#: inc/abstract/elementor-listing-agent.class.php:207
+#: inc/abstract/elementor-listing-agent.class.php:290
+#: inc/abstract/elementor-listing-agent.class.php:438
+#: inc/abstract/elementor-listing.class.php:440
+#: inc/abstract/elementor-listing.class.php:522
+#: templates/elements/advanced-properties-locations/config.php:421
+#: templates/elements/properties-locations/config.php:355
+msgid "Normal"
+msgstr ""
+
+#: inc/abstract/elementor-listing-agency.class.php:96
+#: inc/abstract/elementor-listing-agency.class.php:116
+#: inc/abstract/elementor-listing-agency.class.php:179
+#: inc/abstract/elementor-listing-agency.class.php:199
+#: inc/abstract/elementor-listing-agency.class.php:246
+#: inc/abstract/elementor-listing-agency.class.php:276
+#: inc/abstract/elementor-listing-agency.class.php:309
+#: inc/abstract/elementor-listing-agency.class.php:349
+#: inc/abstract/elementor-listing-agent.class.php:214
+#: inc/abstract/elementor-listing-agent.class.php:234
+#: inc/abstract/elementor-listing-agent.class.php:297
+#: inc/abstract/elementor-listing-agent.class.php:317
+#: inc/abstract/elementor-listing-agent.class.php:379
+#: inc/abstract/elementor-listing-agent.class.php:413
+#: inc/abstract/elementor-listing-agent.class.php:445
+#: inc/abstract/elementor-listing-agent.class.php:485
+#: inc/abstract/elementor-listing.class.php:447
+#: inc/abstract/elementor-listing.class.php:467
+#: inc/abstract/elementor-listing.class.php:529
+#: inc/abstract/elementor-listing.class.php:549
+#: inc/abstract/elementor-listing.class.php:602
+#: inc/abstract/elementor-listing.class.php:663
+#: inc/abstract/elementor-listing.class.php:695
+#: templates/elements/advanced-properties-locations/config.php:428
+#: templates/elements/advanced-properties-locations/config.php:448
+#: templates/elements/advanced-properties-locations/config.php:501
+#: templates/elements/properties-locations/config.php:362
+#: templates/elements/properties-locations/config.php:382
+#: templates/elements/properties-locations/config.php:434
+msgid "Color"
+msgstr ""
+
+#: inc/abstract/elementor-listing-agency.class.php:108
+#: inc/abstract/elementor-listing-agency.class.php:191
+#: inc/abstract/elementor-listing-agency.class.php:341
+#: inc/abstract/elementor-listing-agent.class.php:226
+#: inc/abstract/elementor-listing-agent.class.php:309
+#: inc/abstract/elementor-listing-agent.class.php:477
+#: inc/abstract/elementor-listing.class.php:459
+#: inc/abstract/elementor-listing.class.php:541
+#: templates/elements/advanced-properties-locations/config.php:440
+#: templates/elements/properties-locations/config.php:374
+msgid "Hover"
+msgstr ""
+
+#: inc/abstract/elementor-listing-agency.class.php:137
+#: inc/abstract/elementor-listing.class.php:487
+#: inc/functions/property.php:777 inc/settings.class.php:801
+#: inc/settings.class.php:1137 inc/settings.class.php:1163
+#: templates/agency/loop/address.php:28
+#: templates/property/edit-property/location.php:29
+#: templates/property/submit-property/location.php:30
+#: templates/single-property/block/address.php:10
+msgid "Address"
+msgstr ""
+
+#: inc/abstract/elementor-listing-agency.class.php:220
+#: inc/abstract/elementor-listing-agent.class.php:395
+#: inc/abstract/elementor-listing.class.php:677
+msgid "Meta"
+msgstr ""
+
+#: inc/abstract/elementor-listing-agency.class.php:229
+#: inc/config-options.class.php:1254 inc/settings.class.php:464
+#: inc/settings.class.php:492 inc/settings.class.php:671
+#: templates/property/edit-property/type.php:46
+#: templates/property/submit-property/type.php:44
+#: templates/search-fields/label.php:22
+msgid "Label"
+msgstr ""
+
+#: inc/abstract/elementor-listing-agency.class.php:258
+msgid "Content"
+msgstr ""
+
+#: inc/abstract/elementor-listing-agency.class.php:292
+#: inc/abstract/elementor-listing-agent.class.php:428
+#: templates/agency/loop/social.php:23 templates/agent/loop/social.php:30
+msgid "Social"
+msgstr ""
+
+#: inc/abstract/elementor-listing-agency.class.php:320
+#: inc/abstract/elementor-listing-agency.class.php:360
+#: inc/abstract/elementor-listing-agent.class.php:456
+#: inc/abstract/elementor-listing-agent.class.php:496
+#: inc/config-options.class.php:2835 inc/config-options.class.php:2866
+#: inc/config-options.class.php:2910 inc/config-options.class.php:2941
+msgid "Background Color"
+msgstr ""
+
+#: inc/abstract/elementor-listing-agency.class.php:390
+#: inc/config-options.class.php:3081
+#: templates/shortcodes/agency/config.php:17
+msgid "Agency Layout"
+msgstr ""
+
+#: inc/abstract/elementor-listing-agency.class.php:391
+#: templates/shortcodes/agency/config.php:18
+msgid "Specify your agency layout"
+msgstr ""
+
+#: inc/abstract/elementor-listing-agency.class.php:405
+#: inc/abstract/elementor-listing-agency.class.php:422
+#: inc/abstract/elementor-listing-agent.class.php:61
+#: inc/abstract/elementor-listing-agent.class.php:78
+#: inc/abstract/elementor-listing.class.php:288
+#: inc/abstract/elementor-listing.class.php:304
+#: inc/config-options.class.php:660 inc/config-options.class.php:1291
+#: inc/config-options.class.php:1513 inc/config-options.class.php:1713
+#: inc/config-options.class.php:2482 inc/config-options.class.php:3093
+#: inc/config-options.class.php:3382 inc/config-options.class.php:3581
+#: inc/widgets/property.class.php:42
+#: templates/shortcodes/agency-slider/config.php:17
+#: templates/shortcodes/agency/config.php:26
+#: templates/shortcodes/agency/config.php:36
+#: templates/shortcodes/agent-slider/config.php:16
+#: templates/shortcodes/agent/config.php:25
+#: templates/shortcodes/agent/config.php:35
+#: templates/shortcodes/properties-carousel/config.php:16
+#: templates/shortcodes/properties/config.php:25
+#: templates/shortcodes/properties/config.php:35
+msgid "Item Skin"
+msgstr ""
+
+#: inc/abstract/elementor-listing-agency.class.php:406
+#: inc/abstract/elementor-listing-agency.class.php:423
+#: inc/config-options.class.php:3094
+#: templates/shortcodes/agency-slider/config.php:18
+#: templates/shortcodes/agency/config.php:27
+#: templates/shortcodes/agency/config.php:37
+msgid "Specify your agency item skin"
+msgstr ""
+
+#: inc/abstract/elementor-listing-agency.class.php:438
+#: inc/abstract/elementor-listing-agent.class.php:94
+#: inc/abstract/elementor-listing.class.php:319
+#: inc/config-options.class.php:668 inc/config-options.class.php:1299
+#: inc/config-options.class.php:1521 inc/config-options.class.php:1721
+#: inc/config-options.class.php:2490 inc/config-options.class.php:3101
+#: inc/config-options.class.php:3390 inc/config-options.class.php:3589
+#: templates/shortcodes/agency-slider/config.php:56
+#: templates/shortcodes/agency/config.php:46
+#: templates/shortcodes/agent-slider/config.php:55
+#: templates/shortcodes/agent/config.php:45
+#: templates/shortcodes/properties-carousel/config.php:25
+#: templates/shortcodes/properties/config.php:45
+msgid "Item Css Classes"
+msgstr ""
+
+#: inc/abstract/elementor-listing-agency.class.php:440
+#: inc/abstract/elementor-listing-agent.class.php:96
+#: inc/abstract/elementor-listing.class.php:321
+#: inc/config-options.class.php:669 inc/config-options.class.php:781
+#: inc/config-options.class.php:1300 inc/config-options.class.php:1411
+#: inc/config-options.class.php:1522 inc/config-options.class.php:1633
+#: inc/config-options.class.php:1722 inc/config-options.class.php:1833
+#: inc/config-options.class.php:2491 inc/config-options.class.php:2601
+#: inc/config-options.class.php:3102 inc/config-options.class.php:3214
+#: inc/config-options.class.php:3391 inc/config-options.class.php:3504
+#: inc/config-options.class.php:3590 inc/config-options.class.php:3701
+#: templates/shortcodes/agency-slider/config.php:57
+#: templates/shortcodes/agency/config.php:47
+#: templates/shortcodes/agent-slider/config.php:56
+#: templates/shortcodes/agent/config.php:46
+#: templates/shortcodes/properties-carousel/config.php:26
+#: templates/shortcodes/properties/config.php:46
+msgid "Add custom css classes to item"
+msgstr ""
+
+#: inc/abstract/elementor-listing-agency.class.php:469
+#: inc/abstract/elementor-listing-agent.class.php:125
+#: inc/abstract/elementor-listing.class.php:54
+#: templates/elements/agent-singular/config.php:69
+msgid "Query"
+msgstr ""
+
+#: inc/abstract/elementor-listing-agency.class.php:478
+#: inc/abstract/elementor-listing-agent.class.php:134
+#: inc/abstract/elementor-listing.class.php:63
+#: inc/abstract/elementor-listing.class.php:342 inc/functions/vc.php:165
+#: inc/functions/vc.php:242 inc/functions/vc.php:290
+#: templates/property/my-properties.php:380
+msgid "Show"
+msgstr ""
+
+#: inc/abstract/elementor-listing-agency.class.php:480
+#: inc/abstract/elementor-listing-agent.class.php:136
+#: inc/abstract/elementor-listing.class.php:65 inc/functions/vc.php:168
+#: inc/functions/vc.php:245 inc/functions/vc.php:293
+#: inc/settings.class.php:1285
+msgid "All"
+msgstr ""
+
+#: inc/abstract/elementor-listing-agency.class.php:481
+msgid "Narrow agency"
+msgstr ""
+
+#: inc/abstract/elementor-listing-agency.class.php:508
+#: inc/abstract/elementor-listing-agent.class.php:531
+#: inc/functions/vc.php:294 inc/functions/vc.php:328
+msgid "Narrow Agency"
+msgstr ""
+
+#: inc/abstract/elementor-listing-agency.class.php:510
+#: inc/abstract/elementor-listing-agent.class.php:533
+#: inc/functions/vc.php:332
+msgid ""
+"Enter agency by names to narrow output (Note: only listed agency will "
+"be displayed, divide agency with linebreak (Enter))."
+msgstr ""
+
+#: inc/abstract/elementor-listing-agency.class.php:525
+#: inc/abstract/elementor-listing-agent.class.php:570
+#: inc/abstract/elementor-listing.class.php:269 inc/functions/vc.php:227
+#: inc/functions/vc.php:274 inc/functions/vc.php:306
+msgid "Sort by"
+msgstr ""
+
+#: inc/abstract/elementor-listing-agency.class.php:526
+#: inc/functions/vc.php:310
+msgid "Select how to sort retrieved agency."
+msgstr ""
+
+#: inc/abstract/elementor-listing-agency.class.php:538
+#: inc/abstract/elementor-listing-agent.class.php:586
+#: inc/abstract/elementor-listing.class.php:711 inc/settings.class.php:158
+#: inc/settings.class.php:181 inc/settings.class.php:210
+#: inc/settings.class.php:268 inc/settings.class.php:291
+msgid "Grid"
+msgstr ""
+
+#: inc/abstract/elementor-listing-agency.class.php:542
+#: inc/abstract/elementor-listing-agent.class.php:590
+#: inc/abstract/elementor-listing.class.php:715 inc/settings.class.php:162
+#: inc/settings.class.php:185 inc/settings.class.php:214
+#: inc/settings.class.php:272 inc/settings.class.php:295
+msgid "List"
+msgstr ""
+
+#: inc/abstract/elementor-listing-agency.class.php:558
+#: inc/abstract/elementor-listing-agency.class.php:574
+#: inc/abstract/elementor-listing-agent.class.php:606
+#: inc/abstract/elementor-listing-agent.class.php:622
+#: inc/abstract/elementor-listing.class.php:730
+#: inc/abstract/elementor-listing.class.php:745 inc/settings.class.php:21
+#: inc/settings.class.php:40 inc/settings.class.php:59
+#: inc/settings.class.php:78 inc/settings.class.php:101
+#: inc/settings.class.php:120 inc/settings.class.php:139
+msgid "Skin 01"
+msgstr ""
+
+#: inc/abstract/elementor-listing-agent.class.php:47
+#: inc/config-options.class.php:1700 inc/config-options.class.php:2470
+#: inc/config-options.class.php:3568
+#: templates/shortcodes/agent/config.php:16
+msgid "Agent Layout"
+msgstr ""
+
+#: inc/abstract/elementor-listing-agent.class.php:48
+#: templates/shortcodes/agent/config.php:17
+msgid "Specify your agent layout"
+msgstr ""
+
+#: inc/abstract/elementor-listing-agent.class.php:62
+#: inc/abstract/elementor-listing-agent.class.php:79
+#: inc/config-options.class.php:1714 inc/config-options.class.php:2483
+#: inc/config-options.class.php:3582
+#: templates/shortcodes/agent-slider/config.php:17
+#: templates/shortcodes/agent/config.php:26
+#: templates/shortcodes/agent/config.php:36
+msgid "Specify your agent item skin"
+msgstr ""
+
+#: inc/abstract/elementor-listing-agent.class.php:137
+#: inc/abstract/elementor-listing.class.php:67 inc/functions/vc.php:170
+#: inc/functions/vc.php:246
+msgid "New In"
+msgstr ""
+
+#: inc/abstract/elementor-listing-agent.class.php:138
+#: inc/abstract/elementor-listing-agent.class.php:552
+#: inc/functions/vc.php:247 inc/functions/vc.php:260
+#: templates/elements/agent-singular/config.php:82
+#: templates/shortcodes/agent-singular/config.php:25
+msgid "Narrow Agent"
+msgstr ""
+
+#: inc/abstract/elementor-listing-agent.class.php:255
+#: templates/account/my-profile.php:208
+#: templates/agent/loop/position.php:25
+msgid "Position"
+msgstr ""
+
+#: inc/abstract/elementor-listing-agent.class.php:338
+msgid "Rating"
+msgstr ""
+
+#: inc/abstract/elementor-listing-agent.class.php:363
+#: inc/functions/property.php:530 inc/functions/property.php:903
+#: inc/functions/property.php:1014
+msgid "Size"
+msgstr ""
+
+#: inc/abstract/elementor-listing-agent.class.php:554
+#: inc/functions/vc.php:268
+msgid "Enter List of Agent"
+msgstr ""
+
+#: inc/abstract/elementor-listing-agent.class.php:571
+#: inc/functions/vc.php:278
+msgid "Select how to sort retrieved agent."
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:42
+#: inc/config-options.class.php:648 inc/config-options.class.php:1278
+#: inc/config-options.class.php:1500 inc/config-options.class.php:3369
+#: templates/shortcodes/properties/config.php:16
+msgid "Property Layout"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:43
+#: templates/shortcodes/properties/config.php:17
+msgid "Specify your property layout"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:66 inc/functions/vc.php:169
+#: inc/widgets/property.class.php:28
+#: templates/loop/property-featured.php:8
+msgid "Featured"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:68
+#: inc/abstract/elementor-listing.class.php:252 inc/functions/vc.php:171
+#: inc/functions/vc.php:213
+msgid "Narrow Property"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:106 inc/functions/vc.php:17
+msgid "Narrow Property Type"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:108
+msgid "Enter property type by names to narrow output."
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:127 inc/functions/vc.php:39
+msgid "Narrow Property Status"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:129
+msgid "Enter property status by names to narrow output."
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:148 inc/functions/vc.php:61
+msgid "Narrow Property Feature"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:150
+msgid "Enter property feature by names to narrow output."
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:169 inc/functions/vc.php:83
+msgid "Narrow Property Label"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:171
+msgid "Enter property label by names to narrow output."
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:190 inc/functions/vc.php:105
+#: templates/elements/advanced-properties-locations/config.php:69
+#: templates/elements/properties-locations/config.php:164
+msgid "Narrow Province / State"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:192
+#: templates/elements/advanced-properties-locations/config.php:71
+#: templates/elements/properties-locations/config.php:166
+msgid "Enter province / state by names to narrow output."
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:211 inc/functions/vc.php:127
+#: templates/elements/advanced-properties-locations/config.php:88
+#: templates/elements/properties-locations/config.php:183
+msgid "Narrow City"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:213
+#: templates/elements/advanced-properties-locations/config.php:90
+#: templates/elements/properties-locations/config.php:185
+msgid "Enter city by names to narrow output."
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:232 inc/functions/vc.php:149
+#: templates/elements/advanced-properties-locations/config.php:107
+#: templates/elements/properties-locations/config.php:202
+msgid "Narrow Neighborhood"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:234
+#: templates/elements/advanced-properties-locations/config.php:109
+#: templates/elements/properties-locations/config.php:204
+msgid "Enter neighborhood by names to narrow output."
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:254 inc/functions/vc.php:221
+msgid "Enter List of Property"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:270 inc/functions/vc.php:231
+msgid "Select how to sort retrieved property."
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:289
+#: inc/abstract/elementor-listing.class.php:305
+#: inc/config-options.class.php:661 inc/config-options.class.php:1292
+#: inc/config-options.class.php:1514 inc/config-options.class.php:3383
+#: inc/widgets/property.class.php:43
+#: templates/shortcodes/properties-carousel/config.php:17
+#: templates/shortcodes/properties/config.php:26
+#: templates/shortcodes/properties/config.php:36
+msgid "Specify your property item skin"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:340
+#: templates/shortcodes/properties-carousel/config.php:65
+#: templates/shortcodes/properties-carousel/config.php:68
+#: templates/shortcodes/properties-carousel/config.php:77
+#: templates/shortcodes/properties-carousel/config.php:86
+#: templates/shortcodes/properties-carousel/config.php:95
+#: templates/shortcodes/properties/config.php:95
+#: templates/shortcodes/properties/config.php:98
+#: templates/shortcodes/properties/config.php:107
+#: templates/shortcodes/properties/config.php:116
+#: templates/shortcodes/properties/config.php:125
+msgid "Taxonomy Tabs"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:343
+#: templates/property/my-properties.php:395
+msgid "Hide"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:350
+#: templates/elements/advanced-properties-locations/config.php:53
+#: templates/elements/properties-locations/config.php:148
+#: templates/shortcodes/properties-carousel/config.php:72
+#: templates/shortcodes/properties-locations/config.php:31
+#: templates/shortcodes/properties/config.php:102
+msgid "Taxonomy"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:363
+#: templates/shortcodes/properties-carousel/config.php:81
+#: templates/shortcodes/properties/config.php:111
+msgid "Taxonomy Tabs Align"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:375
+#: templates/shortcodes/properties-carousel/config.php:90
+#: templates/shortcodes/properties/config.php:120
+msgid "Append Taxonomy"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:377
+#: templates/shortcodes/properties-carousel/config.php:94
+#: templates/shortcodes/properties/config.php:124
+msgid ""
+"Change where the taxonomy are attached (Selector, htmlString, Array, "
+"Element, jQuery object)"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:569
+#: inc/functions/property.php:953
+#: templates/property/edit-property/price.php:32
+#: templates/property/property-submit.php:94
+#: templates/property/submit-property/price.php:27
+msgid "Price"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:613
+msgid "Color Prefix"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:630
+msgid "Excerpt"
+msgstr ""
+
+#: inc/admin/admin.class.php:40
+msgctxt "Default page title (wizard)"
+msgid "Dashboard"
+msgstr ""
+
+#: inc/admin/admin.class.php:41
+msgid "This is dashboard page."
+msgstr ""
+
+#: inc/admin/admin.class.php:47
+msgctxt "Default page title (wizard)"
+msgid "Agency"
+msgstr ""
+
+#: inc/admin/admin.class.php:48
+msgid "This page display agency listing."
+msgstr ""
+
+#: inc/admin/admin.class.php:53
+msgctxt "Default page title (wizard)"
+msgid "Review"
+msgstr ""
+
+#: inc/admin/admin.class.php:54
+msgid "This page display review listing."
+msgstr ""
+
+#: inc/admin/agency.class.php:54 inc/admin/views/agency-map.php:34
+#: inc/admin/views/map.php:20 inc/settings.class.php:1143
+#: inc/settings.class.php:1168 inc/settings.class.php:1263
+#: inc/settings.class.php:1274 templates/agency/single/block/map.php:21
+#: templates/property/edit-property/location.php:144
+#: templates/property/submit-property/location.php:126
+msgid "Map"
+msgstr ""
+
+#: inc/admin/property.class.php:54
+msgid "Map Marker"
+msgstr ""
+
+#: inc/admin/property.class.php:60
+msgid "Marker Type"
+msgstr ""
+
+#: inc/admin/property.class.php:67 inc/config-options.class.php:2099
+msgid "Marker Icon"
+msgstr ""
+
+#: inc/admin/property.class.php:68 inc/config-options.class.php:2100
+msgid "Select icon for map marker"
+msgstr ""
+
+#: inc/admin/property.class.php:76 inc/config-options.class.php:2108
+msgid "Marker Image"
+msgstr ""
+
+#: inc/admin/property.class.php:77 inc/config-options.class.php:2109
+msgid "Select image for map marker"
+msgstr ""
+
+#: inc/admin/views/agency-map.php:41 inc/admin/views/map.php:26
+#: templates/property/edit-property/location.php:148
+#: templates/property/submit-property/location.php:130
+msgid "Enter an address..."
+msgstr ""
+
+#: inc/admin/views/agency-map.php:56 inc/admin/views/map.php:41
+#: templates/property/edit-property/location.php:163
+#: templates/property/submit-property/location.php:145
+msgid "Unlock Pin Location"
+msgstr ""
+
+#: inc/admin/views/agency-map.php:58 inc/admin/views/map.php:43
+#: templates/property/edit-property/location.php:165
+#: templates/property/submit-property/location.php:147
+msgid "Lock Pin Location"
+msgstr ""
+
+#: inc/admin/views/agency-map.php:61 inc/admin/views/map.php:46
+#: templates/property/edit-property/location.php:185
+#: templates/property/submit-property/location.php:150
+msgid "Enter coordinates manually"
+msgstr ""
+
+#: inc/admin/views/agency-map.php:70 inc/admin/views/map.php:54
+#: templates/property/edit-property/location.php:190
+#: templates/property/submit-property/location.php:156
+msgid "Latitude"
+msgstr ""
+
+#: inc/admin/views/agency-map.php:85 inc/admin/views/map.php:69
+#: templates/property/edit-property/location.php:201
+#: templates/property/submit-property/location.php:166
+msgid "Longitude"
+msgstr ""
+
+#: inc/agency.class.php:185 templates/single-property/actions/share.php:38
+msgid "Twitter"
+msgstr ""
+
+#: inc/agency.class.php:193 templates/single-property/actions/share.php:33
+msgid "Facebook"
+msgstr ""
+
+#: inc/agency.class.php:201
+msgid "Instagram"
+msgstr ""
+
+#: inc/agency.class.php:209
+msgid "Linkin"
+msgstr ""
+
+#: inc/agency.class.php:217 templates/single-property/actions/share.php:57
+msgid "Pinterest"
+msgstr ""
+
+#: inc/agency.class.php:225 templates/account/my-profile.php:285
+msgid "Skype"
+msgstr ""
+
+#: inc/agency.class.php:233
+msgid "Youtube"
+msgstr ""
+
+#: inc/agency.class.php:242
+msgid "Vimeo"
+msgstr ""
+
+#: inc/ajax.class.php:117
+#, php-format
+msgid "%d Listings found"
+msgstr ""
+
+#: inc/ajax.class.php:118
+msgid "View All Results"
+msgstr ""
+
+#: inc/ajax.class.php:122
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"different keywords."
+msgstr ""
+
+#: inc/ajax.class.php:138 templates/search-fields/state.php:25
+msgid "All States"
+msgstr ""
+
+#: inc/ajax.class.php:141 templates/search-fields/city.php:25
+msgid "All Cities"
+msgstr ""
+
+#: inc/ajax.class.php:144 templates/search-fields/neighborhood.php:25
+msgid "All Neighborhoods"
+msgstr ""
+
+#: inc/ajax.class.php:146 templates/search-fields/country.php:25
+msgid "All Countries"
+msgstr ""
+
+#: inc/assets.class.php:78
+msgid "Processing, Please wait..."
+msgstr ""
+
+#: inc/assets.class.php:87
+msgid "Property Print Window"
+msgstr ""
+
+#: inc/assets.class.php:96
+msgid "Valid file formats"
+msgstr ""
+
+#: inc/assets.class.php:98
+msgid "Are you sure you want to become an agent."
+msgstr ""
+
+#: inc/assets.class.php:99
+msgid ""
+"Are you sure you want to leave agent account and comeback normal "
+"account."
+msgstr ""
+
+#: inc/config-options.class.php:106 inc/functions/property.php:984
+#: inc/settings.class.php:479
+#: templates/property/edit-property/details.php:55
+#: templates/property/submit-property/details.php:43
+#: templates/search-fields/rooms.php:22
+msgid "Rooms"
+msgstr ""
+
+#: inc/config-options.class.php:152 inc/config-options.class.php:163
+msgid "ERE"
+msgstr ""
+
+#: inc/config-options.class.php:162
+msgid "ERE Options"
+msgstr ""
+
+#: inc/config-options.class.php:188
+msgid "Property Settings"
+msgstr ""
+
+#: inc/config-options.class.php:195 inc/config-options.class.php:848
+msgid "Specify your single property layout"
+msgstr ""
+
+#: inc/config-options.class.php:202 inc/config-options.class.php:1203
+#: inc/config-options.class.php:2677 inc/config-options.class.php:3311
+msgid "Content Style"
+msgstr ""
+
+#: inc/config-options.class.php:203 inc/config-options.class.php:1204
+#: inc/config-options.class.php:2678 inc/config-options.class.php:3312
+msgid "Select the content style"
+msgstr ""
+
+#: inc/config-options.class.php:210
+msgid "Custom gallery"
+msgstr ""
+
+#: inc/config-options.class.php:211
+msgid ""
+"Turn Off this option if you want to hide custom gallery on single "
+"property"
+msgstr ""
+
+#: inc/config-options.class.php:216 inc/config-options.class.php:912
+#: inc/settings.class.php:608 inc/settings.class.php:1154
+#: templates/single-property/block/gallery.php:10
+msgid "Gallery"
+msgstr ""
+
+#: inc/config-options.class.php:226 inc/config-options.class.php:919
+msgid "Specify your single property gallery layout"
+msgstr ""
+
+#: inc/config-options.class.php:233 inc/config-options.class.php:926
+#: templates/shortcodes/agency-slider/config.php:115
+#: templates/shortcodes/agent-slider/config.php:64
+#: templates/shortcodes/properties-carousel/config.php:100
+#: templates/shortcodes/properties-slider/config.php:158
+#: templates/shortcodes/properties-slider/config.php:166
+#: templates/shortcodes/properties-slider/config.php:174
+#: templates/shortcodes/properties-slider/config.php:182
+#: templates/shortcodes/properties-slider/config.php:190
+#: templates/shortcodes/properties-slider/config.php:198
+#: templates/shortcodes/properties-slider/config.php:206
+msgid "Slider Options"
+msgstr ""
+
+#: inc/config-options.class.php:243 inc/config-options.class.php:254
+#: inc/config-options.class.php:408 inc/config-options.class.php:414
+#: inc/config-options.class.php:932 inc/config-options.class.php:939
+#: inc/config-options.class.php:1072 inc/config-options.class.php:1078
+msgid "Slides To Show"
+msgstr ""
+
+#: inc/config-options.class.php:255 inc/config-options.class.php:415
+#: inc/config-options.class.php:940 inc/config-options.class.php:1079
+msgid "Enter your slides to show"
+msgstr ""
+
+#: inc/config-options.class.php:268 inc/config-options.class.php:428
+#: inc/config-options.class.php:701 inc/config-options.class.php:953
+#: inc/config-options.class.php:1092 inc/config-options.class.php:1332
+#: inc/config-options.class.php:1554 inc/config-options.class.php:1754
+#: inc/config-options.class.php:2523 inc/config-options.class.php:3134
+#: inc/config-options.class.php:3423 inc/config-options.class.php:3622
+#: templates/shortcodes/agency-slider/config.php:76
+msgid "Large Devices"
+msgstr ""
+
+#: inc/config-options.class.php:269 inc/config-options.class.php:429
+#: inc/config-options.class.php:954 inc/config-options.class.php:1093
+msgid ""
+"Enter your slides to show on large devices (< 1200px). Empty to default"
+msgstr ""
+
+#: inc/config-options.class.php:277 inc/config-options.class.php:437
+#: inc/config-options.class.php:710 inc/config-options.class.php:962
+#: inc/config-options.class.php:1101 inc/config-options.class.php:1341
+#: inc/config-options.class.php:1563 inc/config-options.class.php:1763
+#: inc/config-options.class.php:2532 inc/config-options.class.php:3143
+#: inc/config-options.class.php:3432 inc/config-options.class.php:3631
+#: templates/shortcodes/agency-slider/config.php:86
+msgid "Medium Devices"
+msgstr ""
+
+#: inc/config-options.class.php:278 inc/config-options.class.php:438
+#: inc/config-options.class.php:963 inc/config-options.class.php:1102
+msgid ""
+"Enter your slides to show on medium devices (< 992px).  Empty to default"
+msgstr ""
+
+#: inc/config-options.class.php:286 inc/config-options.class.php:446
+#: inc/config-options.class.php:726 inc/config-options.class.php:971
+#: inc/config-options.class.php:1110 inc/config-options.class.php:1357
+#: inc/config-options.class.php:1579 inc/config-options.class.php:1779
+#: inc/config-options.class.php:2548 inc/config-options.class.php:3159
+#: inc/config-options.class.php:3448 inc/config-options.class.php:3647
+#: templates/shortcodes/agency-slider/config.php:96
+msgid "Small Devices"
+msgstr ""
+
+#: inc/config-options.class.php:287 inc/config-options.class.php:447
+#: inc/config-options.class.php:972 inc/config-options.class.php:1111
+msgid ""
+"Enter your slides to show on small devices (< 768px). Empty to default"
+msgstr ""
+
+#: inc/config-options.class.php:295 inc/config-options.class.php:455
+#: inc/config-options.class.php:735 inc/config-options.class.php:980
+#: inc/config-options.class.php:1119 inc/config-options.class.php:1366
+#: inc/config-options.class.php:1588 inc/config-options.class.php:1788
+#: inc/config-options.class.php:2557 inc/config-options.class.php:3168
+#: inc/config-options.class.php:3457 inc/config-options.class.php:3656
+#: templates/shortcodes/agency-slider/config.php:106
+msgid "Extra Small Devices"
+msgstr ""
+
+#: inc/config-options.class.php:296 inc/config-options.class.php:456
+#: inc/config-options.class.php:981 inc/config-options.class.php:1120
+msgid ""
+"Enter your slides to show on extra small devices (< 576px). Empty to "
+"default"
+msgstr ""
+
+#: inc/config-options.class.php:308 inc/config-options.class.php:400
+#: inc/config-options.class.php:481 inc/config-options.class.php:748
+#: inc/config-options.class.php:786 inc/config-options.class.php:993
+#: inc/config-options.class.php:1064 inc/config-options.class.php:1145
+#: inc/config-options.class.php:1379 inc/config-options.class.php:1416
+#: inc/config-options.class.php:1601 inc/config-options.class.php:1638
+#: inc/config-options.class.php:1801 inc/config-options.class.php:1838
+#: inc/config-options.class.php:2570 inc/config-options.class.php:2606
+#: inc/config-options.class.php:3181 inc/config-options.class.php:3219
+#: inc/config-options.class.php:3470 inc/config-options.class.php:3509
+#: inc/config-options.class.php:3669 inc/config-options.class.php:3706
+#: inc/widgets/property.class.php:50
+#: templates/shortcodes/agency-slider/config.php:119
+#: templates/shortcodes/agency/config.php:101
+#: templates/shortcodes/agent-singular/config.php:42
+#: templates/shortcodes/agent-slider/config.php:68
+#: templates/shortcodes/agent/config.php:106
+#: templates/shortcodes/properties-carousel/config.php:104
+#: templates/shortcodes/properties-slider/config.php:213
+#: templates/shortcodes/properties/config.php:133
+msgid "Image size"
+msgstr ""
+
+#: inc/config-options.class.php:309 inc/config-options.class.php:401
+#: inc/config-options.class.php:482 inc/config-options.class.php:994
+#: inc/config-options.class.php:1065 inc/config-options.class.php:1146
+#: inc/widgets/property.class.php:51
+msgid "Enter your image size"
+msgstr ""
+
+#: inc/config-options.class.php:310 inc/config-options.class.php:402
+#: inc/config-options.class.php:483 inc/config-options.class.php:750
+#: inc/config-options.class.php:788 inc/config-options.class.php:995
+#: inc/config-options.class.php:1066 inc/config-options.class.php:1147
+#: inc/config-options.class.php:1381 inc/config-options.class.php:1418
+#: inc/config-options.class.php:1603 inc/config-options.class.php:1640
+#: inc/config-options.class.php:1803 inc/config-options.class.php:1840
+#: inc/config-options.class.php:2572 inc/config-options.class.php:2608
+#: inc/config-options.class.php:3183 inc/config-options.class.php:3221
+#: inc/config-options.class.php:3472 inc/config-options.class.php:3511
+#: inc/config-options.class.php:3671 inc/config-options.class.php:3708
+#: inc/widgets/property.class.php:52
+#: templates/shortcodes/agency-slider/config.php:120
+#: templates/shortcodes/agency/config.php:102
+#: templates/shortcodes/agent-singular/config.php:43
+#: templates/shortcodes/agent-slider/config.php:69
+#: templates/shortcodes/agent/config.php:107
+#: templates/shortcodes/properties-carousel/config.php:105
+#: templates/shortcodes/properties-slider/config.php:214
+#: templates/shortcodes/properties/config.php:134
+msgid ""
+"Enter image size (Example: \"thumbnail\", \"medium\", \"large\", \"full"
+"\" or other sizes defined by theme). Alternatively enter size in pixels "
+"(Example: 200x100 (Width x Height))."
+msgstr ""
+
+#: inc/config-options.class.php:316 inc/config-options.class.php:489
+#: inc/config-options.class.php:756 inc/config-options.class.php:794
+#: inc/config-options.class.php:1001 inc/config-options.class.php:1153
+#: inc/config-options.class.php:1387 inc/config-options.class.php:1424
+#: inc/config-options.class.php:1609 inc/config-options.class.php:1646
+#: inc/config-options.class.php:1809 inc/config-options.class.php:1846
+#: inc/config-options.class.php:2578 inc/config-options.class.php:2614
+#: inc/config-options.class.php:3189 inc/config-options.class.php:3227
+#: inc/config-options.class.php:3478 inc/config-options.class.php:3517
+#: inc/config-options.class.php:3677 inc/config-options.class.php:3714
+msgid "Image Ratio"
+msgstr ""
+
+#: inc/config-options.class.php:317 inc/config-options.class.php:490
+#: inc/config-options.class.php:757 inc/config-options.class.php:795
+#: inc/config-options.class.php:1002 inc/config-options.class.php:1154
+#: inc/config-options.class.php:1388 inc/config-options.class.php:1425
+#: inc/config-options.class.php:1610 inc/config-options.class.php:1647
+#: inc/config-options.class.php:1810 inc/config-options.class.php:1847
+#: inc/config-options.class.php:2579 inc/config-options.class.php:2615
+#: inc/config-options.class.php:3190 inc/config-options.class.php:3228
+#: inc/config-options.class.php:3479 inc/config-options.class.php:3518
+#: inc/config-options.class.php:3678 inc/config-options.class.php:3715
+msgid "Enter image ratio"
+msgstr ""
+
+#: inc/config-options.class.php:328 inc/config-options.class.php:1008
+#: templates/shortcodes/properties-slider/config.php:154
+msgid "Show Pagination"
+msgstr ""
+
+#: inc/config-options.class.php:329 inc/config-options.class.php:1009
+msgid "Turn On this option if you want to show pagination"
+msgstr ""
+
+#: inc/config-options.class.php:334 inc/config-options.class.php:1014
+#: templates/shortcodes/properties-slider/config.php:162
+msgid "Show Navigation"
+msgstr ""
+
+#: inc/config-options.class.php:335 inc/config-options.class.php:1015
+msgid "Turn On this option if you want to show navigation"
+msgstr ""
+
+#: inc/config-options.class.php:340 inc/config-options.class.php:1020
+#: templates/shortcodes/properties-slider/config.php:194
+msgid "Autoplay Enable"
+msgstr ""
+
+#: inc/config-options.class.php:341 inc/config-options.class.php:1021
+msgid "Turn On this option if you want to enable autoplay mode"
+msgstr ""
+
+#: inc/config-options.class.php:346 inc/config-options.class.php:1026
+#: templates/shortcodes/properties-slider/config.php:202
+msgid "Autoplay Timeout"
+msgstr ""
+
+#: inc/config-options.class.php:347 inc/config-options.class.php:1027
+msgid "Autoplay Speed in milliseconds. Default 3000"
+msgstr ""
+
+#: inc/config-options.class.php:359 inc/config-options.class.php:1035
+msgid "Center Mode"
+msgstr ""
+
+#: inc/config-options.class.php:360 inc/config-options.class.php:1036
+msgid "Turn On this option if you want to enable center mode"
+msgstr ""
+
+#: inc/config-options.class.php:371 inc/config-options.class.php:1043
+msgid "Center Padding"
+msgstr ""
+
+#: inc/config-options.class.php:372 inc/config-options.class.php:1044
+msgid "Side padding when in center mode (px or %). Default 50px"
+msgstr ""
+
+#: inc/config-options.class.php:391 inc/config-options.class.php:1059
+msgid "Slider Thumb Options"
+msgstr ""
+
+#: inc/config-options.class.php:472 inc/config-options.class.php:1136
+msgid "Metro Options"
+msgstr ""
+
+#: inc/config-options.class.php:501 inc/config-options.class.php:674
+#: inc/config-options.class.php:1167 inc/config-options.class.php:1305
+#: inc/config-options.class.php:1527 inc/config-options.class.php:1727
+#: inc/config-options.class.php:2496 inc/config-options.class.php:3107
+#: inc/config-options.class.php:3396 inc/config-options.class.php:3595
+#: templates/shortcodes/agency-slider/config.php:46
+#: templates/shortcodes/agent-slider/config.php:45
+msgid "Columns Gutter"
+msgstr ""
+
+#: inc/config-options.class.php:502 inc/config-options.class.php:1168
+msgid "Specify your horizontal space between gallery."
+msgstr ""
+
+#: inc/config-options.class.php:514 inc/config-options.class.php:1180
+msgid "Switch Map Enable"
+msgstr ""
+
+#: inc/config-options.class.php:515 inc/config-options.class.php:1181
+msgid "Enable or disable switch map"
+msgstr ""
+
+#: inc/config-options.class.php:520 inc/config-options.class.php:570
+#: inc/config-options.class.php:1186 inc/config-options.class.php:2768
+#: inc/config-options.class.php:2817
+msgid "Css Classes"
+msgstr ""
+
+#: inc/config-options.class.php:521 inc/config-options.class.php:1187
+msgid "Add custom css classes to gallery"
+msgstr ""
+
+#: inc/config-options.class.php:536 inc/config-options.class.php:3349
+#: templates/package/package.php:110
+msgid "Property Listing"
+msgstr ""
+
+#: inc/config-options.class.php:541
+msgid "Map Position"
+msgstr ""
+
+#: inc/config-options.class.php:548 inc/config-options.class.php:2728
+#: inc/config-options.class.php:2829 inc/settings.class.php:644
+msgid "Advanced Search"
+msgstr ""
+
+#: inc/config-options.class.php:553 inc/config-options.class.php:2733
+#: inc/config-options.class.php:2783
+msgid "Advanced Search Enable"
+msgstr ""
+
+#: inc/config-options.class.php:554 inc/config-options.class.php:2734
+#: inc/config-options.class.php:2784
+msgid "Enable or disable advanced search"
+msgstr ""
+
+#: inc/config-options.class.php:559 inc/config-options.class.php:2739
+#: inc/config-options.class.php:2789
+msgid "Advanced Search Form"
+msgstr ""
+
+#: inc/config-options.class.php:560 inc/config-options.class.php:2740
+#: inc/config-options.class.php:2790
+msgid "Specify your advanced search form"
+msgstr ""
+
+#: inc/config-options.class.php:561 inc/config-options.class.php:2741
+#: inc/config-options.class.php:2791
+#: templates/elements/property-search-form/config.php:61
+#: templates/shortcodes/property-search-form/config.php:17
+#, php-format
+msgid "Manager search form at <a href=\"%s\">G5Ere Options</a>"
+msgstr ""
+
+#: inc/config-options.class.php:571 inc/config-options.class.php:2769
+#: inc/config-options.class.php:2818
+msgid "Add custom css classes to the search form"
+msgstr ""
+
+#: inc/config-options.class.php:579 inc/config-options.class.php:2419
+#: inc/config-options.class.php:3031
+msgid "Toolbar"
+msgstr ""
+
+#: inc/config-options.class.php:584 inc/config-options.class.php:2424
+#: inc/config-options.class.php:3036
+msgid "ToolBar Layout"
+msgstr ""
+
+#: inc/config-options.class.php:585 inc/config-options.class.php:2425
+#: inc/config-options.class.php:3037
+msgid "Specify your tool bar layout"
+msgstr ""
+
+#: inc/config-options.class.php:588 inc/config-options.class.php:2428
+#: inc/config-options.class.php:3040 inc/settings.class.php:503
+msgid "Boxed Content"
+msgstr ""
+
+#: inc/config-options.class.php:589 inc/config-options.class.php:2429
+#: inc/config-options.class.php:3041
+msgid "Stretched row"
+msgstr ""
+
+#: inc/config-options.class.php:590 inc/config-options.class.php:2430
+#: inc/config-options.class.php:3042
+msgid "Stretched row and content"
+msgstr ""
+
+#: inc/config-options.class.php:596 inc/config-options.class.php:2436
+#: inc/config-options.class.php:3048
+msgid "ToolBar"
+msgstr ""
+
+#: inc/config-options.class.php:600 inc/config-options.class.php:618
+#: inc/config-options.class.php:2440 inc/config-options.class.php:2456
+#: inc/config-options.class.php:3052 inc/config-options.class.php:3067
+msgid "Result Count"
+msgstr ""
+
+#: inc/config-options.class.php:603 inc/config-options.class.php:621
+msgid "Save search"
+msgstr ""
+
+#: inc/config-options.class.php:604 inc/config-options.class.php:622
+#: inc/config-options.class.php:2443 inc/config-options.class.php:2459
+#: inc/config-options.class.php:3055 inc/config-options.class.php:3070
+msgid "Ordering"
+msgstr ""
+
+#: inc/config-options.class.php:605 inc/config-options.class.php:625
+#: inc/config-options.class.php:2444 inc/config-options.class.php:2462
+#: inc/config-options.class.php:3056 inc/config-options.class.php:3073
+msgid "Switch Layout"
+msgstr ""
+
+#: inc/config-options.class.php:608 inc/config-options.class.php:631
+#: inc/config-options.class.php:1270 inc/config-options.class.php:1492
+#: inc/config-options.class.php:3361
+msgid "Taxonomy Filter"
+msgstr ""
+
+#: inc/config-options.class.php:614 inc/config-options.class.php:2452
+#: inc/config-options.class.php:3063
+msgid "ToolBar Mobile"
+msgstr ""
+
+#: inc/config-options.class.php:655 inc/config-options.class.php:1285
+#: inc/config-options.class.php:1507 inc/config-options.class.php:1707
+#: inc/config-options.class.php:2477 inc/config-options.class.php:3088
+#: inc/config-options.class.php:3376 inc/config-options.class.php:3575
+msgid "Layout Grid"
+msgstr ""
+
+#: inc/config-options.class.php:675 inc/config-options.class.php:1306
+#: inc/config-options.class.php:1528 inc/config-options.class.php:3397
+#: templates/shortcodes/agency/config.php:54
+#: templates/shortcodes/properties-carousel/config.php:32
+#: templates/shortcodes/properties/config.php:53
+msgid "Specify your horizontal space between property."
+msgstr ""
+
+#: inc/config-options.class.php:682 inc/config-options.class.php:1313
+#: inc/config-options.class.php:1535 inc/config-options.class.php:3404
+msgid "Property Columns"
+msgstr ""
+
+#: inc/config-options.class.php:692 inc/config-options.class.php:1323
+#: inc/config-options.class.php:1545 inc/config-options.class.php:1745
+#: inc/config-options.class.php:2514 inc/config-options.class.php:3125
+#: inc/config-options.class.php:3414 inc/config-options.class.php:3613
+#: templates/shortcodes/agency-slider/config.php:67
+msgid "Extra Large Devices"
+msgstr ""
+
+#: inc/config-options.class.php:693 inc/config-options.class.php:1324
+#: inc/config-options.class.php:1546 inc/config-options.class.php:3415
+msgid "Specify your property columns on extra large devices (>= 1200px)"
+msgstr ""
+
+#: inc/config-options.class.php:702 inc/config-options.class.php:1333
+#: inc/config-options.class.php:1555 inc/config-options.class.php:3424
+msgid "Specify your property columns on large devices (>= 992px)"
+msgstr ""
+
+#: inc/config-options.class.php:711 inc/config-options.class.php:1342
+#: inc/config-options.class.php:1564 inc/config-options.class.php:3433
+msgid "Specify your property columns on medium devices (>= 768px)"
+msgstr ""
+
+#: inc/config-options.class.php:727 inc/config-options.class.php:1358
+#: inc/config-options.class.php:1580 inc/config-options.class.php:3449
+msgid "Specify your property columns on small devices (< 768px)"
+msgstr ""
+
+#: inc/config-options.class.php:736 inc/config-options.class.php:1367
+#: inc/config-options.class.php:1589 inc/config-options.class.php:3458
+msgid "Specify your property columns on extra small devices (< 576px)"
+msgstr ""
+
+#: inc/config-options.class.php:749 inc/config-options.class.php:787
+#: inc/config-options.class.php:1380 inc/config-options.class.php:1417
+#: inc/config-options.class.php:1602 inc/config-options.class.php:1639
+#: inc/config-options.class.php:3471 inc/config-options.class.php:3510
+msgid "Enter your property image size"
+msgstr ""
+
+#: inc/config-options.class.php:767 inc/config-options.class.php:1396
+#: inc/config-options.class.php:1618 inc/config-options.class.php:1818
+#: inc/config-options.class.php:2587 inc/config-options.class.php:3200
+#: inc/config-options.class.php:3489 inc/config-options.class.php:3686
+msgid "Layout List"
+msgstr ""
+
+#: inc/config-options.class.php:772 inc/config-options.class.php:1402
+#: inc/config-options.class.php:1624 inc/config-options.class.php:1824
+#: inc/config-options.class.php:2592 inc/config-options.class.php:3205
+#: inc/config-options.class.php:3495 inc/config-options.class.php:3692
+msgid "List Item Skin"
+msgstr ""
+
+#: inc/config-options.class.php:773 inc/config-options.class.php:1403
+#: inc/config-options.class.php:1625 inc/config-options.class.php:3496
+msgid "Specify your property list item skin"
+msgstr ""
+
+#: inc/config-options.class.php:780 inc/config-options.class.php:1410
+#: inc/config-options.class.php:1632 inc/config-options.class.php:1832
+#: inc/config-options.class.php:2600 inc/config-options.class.php:3213
+#: inc/config-options.class.php:3503 inc/config-options.class.php:3700
+msgid "List Item Css Classes"
+msgstr ""
+
+#: inc/config-options.class.php:807 inc/config-options.class.php:1437
+#: inc/config-options.class.php:1659 inc/config-options.class.php:3528
+msgid "Property per page"
+msgstr ""
+
+#: inc/config-options.class.php:808 inc/config-options.class.php:1438
+#: inc/config-options.class.php:1660 inc/config-options.class.php:3529
+msgid "Set number of property per page"
+msgstr ""
+
+#: inc/config-options.class.php:813 inc/config-options.class.php:3534
+msgid "Default property sorting"
+msgstr ""
+
+#: inc/config-options.class.php:820 inc/config-options.class.php:1443
+#: inc/config-options.class.php:1665 inc/config-options.class.php:1863
+#: inc/config-options.class.php:2638 inc/config-options.class.php:3253
+#: inc/config-options.class.php:3541 inc/config-options.class.php:3740
+#: templates/shortcodes/agency/config.php:76
+#: templates/shortcodes/agent/config.php:79
+#: templates/shortcodes/properties/config.php:75
+msgid "Paging"
+msgstr ""
+
+#: inc/config-options.class.php:821 inc/config-options.class.php:1444
+#: inc/config-options.class.php:1666 inc/config-options.class.php:1864
+#: inc/config-options.class.php:2639 inc/config-options.class.php:3254
+#: inc/config-options.class.php:3542 inc/config-options.class.php:3741
+msgid "Specify your paging mode"
+msgstr ""
+
+#: inc/config-options.class.php:828 inc/config-options.class.php:1451
+#: inc/config-options.class.php:1673 inc/config-options.class.php:1871
+#: inc/config-options.class.php:2646 inc/config-options.class.php:3261
+#: inc/config-options.class.php:3549 inc/config-options.class.php:3748
+#: templates/shortcodes/agency-slider/config.php:36
+#: templates/shortcodes/agency/config.php:84
+#: templates/shortcodes/agent-slider/config.php:35
+#: templates/shortcodes/agent/config.php:88
+#: templates/shortcodes/properties-carousel/config.php:53
+#: templates/shortcodes/properties/config.php:83
+msgid "Animation"
+msgstr ""
+
+#: inc/config-options.class.php:829 inc/config-options.class.php:1452
+#: inc/config-options.class.php:1674 inc/config-options.class.php:2647
+#: inc/config-options.class.php:3262 inc/config-options.class.php:3550
+#: inc/config-options.class.php:3749
+msgid "Specify your post animation"
+msgstr ""
+
+#: inc/config-options.class.php:842
+msgid "Single Property"
+msgstr ""
+
+#: inc/config-options.class.php:855
+msgid "Show Full Map"
+msgstr ""
+
+#: inc/config-options.class.php:856
+msgid "Turn On this option if you want to display map on single property"
+msgstr ""
+
+#: inc/config-options.class.php:864
+msgid "Show View Count"
+msgstr ""
+
+#: inc/config-options.class.php:865
+msgid ""
+"Turn Off this option if you want to hide view count on single property"
+msgstr ""
+
+#: inc/config-options.class.php:870
+msgid "Show Date"
+msgstr ""
+
+#: inc/config-options.class.php:871
+msgid "Turn Off this option if you want to hide date on single property"
+msgstr ""
+
+#: inc/config-options.class.php:876
+#: templates/single-property/actions/share.php:18
+msgid "Share"
+msgstr ""
+
+#: inc/config-options.class.php:877
+msgid "Turn Off this option if you want to hide share on single property"
+msgstr ""
+
+#: inc/config-options.class.php:882 templates/invoice/my-invoices.php:119
+#: templates/invoice/my-invoices.php:122
+#: templates/single-property/actions/print.php:7
+msgid "Print"
+msgstr ""
+
+#: inc/config-options.class.php:883
+msgid "Turn Off this option if you want to hide print on single property"
+msgstr ""
+
+#: inc/config-options.class.php:888 inc/config-options.class.php:2710
+#: inc/config-options.class.php:3289
+msgid "Bottom Bar Mobile"
+msgstr ""
+
+#: inc/config-options.class.php:889 inc/config-options.class.php:2711
+#: inc/config-options.class.php:3290
+msgid "Turn On bottom bar"
+msgstr ""
+
+#: inc/config-options.class.php:894 inc/config-options.class.php:2716
+#: inc/config-options.class.php:3295
+msgid "Breadcrumb Enable"
+msgstr ""
+
+#: inc/config-options.class.php:895 inc/config-options.class.php:2717
+#: inc/config-options.class.php:3296
+msgid ""
+"Turn Off this option if you want to hide breadcrumb (only show when "
+"page title hide)"
+msgstr ""
+
+#: inc/config-options.class.php:901
+msgid "Property Feature Link Disable"
+msgstr ""
+
+#: inc/config-options.class.php:902
+msgid "Turn On this option if you want to disable property feature link"
+msgstr ""
+
+#: inc/config-options.class.php:1197
+msgid "Property Content"
+msgstr ""
+
+#: inc/config-options.class.php:1211 inc/config-options.class.php:2685
+#: inc/config-options.class.php:3320
+msgid "Content blocks"
+msgstr ""
+
+#: inc/config-options.class.php:1217 inc/config-options.class.php:2691
+#: inc/config-options.class.php:3326
+msgid "Content Blocks"
+msgstr ""
+
+#: inc/config-options.class.php:1218
+msgid ""
+"For single property layout 01, 02, 06, 07, the description block always "
+"appears after the title"
+msgstr ""
+
+#: inc/config-options.class.php:1224 inc/config-options.class.php:2697
+#: inc/config-options.class.php:3332
+msgid "Tabs Content Blocks"
+msgstr ""
+
+#: inc/config-options.class.php:1240
+msgid "Similar Properties"
+msgstr ""
+
+#: inc/config-options.class.php:1247
+msgid "Similar Type"
+msgstr ""
+
+#: inc/config-options.class.php:1248
+msgid "Select type for similar properties"
+msgstr ""
+
+#: inc/config-options.class.php:1250 inc/search-form.class.php:140
+#: inc/settings.class.php:446 inc/settings.class.php:477
+#: inc/settings.class.php:651 templates/invoice/my-invoices.php:225
+#: templates/property/edit-property/type.php:34
+#: templates/property/my-properties.php:152
+#: templates/property/submit-property/type.php:33
+#: templates/search-fields/status.php:22
+msgid "Status"
+msgstr ""
+
+#: inc/config-options.class.php:1251 inc/functions/property.php:870
+#: inc/settings.class.php:445 inc/settings.class.php:476
+#: inc/settings.class.php:650 templates/invoice/my-invoices.php:223
+#: templates/property/edit-property/type.php:22
+#: templates/property/property-submit.php:91
+#: templates/property/submit-property/type.php:22
+#: templates/search-fields/type.php:22
+msgid "Type"
+msgstr ""
+
+#: inc/config-options.class.php:1252 inc/settings.class.php:376
+#: inc/settings.class.php:453 inc/settings.class.php:485
+#: inc/settings.class.php:658
+#: templates/property/edit-property/location.php:82
+#: templates/property/submit-property/location.php:78
+msgid "City / Town"
+msgstr ""
+
+#: inc/config-options.class.php:1253 inc/functions/property.php:815
+#: inc/settings.class.php:377 inc/settings.class.php:454
+#: inc/settings.class.php:486 inc/settings.class.php:659
+#: templates/property/edit-property/location.php:99
+#: templates/property/submit-property/location.php:92
+msgid "Neighborhood"
+msgstr ""
+
+#: inc/config-options.class.php:1264 inc/config-options.class.php:1486
+#: inc/config-options.class.php:3355
+msgid "Taxonomy Filter Enable"
+msgstr ""
+
+#: inc/config-options.class.php:1265 inc/config-options.class.php:1487
+#: inc/config-options.class.php:3356
+msgid "Turn On this option if you want to enable taxonomy filter"
+msgstr ""
+
+#: inc/config-options.class.php:1463 inc/settings.class.php:1148
+#: templates/property/property-print.php:83
+#: templates/single-property/block/contact-agent.php:13
+msgid "Contact Agent"
+msgstr ""
+
+#: inc/config-options.class.php:1469
+msgid "Whatsapp Button Enable"
+msgstr ""
+
+#: inc/config-options.class.php:1470
+msgid "Turn On this option if you want to enable Whatsapp Button"
+msgstr ""
+
+#: inc/config-options.class.php:1482 inc/functions/dashboard.php:28
+#: inc/settings.class.php:1233 inc/settings.class.php:1247
+msgid "My Properties"
+msgstr ""
+
+#: inc/config-options.class.php:1687 inc/settings.class.php:1235
+#: inc/settings.class.php:1249
+#: templates/agent/single/block/other-agent.php:15
+msgid "Other Agent"
+msgstr ""
+
+#: inc/config-options.class.php:1692
+msgid "Other Agent Algorithm"
+msgstr ""
+
+#: inc/config-options.class.php:1693
+msgid "Specify the algorithm of other agent"
+msgstr ""
+
+#: inc/config-options.class.php:1728 inc/config-options.class.php:2497
+#: inc/config-options.class.php:3596
+#: templates/shortcodes/agent/config.php:69
+msgid "Specify your horizontal space between agent."
+msgstr ""
+
+#: inc/config-options.class.php:1735 inc/config-options.class.php:2504
+#: inc/config-options.class.php:3603
+msgid "Agent Columns"
+msgstr ""
+
+#: inc/config-options.class.php:1746 inc/config-options.class.php:2515
+#: inc/config-options.class.php:3614
+msgid "Specify your agent columns on extra large devices (>= 1200px)"
+msgstr ""
+
+#: inc/config-options.class.php:1755 inc/config-options.class.php:2524
+#: inc/config-options.class.php:3623
+msgid "Specify your agent columns on large devices (>= 992px)"
+msgstr ""
+
+#: inc/config-options.class.php:1764 inc/config-options.class.php:2533
+#: inc/config-options.class.php:3632
+msgid "Specify your agent columns on medium devices (>= 768px)"
+msgstr ""
+
+#: inc/config-options.class.php:1780 inc/config-options.class.php:2549
+#: inc/config-options.class.php:3648
+msgid "Specify your agent columns on small devices (< 768px)"
+msgstr ""
+
+#: inc/config-options.class.php:1789 inc/config-options.class.php:2558
+#: inc/config-options.class.php:3657
+msgid "Specify your agent columns on extra small devices (< 576px)"
+msgstr ""
+
+#: inc/config-options.class.php:1802 inc/config-options.class.php:1839
+#: inc/config-options.class.php:2571 inc/config-options.class.php:2607
+#: inc/config-options.class.php:3182 inc/config-options.class.php:3220
+#: inc/config-options.class.php:3670 inc/config-options.class.php:3707
+msgid "Enter your agent image size"
+msgstr ""
+
+#: inc/config-options.class.php:1825 inc/config-options.class.php:2593
+#: inc/config-options.class.php:3693
+msgid "Specify your agent list item skin"
+msgstr ""
+
+#: inc/config-options.class.php:1857 inc/config-options.class.php:2625
+#: inc/config-options.class.php:3727
+msgid "Agent per page"
+msgstr ""
+
+#: inc/config-options.class.php:1858 inc/config-options.class.php:2626
+#: inc/config-options.class.php:3728
+msgid "Set number of agent per page"
+msgstr ""
+
+#: inc/config-options.class.php:1872
+#: templates/shortcodes/agent-slider/config.php:36
+#: templates/shortcodes/agent/config.php:89
+msgid "Specify your agent animation"
+msgstr ""
+
+#: inc/config-options.class.php:1899
+msgid "Yelp Nearby Places"
+msgstr ""
+
+#: inc/config-options.class.php:1905
+msgid "Yelp API Key"
+msgstr ""
+
+#: inc/config-options.class.php:1906
+msgid ""
+"Enter your Yelp API key code. <a target=\"_blank\" href=\"https://www."
+"yelp.com/developers/v3/manage_app\">Get an API code</a>.Note: This "
+"service is used for map service Mapbox and Openstreetmap. If map "
+"service is Google map, it is used for Nearby Places Service Provider "
+"when you choose Yelp service."
+msgstr ""
+
+#: inc/config-options.class.php:1907
+msgid "Enter your Yelp api key"
+msgstr ""
+
+#: inc/config-options.class.php:1912
+msgid "Yelp Categories"
+msgstr ""
+
+#: inc/config-options.class.php:1913
+msgid "Select the Yelp categories that you want to display."
+msgstr ""
+
+#: inc/config-options.class.php:1925
+msgid "Yelp Distance Unit"
+msgstr ""
+
+#: inc/config-options.class.php:1926
+msgid "Select the distance unit."
+msgstr ""
+
+#: inc/config-options.class.php:1929
+msgid "Miles"
+msgstr ""
+
+#: inc/config-options.class.php:1930
+msgid "Kilometers"
+msgstr ""
+
+#: inc/config-options.class.php:1955
+msgid "Map Services"
+msgstr ""
+
+#: inc/config-options.class.php:1960
+msgid "Map Service Provider"
+msgstr ""
+
+#: inc/config-options.class.php:1961
+msgid ""
+"Choose what service to use for displaying maps, place suggestions, and "
+"geocoding."
+msgstr ""
+
+#: inc/config-options.class.php:1968 inc/settings.class.php:688
+msgid "Google Maps"
+msgstr ""
+
+#: inc/config-options.class.php:1975
+msgid "Google Maps API Key"
+msgstr ""
+
+#: inc/config-options.class.php:1976
+msgid ""
+"An API key is required to use Google Maps. <a target=\"_blank\" href="
+"\"https://developers.google.com/maps/documentation/javascript/get-api-"
+"key\">Click here to learn more</a>."
+msgstr ""
+
+#: inc/config-options.class.php:1977
+msgid "Enter your google maps api key"
+msgstr ""
+
+#: inc/config-options.class.php:1982 inc/config-options.class.php:2035
+msgid "Autocomplete returns results for"
+msgstr ""
+
+#: inc/config-options.class.php:1983
+msgid ""
+"Determine what kind of features should be searched by autocomplete."
+msgstr ""
+
+#: inc/config-options.class.php:1990 inc/config-options.class.php:2043
+msgid "Autocomplete returns results in"
+msgstr ""
+
+#: inc/config-options.class.php:1991 inc/config-options.class.php:2044
+msgid "Limit autocomplete results to one or more countries."
+msgstr ""
+
+#: inc/config-options.class.php:1998
+msgid "Google Map Skins"
+msgstr ""
+
+#: inc/config-options.class.php:1999
+msgid "Select skin for google map"
+msgstr ""
+
+#: inc/config-options.class.php:2007
+msgid "Style for Google Map"
+msgstr ""
+
+#: inc/config-options.class.php:2008
+#, php-format
+msgid "Use %s https://snazzymaps.com/ %s to create styles"
+msgstr ""
+
+#: inc/config-options.class.php:2021 inc/settings.class.php:689
+msgid "Mapbox"
+msgstr ""
+
+#: inc/config-options.class.php:2028
+msgid "Mapbox API Access Token"
+msgstr ""
+
+#: inc/config-options.class.php:2029
+msgid ""
+"A Mapbox API Access Token is required to load maps. You can get it in "
+"<a target=\"_blank\" href=\"https://www.mapbox.com/account/\">in your "
+"Mapbox user dashboard</a>."
+msgstr ""
+
+#: inc/config-options.class.php:2030
+msgid "Enter your mapbox api access token"
+msgstr ""
+
+#: inc/config-options.class.php:2036
+msgid ""
+"Determine what kind of features should be searched by autocomplete. "
+"Leave blank to include all."
+msgstr ""
+
+#: inc/config-options.class.php:2051
+msgid "Mapbox Skins"
+msgstr ""
+
+#: inc/config-options.class.php:2052
+msgid "Select skin for mapbox"
+msgstr ""
+
+#: inc/config-options.class.php:2060
+msgid "Style for Mapbox"
+msgstr ""
+
+#: inc/config-options.class.php:2061
+msgid ""
+"You can create custom map styles in your <a target=\"_blank\" href="
+"\"https://www.mapbox.com/studio/\">Mapbox Studio</a>. Paste the style "
+"URL below."
+msgstr ""
+
+#: inc/config-options.class.php:2070
+msgid "Pin Cluster"
+msgstr ""
+
+#: inc/config-options.class.php:2071
+msgid "Use pin cluster on map."
+msgstr ""
+
+#: inc/config-options.class.php:2074 inc/config-options.class.php:2130
+#: inc/config-options.class.php:2399
+#: templates/property/my-properties.php:276
+msgid "Yes"
+msgstr ""
+
+#: inc/config-options.class.php:2075 inc/config-options.class.php:2131
+#: inc/config-options.class.php:2400
+#: templates/property/my-properties.php:279
+msgid "No"
+msgstr ""
+
+#: inc/config-options.class.php:2082
+msgid "Default Map Zoom"
+msgstr ""
+
+#: inc/config-options.class.php:2092
+msgid "Map Marker Type"
+msgstr ""
+
+#: inc/config-options.class.php:2116
+msgid "Default Coordinate"
+msgstr ""
+
+#: inc/config-options.class.php:2117
+msgid "Example: 40.735601,-74.165918"
+msgstr ""
+
+#: inc/config-options.class.php:2118
+msgid "Enter your default coordinate when add new property"
+msgstr ""
+
+#: inc/config-options.class.php:2123
+msgid "Map directions"
+msgstr ""
+
+#: inc/config-options.class.php:2127
+msgid "Enable Google Map Directions"
+msgstr ""
+
+#: inc/config-options.class.php:2138
+msgid "Distance Unit"
+msgstr ""
+
+#: inc/config-options.class.php:2141
+msgid "Metre"
+msgstr ""
+
+#: inc/config-options.class.php:2142
+msgid "Kilometre"
+msgstr ""
+
+#: inc/config-options.class.php:2143
+msgid "Mile"
+msgstr ""
+
+#: inc/config-options.class.php:2152 inc/settings.class.php:1146
+#: inc/settings.class.php:1170
+#: templates/single-property/block/nearby-places.php:12
+msgid "Nearby Places"
+msgstr ""
+
+#: inc/config-options.class.php:2156
+msgid "Nearby Places Service Provider"
+msgstr ""
+
+#: inc/config-options.class.php:2157
+msgid "Choose what service to use for displaying nearby place."
+msgstr ""
+
+#: inc/config-options.class.php:2169
+msgid "Results Limit"
+msgstr ""
+
+#: inc/config-options.class.php:2170
+msgid "Enter the number of result that you want to display"
+msgstr ""
+
+#: inc/config-options.class.php:2175
+msgid "Nearby Places Category"
+msgstr ""
+
+#: inc/config-options.class.php:2176
+msgid "Choose what category to use for search nearby place."
+msgstr ""
+
+#: inc/config-options.class.php:2192
+msgid "Rank by"
+msgstr ""
+
+#: inc/config-options.class.php:2193
+msgid "Select options"
+msgstr ""
+
+#: inc/config-options.class.php:2196
+msgid "Prominence"
+msgstr ""
+
+#: inc/config-options.class.php:2197
+msgid "Distance"
+msgstr ""
+
+#: inc/config-options.class.php:2206 inc/config-options.class.php:2207
+msgid "Radius"
+msgstr ""
+
+#: inc/config-options.class.php:2208
+msgid "Enter radius (meter)"
+msgstr ""
+
+#: inc/config-options.class.php:2228
+msgid "Search Forms"
+msgstr ""
+
+#: inc/config-options.class.php:2234
+#: templates/elements/property-search-form/config.php:60
+#: templates/shortcodes/property-search-form/config.php:16
+msgid "Search Form"
+msgstr ""
+
+#: inc/config-options.class.php:2241
+msgid "Name"
+msgstr ""
+
+#: inc/config-options.class.php:2243
+msgid "Enter Form Name"
+msgstr ""
+
+#: inc/config-options.class.php:2248 inc/functions/property.php:862
+msgid "ID"
+msgstr ""
+
+#: inc/config-options.class.php:2250
+msgid "Enter Form ID"
+msgstr ""
+
+#: inc/config-options.class.php:2251
+msgid "ID values cannot be changed after being set!"
+msgstr ""
+
+#: inc/config-options.class.php:2256
+msgid "Form Builder"
+msgstr ""
+
+#: inc/config-options.class.php:2261
+msgid "Search Form Style"
+msgstr ""
+
+#: inc/config-options.class.php:2262
+msgid "Specify your search form style"
+msgstr ""
+
+#: inc/config-options.class.php:2269
+#: inc/widgets/property-search.class.php:24
+msgid "Search Fields"
+msgstr ""
+
+#: inc/config-options.class.php:2275
+msgid "Search Tabs"
+msgstr ""
+
+#: inc/config-options.class.php:2276
+msgid "This option will display the status tabs on the search bar"
+msgstr ""
+
+#: inc/config-options.class.php:2277
+msgid "If enabled, status dropdown fields will not show"
+msgstr ""
+
+#: inc/config-options.class.php:2280 inc/config-options.class.php:2293
+#: inc/config-options.class.php:2305 inc/config-options.class.php:2317
+#: inc/config-options.class.php:2328 inc/config-options.class.php:2340
+#: inc/widgets/property-search.class.php:35
+#: inc/widgets/property-search.class.php:46
+#: inc/widgets/property-search.class.php:57
+#: inc/widgets/property-search.class.php:68
+#: templates/elements/advanced-properties-locations/config.php:322
+#: templates/property/edit-property/floors.php:26
+#: templates/property/submit-property/floors.php:21
+msgid "Enable"
+msgstr ""
+
+#: inc/config-options.class.php:2281
+msgid "Enable All Status"
+msgstr ""
+
+#: inc/config-options.class.php:2282 inc/config-options.class.php:2294
+#: inc/config-options.class.php:2306 inc/config-options.class.php:2318
+#: inc/config-options.class.php:2329 inc/config-options.class.php:2341
+#: inc/widgets/property-search.class.php:36
+#: inc/widgets/property-search.class.php:47
+#: inc/widgets/property-search.class.php:58
+#: inc/widgets/property-search.class.php:69
+#: templates/elements/advanced-properties-locations/config.php:323
+#: templates/property/edit-property/floors.php:32
+#: templates/property/submit-property/floors.php:25
+msgid "Disable"
+msgstr ""
+
+#: inc/config-options.class.php:2288
+#: inc/widgets/property-search.class.php:31
+msgid "Price Range Slider"
+msgstr ""
+
+#: inc/config-options.class.php:2289
+#: inc/widgets/property-search.class.php:32
+msgid "If enabled, min and max price dropdown fields will not show"
+msgstr ""
+
+#: inc/config-options.class.php:2290
+msgid "Enable or disable the price range slider"
+msgstr ""
+
+#: inc/config-options.class.php:2300
+#: inc/widgets/property-search.class.php:42
+msgid "Size Range Slider"
+msgstr ""
+
+#: inc/config-options.class.php:2301
+#: inc/widgets/property-search.class.php:43
+msgid "If enabled, min and max area dropdown fields will not show"
+msgstr ""
+
+#: inc/config-options.class.php:2302
+msgid "Enable or disable the size range slider"
+msgstr ""
+
+#: inc/config-options.class.php:2312 inc/settings.class.php:665
+#: inc/widgets/property-search.class.php:53
+msgid "Land Area Range Slider"
+msgstr ""
+
+#: inc/config-options.class.php:2313
+#: inc/widgets/property-search.class.php:54
+msgid "If enabled, min and max land area dropdown fields will not show"
+msgstr ""
+
+#: inc/config-options.class.php:2314
+msgid "Enable or disable the land area range slider"
+msgstr ""
+
+#: inc/config-options.class.php:2324
+#: inc/widgets/property-search.class.php:64
+#: templates/search-fields/other-feature.php:9
+msgid "Other Features"
+msgstr ""
+
+#: inc/config-options.class.php:2325
+#: inc/widgets/property-search.class.php:65
+msgid "Enable or disable other features in searches"
+msgstr ""
+
+#: inc/config-options.class.php:2335
+msgid "Advanced Filters"
+msgstr ""
+
+#: inc/config-options.class.php:2336
+msgid "Enable or disable advanced button in searches"
+msgstr ""
+
+#: inc/config-options.class.php:2337
+msgid ""
+"Note: If \"disable\" it will remove advanced button in search and show "
+"all filters"
+msgstr ""
+
+#: inc/config-options.class.php:2347
+msgid "Submit Button Position"
+msgstr ""
+
+#: inc/config-options.class.php:2348
+msgid "Specify your submit button position"
+msgstr ""
+
+#: inc/config-options.class.php:2351
+msgid "Top"
+msgstr ""
+
+#: inc/config-options.class.php:2352
+msgid "Bottom"
+msgstr ""
+
+#: inc/config-options.class.php:2368 inc/page-template.class.php:31
+msgid "Dashboard"
+msgstr ""
+
+#: inc/config-options.class.php:2373
+msgid "Dashboard Logo"
+msgstr ""
+
+#: inc/config-options.class.php:2377
+msgid "Logo"
+msgstr ""
+
+#: inc/config-options.class.php:2378
+msgid ""
+"By default, a text-based logo is created using your site title. But you "
+"can also upload an image-based logo here."
+msgstr ""
+
+#: inc/config-options.class.php:2383
+msgid "Logo Max Height"
+msgstr ""
+
+#: inc/config-options.class.php:2384
+msgid ""
+"If you would like to override the default logo max height, then you can "
+"do so here."
+msgstr ""
+
+#: inc/config-options.class.php:2392
+msgid "Submit Property"
+msgstr ""
+
+#: inc/config-options.class.php:2396
+msgid "Enable Show All Fields Button"
+msgstr ""
+
+#: inc/config-options.class.php:2414 inc/config-options.class.php:3562
+msgid "Agent Listing"
+msgstr ""
+
+#: inc/config-options.class.php:2631 inc/config-options.class.php:3733
+msgid "Default agent sorting"
+msgstr ""
+
+#: inc/config-options.class.php:2659
+msgid "Single Agent"
+msgstr ""
+
+#: inc/config-options.class.php:2665
+msgid "Specify your single agent layout"
+msgstr ""
+
+#: inc/config-options.class.php:2672
+msgid "Single Agent Content"
+msgstr ""
+
+#: inc/config-options.class.php:2749 inc/config-options.class.php:2799
+msgid "Advanced Search Layout"
+msgstr ""
+
+#: inc/config-options.class.php:2757 inc/config-options.class.php:2807
+msgid "Advanced Search Sticky"
+msgstr ""
+
+#: inc/config-options.class.php:2758 inc/config-options.class.php:2808
+msgid "Enable or disable sticky effect for advanced search."
+msgstr ""
+
+#: inc/config-options.class.php:2776
+msgid "Advanced Search Mobile"
+msgstr ""
+
+#: inc/config-options.class.php:2836 inc/config-options.class.php:2911
+msgid "Specify the advanced search background color"
+msgstr ""
+
+#: inc/config-options.class.php:2843 inc/config-options.class.php:2874
+#: inc/config-options.class.php:2918 inc/config-options.class.php:2949
+msgid "Text Color"
+msgstr ""
+
+#: inc/config-options.class.php:2844 inc/config-options.class.php:2919
+msgid "Specify the advanced search text color"
+msgstr ""
+
+#: inc/config-options.class.php:2851 inc/config-options.class.php:2926
+msgid "Text Hover Color"
+msgstr ""
+
+#: inc/config-options.class.php:2852 inc/config-options.class.php:2927
+msgid "Specify the advanced search text hover color"
+msgstr ""
+
+#: inc/config-options.class.php:2860 inc/config-options.class.php:2935
+msgid "Form Fields"
+msgstr ""
+
+#: inc/config-options.class.php:2867 inc/config-options.class.php:2942
+msgid "Specify the advanced search form field background color"
+msgstr ""
+
+#: inc/config-options.class.php:2875 inc/config-options.class.php:2950
+msgid "Specify the advanced search form field text color"
+msgstr ""
+
+#: inc/config-options.class.php:2883 inc/config-options.class.php:2958
+msgid "Placeholder Text Color"
+msgstr ""
+
+#: inc/config-options.class.php:2884 inc/config-options.class.php:2959
+msgid "Specify the advanced search form field placeholder text color"
+msgstr ""
+
+#: inc/config-options.class.php:2892 inc/config-options.class.php:2967
+msgid "Border Color"
+msgstr ""
+
+#: inc/config-options.class.php:2893 inc/config-options.class.php:2968
+msgid "Specify the advanced search form field border color"
+msgstr ""
+
+#: inc/config-options.class.php:2904
+msgid "Advanced Search Moblie"
+msgstr ""
+
+#: inc/config-options.class.php:3026
+msgid "Agency Listing"
+msgstr ""
+
+#: inc/config-options.class.php:3108
+msgid "Specify your horizontal space between agency."
+msgstr ""
+
+#: inc/config-options.class.php:3115
+msgid "Agency Columns"
+msgstr ""
+
+#: inc/config-options.class.php:3126
+msgid "Specify your agency columns on extra large devices (>= 1200px)"
+msgstr ""
+
+#: inc/config-options.class.php:3135
+msgid "Specify your agency columns on large devices (>= 992px)"
+msgstr ""
+
+#: inc/config-options.class.php:3144
+msgid "Specify your agency columns on medium devices (>= 768px)"
+msgstr ""
+
+#: inc/config-options.class.php:3160
+msgid "Specify your agency columns on small devices (< 768px)"
+msgstr ""
+
+#: inc/config-options.class.php:3169
+msgid "Specify your agency columns on extra small devices (< 576px)"
+msgstr ""
+
+#: inc/config-options.class.php:3206
+msgid "Specify your agency list item skin"
+msgstr ""
+
+#: inc/config-options.class.php:3240
+msgid "Agency per page"
+msgstr ""
+
+#: inc/config-options.class.php:3241
+msgid "Set number of Agency per page"
+msgstr ""
+
+#: inc/config-options.class.php:3246
+msgid "Default Agency sorting"
+msgstr ""
+
+#: inc/config-options.class.php:3275
+msgid "Single Agency"
+msgstr ""
+
+#: inc/config-options.class.php:3281
+msgid "Specify your single agency layout"
+msgstr ""
+
+#: inc/config-options.class.php:3306
+msgid "Agency Content"
+msgstr ""
+
+#: inc/config-options.class.php:3760 inc/elementor.class.php:56
+#: inc/templates.class.php:64 templates/agent/search-fields/agency.php:23
+#: templates/shortcodes/agency/config.php:9
+msgid "Agency"
+msgstr ""
+
+#: inc/config-options.class.php:3787
+msgid "General"
+msgstr ""
+
+#: inc/config-options.class.php:3792
+msgid "Property Default Thumbnail"
+msgstr ""
+
+#: inc/config-options.class.php:3797
+msgid "Enable Property Default Thumbnail"
+msgstr ""
+
+#: inc/config-options.class.php:3798
+msgid ""
+"You can set default thumbnail for property that haven' featured image "
+"with enabling this option and uploading default image in following field"
+msgstr ""
+
+#: inc/config-options.class.php:3804
+msgid "Property Default Thumbnail Image"
+msgstr ""
+
+#: inc/config-options.class.php:3805
+msgid ""
+"By default, the property thumbnail will be shown but when the post "
+"haven'nt thumbnail then this will be replaced"
+msgstr ""
+
+#: inc/config-options.class.php:3812
+msgid "Agent Default Thumbnail"
+msgstr ""
+
+#: inc/config-options.class.php:3817
+msgid "Enable Agent Default Thumbnail"
+msgstr ""
+
+#: inc/config-options.class.php:3818
+msgid ""
+"You can set default thumbnail for agent that haven' featured image with "
+"enabling this option and uploading default image in following field"
+msgstr ""
+
+#: inc/config-options.class.php:3824
+msgid "Agent Default Thumbnail Image"
+msgstr ""
+
+#: inc/config-options.class.php:3825
+msgid ""
+"By default, the agent thumbnail will be shown but when the post "
+"haven'nt thumbnail then this will be replaced"
+msgstr ""
+
+#: inc/config-options.class.php:3832
+msgid "Agency Default Thumbnail"
+msgstr ""
+
+#: inc/config-options.class.php:3837
+msgid "Enable Agency Default Thumbnail"
+msgstr ""
+
+#: inc/config-options.class.php:3838
+msgid ""
+"You can set default thumbnail for agency that haven' featured image "
+"with enabling this option and uploading default image in following field"
+msgstr ""
+
+#: inc/config-options.class.php:3844
+msgid "Agency Default Thumbnail Image"
+msgstr ""
+
+#: inc/config-options.class.php:3845
+msgid ""
+"By default, the agency thumbnail will be shown but when the post "
+"haven'nt thumbnail then this will be replaced"
+msgstr ""
+
+#: inc/elementor.class.php:47
+#: templates/elements/properties-locations/template.php:79
+#: templates/shortcodes/properties-locations/template.php:136
+#: templates/shortcodes/properties/config.php:8
+msgid "Properties"
+msgstr ""
+
+#: inc/elementor.class.php:48
+#: templates/shortcodes/properties-carousel/config.php:8
+msgid "Properties Carousel"
+msgstr ""
+
+#: inc/elementor.class.php:49
+#: templates/shortcodes/properties-locations/config.php:8
+msgid "Properties Locations"
+msgstr ""
+
+#: inc/elementor.class.php:50
+#: templates/shortcodes/properties-slider/config.php:8
+msgid "Properties Slider"
+msgstr ""
+
+#: inc/elementor.class.php:51
+#: templates/shortcodes/property-search-form/config.php:8
+msgid "Property Search Form"
+msgstr ""
+
+#: inc/elementor.class.php:52 templates/shortcodes/agent/config.php:8
+msgid "Agent"
+msgstr ""
+
+#: inc/elementor.class.php:53 inc/widgets/agent-search.class.php:19
+#: templates/shortcodes/agent-search/config.php:8
+msgid "Agent Search"
+msgstr ""
+
+#: inc/elementor.class.php:54
+#: templates/shortcodes/agent-singular/config.php:8
+msgid "Agent Singular"
+msgstr ""
+
+#: inc/elementor.class.php:55 inc/widgets/agency-search.class.php:19
+#: templates/shortcodes/agency-search/config.php:8
+msgid "Agency Search"
+msgstr ""
+
+#: inc/elementor.class.php:57
+#: templates/shortcodes/agent-slider/config.php:8
+msgid "Agent Slider"
+msgstr ""
+
+#: inc/elementor.class.php:58
+#: templates/shortcodes/agency-slider/config.php:9
+msgid "Agency Slider"
+msgstr ""
+
+#: inc/elementor.class.php:59
+msgid "Advanced Properties Locations"
+msgstr ""
+
+#: inc/elementor.class.php:70
+msgid "G5 Elements"
+msgstr ""
+
+#: inc/functions/agent.php:265
+msgid "Property Agent"
+msgstr ""
+
+#: inc/functions/agent.php:268
+msgid "Property Seller"
+msgstr ""
+
+#: inc/functions/dashboard.php:17
+msgid "Dashboards"
+msgstr ""
+
+#: inc/functions/dashboard.php:40
+msgid "My Invoices"
+msgstr ""
+
+#: inc/functions/dashboard.php:51
+msgid "My Favorites"
+msgstr ""
+
+#: inc/functions/dashboard.php:62
+msgid "My Saved Searches"
+msgstr ""
+
+#: inc/functions/dashboard.php:72 inc/settings.class.php:1149
+#: inc/settings.class.php:1234 inc/settings.class.php:1248
+#: templates/agent/single/block/review.php:12
+#: templates/dashboards/overview.php:62
+#: templates/single-property/block/review.php:12
+#: templates/single-property/google-nearby-place/items.php:18
+msgid "Reviews"
+msgstr ""
+
+#: inc/functions/dashboard.php:83
+msgid "Submit New Property"
+msgstr ""
+
+#: inc/functions/dashboard.php:93
+msgid "My Profile"
+msgstr ""
+
+#: inc/functions/dashboard.php:102
+msgid "Logout"
+msgstr ""
+
+#: inc/functions/dashboard.php:122
+msgid "Main"
+msgstr ""
+
+#: inc/functions/dashboard.php:123
+msgid "Manage Listing"
+msgstr ""
+
+#: inc/functions/dashboard.php:124
+msgid "Manage Account"
+msgstr ""
+
+#: inc/functions/property.php:515 inc/functions/property.php:878
+#: inc/functions/property.php:991 inc/settings.class.php:449
+#: inc/settings.class.php:478 inc/settings.class.php:654
+#: templates/property/edit-property/details.php:68
+#: templates/property/edit-property/floors.php:113
+#: templates/property/submit-property/details.php:53
+#: templates/property/submit-property/floors.php:94
+#: templates/search-fields/bedrooms.php:22
+#: templates/search-fields/bedrooms.php:25
+msgid "Bedrooms"
+msgstr ""
+
+#: inc/functions/property.php:523 inc/functions/property.php:887
+#: inc/functions/property.php:999 inc/settings.class.php:450
+#: inc/settings.class.php:480 inc/settings.class.php:655
+#: templates/property/edit-property/details.php:81
+#: templates/property/edit-property/floors.php:125
+#: templates/property/submit-property/details.php:64
+#: templates/property/submit-property/floors.php:105
+#: templates/search-fields/bathrooms.php:22
+#: templates/search-fields/bathrooms.php:25
+msgid "Bathrooms"
+msgstr ""
+
+#: inc/functions/property.php:787 inc/settings.class.php:458
+#: inc/settings.class.php:488 inc/settings.class.php:663
+#: templates/property/edit-property/location.php:40
+#: templates/property/submit-property/location.php:41
+msgid "Country"
+msgstr ""
+
+#: inc/functions/property.php:796
+msgid "Province/State"
+msgstr ""
+
+#: inc/functions/property.php:806
+msgid "City/Town"
+msgstr ""
+
+#: inc/functions/property.php:824
+msgid "Postal code/ZIP"
+msgstr ""
+
+#: inc/functions/property.php:895 inc/functions/property.php:1028
+#: templates/property/edit-property/details.php:94
+#: templates/property/submit-property/details.php:75
+#: templates/search-fields/garage.php:23
+msgid "Garages"
+msgstr ""
+
+#: inc/functions/property.php:911
+msgid "Land Size"
+msgstr ""
+
+#: inc/functions/property.php:920 inc/functions/property.php:1007
+#: templates/property/edit-property/details.php:118
+#: templates/property/submit-property/details.php:97
+msgid "Year Built"
+msgstr ""
+
+#: inc/functions/property.php:947 inc/settings.class.php:455
+#: inc/settings.class.php:487 inc/settings.class.php:660
+#: templates/property/edit-property/details.php:129
+#: templates/property/submit-property/details.php:105
+#: templates/search-fields/identity.php:22
+#: templates/search-fields/identity.php:23
+msgid "Property ID"
+msgstr ""
+
+#: inc/functions/property.php:961 inc/settings.class.php:430
+#: templates/property/edit-property/type.php:16
+#: templates/property/submit-property/type.php:16
+msgid "Property Type"
+msgstr ""
+
+#: inc/functions/property.php:969 inc/settings.class.php:429
+msgid "Property Status"
+msgstr ""
+
+#: inc/functions/property.php:977 inc/settings.class.php:431
+msgid "Property Label"
+msgstr ""
+
+#: inc/functions/property.php:1021
+msgid "Land area"
+msgstr ""
+
+#: inc/functions/property.php:1035
+msgid "Garage area"
+msgstr ""
+
+#: inc/functions/template-agency.php:26
+#: inc/functions/template-agent.php:341 inc/functions/template.php:417
+msgid "Relevance"
+msgstr ""
+
+#: inc/functions/template.php:1151
+#, php-format
+msgid "Rated %1$s out of 5 based on %2$s customer rating"
+msgid_plural "Rated %1$s out of 5 based on %2$s customer ratings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/functions/template.php:1154
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: inc/functions/vc.php:21
+msgid ""
+"Enter property type by names to narrow output (Note: only listed "
+"property type will be displayed, divide property type with linebreak "
+"(Enter))."
+msgstr ""
+
+#: inc/functions/vc.php:43
+msgid ""
+"Enter property status by names to narrow output (Note: only listed "
+"property status will be displayed, divide property status with "
+"linebreak (Enter))."
+msgstr ""
+
+#: inc/functions/vc.php:65
+msgid ""
+"Enter property feature by names to narrow output (Note: only listed "
+"property feature will be displayed, divide property feature with "
+"linebreak (Enter))."
+msgstr ""
+
+#: inc/functions/vc.php:87
+msgid ""
+"Enter property label by names to narrow output (Note: only listed "
+"property label will be displayed, divide property label with linebreak "
+"(Enter))."
+msgstr ""
+
+#: inc/functions/vc.php:109
+msgid ""
+"Enter province / state by names to narrow output (Note: only listed "
+"province / state will be displayed, divide province / state with "
+"linebreak (Enter))."
+msgstr ""
+
+#: inc/functions/vc.php:131
+msgid ""
+"Enter city by names to narrow output (Note: only listed city will be "
+"displayed, divide city with linebreak (Enter))."
+msgstr ""
+
+#: inc/functions/vc.php:153
+msgid ""
+"Enter neighborhood by names to narrow output (Note: only listed "
+"neighborhood will be displayed, divide neighborhood with linebreak "
+"(Enter))."
+msgstr ""
+
+#: inc/functions/vc.php:174 inc/functions/vc.php:178
+#: inc/functions/vc.php:183 inc/functions/vc.php:188
+#: inc/functions/vc.php:193 inc/functions/vc.php:198
+#: inc/functions/vc.php:203 inc/functions/vc.php:208
+#: inc/functions/vc.php:223 inc/functions/vc.php:233
+msgid "Property Filter"
+msgstr ""
+
+#: inc/functions/vc.php:251 inc/functions/vc.php:254
+#: inc/functions/vc.php:270 inc/functions/vc.php:280
+msgid "Agent Filter"
+msgstr ""
+
+#: inc/functions/vc.php:298 inc/functions/vc.php:301
+#: inc/functions/vc.php:312
+msgid "Agency Filter"
+msgstr ""
+
+#: inc/icon.class.php:37 inc/settings.class.php:1199
+msgid "Real Estate"
+msgstr ""
+
+#: inc/map/map-osm.class.php:55
+#, php-format
+msgid "&copy; <a href=\"%s\">OpenStreetMap</a> contributors"
+msgstr ""
+
+#: inc/query.class.php:216
+#, php-format
+msgid "Price: <strong>%s - %s</strong>; "
+msgstr ""
+
+#: inc/query.class.php:227
+#, php-format
+msgid "Min Price: <strong>%s</strong>; "
+msgstr ""
+
+#: inc/query.class.php:238
+#, php-format
+msgid "Max Price: <strong>%s</strong>; "
+msgstr ""
+
+#: inc/query.class.php:261
+#, php-format
+msgid "Size: <strong>%s - %s</strong>; "
+msgstr ""
+
+#: inc/query.class.php:273
+#, php-format
+msgid "Max Area: <strong> %s</strong>; "
+msgstr ""
+
+#: inc/query.class.php:284
+#, php-format
+msgid "Min Area: <strong> %s</strong>; "
+msgstr ""
+
+#: inc/query.class.php:306
+#, php-format
+msgid "Land size: <strong>%s - %s</strong>; "
+msgstr ""
+
+#: inc/query.class.php:318
+#, php-format
+msgid "Max Land size: <strong>%s</strong>; "
+msgstr ""
+
+#: inc/query.class.php:329
+#, php-format
+msgid "Min Land size: <strong>%s</strong>; "
+msgstr ""
+
+#: inc/query.class.php:345
+#, php-format
+msgid "Garage: <strong>%s</strong>; "
+msgstr ""
+
+#: inc/query.class.php:361
+#, php-format
+msgid "Bedroom: <strong>%s</strong>; "
+msgstr ""
+
+#: inc/query.class.php:378
+#, php-format
+msgid "Room: <strong>%s</strong>; "
+msgstr ""
+
+#: inc/query.class.php:395
+#, php-format
+msgid "Bathroom: <strong>%s</strong>; "
+msgstr ""
+
+#: inc/query.class.php:410 inc/query.class.php:650
+#, php-format
+msgid "Keyword: <strong>%s</strong>; "
+msgstr ""
+
+#: inc/query.class.php:426
+#, php-format
+msgid "Country: <strong>%s</strong>; "
+msgstr ""
+
+#: inc/query.class.php:442
+#, php-format
+msgid "Property identity: <strong>%s</strong>; "
+msgstr ""
+
+#: inc/query.class.php:475
+#, php-format
+msgid "%s: <strong>%s</strong>; "
+msgstr ""
+
+#: inc/query.class.php:515
+#, php-format
+msgid "Type: <strong>%s</strong>; "
+msgstr ""
+
+#: inc/query.class.php:529
+#, php-format
+msgid "Status: <strong>%s</strong>; "
+msgstr ""
+
+#: inc/query.class.php:543
+#, php-format
+msgid "City: <strong>%s</strong>; "
+msgstr ""
+
+#: inc/query.class.php:557
+#, php-format
+msgid "Label: <strong>%s</strong>; "
+msgstr ""
+
+#: inc/query.class.php:571
+#, php-format
+msgid "State: <strong>%s</strong>; "
+msgstr ""
+
+#: inc/query.class.php:585
+#, php-format
+msgid "Neighborhood: <strong>%s</strong>; "
+msgstr ""
+
+#: inc/query.class.php:600
+#, php-format
+msgid "Features: <strong>%s</strong>; "
+msgstr ""
+
+#: inc/settings.class.php:28 inc/settings.class.php:47
+#: inc/settings.class.php:66 inc/settings.class.php:89
+#: inc/settings.class.php:108 inc/settings.class.php:127
+#: inc/settings.class.php:146 inc/settings.class.php:169
+#: inc/settings.class.php:192 inc/settings.class.php:221
+#: inc/settings.class.php:250 inc/settings.class.php:279
+#: inc/settings.class.php:302 inc/settings.class.php:326
+#: inc/settings.class.php:345 inc/settings.class.php:364
+#: inc/settings.class.php:388 inc/settings.class.php:587
+#: inc/settings.class.php:631 inc/settings.class.php:1123
+#: inc/settings.class.php:1300
+msgid "Inherit"
+msgstr ""
+
+#: inc/settings.class.php:82
+msgid "Skin 02"
+msgstr ""
+
+#: inc/settings.class.php:203 inc/settings.class.php:232
+#: inc/settings.class.php:239 inc/settings.class.php:261
+#: inc/settings.class.php:315 inc/settings.class.php:338
+#: inc/settings.class.php:357 inc/settings.class.php:544
+#: inc/settings.class.php:1112 inc/settings.class.php:1309
+#: templates/elements/advanced-properties-locations/config.php:515
+#: templates/elements/agent-singular/config.php:119
+#: templates/elements/properties-locations/config.php:447
+msgid "Layout 01"
+msgstr ""
+
+#: inc/settings.class.php:243 inc/settings.class.php:319
+#: inc/settings.class.php:548 inc/settings.class.php:1116
+#: templates/elements/advanced-properties-locations/config.php:519
+#: templates/elements/properties-locations/config.php:451
+msgid "Layout 02"
+msgstr ""
+
+#: inc/settings.class.php:375 inc/settings.class.php:459
+#: inc/settings.class.php:489 inc/settings.class.php:664
+#: templates/property/edit-property/location.php:64
+#: templates/property/submit-property/location.php:62
+msgid "Province / State"
+msgstr ""
+
+#: inc/settings.class.php:383
+#: templates/elements/advanced-properties-locations/config.php:352
+msgid "Image"
+msgstr ""
+
+#: inc/settings.class.php:384
+msgid "Icon"
+msgstr ""
+
+#: inc/settings.class.php:397 inc/settings.class.php:408
+#: inc/settings.class.php:418
+msgid "Default sorting"
+msgstr ""
+
+#: inc/settings.class.php:398 inc/settings.class.php:409
+msgid "Name (A to Z)"
+msgstr ""
+
+#: inc/settings.class.php:399 inc/settings.class.php:410
+msgid "Name (Z to A)"
+msgstr ""
+
+#: inc/settings.class.php:400 inc/settings.class.php:411
+msgid "Date (Old to New)"
+msgstr ""
+
+#: inc/settings.class.php:401 inc/settings.class.php:412
+msgid "Date (New to Old)"
+msgstr ""
+
+#: inc/settings.class.php:402 inc/widgets/property.class.php:27
+msgid "Random"
+msgstr ""
+
+#: inc/settings.class.php:419
+msgid "Sort by featured First"
+msgstr ""
+
+#: inc/settings.class.php:420
+msgid "Sort by latest"
+msgstr ""
+
+#: inc/settings.class.php:421
+msgid "Sort by price: low to high"
+msgstr ""
+
+#: inc/settings.class.php:422
+msgid "Sort by price: high to low"
+msgstr ""
+
+#: inc/settings.class.php:423
+msgid "Sort by most Viewed"
+msgstr ""
+
+#: inc/settings.class.php:437 inc/settings.class.php:1295
+msgid "Style 01"
+msgstr ""
+
+#: inc/settings.class.php:444 inc/settings.class.php:475
+#: inc/settings.class.php:649
+#: templates/agency/search-fields/keyword.php:25
+#: templates/agent/search-fields/keyword.php:22
+#: templates/search-fields/keyword.php:47
+msgid "Keyword"
+msgstr ""
+
+#: inc/settings.class.php:451 inc/settings.class.php:483
+#: inc/settings.class.php:656
+msgid "Min Area"
+msgstr ""
+
+#: inc/settings.class.php:452 inc/settings.class.php:484
+#: inc/settings.class.php:657
+msgid "Max Area"
+msgstr ""
+
+#: inc/settings.class.php:460 inc/settings.class.php:481
+#: inc/settings.class.php:667 templates/search-fields/min-price.php:23
+#: templates/search-fields/min-price.php:26
+msgid "Min Price"
+msgstr ""
+
+#: inc/settings.class.php:461 inc/settings.class.php:482
+#: inc/settings.class.php:668 templates/search-fields/max-price.php:23
+#: templates/search-fields/max-price.php:26
+msgid "Max Price"
+msgstr ""
+
+#: inc/settings.class.php:462 inc/settings.class.php:490
+#: inc/settings.class.php:669 templates/search-fields/min-land.php:23
+#: templates/search-fields/min-land.php:26
+msgid "Min Land Area"
+msgstr ""
+
+#: inc/settings.class.php:463 inc/settings.class.php:491
+#: inc/settings.class.php:670 templates/search-fields/max-land.php:23
+#: templates/search-fields/max-land.php:26
+msgid "Max Land Area"
+msgstr ""
+
+#: inc/settings.class.php:465 inc/settings.class.php:493
+#: inc/settings.class.php:672
+msgid "Garage"
+msgstr ""
+
+#: inc/settings.class.php:504
+msgid "Stretched Content"
+msgstr ""
+
+#: inc/settings.class.php:510
+msgid "No Sticky"
+msgstr ""
+
+#: inc/settings.class.php:511
+msgid "Always Show"
+msgstr ""
+
+#: inc/settings.class.php:512
+msgid "Show On Scroll Up"
+msgstr ""
+
+#: inc/settings.class.php:518
+msgid "Hide Map"
+msgstr ""
+
+#: inc/settings.class.php:519
+msgid "Full Map"
+msgstr ""
+
+#: inc/settings.class.php:520
+msgid "Half Map Left"
+msgstr ""
+
+#: inc/settings.class.php:521
+msgid "Half Map Right"
+msgstr ""
+
+#: inc/settings.class.php:529
+msgid "Select Search Form"
+msgstr ""
+
+#: inc/settings.class.php:552
+msgid "Layout 03"
+msgstr ""
+
+#: inc/settings.class.php:556
+msgid "Layout 04"
+msgstr ""
+
+#: inc/settings.class.php:560
+msgid "Layout 05"
+msgstr ""
+
+#: inc/settings.class.php:564
+msgid "Layout 06"
+msgstr ""
+
+#: inc/settings.class.php:568
+msgid "Layout 07"
+msgstr ""
+
+#: inc/settings.class.php:572
+msgid "Layout 08"
+msgstr ""
+
+#: inc/settings.class.php:576
+msgid "Layout 09"
+msgstr ""
+
+#: inc/settings.class.php:580
+msgid "Layout 10"
+msgstr ""
+
+#: inc/settings.class.php:600
+#: templates/elements/advanced-properties-locations/config.php:320
+msgid "Slider"
+msgstr ""
+
+#: inc/settings.class.php:604
+msgid "Carousel"
+msgstr ""
+
+#: inc/settings.class.php:612
+msgid "Metro 01"
+msgstr ""
+
+#: inc/settings.class.php:616
+msgid "Metro 02"
+msgstr ""
+
+#: inc/settings.class.php:620
+msgid "Metro 03"
+msgstr ""
+
+#: inc/settings.class.php:624
+msgid "Metro 04"
+msgstr ""
+
+#: inc/settings.class.php:666
+msgid "Area Range Slider"
+msgstr ""
+
+#: inc/settings.class.php:690
+msgid "OpenStreetMap"
+msgstr ""
+
+#: inc/settings.class.php:696
+msgid "Google"
+msgstr ""
+
+#: inc/settings.class.php:697
+msgid "Yelp"
+msgstr ""
+
+#: inc/settings.class.php:703
+msgid "Accounting"
+msgstr ""
+
+#: inc/settings.class.php:704 inc/settings.class.php:1216
+msgid "Airport"
+msgstr ""
+
+#: inc/settings.class.php:705
+msgid "Amusement Park"
+msgstr ""
+
+#: inc/settings.class.php:706
+msgid "Aquarium"
+msgstr ""
+
+#: inc/settings.class.php:707
+msgid "Art Gallery"
+msgstr ""
+
+#: inc/settings.class.php:708
+msgid "Atm"
+msgstr ""
+
+#: inc/settings.class.php:709
+msgid "Bakery"
+msgstr ""
+
+#: inc/settings.class.php:710
+msgid "Bank"
+msgstr ""
+
+#: inc/settings.class.php:711
+msgid "Bar"
+msgstr ""
+
+#: inc/settings.class.php:712
+msgid "Beauty Salon"
+msgstr ""
+
+#: inc/settings.class.php:713
+msgid "Bicycle Store"
+msgstr ""
+
+#: inc/settings.class.php:714
+msgid "Book Store"
+msgstr ""
+
+#: inc/settings.class.php:715
+msgid "Bowling Alley"
+msgstr ""
+
+#: inc/settings.class.php:716
+msgid "Bus Station"
+msgstr ""
+
+#: inc/settings.class.php:717
+msgid "Cafe"
+msgstr ""
+
+#: inc/settings.class.php:718
+msgid "Campground"
+msgstr ""
+
+#: inc/settings.class.php:719
+msgid "Car Dealer"
+msgstr ""
+
+#: inc/settings.class.php:720
+msgid "Car Rental"
+msgstr ""
+
+#: inc/settings.class.php:721
+msgid "Car Repair"
+msgstr ""
+
+#: inc/settings.class.php:722
+msgid "Car Wash"
+msgstr ""
+
+#: inc/settings.class.php:723
+msgid "Casino"
+msgstr ""
+
+#: inc/settings.class.php:724
+msgid "Cemetery"
+msgstr ""
+
+#: inc/settings.class.php:725
+msgid "Church"
+msgstr ""
+
+#: inc/settings.class.php:726
+msgid "City Center"
+msgstr ""
+
+#: inc/settings.class.php:727
+msgid "Clothing Store"
+msgstr ""
+
+#: inc/settings.class.php:728
+msgid "Convenience Store"
+msgstr ""
+
+#: inc/settings.class.php:729
+msgid "Courthouse"
+msgstr ""
+
+#: inc/settings.class.php:730
+msgid "Dentist"
+msgstr ""
+
+#: inc/settings.class.php:731
+msgid "Department Store"
+msgstr ""
+
+#: inc/settings.class.php:732
+msgid "Doctor"
+msgstr ""
+
+#: inc/settings.class.php:733
+msgid "Electrician"
+msgstr ""
+
+#: inc/settings.class.php:734
+msgid "Electronics Store"
+msgstr ""
+
+#: inc/settings.class.php:735
+msgid "Embassy"
+msgstr ""
+
+#: inc/settings.class.php:736
+msgid "Fire Station"
+msgstr ""
+
+#: inc/settings.class.php:737
+msgid "Florist"
+msgstr ""
+
+#: inc/settings.class.php:738
+msgid "Funeral Home"
+msgstr ""
+
+#: inc/settings.class.php:739
+msgid "Furniture Store"
+msgstr ""
+
+#: inc/settings.class.php:740
+msgid "Gas Station"
+msgstr ""
+
+#: inc/settings.class.php:741
+msgid "Gym"
+msgstr ""
+
+#: inc/settings.class.php:742
+msgid "Hair Care"
+msgstr ""
+
+#: inc/settings.class.php:743
+msgid "Hardware Store"
+msgstr ""
+
+#: inc/settings.class.php:744
+msgid "Hindu Temple"
+msgstr ""
+
+#: inc/settings.class.php:745
+msgid "Home Goods Store"
+msgstr ""
+
+#: inc/settings.class.php:746
+msgid "Hospital"
+msgstr ""
+
+#: inc/settings.class.php:747
+msgid "Insurance Agency"
+msgstr ""
+
+#: inc/settings.class.php:748
+msgid "Jewelry Store"
+msgstr ""
+
+#: inc/settings.class.php:749
+msgid "Laundry"
+msgstr ""
+
+#: inc/settings.class.php:750
+msgid "Lawyer"
+msgstr ""
+
+#: inc/settings.class.php:751
+msgid "Library"
+msgstr ""
+
+#: inc/settings.class.php:752
+msgid "Light Rail Station"
+msgstr ""
+
+#: inc/settings.class.php:753
+msgid "Liquor Store"
+msgstr ""
+
+#: inc/settings.class.php:754
+msgid "Local Government Office"
+msgstr ""
+
+#: inc/settings.class.php:755
+msgid "Locksmith"
+msgstr ""
+
+#: inc/settings.class.php:756
+msgid "Lodging"
+msgstr ""
+
+#: inc/settings.class.php:757
+msgid "Meal Delivery"
+msgstr ""
+
+#: inc/settings.class.php:758
+msgid "Meal Takeaway"
+msgstr ""
+
+#: inc/settings.class.php:759
+msgid "Movie Theater"
+msgstr ""
+
+#: inc/settings.class.php:760
+msgid "Movie Rental"
+msgstr ""
+
+#: inc/settings.class.php:761
+msgid "Mosque"
+msgstr ""
+
+#: inc/settings.class.php:762
+msgid "Moving Company"
+msgstr ""
+
+#: inc/settings.class.php:763
+msgid "Night Club"
+msgstr ""
+
+#: inc/settings.class.php:764
+msgid "Painter"
+msgstr ""
+
+#: inc/settings.class.php:765 inc/settings.class.php:766
+msgid "Park"
+msgstr ""
+
+#: inc/settings.class.php:767
+msgid "Pet Store"
+msgstr ""
+
+#: inc/settings.class.php:768
+msgid "Pharmacy"
+msgstr ""
+
+#: inc/settings.class.php:769
+msgid "Physiotherapist"
+msgstr ""
+
+#: inc/settings.class.php:770
+msgid "Plumber"
+msgstr ""
+
+#: inc/settings.class.php:771
+msgid "Police"
+msgstr ""
+
+#: inc/settings.class.php:772 inc/settings.class.php:773
+msgid "Post Office"
+msgstr ""
+
+#: inc/settings.class.php:774
+msgid "Real Estate Agency"
+msgstr ""
+
+#: inc/settings.class.php:775 inc/settings.class.php:1211
+msgid "Restaurant"
+msgstr ""
+
+#: inc/settings.class.php:776
+msgid "Roofing Contractor"
+msgstr ""
+
+#: inc/settings.class.php:777
+msgid "Rv Park"
+msgstr ""
+
+#: inc/settings.class.php:778
+msgid "School"
+msgstr ""
+
+#: inc/settings.class.php:779
+msgid "Secondary School"
+msgstr ""
+
+#: inc/settings.class.php:780
+msgid "Shoe Store"
+msgstr ""
+
+#: inc/settings.class.php:781
+msgid "Shopping Mall"
+msgstr ""
+
+#: inc/settings.class.php:782
+msgid "Spa"
+msgstr ""
+
+#: inc/settings.class.php:783
+msgid "Stadium"
+msgstr ""
+
+#: inc/settings.class.php:784
+msgid "Storage"
+msgstr ""
+
+#: inc/settings.class.php:785
+msgid "Store"
+msgstr ""
+
+#: inc/settings.class.php:786
+msgid "Subway Station"
+msgstr ""
+
+#: inc/settings.class.php:787
+msgid "Supermarket"
+msgstr ""
+
+#: inc/settings.class.php:788
+msgid "Synagogue"
+msgstr ""
+
+#: inc/settings.class.php:789
+msgid "Taxi Stand"
+msgstr ""
+
+#: inc/settings.class.php:790
+msgid "Train Station"
+msgstr ""
+
+#: inc/settings.class.php:791
+msgid "Transit Station"
+msgstr ""
+
+#: inc/settings.class.php:792
+msgid "Travel Agency"
+msgstr ""
+
+#: inc/settings.class.php:793
+msgid "Veterinary Care"
+msgstr ""
+
+#: inc/settings.class.php:794
+msgid "Zoo"
+msgstr ""
+
+#: inc/settings.class.php:800
+msgid "Geocode"
+msgstr ""
+
+#: inc/settings.class.php:802
+msgid "Establishment"
+msgstr ""
+
+#: inc/settings.class.php:803 inc/settings.class.php:1080
+msgid "Regions"
+msgstr ""
+
+#: inc/settings.class.php:804
+msgid "Cities"
+msgstr ""
+
+#: inc/settings.class.php:1061
+msgctxt "Google Maps Skin"
+msgid "Vanilla"
+msgstr ""
+
+#: inc/settings.class.php:1062
+msgctxt "Google Maps Skin"
+msgid "Midnight"
+msgstr ""
+
+#: inc/settings.class.php:1063
+msgctxt "Google Maps Skin"
+msgid "Grayscale"
+msgstr ""
+
+#: inc/settings.class.php:1064
+msgctxt "Google Maps Skin"
+msgid "Blue Water"
+msgstr ""
+
+#: inc/settings.class.php:1065
+msgctxt "Google Maps Skin"
+msgid "Nature"
+msgstr ""
+
+#: inc/settings.class.php:1066
+msgctxt "Google Maps Skin"
+msgid "Light"
+msgstr ""
+
+#: inc/settings.class.php:1067
+msgctxt "Google Maps Skin"
+msgid "Teal"
+msgstr ""
+
+#: inc/settings.class.php:1068
+msgctxt "Google Maps Skin"
+msgid "Iceberg"
+msgstr ""
+
+#: inc/settings.class.php:1069
+msgctxt "Google Maps Skin"
+msgid "Violet"
+msgstr ""
+
+#: inc/settings.class.php:1070
+msgctxt "Google Maps Skin"
+msgid "Ocean"
+msgstr ""
+
+#: inc/settings.class.php:1071
+msgctxt "Google Maps Skin"
+msgid "Dark"
+msgstr ""
+
+#: inc/settings.class.php:1072
+msgctxt "Google Maps Skin"
+msgid "Standard"
+msgstr ""
+
+#: inc/settings.class.php:1073
+msgctxt "Google Maps Skin"
+msgid "Custom"
+msgstr ""
+
+#: inc/settings.class.php:1079 templates/search-fields/country.php:22
+msgid "Countries"
+msgstr ""
+
+#: inc/settings.class.php:1081
+msgid "Postcodes"
+msgstr ""
+
+#: inc/settings.class.php:1082
+msgid "Districts"
+msgstr ""
+
+#: inc/settings.class.php:1083
+msgid "Places"
+msgstr ""
+
+#: inc/settings.class.php:1084
+msgid "Localities"
+msgstr ""
+
+#: inc/settings.class.php:1085 templates/search-fields/neighborhood.php:22
+msgid "Neighborhoods"
+msgstr ""
+
+#: inc/settings.class.php:1086
+msgid "Addresses"
+msgstr ""
+
+#: inc/settings.class.php:1087
+msgid "Points of interest"
+msgstr ""
+
+#: inc/settings.class.php:1093
+msgctxt "Mapbox Skin"
+msgid "Streets"
+msgstr ""
+
+#: inc/settings.class.php:1094
+msgctxt "Mapbox Skin"
+msgid "Outdoors"
+msgstr ""
+
+#: inc/settings.class.php:1095
+msgctxt "Mapbox Skin"
+msgid "Light"
+msgstr ""
+
+#: inc/settings.class.php:1096
+msgctxt "Mapbox Skin"
+msgid "Dark"
+msgstr ""
+
+#: inc/settings.class.php:1098
+msgctxt "Mapbox Skin"
+msgid "Satellite"
+msgstr ""
+
+#: inc/settings.class.php:1099
+msgctxt "Mapbox Skin"
+msgid "Nav Day"
+msgstr ""
+
+#: inc/settings.class.php:1100
+msgctxt "Mapbox Skin"
+msgid "Nav Night"
+msgstr ""
+
+#: inc/settings.class.php:1101 inc/settings.class.php:1102
+msgctxt "Mapbox Skin"
+msgid "Guide Day"
+msgstr ""
+
+#: inc/settings.class.php:1104
+msgctxt "Mapbox Skin"
+msgid "Standard"
+msgstr ""
+
+#: inc/settings.class.php:1105
+msgctxt "Mapbox Skin"
+msgid "Custom"
+msgstr ""
+
+#: inc/settings.class.php:1135 inc/settings.class.php:1162
+#: inc/settings.class.php:1239 inc/settings.class.php:1252
+#: templates/property/edit-property/title_des.php:28
+#: templates/property/property-print.php:84
+#: templates/property/submit-property/title_des.php:28
+#: templates/single-property/block/description.php:9
+#: templates/single-property/print/description.php:11
+msgid "Description"
+msgstr ""
+
+#: inc/settings.class.php:1136 inc/settings.class.php:1260
+#: inc/settings.class.php:1278 templates/property/property-print.php:85
+#: templates/single-property/block/overview.php:9
+#: templates/single-property/print/overview.php:12
+msgid "Overview"
+msgstr ""
+
+#: inc/settings.class.php:1138 inc/settings.class.php:1164
+#: templates/property/property-print.php:86
+#: templates/property/property-submit.php:100
+#: templates/single-property/block/details.php:9
+#: templates/single-property/print/details.php:11
+msgid "Details"
+msgstr ""
+
+#: inc/settings.class.php:1139 inc/settings.class.php:1165
+#: templates/property/property-print.php:87
+#: templates/property/property-submit.php:97
+#: templates/single-property/block/features.php:11
+msgid "Features"
+msgstr ""
+
+#: inc/settings.class.php:1140 inc/settings.class.php:1166
+#: templates/property/edit-property/floors.php:18
+#: templates/property/property-print.php:88
+#: templates/property/submit-property/floors.php:15
+#: templates/single-property/block/floor-plans.php:11
+#: templates/single-property/print/floors.php:11
+msgid "Floor Plans"
+msgstr ""
+
+#: inc/settings.class.php:1141 inc/settings.class.php:1167
+#: templates/single-property/block/video.php:13
+msgid "Video"
+msgstr ""
+
+#: inc/settings.class.php:1142 inc/settings.class.php:1173
+msgid "360° Virtual Tour"
+msgstr ""
+
+#: inc/settings.class.php:1144 inc/settings.class.php:1169
+#: templates/single-property/block/mortgage.php:9
+msgid "Mortgage Calculator"
+msgstr ""
+
+#: inc/settings.class.php:1145
+#: templates/single-property/block/attachments.php:11
+msgid "Attachments"
+msgstr ""
+
+#: inc/settings.class.php:1147
+msgid "Walk Score"
+msgstr ""
+
+#: inc/settings.class.php:1150
+msgid "Similar Listings"
+msgstr ""
+
+#: inc/settings.class.php:1153 inc/settings.class.php:1238
+msgid "Tabs Content"
+msgstr ""
+
+#: inc/settings.class.php:1181
+msgid "Active Life"
+msgstr ""
+
+#: inc/settings.class.php:1182
+msgid "Arts & Entertainment"
+msgstr ""
+
+#: inc/settings.class.php:1183
+msgid "Automotive"
+msgstr ""
+
+#: inc/settings.class.php:1184
+msgid "Beauty & Spas"
+msgstr ""
+
+#: inc/settings.class.php:1185
+msgid "Education"
+msgstr ""
+
+#: inc/settings.class.php:1186
+msgid "Event Planning & Services"
+msgstr ""
+
+#: inc/settings.class.php:1187
+msgid "Financial Services"
+msgstr ""
+
+#: inc/settings.class.php:1188
+msgid "Food"
+msgstr ""
+
+#: inc/settings.class.php:1189
+msgid "Health & Medical"
+msgstr ""
+
+#: inc/settings.class.php:1190
+msgid "Home Services "
+msgstr ""
+
+#: inc/settings.class.php:1191
+msgid "Hotels & Travel"
+msgstr ""
+
+#: inc/settings.class.php:1192
+msgid "Local Flavor"
+msgstr ""
+
+#: inc/settings.class.php:1193
+msgid "Local Services"
+msgstr ""
+
+#: inc/settings.class.php:1194
+msgid "Mass Media"
+msgstr ""
+
+#: inc/settings.class.php:1195
+msgid "Nightlife"
+msgstr ""
+
+#: inc/settings.class.php:1196
+msgid "Pets"
+msgstr ""
+
+#: inc/settings.class.php:1197
+msgid "Professional Services"
+msgstr ""
+
+#: inc/settings.class.php:1198
+msgid "Public Services & Government"
+msgstr ""
+
+#: inc/settings.class.php:1200
+msgid "Religious Organizations"
+msgstr ""
+
+#: inc/settings.class.php:1201
+msgid "Restaurants"
+msgstr ""
+
+#: inc/settings.class.php:1202 inc/settings.class.php:1218
+msgid "Shopping"
+msgstr ""
+
+#: inc/settings.class.php:1203
+msgid "Transportation"
+msgstr ""
+
+#: inc/settings.class.php:1210 inc/shortcodes.class.php:378
+#: templates/shortcodes/properties-slider/config.php:64
+#: templates/shortcodes/properties-slider/config.php:87
+#: templates/shortcodes/properties-slider/config.php:109
+#: templates/shortcodes/properties-slider/config.php:131
+msgid "Default"
+msgstr ""
+
+#: inc/settings.class.php:1212
+msgid "Coffee & Tea"
+msgstr ""
+
+#: inc/settings.class.php:1213
+msgid "Fast Food"
+msgstr ""
+
+#: inc/settings.class.php:1214
+msgid "Going Out"
+msgstr ""
+
+#: inc/settings.class.php:1215
+msgid "Sights Museums"
+msgstr ""
+
+#: inc/settings.class.php:1217
+msgid "Accommodation"
+msgstr ""
+
+#: inc/settings.class.php:1219
+msgid "Leisure outdoor "
+msgstr ""
+
+#: inc/settings.class.php:1220
+msgid "Administrative areas buildings"
+msgstr ""
+
+#: inc/settings.class.php:1221
+msgid "Natural geographical"
+msgstr ""
+
+#: inc/settings.class.php:1222
+msgid "Petrol station"
+msgstr ""
+
+#: inc/settings.class.php:1223
+msgid "ATM bank exchange"
+msgstr ""
+
+#: inc/settings.class.php:1224
+msgid "Toilet rest area"
+msgstr ""
+
+#: inc/settings.class.php:1225
+msgid "Hospital health care facility"
+msgstr ""
+
+#: inc/settings.class.php:1261 inc/settings.class.php:1272
+#: templates/invoice/my-invoices.php:267
+msgid "Listing"
+msgstr ""
+
+#: inc/settings.class.php:1262 inc/settings.class.php:1273
+msgid "Agents"
+msgstr ""
+
+#: inc/settings.class.php:1277
+msgid "Tabs content"
+msgstr ""
+
+#: inc/settings.class.php:1286
+msgid "by Agency"
+msgstr ""
+
+#: inc/settings.class.php:1315 inc/settings.class.php:1328
+#: templates/property/edit-property/price.php:48
+#: templates/property/submit-property/price.php:41
+msgid "None"
+msgstr ""
+
+#: inc/settings.class.php:1316
+msgid "Symmetry"
+msgstr ""
+
+#: inc/settings.class.php:1317
+msgid "Suprema"
+msgstr ""
+
+#: inc/settings.class.php:1318
+msgid "Layla"
+msgstr ""
+
+#: inc/settings.class.php:1319
+msgid "Bubba"
+msgstr ""
+
+#: inc/settings.class.php:1320
+msgid "Jazz"
+msgstr ""
+
+#: inc/settings.class.php:1321
+msgid "Flash"
+msgstr ""
+
+#: inc/settings.class.php:1322
+msgid "Ming"
+msgstr ""
+
+#: inc/settings.class.php:1329
+msgid "Zoom In"
+msgstr ""
+
+#: inc/settings.class.php:1330
+msgid "Zoom Out"
+msgstr ""
+
+#: inc/settings.class.php:1331
+msgid "Slide Left"
+msgstr ""
+
+#: inc/settings.class.php:1332
+msgid "Slide Right"
+msgstr ""
+
+#: inc/settings.class.php:1333
+msgid "Slide Top"
+msgstr ""
+
+#: inc/settings.class.php:1334
+msgid "Slide Bottom"
+msgstr ""
+
+#: inc/settings.class.php:1335
+msgid "Rotate"
+msgstr ""
+
+#: inc/shortcodes.class.php:408
+msgid "ERE Dashboards"
+msgstr ""
+
+#: inc/shortcodes.class.php:411
+msgid "Display ere dashboards"
+msgstr ""
+
+#: inc/shortcodes.class.php:420
+msgid "ERE Reviews"
+msgstr ""
+
+#: inc/shortcodes.class.php:423
+msgid "Display reviews"
+msgstr ""
+
+#: inc/shortcodes.class.php:427
+msgid "Review Per Page"
+msgstr ""
+
+#: inc/shortcodes.class.php:428
+msgid "Enter number of review per page you want to display. Default 5"
+msgstr ""
+
+#: inc/shortcodes.class.php:445
+msgid "G5 ERE"
+msgstr ""
+
+#: inc/templates.class.php:76
+#, php-format
+msgid "Search Results For: %s"
+msgstr ""
+
+#: inc/templates.class.php:152
+msgid "Visit Properties"
+msgstr ""
+
+#: inc/templates.class.php:161
+msgid "Visit Agent"
+msgstr ""
+
+#: inc/templates.class.php:172
+msgid "Visit Agency"
+msgstr ""
+
+#: inc/templates.class.php:290
+msgid "ERE Login"
+msgstr ""
+
+#: inc/templates.class.php:291
+msgid "Button Add Listing"
+msgstr ""
+
+#: inc/templates.class.php:292
+msgid "Button My Favourite"
+msgstr ""
+
+#: inc/widgets/agency-search.class.php:11
+msgid "G5Plus: Agency Search"
+msgstr ""
+
+#: inc/widgets/agency-search.class.php:12
+msgid "Display an agency search form"
+msgstr ""
+
+#: inc/widgets/agent-info.class.php:11
+msgid "G5Plus: Agent Info"
+msgstr ""
+
+#: inc/widgets/agent-info.class.php:12
+msgid "Display agent information"
+msgstr ""
+
+#: inc/widgets/agent-search.class.php:11
+msgid "G5Plus: Agent Search"
+msgstr ""
+
+#: inc/widgets/agent-search.class.php:12
+msgid "Display an agent search form"
+msgstr ""
+
+#: inc/widgets/contact-agency.class.php:11
+msgid "G5Plus: Contact Agency"
+msgstr ""
+
+#: inc/widgets/contact-agency.class.php:12
+msgid "Display a contact agency form"
+msgstr ""
+
+#: inc/widgets/contact-agency.class.php:17
+msgid "Contact Agency Layout"
+msgstr ""
+
+#: inc/widgets/contact-agent.class.php:11
+msgid "G5Plus: Contact Agent"
+msgstr ""
+
+#: inc/widgets/contact-agent.class.php:12
+msgid "Display a contact agent form"
+msgstr ""
+
+#: inc/widgets/property-search.class.php:12
+msgid "G5Plus: Property Search"
+msgstr ""
+
+#: inc/widgets/property-search.class.php:13
+msgid "Display a property search form"
+msgstr ""
+
+#: inc/widgets/property-search.class.php:20
+msgid "Property Search"
+msgstr ""
+
+#: inc/widgets/property.class.php:11
+msgid "G5Plus: Property"
+msgstr ""
+
+#: inc/widgets/property.class.php:12
+msgid "Display list property"
+msgstr ""
+
+#: inc/widgets/property.class.php:19
+msgid "Recent Property"
+msgstr ""
+
+#: inc/widgets/property.class.php:24
+msgid "Source"
+msgstr ""
+
+#: inc/widgets/property.class.php:29
+msgid "Recent"
+msgstr ""
+
+#: inc/widgets/property.class.php:30
+msgid "Oldest"
+msgstr ""
+
+#: inc/widgets/property.class.php:37
+msgid "Number of property to show:"
+msgstr ""
+
+#: inc/widgets/property.class.php:58
+msgid "Carousel Mode"
+msgstr ""
+
+#: inc/widgets/property.class.php:59
+msgid "Turn On this option if you want to enable carousel mode"
+msgstr ""
+
+#: templates/account/login.php:29
+msgid "Log In"
+msgstr ""
+
+#: templates/account/login.php:30 templates/account/reset-password.php:17
+msgid "Don’t have an account yet?"
+msgstr ""
+
+#: templates/account/login.php:32 templates/account/reset-password.php:19
+msgid "Sign up for free"
+msgstr ""
+
+#: templates/account/login.php:35 templates/account/login.php:37
+msgid "Username or email address"
+msgstr ""
+
+#: templates/account/login.php:41 templates/account/login.php:44
+#: templates/account/register.php:47 templates/account/register.php:49
+msgid "Password"
+msgstr ""
+
+#: templates/account/login.php:57
+msgid "Remember me"
+msgstr ""
+
+#: templates/account/login.php:61
+msgid "Lost password"
+msgstr ""
+
+#: templates/account/login.php:71 templates/global/contact-not-login.php:8
+msgid "Login"
+msgstr ""
+
+#: templates/account/login.php:80
+msgid "or Log-in with"
+msgstr ""
+
+#: templates/account/login.php:94
+msgid "Back to Login"
+msgstr ""
+
+#: templates/account/my-profile.php:70
+#, php-format
+msgid ""
+"If you want to become an agent, please read our <a class=\"accent-color"
+"\" target=\"_blank\" href=\"%s\">Terms & Conditions</a> first"
+msgstr ""
+
+#: templates/account/my-profile.php:76
+msgid ""
+"Your current account type is set to agent, if you want to remove your "
+"agent account, and return to normal account, you must click the button "
+"below"
+msgstr ""
+
+#: templates/account/my-profile.php:78
+msgid ""
+"Your account need to be approved by admin to become an agent, if you "
+"want to return to normal account, you must click the button below"
+msgstr ""
+
+#: templates/account/my-profile.php:84
+msgid "Agent Account"
+msgstr ""
+
+#: templates/account/my-profile.php:90
+msgid "Become an Agent"
+msgstr ""
+
+#: templates/account/my-profile.php:95
+msgid "Remove Agent Account"
+msgstr ""
+
+#: templates/account/my-profile.php:108
+msgid "Photo"
+msgstr ""
+
+#: templates/account/my-profile.php:109
+msgid "Upload your profile photo."
+msgstr ""
+
+#: templates/account/my-profile.php:124
+#: templates/account/my-profile.php:136
+msgid "User Avatar"
+msgstr ""
+
+#: templates/account/my-profile.php:148
+msgid "Update Profile Picture"
+msgstr ""
+
+#: templates/account/my-profile.php:157
+msgid "Contact information"
+msgstr ""
+
+#: templates/account/my-profile.php:161
+msgid "First Name"
+msgstr ""
+
+#: templates/account/my-profile.php:165
+msgid "Please enter your first name!"
+msgstr ""
+
+#: templates/account/my-profile.php:169
+msgid "Last Name"
+msgstr ""
+
+#: templates/account/my-profile.php:173
+msgid "Please enter your last name!"
+msgstr ""
+
+#: templates/account/my-profile.php:179 templates/account/register.php:39
+#: templates/account/register.php:41 templates/agency/loop/email.php:28
+#: templates/agent/loop/email.php:28
+#: templates/single-property/actions/share.php:62
+msgid "Email"
+msgstr ""
+
+#: templates/account/my-profile.php:182
+msgid "Please enter your email!"
+msgstr ""
+
+#: templates/account/my-profile.php:186 templates/agency/loop/phone.php:32
+#: templates/agent/loop/phone.php:31
+msgid "Mobile"
+msgstr ""
+
+#: templates/account/my-profile.php:190
+msgid "Please enter your mobile number!"
+msgstr ""
+
+#: templates/account/my-profile.php:197
+#: templates/agent/loop/company.php:29
+msgid "Company"
+msgstr ""
+
+#: templates/account/my-profile.php:219
+msgid "Office Number"
+msgstr ""
+
+#: templates/account/my-profile.php:230
+msgid "Office Address"
+msgstr ""
+
+#: templates/account/my-profile.php:241
+#: templates/agency/loop/licenses.php:30
+#: templates/agent/loop/licenses.php:29
+msgid "Licenses"
+msgstr ""
+
+#: templates/account/my-profile.php:253 templates/agency/loop/fax.php:29
+#: templates/agent/loop/fax.php:29
+msgid "Fax"
+msgstr ""
+
+#: templates/account/my-profile.php:268
+#: templates/account/my-profile.php:376
+msgid "User detail"
+msgstr ""
+
+#: templates/account/my-profile.php:274
+msgid "Website URL"
+msgstr ""
+
+#: templates/account/my-profile.php:295
+msgid "Facebook URL"
+msgstr ""
+
+#: templates/account/my-profile.php:306
+msgid "Twitter URL"
+msgstr ""
+
+#: templates/account/my-profile.php:317
+msgid "Linkedin URL"
+msgstr ""
+
+#: templates/account/my-profile.php:328
+msgid "Instagram URL"
+msgstr ""
+
+#: templates/account/my-profile.php:339
+msgid "Pinterest URL"
+msgstr ""
+
+#: templates/account/my-profile.php:350
+msgid "Youtube URL"
+msgstr ""
+
+#: templates/account/my-profile.php:361
+msgid "Vimeo URL"
+msgstr ""
+
+#: templates/account/my-profile.php:378
+#: templates/agent/single/block/description.php:9
+msgid "About me"
+msgstr ""
+
+#: templates/account/my-profile.php:387
+msgid "Update Profile"
+msgstr ""
+
+#: templates/account/my-profile.php:396
+msgid "Change password"
+msgstr ""
+
+#: templates/account/my-profile.php:403
+msgid "Old Password"
+msgstr ""
+
+#: templates/account/my-profile.php:406
+msgid "Please enter your old password!"
+msgstr ""
+
+#: templates/account/my-profile.php:412
+msgid "New Password "
+msgstr ""
+
+#: templates/account/my-profile.php:415
+msgid "Please enter your new password!"
+msgstr ""
+
+#: templates/account/my-profile.php:421
+msgid "Confirm Password"
+msgstr ""
+
+#: templates/account/my-profile.php:424
+msgid "Please enter confirm password!"
+msgstr ""
+
+#: templates/account/my-profile.php:431
+msgid "Update Password"
+msgstr ""
+
+#: templates/account/register.php:28
+msgid "Sign Up"
+msgstr ""
+
+#: templates/account/register.php:29
+msgid "Already have an account?"
+msgstr ""
+
+#: templates/account/register.php:31
+#: templates/global/dashboard-login-modal.php:20
+#: templates/global/dashboard-login-modal.php:29
+msgid "Log in"
+msgstr ""
+
+#: templates/account/register.php:34 templates/account/register.php:36
+msgid "Username"
+msgstr ""
+
+#: templates/account/register.php:53 templates/account/register.php:55
+msgid "Retype Password"
+msgstr ""
+
+#: templates/account/register.php:65
+#, php-format
+msgid ""
+"I agree with your <a target=\"_blank\" href=\"%s\">Terms & Conditions</"
+"a>"
+msgstr ""
+
+#: templates/account/register.php:81
+#: templates/global/dashboard-login-modal.php:31
+msgid "Register"
+msgstr ""
+
+#: templates/account/reset-password.php:16
+msgid "Forgot your password?"
+msgstr ""
+
+#: templates/account/reset-password.php:23
+msgid "Enter your username or email"
+msgstr ""
+
+#: templates/account/reset-password.php:32
+msgid "Get new password"
+msgstr ""
+
+#: templates/agency/loop/content-none.php:8
+msgid "No agency were found matching your selection."
+msgstr ""
+
+#: templates/agency/loop/office-number.php:31
+#: templates/agent/loop/office-number.php:31
+msgid "Office"
+msgstr ""
+
+#: templates/agency/loop/toolbar/switch_layout.php:17
+#: templates/agent/loop/toolbar/switch_layout.php:13
+#: templates/loop/toolbar/switch_layout.php:11
+msgid "List View"
+msgstr ""
+
+#: templates/agency/loop/toolbar/switch_layout.php:20
+#: templates/agent/loop/toolbar/switch_layout.php:16
+#: templates/loop/toolbar/switch_layout.php:12
+msgid "Grid View"
+msgstr ""
+
+#: templates/agency/loop/website.php:29
+#: templates/agent/loop/website.php:29
+msgid "Website"
+msgstr ""
+
+#: templates/agency/search-fields/keyword.php:28
+msgid "Search by agency’s name..."
+msgstr ""
+
+#: templates/agency/search-fields/submit-button.php:15
+#: templates/agent/search-fields/submit-button.php:14
+#: templates/invoice/my-invoices.php:297
+#: templates/property/my-save-search.php:14
+#: templates/search-fields/submit-button.php:14
+msgid "Search"
+msgstr ""
+
+#: templates/agency/single/block/agents.php:16
+msgid "Our Agents"
+msgstr ""
+
+#: templates/agency/single/block/listing.php:24
+msgid "Our Listing"
+msgstr ""
+
+#: templates/agency/single/block/overview.php:21
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: templates/agent/loop/address.php:29
+msgid "Address Office"
+msgstr ""
+
+#: templates/agent/loop/agency.php:11
+msgid "Company Agent at"
+msgstr ""
+
+#: templates/agent/loop/content-none.php:8
+msgid "No agent were found matching your selection."
+msgstr ""
+
+#: templates/agent/loop/property.php:12
+msgid "Listed Properties"
+msgstr ""
+
+#: templates/agent/search-fields/agency.php:26
+msgid "All Agency"
+msgstr ""
+
+#: templates/agent/search-fields/keyword.php:27
+#: templates/search-fields/keyword-mobile.php:15
+#: templates/search-fields/keyword-mobile.php:24
+#: templates/search-fields/keyword.php:18
+#: templates/search-fields/keyword.php:27
+msgid "Enter Keyword..."
+msgstr ""
+
+#: templates/agent/single/block/my-properties.php:16
+msgid "My listing"
+msgstr ""
+
+#: templates/agent/single/block/review.php:10
+#: templates/single-property/block/review.php:10
+msgid "Rating & Reviews"
+msgstr ""
+
+#: templates/agent/single/contact-btn.php:8
+#: templates/global/bottom-bar-action.php:30
+msgid "Send Message"
+msgstr ""
+
+#: templates/dashboards/loop/review-item.php:23
+msgid "on"
+msgstr ""
+
+#: templates/dashboards/loop/review-item.php:35
+#: templates/global/comment.php:27
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: templates/dashboards/loop/review-item.php:43
+#: templates/global/comment.php:34
+#, php-format
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
+msgstr ""
+
+#: templates/dashboards/loop/review-item.php:49
+#: templates/global/comment.php:38
+#: templates/property/my-properties.php:299
+#: templates/property/my-properties.php:332
+#: templates/property/my-properties.php:372
+msgid "Edit"
+msgstr ""
+
+#: templates/dashboards/overview.php:31
+msgid "Publish"
+msgstr ""
+
+#: templates/dashboards/overview.php:47
+#: templates/property/my-properties.php:227
+msgid "Pending"
+msgstr ""
+
+#: templates/dashboards/overview.php:77
+msgid "Favorites"
+msgstr ""
+
+#: templates/elements/advanced-properties-locations/config.php:32
+msgid "G5 Advanced Properties Locations"
+msgstr ""
+
+#: templates/elements/advanced-properties-locations/config.php:55
+#: templates/elements/properties-locations/config.php:150
+#: templates/shortcodes/properties-locations/config.php:34
+msgid "Select taxonomy property location"
+msgstr ""
+
+#: templates/elements/advanced-properties-locations/config.php:120
+#: templates/elements/properties-locations/config.php:217
+#: templates/shortcodes/properties-locations/config.php:25
+msgid "Background Image"
+msgstr ""
+
+#: templates/elements/advanced-properties-locations/config.php:247
+#: templates/elements/properties-locations/config.php:138
+#: templates/shortcodes/properties-locations/config.php:17
+msgid "Specify your properties location layout"
+msgstr ""
+
+#: templates/elements/advanced-properties-locations/config.php:254
+msgid "Image Size Mode"
+msgstr ""
+
+#: templates/elements/advanced-properties-locations/config.php:257
+#: templates/elements/properties-locations/config.php:229
+#: templates/shortcodes/properties-locations/config.php:55
+msgid "Original"
+msgstr ""
+
+#: templates/elements/advanced-properties-locations/config.php:263
+#: templates/elements/properties-locations/config.php:235
+#: templates/shortcodes/properties-locations/config.php:60
+#: templates/shortcodes/properties-slider/config.php:44
+#: templates/shortcodes/properties-slider/config.php:66
+#: templates/shortcodes/properties-slider/config.php:89
+#: templates/shortcodes/properties-slider/config.php:111
+#: templates/shortcodes/properties-slider/config.php:133
+msgid "Custom"
+msgstr ""
+
+#: templates/elements/advanced-properties-locations/config.php:264
+#: templates/elements/properties-locations/config.php:236
+msgid "Custom Height"
+msgstr ""
+
+#: templates/elements/advanced-properties-locations/config.php:272
+#: templates/elements/properties-locations/config.php:244
+msgid "Width"
+msgstr ""
+
+#: templates/elements/advanced-properties-locations/config.php:288
+#: templates/elements/advanced-properties-locations/config.php:304
+#: templates/elements/properties-locations/config.php:260
+#: templates/elements/properties-locations/config.php:276
+#: templates/elements/properties-slider/config.php:101
+#: templates/shortcodes/properties-slider/config.php:51
+msgid "Height"
+msgstr ""
+
+#: templates/elements/advanced-properties-locations/config.php:360
+#: templates/elements/properties-locations/config.php:292
+msgid "Hover Effect"
+msgstr ""
+
+#: templates/elements/advanced-properties-locations/config.php:370
+#: templates/elements/properties-locations/config.php:302
+msgid "Hover Image Effect"
+msgstr ""
+
+#: templates/elements/advanced-properties-locations/config.php:469
+#: templates/elements/properties-locations/config.php:402
+msgid "Property Count"
+msgstr ""
+
+#: templates/elements/agency-search/config.php:26
+msgid "G5 Agency Search"
+msgstr ""
+
+#: templates/elements/agency-search/config.php:47
+#: templates/elements/agent-search/config.php:47
+msgid "Wrapper"
+msgstr ""
+
+#: templates/elements/agency-search/config.php:55
+msgid "<i>Your agency search form.</i>"
+msgstr ""
+
+#: templates/elements/agency-slider/config.php:27
+msgid "G5 Agency Slider"
+msgstr ""
+
+#: templates/elements/agency/config.php:27
+msgid "G5 Agency"
+msgstr ""
+
+#: templates/elements/agent-search/config.php:26
+msgid "G5 Agent Search"
+msgstr ""
+
+#: templates/elements/agent-search/config.php:55
+msgid "<i>Your agent search form.</i>"
+msgstr ""
+
+#: templates/elements/agent-singular/config.php:33
+msgid "G5 Agent Singular"
+msgstr ""
+
+#: templates/elements/agent-singular/config.php:84
+#: templates/shortcodes/agent-singular/config.php:33
+msgid "Enter the agent you want to display"
+msgstr ""
+
+#: templates/elements/agent-singular/config.php:106
+#: templates/shortcodes/agent-singular/config.php:17
+msgid "Specify your agent singular layout"
+msgstr ""
+
+#: templates/elements/agent-slider/config.php:30
+msgid "G5 Agent Slider"
+msgstr ""
+
+#: templates/elements/agent/config.php:27
+msgid "G5 Agent"
+msgstr ""
+
+#: templates/elements/properties-carousel/config.php:27
+msgid "G5 Properties Carousel"
+msgstr ""
+
+#: templates/elements/properties-locations/config.php:27
+msgid "G5 Properties Locations"
+msgstr ""
+
+#: templates/elements/properties-locations/config.php:226
+msgid "Size Mode"
+msgstr ""
+
+#: templates/elements/properties-slider/config.php:29
+msgid "G5 Properties Slider"
+msgstr ""
+
+#: templates/elements/properties-slider/config.php:82
+#: templates/shortcodes/properties-slider/config.php:17
+msgid "Specify your property slider layout"
+msgstr ""
+
+#: templates/elements/properties-slider/config.php:103
+msgid "Enter custom height (include unit) enter value -1 to full screen"
+msgstr ""
+
+#: templates/elements/properties/config.php:27
+msgid "G5 Properties"
+msgstr ""
+
+#: templates/elements/property-search-form/config.php:26
+msgid "G5 Property Search Form"
+msgstr ""
+
+#: templates/global/bottom-bar-action.php:39
+#: templates/global/contact-form.php:88
+msgid "Call"
+msgstr ""
+
+#: templates/global/contact-form.php:16
+#: templates/single-property/print/button-whatsapp.php:10
+#, php-format
+msgid "Hello, I am interested in [%s]"
+msgstr ""
+
+#: templates/global/contact-form.php:28
+msgid "Full Name"
+msgstr ""
+
+#: templates/global/contact-form.php:29
+msgid "Please enter your Name!"
+msgstr ""
+
+#: templates/global/contact-form.php:33
+msgid "Phone Number"
+msgstr ""
+
+#: templates/global/contact-form.php:34
+msgid "Please enter your Phone!"
+msgstr ""
+
+#: templates/global/contact-form.php:38
+msgid "Email Address"
+msgstr ""
+
+#: templates/global/contact-form.php:39
+msgid "Please enter your valid Email!"
+msgstr ""
+
+#: templates/global/contact-form.php:43
+msgid "Message"
+msgstr ""
+
+#: templates/global/contact-form.php:44
+msgid "Please enter your Message!"
+msgstr ""
+
+#: templates/global/contact-form.php:70
+msgid "Send message"
+msgstr ""
+
+#: templates/global/contact-form.php:81
+#: templates/single-property/print/button-whatsapp.php:18
+msgid "WhatsApp"
+msgstr ""
+
+#: templates/global/contact-not-login.php:6
+msgid ""
+"Please login or register to view contact information for this agent/"
+"owner"
+msgstr ""
+
+#: templates/global/mc-output.php:8
+#: templates/single-property/block/data/mortgage.php:8
+msgid "$"
+msgstr ""
+
+#: templates/global/mc-output.php:15
+msgid "Loan Amount"
+msgstr ""
+
+#: templates/global/mc-output.php:27
+#: templates/single-property/block/data/mortgage.php:37
+msgid "Year"
+msgstr ""
+
+#: templates/global/mc-output.php:31
+msgid "Monthly"
+msgstr ""
+
+#: templates/global/mc-output.php:43
+msgid "Bi Weekly"
+msgstr ""
+
+#: templates/global/mc-output.php:55
+msgid "Weekly"
+msgstr ""
+
+#: templates/global/message.php:10
+#: templates/global/save-search-modal.php:49
+msgid "Close"
+msgstr ""
+
+#: templates/global/modal-messenger.php:15
+msgid "Contact Form"
+msgstr ""
+
+#: templates/global/rating.php:47
+#, php-format
+msgid "(%s review)"
+msgid_plural "(%s reviews)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/global/review/form.php:14
+msgid "Write A Review"
+msgstr ""
+
+#: templates/global/review/form.php:17
+msgid ""
+"You must be <a href=\"#\" data-toggle=\"modal\" data-target="
+"\"#ere_signin_modal\">logged in</a> to post a review"
+msgstr ""
+
+#: templates/global/review/form.php:28
+msgid "Your Review"
+msgstr ""
+
+#: templates/global/review/form.php:29
+msgid "Please enter your review!"
+msgstr ""
+
+#: templates/global/review/form.php:31
+msgid "Submit Review"
+msgstr ""
+
+#: templates/global/review/list.php:11 templates/shortcodes/reviews.php:37
+msgid "No Reviews"
+msgstr ""
+
+#: templates/global/review/list.php:12 templates/shortcodes/reviews.php:39
+msgid "One Review"
+msgstr ""
+
+#: templates/global/review/list.php:13
+msgid "% Reviews"
+msgstr ""
+
+#: templates/global/review/list.php:27
+msgid "Prev"
+msgstr ""
+
+#: templates/global/review/list.php:28
+#: templates/property/property-submit.php:163
+#: templates/property/property-submit.php:164
+msgid "Next"
+msgstr ""
+
+#: templates/global/review/rating.php:18
+msgid "Avarage User Rating"
+msgstr ""
+
+#: templates/global/review/rating.php:33
+msgid "Rating Breakdown"
+msgstr ""
+
+#: templates/global/save-search-modal.php:16
+msgid "Saved Search"
+msgstr ""
+
+#: templates/global/save-search-modal.php:23
+msgid ""
+"With Saved Search, You will receive an email notification whenever "
+"someone posts a new property that matches your saved search criteria."
+msgstr ""
+
+#: templates/global/save-search-modal.php:29
+msgid "Input title"
+msgstr ""
+
+#: templates/global/save-search-modal.php:32
+msgid "Please enter the title!"
+msgstr ""
+
+#: templates/global/save-search-modal.php:43
+#, php-format
+msgid "Parameters: %s"
+msgstr ""
+
+#: templates/global/save-search-modal.php:52
+msgid "Save"
+msgstr ""
+
+#: templates/invoice/invoice-print.php:11
+#: templates/property/property-print.php:11
+msgid "Posts ineligible to print!"
+msgstr ""
+
+#: templates/invoice/invoice-print.php:128
+#: templates/invoice/my-invoices.php:137
+#, php-format
+msgid "Invoice  from %s"
+msgstr ""
+
+#: templates/invoice/invoice-print.php:131
+#: templates/invoice/my-invoices.php:108
+#: templates/invoice/my-invoices.php:140
+#, php-format
+msgid "Invoice #%s"
+msgstr ""
+
+#: templates/invoice/invoice-print.php:138
+#: templates/invoice/my-invoices.php:147
+msgid "Invoice from"
+msgstr ""
+
+#: templates/invoice/invoice-print.php:158
+#: templates/invoice/my-invoices.php:167
+msgid "Invoice to"
+msgstr ""
+
+#: templates/invoice/invoice-print.php:174
+#: templates/invoice/my-invoices.php:183
+msgid "Invoice id"
+msgstr ""
+
+#: templates/invoice/invoice-print.php:179
+#: templates/invoice/my-invoices.php:188
+#: templates/payment/payment-completed.php:35
+msgid "Date"
+msgstr ""
+
+#: templates/invoice/invoice-print.php:189
+#: templates/invoice/my-invoices.php:198
+msgid "Item Name:"
+msgstr ""
+
+#: templates/invoice/invoice-print.php:193
+#: templates/invoice/my-invoices.php:202
+msgid "Payment Type:"
+msgstr ""
+
+#: templates/invoice/invoice-print.php:197
+#: templates/invoice/my-invoices.php:206
+msgid "Payment Method:"
+msgstr ""
+
+#: templates/invoice/invoice-print.php:201
+#: templates/invoice/my-invoices.php:210
+#: templates/payment/per-package.php:99
+msgid "Total Price:"
+msgstr ""
+
+#: templates/invoice/my-invoices.php:40
+msgid "You can't view this invoice"
+msgstr ""
+
+#: templates/invoice/my-invoices.php:103
+msgid "payments"
+msgstr ""
+
+#: templates/invoice/my-invoices.php:115
+#: templates/invoice/my-invoices.php:116
+msgid "Back to My Invoices"
+msgstr ""
+
+#: templates/invoice/my-invoices.php:221
+msgid "Order ID"
+msgstr ""
+
+#: templates/invoice/my-invoices.php:222
+msgid "Purchase Date"
+msgstr ""
+
+#: templates/invoice/my-invoices.php:224
+msgid "Item Name"
+msgstr ""
+
+#: templates/invoice/my-invoices.php:226
+#: templates/payment/payment-completed.php:40
+msgid "Total"
+msgstr ""
+
+#: templates/invoice/my-invoices.php:227
+#: templates/property/my-favorites.php:46
+#: templates/property/my-properties.php:161
+#: templates/property/my-save-search.php:16
+msgid "Action"
+msgstr ""
+
+#: templates/invoice/my-invoices.php:237
+#: templates/invoice/my-invoices.php:240
+msgid "After Date"
+msgstr ""
+
+#: templates/invoice/my-invoices.php:247
+#: templates/invoice/my-invoices.php:250
+msgid "Before Date"
+msgstr ""
+
+#: templates/invoice/my-invoices.php:257
+msgid "Invoice Type"
+msgstr ""
+
+#: templates/invoice/my-invoices.php:261
+msgid "All Invoice Type"
+msgstr ""
+
+#: templates/invoice/my-invoices.php:264
+msgid "Package"
+msgstr ""
+
+#: templates/invoice/my-invoices.php:270
+#: templates/payment/per-listing-upgrade.php:24
+msgid "Upgrade to Featured"
+msgstr ""
+
+#: templates/invoice/my-invoices.php:273
+msgid "Listing with Featured"
+msgstr ""
+
+#: templates/invoice/my-invoices.php:280
+msgid "Payment Status"
+msgstr ""
+
+#: templates/invoice/my-invoices.php:284
+msgid "All Payment Status"
+msgstr ""
+
+#: templates/invoice/my-invoices.php:287
+#: templates/invoice/my-invoices.php:339
+msgid "Paid"
+msgstr ""
+
+#: templates/invoice/my-invoices.php:290
+#: templates/invoice/my-invoices.php:341
+msgid "Not Paid"
+msgstr ""
+
+#: templates/invoice/my-invoices.php:315
+msgid "Results"
+msgstr ""
+
+#: templates/invoice/my-invoices.php:315
+msgid "You don't have any invoices listed."
+msgstr ""
+
+#: templates/invoice/my-invoices.php:349
+msgid "View Invoice"
+msgstr ""
+
+#: templates/loop/content-none.php:8
+msgid "No property were found matching your selection."
+msgstr ""
+
+#: templates/loop/property-bathrooms.php:10
+#, php-format
+msgid "%s Ba"
+msgstr ""
+
+#: templates/loop/property-bedrooms.php:10
+#, php-format
+msgid "%s Br"
+msgstr ""
+
+#: templates/loop/property-date.php:12
+#, php-format
+msgctxt "%s = human-readable time difference"
+msgid " %s ago"
+msgstr ""
+
+#: templates/loop/property-garage.php:10
+#, php-format
+msgid "%s Gr"
+msgstr ""
+
+#: templates/loop/property-view.php:10
+#, php-format
+msgid "%s views"
+msgstr ""
+
+#: templates/loop/result-count.php:15
+msgid "Showing the single result"
+msgstr ""
+
+#: templates/loop/result-count.php:18
+#, php-format
+msgid "Showing all %s result"
+msgid_plural "Showing all %s results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/loop/result-count.php:23
+#, php-format
+msgctxt "with first and last result"
+msgid "Showing %1$s&ndash;%2$s of %3$s result"
+msgid_plural "Showing %1$s&ndash;%2$s of %3$s results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/loop/save-search-btn.php:14
+msgid "Save Search"
+msgstr ""
+
+#: templates/loop/view-gallery.php:11
+#, php-format
+msgid "(%s) Photos"
+msgstr ""
+
+#: templates/map/map.php:45
+msgid "Get Directions"
+msgstr ""
+
+#: templates/package/package.php:15
+msgid "Choose the packages that’s right for your business"
+msgstr ""
+
+#: templates/package/package.php:16
+msgid "Please select a listing package"
+msgstr ""
+
+#: templates/package/package.php:78
+msgid "Popular"
+msgstr ""
+
+#: templates/package/package.php:81
+msgid "pack"
+msgstr ""
+
+#: templates/package/package.php:88
+msgid "Free"
+msgstr ""
+
+#: templates/package/package.php:98
+msgid "Expiration Date"
+msgstr ""
+
+#: templates/package/package.php:102
+msgid "Never Expires"
+msgstr ""
+
+#: templates/package/package.php:113 templates/payment/per-package.php:68
+#: templates/payment/per-package.php:80
+#: templates/widgets/my-package/my-package.php:19
+msgid "Unlimited"
+msgstr ""
+
+#: templates/package/package.php:120
+msgid "Featured Listings"
+msgstr ""
+
+#: templates/package/package.php:128
+msgid "Choose this pack"
+msgstr ""
+
+#: templates/payment/payment-completed.php:25
+msgid "My Order"
+msgstr ""
+
+#: templates/payment/payment-completed.php:29
+msgid "Order Number"
+msgstr ""
+
+#: templates/payment/payment-completed.php:46
+#: templates/payment/per-listing-upgrade.php:38
+#: templates/payment/per-listing.php:61
+msgid "Payment Method"
+msgstr ""
+
+#: templates/payment/payment-completed.php:54
+msgid "Payment Type"
+msgstr ""
+
+#: templates/payment/payment-completed.php:74
+#: templates/payment/payment-completed.php:87
+msgid "Go to Dashboard"
+msgstr ""
+
+#: templates/payment/per-listing-upgrade.php:17
+#: templates/payment/per-listing.php:18
+msgid "Choose Option"
+msgstr ""
+
+#: templates/payment/per-listing-upgrade.php:46
+#: templates/payment/per-listing.php:69
+#: templates/payment/per-package.php:124
+msgid "Pay With Paypal"
+msgstr ""
+
+#: templates/payment/per-listing-upgrade.php:56
+#: templates/payment/per-listing.php:79
+#: templates/payment/per-package.php:134
+msgid "Pay with Credit Card"
+msgstr ""
+
+#: templates/payment/per-listing-upgrade.php:70
+#: templates/payment/per-listing.php:93
+msgid "Wire transfer"
+msgstr ""
+
+#: templates/payment/per-listing-upgrade.php:84
+#, php-format
+msgid ""
+"Please read <a target=\"_blank\" href=\"%s\"><strong>Terms & "
+"Conditions</strong></a> before click \"Pay Now\""
+msgstr ""
+
+#: templates/payment/per-listing-upgrade.php:86
+#: templates/payment/per-listing.php:111
+#: templates/payment/per-package.php:165
+#: templates/property/my-properties.php:406
+msgid "Pay Now"
+msgstr ""
+
+#: templates/payment/per-listing.php:26
+msgid "Submission standard"
+msgstr ""
+
+#: templates/payment/per-listing.php:38
+msgid "Submission with featured"
+msgstr ""
+
+#: templates/payment/per-listing.php:50
+#, php-format
+msgid "Note: Number expire days: <strong>%s day</strong>"
+msgid_plural "Note: Number expire days: <strong>%s days</strong>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/payment/per-listing.php:108
+#: templates/payment/per-package.php:161
+#, php-format
+msgid ""
+"Please read <a target=\"_blank\" href=\"%s\"><strong>Terms & "
+"Conditions</strong></a> first"
+msgstr ""
+
+#: templates/payment/per-package.php:50
+msgid "Selected Package"
+msgstr ""
+
+#: templates/payment/per-package.php:54
+msgid "Pack"
+msgstr ""
+
+#: templates/payment/per-package.php:57
+msgid "Change Package"
+msgstr ""
+
+#: templates/payment/per-package.php:64
+msgid "Package Time:"
+msgstr ""
+
+#: templates/payment/per-package.php:77
+msgid "Listing Included:"
+msgstr ""
+
+#: templates/payment/per-package.php:89
+msgid "Featured Listing Included:"
+msgstr ""
+
+#: templates/payment/per-package.php:110
+#, php-format
+msgid ""
+"You currently have \"%s\" package. The package hasn't expired yet, so "
+"you cannot buy it at this time. If you would like, you can buy another "
+"package."
+msgstr ""
+
+#: templates/payment/per-package.php:115
+msgid "Choose Payment Methods"
+msgstr ""
+
+#: templates/payment/per-package.php:147
+msgid "Wire Transfer"
+msgstr ""
+
+#: templates/payment/per-package.php:170
+msgid ""
+"You have already used your first free package, please choose different "
+"package."
+msgstr ""
+
+#: templates/payment/per-package.php:173
+msgid "Get Free Listing Package"
+msgstr ""
+
+#: templates/property/edit-property/contact.php:19
+#: templates/property/submit-property/contact.php:16
+#: templates/single-property/print/contact-agent.php:17
+msgid "Contact Information"
+msgstr ""
+
+#: templates/property/edit-property/contact.php:22
+#: templates/property/submit-property/contact.php:19
+msgid "What to display in contact information box?"
+msgstr ""
+
+#: templates/property/edit-property/contact.php:29
+#: templates/property/submit-property/contact.php:27
+msgid "My profile information"
+msgstr ""
+
+#: templates/property/edit-property/contact.php:39
+#: templates/property/submit-property/contact.php:38
+msgid "Other contact"
+msgstr ""
+
+#: templates/property/edit-property/contact.php:51
+#: templates/property/submit-property/contact.php:46
+msgid "Other contact Name"
+msgstr ""
+
+#: templates/property/edit-property/contact.php:62
+#: templates/property/submit-property/contact.php:53
+msgid "Other contact Email"
+msgstr ""
+
+#: templates/property/edit-property/contact.php:71
+#: templates/property/submit-property/contact.php:59
+msgid "Other contact Phone"
+msgstr ""
+
+#: templates/property/edit-property/contact.php:81
+#: templates/property/submit-property/contact.php:66
+msgid "Other contact more info"
+msgstr ""
+
+#: templates/property/edit-property/details.php:22
+#: templates/property/submit-property/details.php:18
+msgid "Property Details"
+msgstr ""
+
+#: templates/property/edit-property/details.php:29
+#: templates/property/submit-property/details.php:24
+#, php-format
+msgid "Size (%s) %s"
+msgstr ""
+
+#: templates/property/edit-property/details.php:42
+#: templates/property/submit-property/details.php:34
+#, php-format
+msgid "Land Area (%s) %s"
+msgstr ""
+
+#: templates/property/edit-property/details.php:106
+#: templates/property/submit-property/details.php:86
+#, php-format
+msgid "Garages Size (%s)"
+msgstr ""
+
+#: templates/property/edit-property/details.php:274
+#: templates/property/submit-property/details.php:219
+msgid "Additional details"
+msgstr ""
+
+#: templates/property/edit-property/details.php:280
+#: templates/property/submit-property/details.php:225
+msgid "Value"
+msgstr ""
+
+#: templates/property/edit-property/details.php:321
+#: templates/property/submit-property/details.php:236
+msgid "Add New"
+msgstr ""
+
+#: templates/property/edit-property/features.php:16
+#: templates/property/submit-property/features.php:15
+msgid "Property Features"
+msgstr ""
+
+#: templates/property/edit-property/features.php:91
+#: templates/property/submit-property/features.php:78
+#: templates/single-property/block/data/features.php:83
+#: templates/single-property/print/features.php:80
+msgid "Other"
+msgstr ""
+
+#: templates/property/edit-property/floors.php:52
+#: templates/property/submit-property/floors.php:41
+msgid "Floor Name"
+msgstr ""
+
+#: templates/property/edit-property/floors.php:65
+#: templates/property/submit-property/floors.php:52
+msgid "Floor Price (Only digits)"
+msgstr ""
+
+#: templates/property/edit-property/floors.php:77
+#: templates/property/submit-property/floors.php:62
+msgid "Price Postfix"
+msgstr ""
+
+#: templates/property/edit-property/floors.php:89
+#: templates/property/submit-property/floors.php:73
+msgid "Floor Size (Only digits)"
+msgstr ""
+
+#: templates/property/edit-property/floors.php:101
+#: templates/property/submit-property/floors.php:83
+msgid "Size Postfix"
+msgstr ""
+
+#: templates/property/edit-property/floors.php:137
+#: templates/property/submit-property/floors.php:115
+msgid "Floor Image"
+msgstr ""
+
+#: templates/property/edit-property/floors.php:154
+#: templates/property/edit-property/media.php:150
+#: templates/property/submit-property/floors.php:126
+#: templates/property/submit-property/media.php:76
+msgid "Choose image"
+msgstr ""
+
+#: templates/property/edit-property/floors.php:163
+#: templates/property/submit-property/floors.php:133
+msgid "Plan Description"
+msgstr ""
+
+#: templates/property/edit-property/floors.php:191
+#: templates/property/submit-property/floors.php:154
+msgid "Add More"
+msgstr ""
+
+#: templates/property/edit-property/location.php:22
+#: templates/property/submit-property/location.php:23
+msgid "Property Location"
+msgstr ""
+
+#: templates/property/edit-property/location.php:33
+#: templates/property/submit-property/location.php:34
+msgid "Enter property address"
+msgstr ""
+
+#: templates/property/edit-property/location.php:117
+#: templates/property/submit-property/location.php:107
+msgid "Postal Code / Zip"
+msgstr ""
+
+#: templates/property/edit-property/media.php:16
+#: templates/property/submit-property/media.php:16
+msgid "Property Media"
+msgstr ""
+
+#: templates/property/edit-property/media.php:19
+#: templates/property/submit-property/media.php:20
+msgid "Photo Gallery"
+msgstr ""
+
+#: templates/property/edit-property/media.php:63
+#: templates/property/edit-property/media.php:110
+#: templates/property/submit-property/media.php:28
+#: templates/property/submit-property/media.php:44
+msgid "Drag and drop file here or"
+msgstr ""
+
+#: templates/property/edit-property/media.php:66
+#: templates/property/submit-property/media.php:31
+msgid "Select Images"
+msgstr ""
+
+#: templates/property/edit-property/media.php:71
+#: templates/property/submit-property/media.php:36
+msgid "File Attachments"
+msgstr ""
+
+#: templates/property/edit-property/media.php:113
+#: templates/property/submit-property/media.php:47
+msgid "Select Files"
+msgstr ""
+
+#: templates/property/edit-property/media.php:116
+#: templates/property/submit-property/media.php:50
+#, php-format
+msgid "Allowed Extensions: <span class=\"attachment-file-type\">%s</span>"
+msgstr ""
+
+#: templates/property/edit-property/media.php:125
+#: templates/property/submit-property/media.php:59
+msgid "Video URL"
+msgstr ""
+
+#: templates/property/edit-property/media.php:127
+#: templates/property/submit-property/media.php:61
+msgid "YouTube, Vimeo, SWF File, MOV File"
+msgstr ""
+
+#: templates/property/edit-property/media.php:139
+#: templates/property/submit-property/media.php:66
+msgid "Image 360"
+msgstr ""
+
+#: templates/property/edit-property/price.php:23
+#: templates/property/submit-property/price.php:18
+msgid "Property Price"
+msgstr ""
+
+#: templates/property/edit-property/price.php:37
+#: templates/property/submit-property/price.php:32
+#, php-format
+msgid "Example Value: 12345%s05"
+msgstr ""
+
+#: templates/property/edit-property/price.php:43
+#: templates/property/submit-property/price.php:38
+msgid "Unit"
+msgstr ""
+
+#: templates/property/edit-property/price.php:51
+#: templates/property/submit-property/price.php:42
+msgid "Thousand"
+msgstr ""
+
+#: templates/property/edit-property/price.php:54
+#: templates/property/submit-property/price.php:43
+msgid "Million"
+msgstr ""
+
+#: templates/property/edit-property/price.php:57
+#: templates/property/submit-property/price.php:44
+msgid "Billion"
+msgstr ""
+
+#: templates/property/edit-property/price.php:68
+#: templates/property/submit-property/price.php:55
+msgid "Before Price Label (ex: Start From)"
+msgstr ""
+
+#: templates/property/edit-property/price.php:82
+#: templates/property/submit-property/price.php:67
+msgid "After Price Label (ex: Per Month)"
+msgstr ""
+
+#: templates/property/edit-property/price.php:101
+#: templates/property/submit-property/price.php:82
+msgid "Price on Call"
+msgstr ""
+
+#: templates/property/edit-property/private_note.php:16
+#: templates/property/property-submit.php:112
+#: templates/property/submit-property/private_note.php:15
+msgid "Private Note"
+msgstr ""
+
+#: templates/property/edit-property/private_note.php:20
+msgid ""
+"Write private note for this property, it will not display for public"
+msgstr ""
+
+#: templates/property/edit-property/title_des.php:17
+#: templates/property/submit-property/title-des.php:29
+#: templates/property/submit-property/title_des.php:16
+msgid "Property Description"
+msgstr ""
+
+#: templates/property/my-favorites.php:20
+msgid "Success!"
+msgstr ""
+
+#: templates/property/my-favorites.php:20
+#, php-format
+msgid "%s has been removed"
+msgstr ""
+
+#: templates/property/my-favorites.php:26
+msgid "Error!"
+msgstr ""
+
+#: templates/property/my-favorites.php:26
+#, php-format
+msgid "%s has not been removed"
+msgstr ""
+
+#: templates/property/my-favorites.php:37
+#: templates/property/my-properties.php:146
+msgid "Listing title"
+msgstr ""
+
+#: templates/property/my-favorites.php:40
+#: templates/property/my-properties.php:149
+msgid "Date Published"
+msgstr ""
+
+#: templates/property/my-favorites.php:43
+#: templates/property/my-properties.php:155
+#: templates/property/my-save-search.php:45
+msgid "View"
+msgstr ""
+
+#: templates/property/my-favorites.php:55
+#: templates/property/my-properties.php:169
+msgid "You don't have any properties listed."
+msgstr ""
+
+#: templates/property/my-favorites.php:100
+msgid "Remove"
+msgstr ""
+
+#: templates/property/my-properties.php:79
+msgid "Search listing"
+msgstr ""
+
+#: templates/property/my-properties.php:93
+#: templates/property/my-properties.php:116
+#, php-format
+msgid "Approved (%s)"
+msgstr ""
+
+#: templates/property/my-properties.php:95
+#: templates/property/my-properties.php:120
+#, php-format
+msgid "Pending (%s)"
+msgstr ""
+
+#: templates/property/my-properties.php:97
+#: templates/property/my-properties.php:124
+#, php-format
+msgid "Expired (%s)"
+msgstr ""
+
+#: templates/property/my-properties.php:99
+#: templates/property/my-properties.php:128
+#, php-format
+msgid "Hidden (%s)"
+msgstr ""
+
+#: templates/property/my-properties.php:102
+#: templates/property/my-properties.php:111
+#, php-format
+msgid "All (%s)"
+msgstr ""
+
+#: templates/property/my-properties.php:158
+msgid "Feature"
+msgstr ""
+
+#: templates/property/my-properties.php:217
+msgid "Published"
+msgstr ""
+
+#: templates/property/my-properties.php:222
+msgid "Expired"
+msgstr ""
+
+#: templates/property/my-properties.php:232
+msgid "Hidden"
+msgstr ""
+
+#: templates/property/my-properties.php:257
+#, php-format
+msgid "Expire: %s days %s hours"
+msgstr ""
+
+#: templates/property/my-properties.php:259
+#, php-format
+msgid "Expire: %s hours"
+msgstr ""
+
+#: templates/property/my-properties.php:263
+#, php-format
+msgid "Expired: %s"
+msgstr ""
+
+#: templates/property/my-properties.php:300
+msgid "Edit property"
+msgstr ""
+
+#: templates/property/my-properties.php:308
+#: templates/property/my-properties.php:325
+msgid "Mark featured"
+msgstr ""
+
+#: templates/property/my-properties.php:309
+#: templates/property/my-properties.php:326
+msgid "Make this a Featured Property"
+msgstr ""
+
+#: templates/property/my-properties.php:311
+#: templates/property/my-properties.php:328
+msgid "Are you sure you want to mark this property as Featured?"
+msgstr ""
+
+#: templates/property/my-properties.php:316
+msgid "Allow Editing"
+msgstr ""
+
+#: templates/property/my-properties.php:317
+msgid ""
+"This property listing belongs to an expired Package therefore if you "
+"wish to edit it, it will be charged as a new listing from your current "
+"Package."
+msgstr ""
+
+#: templates/property/my-properties.php:319
+msgid "Are you sure you want to allow editing this property listing?"
+msgstr ""
+
+#: templates/property/my-properties.php:333
+#: templates/property/my-properties.php:373
+msgid "Edit Property"
+msgstr ""
+
+#: templates/property/my-properties.php:340
+msgid "Remove featured"
+msgstr ""
+
+#: templates/property/my-properties.php:340
+msgid "Remove Featured of Property"
+msgstr ""
+
+#: templates/property/my-properties.php:340
+msgid "Are you sure you want to remove featured of property?"
+msgstr ""
+
+#: templates/property/my-properties.php:351
+#: templates/property/my-properties.php:352
+msgid "Reactivate Listing"
+msgstr ""
+
+#: templates/property/my-properties.php:354
+msgid "Are you sure you want to reactivate this property?"
+msgstr ""
+
+#: templates/property/my-properties.php:362
+#: templates/property/my-properties.php:363
+msgid "Resend this Listing for Approval"
+msgstr ""
+
+#: templates/property/my-properties.php:365
+msgid "Are you sure you want to resend this property for approval?"
+msgstr ""
+
+#: templates/property/my-properties.php:381
+msgid "Show Property"
+msgstr ""
+
+#: templates/property/my-properties.php:383
+msgid "Are you sure you want to show this property?"
+msgstr ""
+
+#: templates/property/my-properties.php:388
+msgid "Delete"
+msgstr ""
+
+#: templates/property/my-properties.php:389
+msgid "Delete Property"
+msgstr ""
+
+#: templates/property/my-properties.php:391
+msgid "Are you sure you want to delete this property?"
+msgstr ""
+
+#: templates/property/my-properties.php:396
+msgid "Hide Property"
+msgstr ""
+
+#: templates/property/my-properties.php:398
+msgid "Are you sure you want to hide this property?"
+msgstr ""
+
+#: templates/property/my-properties.php:407
+msgid "Pay for this property listing"
+msgstr ""
+
+#: templates/property/my-properties.php:409
+msgid "Are you sure you want to pay for this listing?"
+msgstr ""
+
+#: templates/property/my-save-search.php:15
+msgid "Date Created"
+msgstr ""
+
+#: templates/property/my-save-search.php:23
+msgid "You don't have any saved searches listed."
+msgstr ""
+
+#: templates/property/my-save-search.php:54
+msgid "Are you sure you want to delete this saved search?"
+msgstr ""
+
+#: templates/property/my-save-search.php:57
+msgid "Delete this saved search"
+msgstr ""
+
+#: templates/property/property-print.php:89
+msgid "Images"
+msgstr ""
+
+#: templates/property/property-submit.php:34
+msgid ""
+"You are not yet subscribed to a listing! Before you can list a "
+"property, you must select a listing package. Click the button below to "
+"select a listing package."
+msgstr ""
+
+#: templates/property/property-submit.php:35
+msgid "Get a Listing Package"
+msgstr ""
+
+#: templates/property/property-submit.php:39
+msgid ""
+"Your current listing package has expired! Please click the button below "
+"to select a new listing package."
+msgstr ""
+
+#: templates/property/property-submit.php:40
+#: templates/property/property-submit.php:45
+msgid "Upgrade Listing Package"
+msgstr ""
+
+#: templates/property/property-submit.php:44
+msgid ""
+"Your current listing package doesn't allow you to publish any more "
+"properties! Please click the button below to select a new listing "
+"package."
+msgstr ""
+
+#: templates/property/property-submit.php:85
+msgid "Title & Description"
+msgstr ""
+
+#: templates/property/property-submit.php:88
+#: templates/single-property/block/map.php:13
+msgid "Location"
+msgstr ""
+
+#: templates/property/property-submit.php:103
+msgid "Media"
+msgstr ""
+
+#: templates/property/property-submit.php:106
+msgid "Floors"
+msgstr ""
+
+#: templates/property/property-submit.php:109
+msgid "Contact"
+msgstr ""
+
+#: templates/property/property-submit.php:149
+#: templates/property/property-submit.php:151
+msgid "Previous"
+msgstr ""
+
+#: templates/property/property-submit.php:158
+msgid "Show All Fields"
+msgstr ""
+
+#: templates/property/property-submit.php:158
+msgid "Show All"
+msgstr ""
+
+#: templates/property/submit-property/private_note.php:19
+msgid ""
+"Create a private note for this property, it will not be displayed to "
+"public"
+msgstr ""
+
+#: templates/property/submit-property/title-des.php:20
+msgid "Property Title"
+msgstr ""
+
+#: templates/search-fields/advanced-button.php:17
+msgid "Advanced"
+msgstr ""
+
+#: templates/search-fields/city.php:22
+msgid "City"
+msgstr ""
+
+#: templates/search-fields/garage.php:26
+msgid "Any Garages"
+msgstr ""
+
+#: templates/search-fields/keyword-mobile.php:18
+#: templates/search-fields/keyword.php:21
+msgid "Search City, State or Area"
+msgstr ""
+
+#: templates/search-fields/keyword-mobile.php:21
+#: templates/search-fields/keyword.php:24
+msgid "Enter an address, zip or property ID"
+msgstr ""
+
+#: templates/search-fields/label.php:25
+msgid "All Labels"
+msgstr ""
+
+#: templates/search-fields/land-range.php:45
+msgid "Land Area Range:"
+msgstr ""
+
+#: templates/search-fields/land-range.php:45
+#: templates/search-fields/price-range.php:60
+#: templates/search-fields/size-range.php:45
+msgid "from"
+msgstr ""
+
+#: templates/search-fields/land-range.php:45
+#: templates/search-fields/price-range.php:60
+#: templates/search-fields/size-range.php:45
+msgid "to"
+msgstr ""
+
+#: templates/search-fields/max-size.php:23
+#: templates/search-fields/max-size.php:26
+msgid "Max Size"
+msgstr ""
+
+#: templates/search-fields/min-size.php:23
+#: templates/search-fields/min-size.php:26
+msgid "Min Size"
+msgstr ""
+
+#: templates/search-fields/price-range.php:60
+msgid "Price Range:"
+msgstr ""
+
+#: templates/search-fields/rooms.php:25
+msgid "Any Rooms"
+msgstr ""
+
+#: templates/search-fields/size-range.php:45
+msgid "Size Range:"
+msgstr ""
+
+#: templates/search-fields/state.php:22
+msgid "States"
+msgstr ""
+
+#: templates/search-fields/status-tabs.php:36
+#: templates/search-fields/status.php:25
+msgid "All Status"
+msgstr ""
+
+#: templates/search-fields/type.php:25
+msgid "All Types"
+msgstr ""
+
+#: templates/shortcodes/agency-search/config.php:11
+msgid "Display agency search form"
+msgstr ""
+
+#: templates/shortcodes/agency-slider/config.php:12
+msgid "Display list of agency slider"
+msgstr ""
+
+#: templates/shortcodes/agency-slider/config.php:28
+#: templates/shortcodes/agency/config.php:62
+msgid "Agency Per Page"
+msgstr ""
+
+#: templates/shortcodes/agency-slider/config.php:29
+#: templates/shortcodes/agency/config.php:63
+msgid "Enter number of agency per page you want to display. Default 10"
+msgstr ""
+
+#: templates/shortcodes/agency-slider/config.php:37
+#: templates/shortcodes/agency/config.php:85
+msgid "Specify your agency animation"
+msgstr ""
+
+#: templates/shortcodes/agency-slider/config.php:47
+#: templates/shortcodes/agent-slider/config.php:46
+msgid "Specify your horizontal space between items."
+msgstr ""
+
+#: templates/shortcodes/agency-slider/config.php:68
+msgid "Width >= 1200px"
+msgstr ""
+
+#: templates/shortcodes/agency-slider/config.php:72
+#: templates/shortcodes/agency-slider/config.php:82
+#: templates/shortcodes/agency-slider/config.php:92
+#: templates/shortcodes/agency-slider/config.php:102
+#: templates/shortcodes/agency-slider/config.php:112
+msgid "Column"
+msgstr ""
+
+#: templates/shortcodes/agency-slider/config.php:78
+#: templates/shortcodes/properties-slider/config.php:62
+msgid "Width < 1200px"
+msgstr ""
+
+#: templates/shortcodes/agency-slider/config.php:88
+#: templates/shortcodes/properties-slider/config.php:85
+msgid "Width < 992px"
+msgstr ""
+
+#: templates/shortcodes/agency-slider/config.php:98
+#: templates/shortcodes/properties-slider/config.php:107
+msgid "Width < 768px"
+msgstr ""
+
+#: templates/shortcodes/agency-slider/config.php:108
+#: templates/shortcodes/properties-slider/config.php:129
+msgid "Width < 576px"
+msgstr ""
+
+#: templates/shortcodes/agency-slider/config.php:123
+#: templates/shortcodes/agency-slider/config.php:133
+#: templates/shortcodes/agency-slider/config.php:143
+#: templates/shortcodes/agency/config.php:105
+#: templates/shortcodes/agency/config.php:115
+#: templates/shortcodes/agency/config.php:125
+#: templates/shortcodes/agent-singular/config.php:46
+#: templates/shortcodes/agent-singular/config.php:56
+#: templates/shortcodes/agent-singular/config.php:66
+#: templates/shortcodes/agent-slider/config.php:72
+#: templates/shortcodes/agent-slider/config.php:82
+#: templates/shortcodes/agent-slider/config.php:92
+#: templates/shortcodes/agent/config.php:110
+#: templates/shortcodes/agent/config.php:120
+#: templates/shortcodes/agent/config.php:130
+#: templates/shortcodes/properties-carousel/config.php:108
+#: templates/shortcodes/properties-carousel/config.php:118
+#: templates/shortcodes/properties-carousel/config.php:128
+#: templates/shortcodes/properties-slider/config.php:217
+#: templates/shortcodes/properties-slider/config.php:227
+#: templates/shortcodes/properties-slider/config.php:237
+#: templates/shortcodes/properties/config.php:137
+#: templates/shortcodes/properties/config.php:147
+#: templates/shortcodes/properties/config.php:157
+msgid "Image Size"
+msgstr ""
+
+#: templates/shortcodes/agency-slider/config.php:127
+#: templates/shortcodes/agency/config.php:109
+#: templates/shortcodes/agent-singular/config.php:50
+#: templates/shortcodes/agent-slider/config.php:76
+#: templates/shortcodes/agent/config.php:114
+#: templates/shortcodes/properties-carousel/config.php:112
+#: templates/shortcodes/properties-slider/config.php:221
+#: templates/shortcodes/properties/config.php:141
+msgid "Image ratio width"
+msgstr ""
+
+#: templates/shortcodes/agency-slider/config.php:128
+#: templates/shortcodes/agency/config.php:110
+#: templates/shortcodes/agent-singular/config.php:51
+#: templates/shortcodes/agent-slider/config.php:77
+#: templates/shortcodes/agent/config.php:115
+#: templates/shortcodes/properties-carousel/config.php:113
+#: templates/shortcodes/properties-slider/config.php:222
+#: templates/shortcodes/properties/config.php:142
+msgid "Enter width for image ratio"
+msgstr ""
+
+#: templates/shortcodes/agency-slider/config.php:137
+#: templates/shortcodes/agency/config.php:119
+#: templates/shortcodes/agent-singular/config.php:60
+#: templates/shortcodes/agent-slider/config.php:86
+#: templates/shortcodes/agent/config.php:124
+#: templates/shortcodes/properties-carousel/config.php:122
+#: templates/shortcodes/properties-slider/config.php:231
+#: templates/shortcodes/properties/config.php:151
+msgid "Image ratio height"
+msgstr ""
+
+#: templates/shortcodes/agency-slider/config.php:138
+#: templates/shortcodes/agency/config.php:120
+#: templates/shortcodes/agent-singular/config.php:61
+#: templates/shortcodes/agent-slider/config.php:87
+#: templates/shortcodes/agent/config.php:125
+#: templates/shortcodes/properties-carousel/config.php:123
+#: templates/shortcodes/properties-slider/config.php:232
+#: templates/shortcodes/properties/config.php:152
+msgid "Enter height for image ratio"
+msgstr ""
+
+#: templates/shortcodes/agency/config.php:12
+msgid "Display list of agency"
+msgstr ""
+
+#: templates/shortcodes/agency/config.php:53
+msgid "Agency Columns Gutter"
+msgstr ""
+
+#: templates/shortcodes/agency/config.php:69
+#: templates/shortcodes/agent/config.php:60
+#: templates/shortcodes/properties-carousel/config.php:46
+#: templates/shortcodes/properties-slider/config.php:32
+#: templates/shortcodes/properties/config.php:68
+msgid "Offset posts"
+msgstr ""
+
+#: templates/shortcodes/agency/config.php:70
+#: templates/shortcodes/agent/config.php:61
+#: templates/shortcodes/properties-carousel/config.php:47
+#: templates/shortcodes/properties-slider/config.php:33
+#: templates/shortcodes/properties/config.php:69
+msgid ""
+"Start the count with an offset. If you have a block that shows 4 "
+"property before this one, you can make this one start from the 5'th "
+"property (by using offset 4)"
+msgstr ""
+
+#: templates/shortcodes/agency/config.php:77
+msgid "Specify your agency paging mode"
+msgstr ""
+
+#: templates/shortcodes/agency/config.php:97
+#: templates/shortcodes/agent-slider/config.php:63
+#: templates/shortcodes/agent/config.php:102
+#: templates/shortcodes/properties-carousel/config.php:99
+#: templates/shortcodes/properties/config.php:129
+msgid "Columns"
+msgstr ""
+
+#: templates/shortcodes/agent-search/config.php:11
+msgid "Display agent search form"
+msgstr ""
+
+#: templates/shortcodes/agent-singular/config.php:11
+msgid "Display agent info"
+msgstr ""
+
+#: templates/shortcodes/agent-slider/config.php:11
+msgid "Display list of agent slider"
+msgstr ""
+
+#: templates/shortcodes/agent-slider/config.php:27
+#: templates/shortcodes/agent/config.php:52
+msgid "Agent Per Page"
+msgstr ""
+
+#: templates/shortcodes/agent-slider/config.php:28
+#: templates/shortcodes/agent/config.php:53
+msgid "Enter number of agent per page you want to display. Default 10"
+msgstr ""
+
+#: templates/shortcodes/agent/config.php:11
+msgid "Display list of agent"
+msgstr ""
+
+#: templates/shortcodes/agent/config.php:68
+msgid "Agent Columns Gutter"
+msgstr ""
+
+#: templates/shortcodes/agent/config.php:80
+msgid "Specify your agent paging mode"
+msgstr ""
+
+#: templates/shortcodes/dashboard.php:29
+msgid "Recent Reviews"
+msgstr ""
+
+#: templates/shortcodes/dashboard.php:37
+#: templates/shortcodes/reviews.php:49
+msgid "You don't have any review listed."
+msgstr ""
+
+#: templates/shortcodes/dashboard.php:49
+msgid "My Package"
+msgstr ""
+
+#: templates/shortcodes/properties-carousel/config.php:11
+msgid "Display carousel of properties"
+msgstr ""
+
+#: templates/shortcodes/properties-carousel/config.php:31
+#: templates/shortcodes/properties/config.php:52
+msgid "Property Columns Gutter"
+msgstr ""
+
+#: templates/shortcodes/properties-carousel/config.php:39
+#: templates/shortcodes/properties-slider/config.php:25
+#: templates/shortcodes/properties/config.php:61
+msgid "Property Per Page"
+msgstr ""
+
+#: templates/shortcodes/properties-carousel/config.php:40
+#: templates/shortcodes/properties-slider/config.php:26
+#: templates/shortcodes/properties/config.php:62
+msgid "Enter number of property per page you want to display. Default 10"
+msgstr ""
+
+#: templates/shortcodes/properties-carousel/config.php:54
+#: templates/shortcodes/properties/config.php:84
+msgid "Specify your property animation"
+msgstr ""
+
+#: templates/shortcodes/properties-locations/config.php:11
+msgid "Display category of properties location"
+msgstr ""
+
+#: templates/shortcodes/properties-locations/config.php:16
+msgid "Property Locations Layout"
+msgstr ""
+
+#: templates/shortcodes/properties-locations/config.php:51
+#: templates/shortcodes/properties-slider/config.php:39
+msgid "Height Mode"
+msgstr ""
+
+#: templates/shortcodes/properties-locations/config.php:63
+msgid ""
+"Sizing proportions for height and width. Select \"Original\" to scale "
+"image without cropping."
+msgstr ""
+
+#: templates/shortcodes/properties-locations/config.php:67
+msgid "Image width"
+msgstr ""
+
+#: templates/shortcodes/properties-locations/config.php:68
+msgid "Enter width for image"
+msgstr ""
+
+#: templates/shortcodes/properties-locations/config.php:76
+msgid "Image height"
+msgstr ""
+
+#: templates/shortcodes/properties-locations/config.php:77
+msgid "Enter height for image"
+msgstr ""
+
+#: templates/shortcodes/properties-locations/config.php:85
+msgid "Hover effect"
+msgstr ""
+
+#: templates/shortcodes/properties-locations/config.php:93
+msgid "Hover Image effect"
+msgstr ""
+
+#: templates/shortcodes/properties-slider/config.php:11
+msgid "Display slider of properties"
+msgstr ""
+
+#: templates/shortcodes/properties-slider/config.php:40
+msgid "Specify your property slider height mode"
+msgstr ""
+
+#: templates/shortcodes/properties-slider/config.php:43
+#: templates/shortcodes/properties-slider/config.php:65
+#: templates/shortcodes/properties-slider/config.php:88
+#: templates/shortcodes/properties-slider/config.php:110
+#: templates/shortcodes/properties-slider/config.php:132
+msgid "Full Screen"
+msgstr ""
+
+#: templates/shortcodes/properties-slider/config.php:56
+#: templates/shortcodes/properties-slider/config.php:79
+#: templates/shortcodes/properties-slider/config.php:101
+#: templates/shortcodes/properties-slider/config.php:123
+#: templates/shortcodes/properties-slider/config.php:145
+msgid "Enter custom height (include unit)"
+msgstr ""
+
+#: templates/shortcodes/properties-slider/config.php:60
+#: templates/shortcodes/properties-slider/config.php:74
+msgid "Height Large Devices"
+msgstr ""
+
+#: templates/shortcodes/properties-slider/config.php:83
+#: templates/shortcodes/properties-slider/config.php:96
+msgid "Height Medium Devices"
+msgstr ""
+
+#: templates/shortcodes/properties-slider/config.php:105
+#: templates/shortcodes/properties-slider/config.php:118
+msgid "Height Small Devices"
+msgstr ""
+
+#: templates/shortcodes/properties-slider/config.php:127
+#: templates/shortcodes/properties-slider/config.php:140
+msgid "Height Extra Small Devices"
+msgstr ""
+
+#: templates/shortcodes/properties-slider/config.php:170
+msgid "Auto Height Enable"
+msgstr ""
+
+#: templates/shortcodes/properties-slider/config.php:178
+msgid "Loop Mode"
+msgstr ""
+
+#: templates/shortcodes/properties-slider/config.php:186
+msgid "Fade Mode"
+msgstr ""
+
+#: templates/shortcodes/properties/config.php:11
+msgid "Display list of properties"
+msgstr ""
+
+#: templates/shortcodes/properties/config.php:76
+msgid "Specify your property paging mode"
+msgstr ""
+
+#: templates/shortcodes/property-search-form/config.php:11
+msgid "Display property search form"
+msgstr ""
+
+#: templates/shortcodes/reviews.php:41
+#: templates/single-property/block/data/nearby-places/yelp.php:138
+#, php-format
+msgid "%s Reviews"
+msgstr ""
+
+#: templates/single-property/actions/share.php:44
+msgid "LinkedIn"
+msgstr ""
+
+#: templates/single-property/actions/share.php:50
+msgid "Tumblr"
+msgstr ""
+
+#: templates/single-property/actions/share.php:69
+msgid "Telegram"
+msgstr ""
+
+#: templates/single-property/actions/share.php:74
+msgid "Whats App"
+msgstr ""
+
+#: templates/single-property/block/address.php:12
+msgid "Open on Google Maps"
+msgstr ""
+
+#: templates/single-property/block/data/attachments.php:26
+#, php-format
+msgid "<span class=\"text-uppercase\">%s</span> document"
+msgstr ""
+
+#: templates/single-property/block/data/attachments.php:28
+msgid "Download"
+msgstr ""
+
+#: templates/single-property/block/data/floor-plans.php:38
+#: templates/single-property/print/floors.php:35
+msgid "Floor"
+msgstr ""
+
+#: templates/single-property/block/data/floor-plans.php:43
+#: templates/single-property/print/floors.php:40
+msgid "Size:"
+msgstr ""
+
+#: templates/single-property/block/data/floor-plans.php:51
+#: templates/single-property/print/floors.php:48
+msgid "Bedrooms:"
+msgstr ""
+
+#: templates/single-property/block/data/floor-plans.php:57
+#: templates/single-property/print/floors.php:54
+msgid "Bathrooms:"
+msgstr ""
+
+#: templates/single-property/block/data/floor-plans.php:64
+#: templates/single-property/print/floors.php:61
+msgid "Price:"
+msgstr ""
+
+#: templates/single-property/block/data/mortgage.php:17
+msgid "Sale Price"
+msgstr ""
+
+#: templates/single-property/block/data/mortgage.php:25
+msgid "Down Payment"
+msgstr ""
+
+#: templates/single-property/block/data/mortgage.php:35
+msgid "Term[Years]"
+msgstr ""
+
+#: templates/single-property/block/data/mortgage.php:43
+msgid "Interest Rate in %"
+msgstr ""
+
+#: templates/single-property/block/data/mortgage.php:45
+msgid "%"
+msgstr ""
+
+#: templates/single-property/block/data/mortgage.php:52
+msgid "Calculate"
+msgstr ""
+
+#: templates/single-property/block/data/nearby-places/yelp.php:37
+#, php-format
+msgid ""
+"Please supply your API key <a class=\"alert-link\" target=\"_blank\" "
+"href=\"%s\">Click Here</a>"
+msgstr ""
+
+#: templates/single-property/block/data/walk-score.php:15
+#: templates/single-property/block/data/walk-score.php:26
+msgid "Walk Scores"
+msgstr ""
+
+#: templates/single-property/block/data/walk-score.php:32
+#: templates/single-property/block/data/walk-score.php:47
+#: templates/single-property/block/data/walk-score.php:62
+msgid "View more"
+msgstr ""
+
+#: templates/single-property/block/data/walk-score.php:41
+msgid "Transit Score"
+msgstr ""
+
+#: templates/single-property/block/data/walk-score.php:56
+msgid "Bike Score"
+msgstr ""
+
+#: templates/single-property/block/data/walk-score.php:68
+msgid "An error occurred while fetching walk scores."
+msgstr ""
+
+#: templates/single-property/block/similar-properties.php:16
+msgid "Similar Homes You May Like"
+msgstr ""
+
+#: templates/single-property/block/virtual-tour.php:11
+msgid "Virtual Tour"
+msgstr ""
+
+#: templates/single-property/block/walk-score.php:11
+msgid "Walk score"
+msgstr ""
+
+#: templates/single-property/print/images.php:12
+msgid "Property images"
+msgstr ""
+
+#: templates/widgets/my-package/my-package.php:32
+msgid "Package Name "
+msgstr ""
+
+#: templates/widgets/my-package/my-package.php:40
+msgid "Listings Included "
+msgstr ""
+
+#: templates/widgets/my-package/my-package.php:51
+msgid "Listings Remaining "
+msgstr ""
+
+#: templates/widgets/my-package/my-package.php:59
+msgid "Featured Included "
+msgstr ""
+
+#: templates/widgets/my-package/my-package.php:68
+msgid "Featured Remaining "
+msgstr ""
+
+#: templates/widgets/my-package/my-package.php:77
+msgid "End Date "
+msgstr ""
+
+#: templates/widgets/my-package/my-package.php:84
+msgid "Change new package"
+msgstr ""
+
+#: templates/widgets/my-package/my-package.php:90
+msgid ""
+"Before you can list properties on our site, you must subscribe to a "
+"package. Currently, you don't have a package. So, to select a new "
+"package, please click the button below"
+msgstr ""
+
+#: templates/widgets/my-package/my-package.php:92
+msgid "Subscribe to a package"
+msgstr ""

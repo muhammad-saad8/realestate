@@ -1,0 +1,27 @@
+.g5ere__property-contact-agent {
+	.g5ere__contact-agent-info {
+		margin-bottom: 30px;
+	}
+
+	.g5ere__contact-form-fields {
+		@include d-flex();
+		@include flex-wrap();
+		margin-left: -0.5rem;
+		margin-right: -0.5rem;
+
+		.form-group {
+			padding: 0 0.5rem;
+			@include flex(0 0 33.33%);
+			max-width: 33.33%;
+			@media (max-width: 767px) {
+				@include flex(1 1 100%);
+				max-width: 100%;
+			}
+		}
+
+		.form-group-message {
+			@include flex(1 1 100%);
+			max-width: 100%;
+		}
+	}
+}

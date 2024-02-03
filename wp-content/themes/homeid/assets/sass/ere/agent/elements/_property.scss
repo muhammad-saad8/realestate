@@ -1,0 +1,51 @@
+div.g5ere__loop-agent-property {
+	background: #f8f8f8;
+
+	color: var(--g5-color-heading);
+	font-weight: 500;
+	padding: 12px 0;
+	i {
+		color: var(--g5-color-accent);
+	}
+	a:hover {
+		color: inherit;
+	}
+
+	&:hover {
+		background-color: var(--g5-color-accent);
+		color: var(--g5-color-accent-foreground);
+		i {
+			-webkit-animation: g5ere__move-arrows 900ms ease-in-out 0ms;
+			animation: g5ere__move-arrows 900ms ease-in-out 0ms;
+			-webkit-animation-iteration-count: infinite;
+			animation-iteration-count: infinite;
+			color: inherit !important;
+		}
+		.g5ere__lap-count {
+			color: var(--g5-color-heading);
+		}
+	}
+
+
+}
+
+.g5ere__lap-count {
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	border: 1px solid #ededed;
+	display: inline-block;
+	@include border-radius(50%);
+	font-size: 13px;
+	background-color: #fff;
+}
+
+@keyframes g5ere__move-arrows {
+	0%, 100% {
+		@include transform(translateX(0));
+	}
+	40% {
+		@include transform(translateX(4px));
+	}
+}

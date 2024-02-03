@@ -1,0 +1,18 @@
+.g5ere__mortgage-calculator {
+	.g5ere__mc-output-container {
+		@include box-shadow(0 0 10px 0 rgba(51, 51, 51, .1));
+		padding: 10px 30px;
+		border-bottom: 5px solid;
+		border-color: var(--g5-color-accent);
+		border-radius: 5px;
+	}
+
+	dt {
+		font-weight: normal;
+	}
+
+	dd {
+		font-weight: 500;
+		color: var(--g5-color-heading);
+	}
+}

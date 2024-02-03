@@ -1,0 +1,126 @@
+.edit-post-visual-editor__post-title-wrapper .editor-post-title.editor-post-title {
+  font-family: "Poppins" !important;
+  font-size: 32px !important;
+  font-weight: 500 !important;
+  color: #333;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+.editor-styles-wrapper.editor-styles-wrapper .wp-block-table__cell-content {
+  padding: 0;
+}
+.editor-styles-wrapper.editor-styles-wrapper .components-icon-button.block-editor-block-switcher__toggle {
+  overflow: hidden;
+}
+.editor-styles-wrapper.editor-styles-wrapper .wp-block-quote cite,
+.editor-styles-wrapper.editor-styles-wrapper .wp-block-quote footer,
+.editor-styles-wrapper.editor-styles-wrapper .wp-block-quote__citation {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: -0.025em;
+}
+.editor-styles-wrapper.editor-styles-wrapper .wp-block-pullquote .wp-block-pullquote__citation {
+  font-weight: bold;
+  margin-top: 25px;
+}
+.editor-styles-wrapper.editor-styles-wrapper .wp-block-pullquote.is-style-solid-color .wp-block-pullquote__citation {
+  text-transform: uppercase;
+  color: inherit;
+}
+.editor-styles-wrapper.editor-styles-wrapper .wp-block {
+  max-width: 770px;
+}
+.editor-styles-wrapper.editor-styles-wrapper .wp-block[data-align=full] {
+  max-width: none;
+}
+.editor-styles-wrapper.editor-styles-wrapper .wp-block[data-align=wide] {
+  max-width: 1170px;
+}
+.editor-styles-wrapper.editor-styles-wrapper p {
+  line-height: 1.86;
+}
+.editor-styles-wrapper.editor-styles-wrapper h1, .editor-styles-wrapper.editor-styles-wrapper h2, .editor-styles-wrapper.editor-styles-wrapper h3, .editor-styles-wrapper.editor-styles-wrapper h4, .editor-styles-wrapper.editor-styles-wrapper h5, .editor-styles-wrapper.editor-styles-wrapper h6 {
+  margin-top: 2rem;
+}
+.editor-styles-wrapper.editor-styles-wrapper h1:first-child, .editor-styles-wrapper.editor-styles-wrapper h2:first-child, .editor-styles-wrapper.editor-styles-wrapper h3:first-child, .editor-styles-wrapper.editor-styles-wrapper h4:first-child, .editor-styles-wrapper.editor-styles-wrapper h5:first-child, .editor-styles-wrapper.editor-styles-wrapper h6:first-child {
+  margin-top: 0;
+}
+.editor-styles-wrapper.editor-styles-wrapper .wp-block-cover a {
+  color: inherit;
+}
+.editor-styles-wrapper.editor-styles-wrapper .wp-block-cover p {
+  margin-bottom: 0;
+}
+.editor-styles-wrapper.editor-styles-wrapper .wp-block-categories ul {
+  list-style-type: none;
+}
+
+.wp-block-freeform.block-library-rich-text__tinymce .h1 {
+  font-size: 48px;
+}
+.wp-block-freeform.block-library-rich-text__tinymce .h2 {
+  font-size: 44px;
+}
+.wp-block-freeform.block-library-rich-text__tinymce .h3 {
+  font-size: 36px;
+}
+.wp-block-freeform.block-library-rich-text__tinymce .h4 {
+  font-size: 24px;
+}
+.wp-block-freeform.block-library-rich-text__tinymce .h5 {
+  font-size: 16px;
+}
+.wp-block-freeform.block-library-rich-text__tinymce .h6 {
+  font-size: 14px;
+}
+
+.editor-block-list__layout .editor-block-list__block[data-align=left] .editor-block-list__block-edit {
+  margin-right: 1rem;
+}
+
+.editor-block-list__layout .editor-block-list__block[data-align=right] > .editor-block-list__block-edit {
+  margin-left: 1rem;
+}
+
+.wp-block-image .components-resizable-box__container {
+  display: block;
+}
+
+.block-editor .wp-block-categories ul,
+.block-editor ul.wp-block-archives {
+  padding-left: 0;
+}
+
+@media (min-width: 600px) {
+  .editor-styles-wrapper .block-editor-block-list__block .block-editor-block-list__block-edit {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .block-editor-block-list__layout .block-editor-block-list__block {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+body.has-sidebar .editor-styles-wrapper .wp-block,
+body.has-sidebar .editor-styles-wrapper .wp-block[data-align=full],
+body.has-sidebar .editor-styles-wrapper .wp-block[data-align=wide] {
+  max-width: 770px;
+}
+body.has-sidebar .editor-styles-wrapper .wp-block[data-align=full] {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+@media (min-width: 600px) {
+  body.has-sidebar .editor-styles-wrapper .editor-block-list__block[data-align=full] {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body.has-sidebar .editor-styles-wrapper .editor-block-list__block[data-align=full] > .editor-block-list__block-edit {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+/*# sourceMappingURL=editor-blocks.css.map */

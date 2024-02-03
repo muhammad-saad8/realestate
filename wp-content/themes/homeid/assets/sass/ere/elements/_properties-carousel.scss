@@ -1,0 +1,27 @@
+.g5element__properties-carousel{
+	a:focus{
+		outline: none;
+	}
+}
+.custom-properties-carousel-01{
+	.slick-dots{
+		margin-top: 0 !important;
+	}
+	.slick-slide > div{
+		padding-top: 10px;
+		padding-bottom: 40px;
+	}
+}
+.custom-properties-carousel-02{
+	.slick-dots{
+		margin-top: 0 !important;
+	}
+	.slick-slide > div{
+		padding-bottom: 20px;
+	}
+}
+.custom-properties-carousel-dots-01{
+	.slick-dots{
+		margin-top: -10px !important;
+	}
+}

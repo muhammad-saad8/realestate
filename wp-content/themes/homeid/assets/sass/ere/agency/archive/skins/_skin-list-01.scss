@@ -1,0 +1,27 @@
+.g5ere__agency-skin-list-01 {
+	.g5ere__agency-featured {
+		@include d-flex();
+	}
+
+	.g5core__entry-thumbnail {
+		border: 1px solid var(--g5-color-border);
+		@include d-flex();
+		@include align-items-center();
+	}
+}
+
+@media (min-width: 768px) {
+	.g5ere__agency-skin-list-01 {
+		.g5ere__agency-content {
+			padding: 30px 0;
+		}
+	}
+}
+
+
+@media (min-width: 768px) {
+	.g5ere__agency-skin-list-01 .g5core__post-featured {
+		width: 270px;
+		min-height: 290px;
+	}
+}

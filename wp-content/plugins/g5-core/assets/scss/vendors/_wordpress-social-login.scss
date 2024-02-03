@@ -1,0 +1,43 @@
+.wp-social-login-connect-with {
+	font-weight: 700;
+	font-size: 0.875rem;
+}
+.wp-social-login-provider-list {
+	@include d-flex();
+	@include flex-wrap();
+	@include justify-content-between();
+
+	padding: 0.5rem 0;
+}
+a.wp-social-login-provider {
+	@include d-flex();
+	@include align-items-center();
+	@include border-radius(5px);
+
+	width: 48.5%;
+	margin-bottom: 0.5rem;
+	background-color: #4267b2;
+	color: #fff;
+	text-transform: uppercase;
+
+	span {
+		width: 100%;
+		padding: 0.5rem;
+		text-align: center;
+		line-height: 1rem;
+		font-size: 0.75rem;
+	}
+
+	i {
+		padding: 0.5rem 0;
+		width: 2rem;
+		background-color: rgba(0,0,0,0.1);
+		text-align: center;
+		line-height: 1rem;
+		@include flex-shrink-0();
+	}
+}
+
+.g5core-social-login-count-odd .wp-social-login-provider-list a:first-child{
+	width: 100%;
+}

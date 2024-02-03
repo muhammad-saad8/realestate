@@ -1,0 +1,23 @@
+.g5blog__post-list {
+	.g5blog__post-title {
+		font-size: 15px;
+		color: var(--g5-color-text-main);
+		margin-bottom: 0;
+		&:before {
+			content: '\f30b';
+			font-family: $font_icon;
+			font-weight: 900;
+			display: inline-block;
+			margin-right: 10px;
+		}
+	}
+}
+
+.g5blog__layout-list {
+	.g5blog__post-default {
+		padding-bottom: 25px !important;
+		&:last-child {
+			padding-bottom: 0 !important;
+		}
+	}
+}

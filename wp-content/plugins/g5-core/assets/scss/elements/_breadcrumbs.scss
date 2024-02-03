@@ -1,0 +1,9 @@
+.g5core__single-breadcrumbs {
+  padding-top: 1.5rem;
+  .g5core-breadcrumbs {
+    @include justify-content-start();
+  }
+  + #primary-content {
+    padding-top: 1.5rem;
+  }
+}

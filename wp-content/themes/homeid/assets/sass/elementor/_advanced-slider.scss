@@ -1,0 +1,28 @@
+@media (min-width: 768px) {
+	.custom-el-slider-01 {
+		.slick-arrows .slick-arrow {
+			bottom: -10px;
+			transform: unset;
+			top: unset;
+
+			&.slick-next {
+				right: 0;
+			}
+
+			&.slick-prev {
+				right: 62px;
+				left: unset;
+			}
+		}
+
+		.slick-dots {
+			margin-top: 5px !important;
+			margin-bottom: 7px;
+
+			ul {
+				@include justify-content-start();
+				padding-left: 4px;
+			}
+		}
+	}
+}

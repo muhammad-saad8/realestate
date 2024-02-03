@@ -1,0 +1,121 @@
+/*--------------------------------------------------------------
+## Site layout style
+--------------------------------------------------------------*/
+#site-wrapper {
+	background-color: $color_background_body;
+	overflow: hidden;
+}
+
+#primary-content {
+	padding: var(--g5-content-padding-top) 0 var(--g5-content-padding-bottom) 0;
+	overflow: hidden;
+}
+
+#sidebar {
+	@include flex(0 0 #{$sidebar_width}#{"%"});
+	max-width: #{$sidebar_width}#{"%"};
+	padding-left: $grid_gutter_width/2;
+	padding-right: $grid_gutter_width/2;
+}
+
+body:not(.has-sidebar) {
+	#main-content {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+body.has-sidebar {
+	#main-content {
+		@include flex(0 0 #{100 - $sidebar_width}#{"%"});
+		max-width: #{100 - $sidebar_width}#{"%"};
+	}
+}
+
+body.single-post.no-sidebar {
+	#main-content {
+		@include flex(0 0 ($content_width + $grid_gutter_width));
+		max-width: $content_width + $grid_gutter_width;
+	}
+}
+
+@include media-xl() {
+	.container {
+		max-width: $container_width;
+	}
+}
+
+@include media-lg() {
+	body.single-post.no-sidebar {
+		#main-content {
+			@include flex(0 0 900px);
+			max-width: 900px;
+		}
+	}
+}
+
+@include media-md() {
+	#main-content {
+		@include flex(0 0 100%, important);
+		max-width: 100% !important;
+	}
+
+	#sidebar {
+		@include flex(0 0 100%);
+		max-width: 100%;
+		margin-top: 50px;
+		padding-left: $grid_gutter_width/2;
+		padding-right: $grid_gutter_width/2;
+	}
+}
+
+@media (min-width: 1200px) {
+	body.g5core__stretched_content {
+		#sidebar {
+			@include flex(0 0 #{$sidebar_stretched_width}#{"%"});
+			max-width: #{$sidebar_stretched_width}#{"%"};
+		}
+
+		&.has-sidebar {
+			#main-content {
+				@include flex(0 0 #{100 - $sidebar_stretched_width}#{"%"});
+				max-width: #{100 - $sidebar_stretched_width}#{"%"};
+			}
+		}
+
+	}
+}
+
+
+@media (min-width: 1550px) {
+	:root {
+		--g5-layout-stretched-width: 1550px;
+	}
+
+	.g5core__el-width-1550 {
+		&.elementor-section.elementor-section-boxed > .elementor-container {
+			max-width: 1550px !important;
+		}
+	}
+}
+
+
+@media (min-width: 1200px) {
+	.g5core__vc-width-1200 {
+		width: 1200px;
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+
+	.g5core__el-width-1200 {
+		&.elementor-section.elementor-section-boxed > .elementor-container {
+			max-width: 1200px !important;
+		}
+	}
+
+	.g5core__el-width-1550 {
+		&.elementor-section.elementor-section-boxed > .elementor-container {
+			max-width: 95%;
+		}
+	}
+}

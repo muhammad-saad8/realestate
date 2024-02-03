@@ -1,0 +1,26 @@
+.g5core__paging {
+  @include justify-content-center();
+  @include align-items-center();
+  text-align: center;
+  ul.page-numbers {
+    margin: 0;
+  }
+
+
+  &.next-prev {
+    > a {
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      display: inline-block;
+      border: 1px solid;
+      font-size: 12px;
+      @include transition(all .3s);
+      &.disable {
+        cursor: no-drop;
+        opacity: 0.5;
+      }
+    }
+  }
+}

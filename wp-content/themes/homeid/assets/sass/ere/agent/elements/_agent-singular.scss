@@ -1,0 +1,137 @@
+.g5ere__agent-singular-inner {
+	color: #fff;
+
+	a {
+		color: inherit;
+	}
+
+	.g5ere__loop-agent-title {
+		color: inherit;
+		font-size: 30px;
+		font-weight: 600;
+		margin-bottom: 8px;
+	}
+
+	.g5ere__loop-agent-position {
+		opacity: 0.4;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 2.13;
+		margin-bottom: 19px;
+	}
+
+	.g5ere__loop-agent-agency {
+		margin-bottom: 12px;
+	}
+
+	.g5ere__ass-meta {
+		@include d-flex();
+		@include flex-wrap();
+		margin-bottom: 35px;
+	}
+
+	.g5ere__ass-meta .g5ere__loop-agent-meta {
+		@include d-flex();
+		@include flex-column();
+		@include align-items-start();
+		@include flex(0 0 25%);
+		overflow: hidden;
+		white-space: nowrap;
+		padding-right: 10px;
+		margin-top: 0;
+
+		.g5ere__lam-label {
+			opacity: 0.4;
+			margin-bottom: 5px;
+		}
+
+		.g5ere__lam-content {
+			color: inherit;
+
+			a:hover {
+				color: inherit;
+			}
+		}
+	}
+
+	.g5ere__loop-agent-description {
+		max-height: 52px;
+		overflow: hidden;
+		margin-bottom: 21px;
+	}
+
+	.g5ere__loop-agent-social a {
+		background-color: $color_white;
+		color: var(--g5-color-text-main);
+	}
+
+	.g5ere__rating-count {
+		color: #ababab;
+		font-size: 13px;
+	}
+
+	.g5ere__ass-bottom {
+		padding-top: 40px;
+		border-top: 1px solid rgba(255, 255, 255, 0.25);
+
+		> div + div {
+			margin-left: 50px;
+		}
+	}
+}
+
+.g5ere__agent-singular-summary {
+	border-radius: 5px;
+	@include d-flex();
+	@include justify-content-center();
+	@include flex-column();
+	background-color: var(--g5-color-primary);
+	height: 100%;
+	padding: 30px 40px;
+}
+
+@media only screen and (max-width: 1199px) {
+	.g5ere__agent-singular-inner {
+		.g5ere__ass-meta .g5ere__loop-agent-meta {
+			margin-top: 15px;
+			@include flex(0 0 50%);
+		}
+
+		.g5ere__ass-bottom {
+			@include flex-column();
+			@include align-items-start(important);
+
+			> div + div {
+				margin-left: 0;
+				margin-top: 10px;
+			}
+		}
+	}
+
+	.g5ere__agent-singular-inner .g5ere__agent-featured,
+	.g5ere__agent-singular-inner .g5core__entry-thumbnail {
+		height: 100%;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.g5ere__agent-singular-inner {
+		.g5ere__agent-singular-summary {
+			margin-top: 30px;
+		}
+
+		.g5ere__loop-agent-description {
+			max-height: unset;
+		}
+	}
+}
+
+@media only screen and (max-width: 575px) {
+	.g5ere__agent-singular-inner .g5ere__ass-meta .g5ere__loop-agent-meta {
+		@include flex(0 0 100%);
+	}
+
+	.g5ere__agent-singular-summary {
+		padding: 15px;
+	}
+}

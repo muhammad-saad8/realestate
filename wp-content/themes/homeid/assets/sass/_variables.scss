@@ -1,0 +1,228 @@
+$body_font: 'Poppins';
+$body_font_size : 14px;
+$body_font_weight: 400;
+$body_line_height: 1.86;
+$body_text_transform: none;
+$body_letter_spacing: 0em;
+$body_font_style: normal;
+
+$primary_font: 'Poppins';
+
+
+$font_blockquote: 'Work Sans';
+$font_pre: "Courier 10 Pitch", Courier, monospace;
+$font_icon: 'Font Awesome 5 Pro';
+
+$font_size_base: 16px;
+
+$font_size_body: 14px;
+$font_size_xxs: 0.625rem;
+$font_size_xs: 0.75rem;
+$font_size_sm: 0.875rem;
+$font_size_md: 1rem;
+$font_size_lg: 1.5rem;
+$font_size_xl: 2rem;
+$font_size_xxl: 2.5rem;
+$font_size_xxxl: 3rem;
+
+
+
+$h1_font: 'Poppins';
+$h1_font_size: 48px;
+$h1_font_weight: 500;
+$h1_text_transform : none;
+$h1_letter_spacing: 0em;
+$h1_line_height: 1.2;
+
+
+$h2_font: 'Poppins';
+$h2_font_size: 44px;
+$h2_font_weight: 500;
+$h2_text_transform : none;
+$h2_letter_spacing: 0em;
+$h2_line_height: 1.2;
+
+$h3_font: 'Poppins';
+$h3_font_size: 36px;
+$h3_font_weight: 500;
+$h3_text_transform : none;
+$h3_letter_spacing: 0em;
+$h3_line_height: 1.2;
+
+$h4_font: 'Poppins';
+$h4_font_size: 24px;
+$h4_font_weight: 500;
+$h4_text_transform : none;
+$h4_letter_spacing: 0em;
+$h4_line_height: 1.2;
+
+$h5_font: 'Poppins';
+$h5_font_size: 16px;
+$h5_font_weight: 500;
+$h5_text_transform : none;
+$h5_letter_spacing: 0em;
+$h5_line_height: 1.2;
+
+$h6_font: 'Poppins';
+$h6_font_size: 14px;
+$h6_font_weight: 500;
+$h6_text_transform : none;
+$h6_letter_spacing: 0em;
+$h6_line_height: 1.2;
+
+$font_size_h1: 48px;
+$font_size_h2: 44px;
+$font_size_h3: 36px;
+$font_size_h4: 24px;
+$font_size_h5: 16px;
+$font_size_h6: 14px;
+
+$font_weight_heading: 500;
+
+$font_line_height_body: 1.86;
+$font_line_height_heading: 1.2;
+
+$margin_element: 1.5rem;
+$margin_comment_element: 27px;
+
+
+
+$navigation_height: 60px;
+
+// Responsive widths.
+$small_mobile_width: 320px;
+$mobile_width: 576px;
+$tablet_width: 768px;
+$desktop_width: 992px;
+$wide_width: 1200px;
+$container_width: 1200px;
+$grid_gutter_width: 30px;
+$sidebar_width: 33.333333;
+
+$sidebar_stretched_width: 25;
+
+$content_width: 770px;
+
+// Text Color
+$color_accent: #0ec6d5;
+$color_accent_foreground: contrast-color($color_accent);
+$color_accent_brightness :  adjust-brightness-color($color_accent,7.5%);
+$color_text_gray: #767676;
+$color_primary: #1e1d85;
+$color_primary_foreground: contrast-color($color_primary);
+$color_primary_brightness :  adjust-brightness-color($color_primary,7.5%);
+$color_secondary: #eff6f7;
+$color_secondary_foreground: contrast-color($color_secondary);
+$color_secondary_brightness :  adjust-brightness-color($color_secondary,7.5%);
+$color_light: #fafafa;
+$color_light_foreground : contrast-color($color_light);
+$color_light_brightness :  adjust-brightness-color($color_light,7.5%);
+$color_dark: #333;
+$color_dark_foreground : contrast-color($color_dark);
+$color_dark_brightness :  adjust-brightness-color($color_dark,7.5%);
+$color_gray: #8f8f8f;
+$color_gray_foreground : contrast-color($color_gray);
+$color_gray_brightness : adjust-brightness-color($color_gray,7.5%);
+$color_success: #28a745;
+$color_success_foreground: contrast-color($color_success);
+$color_success_brightness :  adjust-brightness-color($color_success,7.5%);
+
+$color_danger: #dc3545;
+$color_danger_foreground: contrast-color($color_danger);
+$color_danger_brightness :  adjust-brightness-color($color_danger,7.5%);
+
+$color_warning: #ffc107;
+$color_warning_foreground: contrast-color($color_warning);
+$color_warning_brightness :  adjust-brightness-color($color_warning,7.5%);
+
+$color_info: #17a2b8;
+$color_info_foreground: contrast-color($color_info);
+$color_info_brightness :  adjust-brightness-color($color_info,7.5%);
+$color_white: #fff;
+
+$color_text_main: #696969;
+$color_text_code: #e83e8c;
+$color_text_heading: #333;
+$color_text_caption: #ababab;
+$color_border: #eee;
+$color_muted : #9b9b9b;
+
+$color_orange: #ff6935;
+
+// Backgrounds Color
+$color_background_body: #fff;
+$color_background_page_title: #fff;
+$color_background_post_sticky: #f6f6f6;
+$color_background_page_footer: #f6f6f6;
+
+// Input
+$color_text_input: #696969;
+$color_background_input: #f8f8f8;
+$color_border_input: #f8f8f8;
+$color_border_input_focus: #000;
+$color_placeholder: #ababab;
+$height__input: 52px;
+
+
+// Links Color
+$color_link: #0ec6d5;
+$color_link_hover: lighten($color_link, 10%);
+
+
+// Menu variable
+$font_menu: 'Poppins';
+$font_weight_menu : 500;
+$font_size_menu: 14px;
+
+$font_sub_menu: 'Poppins';
+$font_size_sub_menu: 14px;
+$font_weight_sub_menu: 400;
+
+$font_size_menu_mobile: 14px;
+
+$btn_font_weight: 500;
+$btn_border_width: 1px;
+$btn_border_radius: 5px;
+$btn_disabled_opacity: 0.65;
+
+$header_height: 100px;
+$header_sticky_height: 70px;
+
+$header_mobile_height: 100px;
+$header_mobile_sticky_height: 80px;
+
+
+$header_background_color : #fff;
+$header_text_color       : #333333;
+$header_text_hover_color : #0ec6d5;
+$header_border_color     : #eee;
+$header_disable_color    : #696969;
+
+
+$menu_font: 'Poppins';
+$menu_font_weight: 500;
+$menu_line_height: 26px;
+$menu_font_style: normal;
+$menu_font_size: 14px;
+$menu_text_transform: none;
+$menu_letter_spacing: 0em;
+$menu_spacing: 2.5rem;
+
+$submenu_font: 'Poppins';
+$submenu_font_size: 14px;
+$submenu_font_style: normal;
+$submenu_font_weight: 400;
+$submenu_text_transform: none;
+$submenu_letter_spacing: 0em;
+$submenu_line_height: 1.5;
+
+$submenu_text_color: #696969;
+$submenu_text_hover_color: #0ec6d5;
+$submenu_background_color: #fff;
+$sub_menu_background_hover_color: #fff;
+$submenu_border_color: #ebebeb;
+
+
+
+
+

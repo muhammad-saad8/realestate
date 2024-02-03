@@ -1,0 +1,18 @@
+.g5ere__property-overview-list{
+	.media-icon{
+		color: var(--g5-color-accent);
+		margin-right: 10px !important;
+	}
+	.media-body{
+		> span{
+			letter-spacing: 0.93px;
+			text-transform: uppercase;
+		}
+		strong span{
+			color: var(--g5-color-heading);
+		}
+	}
+}
+
+
+

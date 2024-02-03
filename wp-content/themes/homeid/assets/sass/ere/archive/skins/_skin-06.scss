@@ -1,0 +1,26 @@
+.g5ere__property-skin-06{
+	.g5ere__loop-property-address{
+		font-weight: 400;
+	}
+
+	.g5ere__lpc-bottom {
+		border-top: 1px solid rgba(255,255,255,0.3);
+		padding-top: 2px;
+	}
+}
+
+@media (min-width: 576px) {
+	.g5ere__property-skin-06{
+		.g5ere__loop-property-title{
+			margin-bottom: 0;
+			font-size: 20px;
+		}
+
+		.g5ere__loop-property-price{
+			font-size: 22px;
+		}
+		.g5ere__lpp-postfix{
+			font-size: 18px;
+		}
+	}
+}

@@ -1,0 +1,14 @@
+.g5ere__single-property-map-canvas {
+	height: 500px;
+}
+.g5ere__get-directions {
+	bottom: 10px;
+	left: 10px;
+	z-index: 1000;
+}
+
+@media (max-width: 991px) {
+	.g5ere__single-property-galleries .g5ere__single-property-map-canvas {
+		height: 500px !important;
+	}
+}

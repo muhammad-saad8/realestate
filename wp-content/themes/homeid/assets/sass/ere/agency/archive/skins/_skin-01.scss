@@ -1,0 +1,28 @@
+.g5ere__agency-skin-01 {
+	.g5ere__agency-item-inner {
+		background-color: #fff;
+		border: 1px solid var(--g5-color-border);
+		@include border-radius(5px);
+		@include transition(box-shadow .3s);
+		padding: 30px;
+		&:hover {
+			@include box-shadow(0 5px 15px 0 rgba(51, 51, 51, 0.08));
+		}
+	}
+
+	.g5core__entry-thumbnail {
+		@include border-radius(0);
+		img {
+			@include border-radius(0);
+		}
+	}
+
+	.g5core__post-featured {
+		margin-bottom: 0;
+	}
+
+	.g5ere__agency-content {
+		padding-top: 20px;
+		border-top: 1px solid var(--g5-color-border);
+	}
+}

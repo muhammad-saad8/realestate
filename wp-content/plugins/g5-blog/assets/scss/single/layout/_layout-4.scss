@@ -1,0 +1,29 @@
+@media (min-width: 992px) {
+  .no-sidebar.g5blog__single-layout-4 {
+    .g5blog__single-breadcrumbs {
+      .g5core-breadcrumbs {
+        @include justify-content-center();
+      }
+    }
+  }
+}
+
+.g5blog__single-layout-4 {
+  .g5blog__single-featured {
+    margin-bottom: 2.5rem;
+    text-align: center;
+  }
+
+  .g5blog__single-title {
+    margin-bottom: 0.5rem;
+  }
+  .g5blog__single ul.g5blog__post-meta {
+    margin-bottom: 0;
+    @include justify-content-center();
+  }
+
+  .g5blog__single-meta-top {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+}

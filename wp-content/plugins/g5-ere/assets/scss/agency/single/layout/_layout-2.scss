@@ -1,0 +1,33 @@
+.g5ere__sach-layout-2 {
+	@include d-flex();
+	.g5ere__agency-featured {
+		@include flex-shrink-0();
+	}
+	.g5ere__agency-summary {
+		width: 1px;
+		@include flex-fill();
+	}
+}
+
+@media (min-width: 768px) {
+	.g5ere__sach-layout-2 {
+		.g5ere__agency-featured {
+			width: 270px;
+			margin-right: 30px;
+		}
+	}
+
+}
+
+@media (max-width: 767px) {
+	.g5ere__sach-layout-2 {
+		@include flex-column();
+		> .g5ere__agency-summary {
+			width: 100%;
+		}
+		.g5ere__agency-featured {
+			margin-right: 0;
+			margin-bottom: 15px;
+		}
+	}
+}

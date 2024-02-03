@@ -1,0 +1,32 @@
+.g5ere__widget-contact-info-layout-01 {
+	.g5ere__loop-agent-email,
+	.g5ere__loop-agency-email {
+		color: var(--g5-color-muted);
+	}
+}
+
+.g5ere__widget-contact-info-layout-02 {
+	margin-bottom: 25px;
+
+	.g5core__post-featured {
+		width: 140px;
+		margin-bottom: 20px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.g5ere__loop-agent-social {
+		padding: 15px 0;
+		border-top: 1px solid var(--g5-color-border);
+		border-bottom: 1px solid var(--g5-color-border);
+		margin-top: 17px;
+	}
+}
+
+
+.g5ere__contact-agency-info-layout-02 {
+	.g5ere__contact-agency-title {
+		font-size: 16px;
+		margin-bottom: 25px;
+		font-weight: 500;
+	}
+}

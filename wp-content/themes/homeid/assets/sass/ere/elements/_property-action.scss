@@ -1,0 +1,70 @@
+.g5ere__loop-property-actions a {
+	font-size: 15px;
+	+ a{
+		margin-left: 10px;
+	}
+}
+
+.g5ere__lpa-rounded{
+	a {
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+		@include border-radius(50%);
+		background-color: rgba(0,0,0,0.3);
+		color: #fafafa;
+		&:hover{
+			color: #fff;
+		}
+	}
+}
+
+.g5ere__lpa-lg {
+	a {
+		width: 52px;
+		height: 52px;
+		line-height: 52px;
+	}
+}
+
+.g5ere__lpa-white {
+	a {
+		background-color: #fff;
+		color: var(--g5-color-heading);
+		&:hover {
+			color: var(--g5-color-heading);
+		}
+	}
+
+}
+
+.g5ere__property-content {
+	.g5ere__lpa-rounded {
+		a {
+			background-color: transparent;
+			border: 1px solid var(--g5-color-border);
+			color: var(--g5-color-text-main);
+			&:hover{
+				border-color: var(--g5-color-secondary);
+				background-color: var(--g5-color-secondary);
+				color: var(--g5-color-primary);
+			}
+		}
+	}
+}
+.g5ere__property-featured {
+	.g5ere__lpa-top-right {
+		top: 10px;
+		right: 10px;
+		bottom: auto;
+	}
+	.g5ere__lpa-center {
+		top: 50%;
+		left: 50%;
+		@include transform(translate(-50%, -50%));
+		bottom: auto;
+		right: auto;
+	}
+
+}

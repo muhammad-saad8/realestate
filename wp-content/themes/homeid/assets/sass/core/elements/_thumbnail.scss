@@ -1,0 +1,13 @@
+.g5core__entry-thumbnail {
+  @include border-radius(5px);
+  img {
+    @include border-radius(5px);
+  }
+  &:after {
+    @include border-radius(5px);
+  }
+}
+
+.g5core__post-featured-effect {
+  @include border-radius(5px);
+}

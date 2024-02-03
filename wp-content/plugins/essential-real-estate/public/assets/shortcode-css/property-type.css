@@ -1,0 +1,28 @@
+.ere-property-type .property-type-inner {
+  position: relative;
+}
+.ere-property-type .property-type-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 25px 20px;
+  color: #fff;
+  line-height: 1;
+}
+.ere-property-type .property-title {
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.ere-property-type .property-title:hover {
+  color: var(--ere-color-accent);
+}
+.ere-property-type .property-title a {
+  color: inherit;
+}
+
+/*# sourceMappingURL=property-type.css.map */

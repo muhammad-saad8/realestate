@@ -1,0 +1,42 @@
+%clearfix {
+	&:after {
+		content: '';
+		display: block;
+		clear: both;
+	}
+}
+.accent-text-color,
+%accent-text-color {
+	color: $accent_color;
+}
+.accent-bg-color,
+%accent-bg-color {
+	background-color: $accent_color;
+}
+.accent-border-color,
+%accent-border-color {
+	border-color: $accent_color;
+}
+.text-color-for-background-accent,
+%text-color-for-background-accent {
+	color: $accent_color_foreground;
+}
+
+.disabled-color,
+%disabled-color {
+	color: $disabled_color;
+}
+.caption-color,
+%caption-color {
+	color: $caption_color;
+}
+
+.border-color,
+%border-color {
+	border-color: $border_color;
+}
+
+.heading-color,
+%heading-color {
+	color: $heading_color;
+}

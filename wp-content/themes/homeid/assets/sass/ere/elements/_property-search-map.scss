@@ -1,0 +1,12 @@
+div.ere-search-map-properties {
+	@include d-flex();
+	@include flex-flow-wrap();
+
+	a {
+		color: inherit;
+	}
+}
+
+.ere-search-status-tab .btn-status-filter {
+	border-radius: 0;
+}

@@ -1,0 +1,17 @@
+@import "../scss/mixin";
+
+.gel-btn {
+	@include d-flex();
+}
+.gel-btn-inline {
+	display: inline-block;
+}
+.gel-btn-left {
+	@include justify-content-start();
+}
+.gel-btn-center {
+	@include justify-content-center();
+}
+.gel-btn-right {
+	@include justify-content-end();
+}

@@ -1,0 +1,126 @@
+// General variables
+$accent_color: #d7aa82;
+$accent_color_foreground: #fff;
+$error_color: #de2211;
+
+$disabled_color: #ccc;
+$caption_color: #ababab;
+$border_color: #eee;
+$heading_color: #222;
+
+$header_height: 80px;
+$header_height_sticky: 60px;
+$header_above_height: 120px;
+$logo_max_height: 54px;
+
+$header_mobile_height: 80px;
+$header_mobile_height_sticky: 60px;
+$logo_mobile_max_height: 54px;
+
+// Responsive widths.
+$mobile_width: 576px;
+$tablet_width: 768px;
+$desktop_width: 992px;
+$wide_width: 1200px;
+$container_width: 1200px;
+$grid_gutter_width: 30px;
+
+
+
+
+
+// Menu variables
+$navigation_background_color: #fff;
+$navigation_text_color: #222;
+$navigation_text_hover_color: #d7aa82;
+$navigation_border_color: #eee;
+$navigation_disable_color: #888;
+
+
+
+// Sub menu variable
+$submenu_heading_color: #222;
+$submenu_background_color: #fff;
+$sub_menu_background_hover_color: #fff;
+$submenu_text_color: #666;
+$submenu_text_hover_color: #d7aa82;
+$submenu_border_color: #eee;
+
+
+$submenu_font: 'Nunito Sans';
+$submenu_font_size: 0.625rem;
+$submenu_font_style: normal;
+$submenu_font_weight: 400;
+$submenu_text_transform: none;
+$submenu_letter_spacing: 0em;
+$submenu_line_height: 1.5;
+
+// Menu popup variables
+$popup_menu_text_color: #fff;
+$popup_submenu_text_color: #ccc;
+
+// Header Desktop - Top Bar
+$top_bar_background_color: #f6f6f6;
+$top_bar_text_color: #222;
+$top_bar_text_hover_color: #d7aa82;
+$top_bar_border_color: #eee;
+
+
+// Header Mobile - Top Bar
+$mobile_top_bar_background_color: #f6f6f6;
+$mobile_top_bar_text_color: #222;
+$mobile_top_bar_text_hover_color: #d7aa82;
+$mobile_top_bar_border_color: #eee;
+
+// Header Mobile - General
+$header_mobile_background_color: #fff;
+$header_mobile_text_color: #222;
+$header_mobile_text_hover_color: #0073aa;
+$header_mobile_border_color: #eee;
+
+// Header Mobile - Sticky
+$header_mobile_sticky_background_color: #fff;
+$header_mobile_sticky_text_color: #222;
+$header_mobile_sticky_text_hover_color: #0073aa;
+$header_mobile_sticky_border_color: #eee;
+
+// Header variables
+$header_background_color: #fff;
+$header_text_color: #222;
+$header_text_hover_color: #d7aa82;
+$header_border_color: #eee;
+$header_disable_color: #888;
+
+$header_sticky_background_color: #fff;
+$header_sticky_text_color: #222;
+$header_sticky_text_hover_color: #d7aa82;
+$header_sticky_border_color: #eee;
+$header_sticky_disable_color: #888;
+
+
+
+$top_bar_font: 'Nunito Sans';
+$top_bar_font_weight: 700;
+$top_bar_font_size: 0.75rem;
+$top_bar_font_style: normal;
+$top_bar_text_transform: uppercase;
+$top_bar_letter_spacing: 0.03em;
+
+
+$menu_font: 'Nunito Sans';
+$menu_font_weight: 700;
+$menu_line_height: 28px;
+$menu_font_style: normal;
+$menu_font_size: 0.875rem;
+$menu_text_transform: uppercase;
+$menu_letter_spacing: 0.03em;
+
+$logo_font: 'Libre Baskerville';
+$logo_font_size: 2rem;
+$logo_font_style: normal;
+$logo_font_weight: 700;
+$logo_text_transform: none;
+$logo_letter_spacing: 0.03em;
+$logo_line_height: 1.3;
+
+

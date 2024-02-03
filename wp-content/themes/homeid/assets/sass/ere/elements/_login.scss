@@ -1,0 +1,261 @@
+.g5ere__login {
+	box-shadow: 0 0 10px 0 rgba(51, 51, 51, .1);
+	padding: 0;
+
+	.card-title {
+		font-size: 30px;
+		line-height: 1.6;
+		margin-bottom: 10px;
+		margin-top: 0;
+	}
+
+	.card-text {
+		margin-bottom: 20px;
+	}
+
+	.card-body {
+		padding: 30px 50px;
+	}
+
+	.link-signup {
+		color: var(--g5-color-heading);
+	}
+
+	.form-group {
+		margin-bottom: 20px;
+
+		&::after {
+			display: none !important;
+		}
+	}
+
+	&.ere-login-wrap .form-group input:not([type=checkbox]), &.ere-login-wrap .form-group select.form-control,
+	&.ere-register-wrap .form-group input:not([type=checkbox]), &.ere-register-wrap .form-group select.form-control,
+	&.ere-reset-password-wrap .form-group input:not([type=checkbox]), &.ere-reset-password-wrap .form-group select.form-control {
+		background-color: $color_background_input;
+		border: none;
+		border-radius: 5px;
+		font-size: 14px;
+		padding: 0 16px;
+		height: 52px;
+		line-height: 52px;
+		font-weight: 600;
+	}
+
+	.input-group-text {
+		background-color: $color_background_input;
+	}
+
+	.ere-reset-password, .control-term-condition a {
+		padding-top: 0;
+		color: var(--g5-color-text-main);
+	}
+
+	.control-term-condition a, .ere-back-to-login {
+		color: var(--g5-color-heading);
+		text-decoration: underline;
+	}
+
+	.form {
+		padding-bottom: 20px;
+	}
+
+	label {
+	color: var(--g5-color-text-main);
+
+	}
+
+	.divider {
+		margin: 10px 0;
+		position: relative;
+
+		.text {
+			background-color: var(--g5-color-heading);
+			position: relative;
+			z-index: 2;
+			display: inline-block;
+			padding: 0 20px;
+			color: #fff;
+
+		}
+
+		&::after {
+			content: '';
+			position: absolute;
+			top: 50%;
+			@include transform(translateY(-50%));
+			left: 0;
+			width: 100%;
+			height: 1px;
+			background-color: #eee;
+		}
+	}
+
+
+
+	.ere_forgetpass {
+		margin-top: 0;
+		margin-bottom: 20px;
+	}
+}
+
+.ere-login-wrap button,
+.ere-register-wrap button,
+.ere-reset-password-wrap button {
+	height: auto;
+	color: var(--g5-btn-color);
+	background-color: var(--g5-btn-bg);
+	border: solid var(--g5-btn-border-width) var(--g5-btn-border-color);
+	font-size: var(--g5-btn-font-size);
+}
+
+.g5ere__login-register-modal {
+	.modal-content {
+		border-radius: 5px;
+	}
+
+	.modal-body {
+		padding: 40px 50px;
+		@media only screen and (max-width: 576px) {
+			padding: 20px;
+		}
+
+	}
+
+	.g5ere__login {
+		@include box-shadow(none);
+		padding: 0;
+
+		label:not(.checkbox-label) {
+			display: none;
+		}
+	}
+
+	.card-body {
+		padding: 0;
+	}
+
+
+	.nav-tabs {
+		border: 0;
+	}
+
+	.nav-item:first-child {
+		border-top-left-radius: 5px;
+	}
+
+	.nav-item:last-child {
+		border-top-right-radius: 5px;
+		flex-grow: 1;
+	}
+
+
+	.nav-link {
+		color: var(--g5-color-text-main);
+		border: 0;
+		padding: 20px 30px;
+		font-size: 18px;
+		line-height: 1;
+	}
+
+	.modal-header.g5ere__modal-header-has-register .close {
+		margin: 0;
+		padding: 30px;
+		opacity: 1;
+		@include d-flex();
+		@include align-items-center();
+	}
+
+	.g5ere__modal-header-no-register {
+		padding-left: 50px;
+	}
+
+
+	.nav-link:not(.active), .nav-item:last-child {
+		background-color: #f8f8f8;
+	}
+
+	.nav-link.active {
+		box-shadow: none;
+		background-color: #fff;
+		color: #333 !important;
+
+		&::before {
+			display: none;
+		}
+	}
+
+	@media only screen and (min-width: 576px) {
+		.modal-dialog {
+			width: 570px;
+			max-width: 570px;
+		}
+		.nav-item:first-child {
+			padding-left: 80px;
+		}
+		.nav-link.active + .nav-item {
+			border-bottom-left-radius: 16px;
+		}
+
+		.nav-link:not(.active):first-child {
+			border-bottom-right-radius: 16px;
+		}
+	}
+
+
+}
+
+.g5core-login-popup {
+	.popup-login-header {
+		text-align: left;
+		margin-bottom: 20px;
+	}
+
+	.popup-login-title {
+		font-size: 30px;
+		text-transform: capitalize;
+		font-weight: 600;
+		margin-bottom: 10px;
+	}
+
+	.popup-login-desc {
+		font-weight: normal;
+	}
+
+	.forgot-pass-link {
+		color: var(--g5-color-heading);
+		text-decoration: underline;
+	}
+}
+
+#site-header {
+	.g5ere__user-dropdown {
+		padding: ($header_height - 26px)/2 0;
+	}
+}
+
+.g5ere__user-dropdown {
+	.g5ere__user-display-name {
+		text-transform: uppercase;
+		letter-spacing: 1px;
+	}
+
+
+	.dropdown-item a {
+		font-size: 14px;
+	}
+
+
+}
+
+.g5ere__login-button a {
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+
+.modal-header .close {
+	&:hover {
+		background-color: transparent !important;
+	}
+}

@@ -1,0 +1,31 @@
+@media (min-width: 992px) {
+  .no-sidebar.g5blog__single-layout-2 {
+    .g5blog__single-breadcrumbs {
+      .container {
+        max-width: 900px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .no-sidebar.g5blog__single-layout-2 {
+    .g5blog__single-breadcrumbs {
+      .container {
+        max-width: $content_width + $grid_gutter_width;
+      }
+    }
+  }
+}
+
+.g5blog__single-layout-2 {
+  .g5blog__single-title {
+    margin-bottom: 20px;
+  }
+  .g5blog__single-featured {
+    margin-bottom: 32px;
+  }
+  .g5blog__single-meta-top {
+    margin-bottom: 50px;
+  }
+}

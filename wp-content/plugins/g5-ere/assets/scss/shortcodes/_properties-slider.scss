@@ -1,0 +1,57 @@
+.g5ere__psi-hero {
+	padding: 50px 0;
+	min-height: 500px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	&:before {
+		content: '';
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: rgba(0,0,0,0.5);
+	}
+	* {
+		color: inherit;
+	}
+}
+
+.g5element__properties-slider {
+	.slick-dots {
+		position: absolute;
+		bottom: 10px;
+		left: 50%;
+		@include transform(translateX(-50%));
+		margin: 0 !important;
+		color: #fff;
+		li {
+			opacity: 0.6;
+		}
+		li:hover,
+		li.slick-active {
+			color: #fff;
+			opacity: 1;
+		}
+	}
+	.slick-arrow {
+		opacity: 0;
+		@include transition(all .3s);
+		&.slick-prev {
+			left: 20px;
+			@include transform(translate(0,-50%));
+		}
+		&.slick-next {
+			right: 20px;
+			@include transform(translate(0,-50%));
+		}
+	}
+
+	&:hover {
+		.slick-arrow {
+			opacity: 1;
+		}
+	}
+}

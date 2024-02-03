@@ -1,0 +1,54 @@
+@import "../scss/_variable";
+@import "../scss/_mixin";
+
+.gel-our-team {
+    text-align: center;
+}
+
+.gel-our-team-avatar-circle {
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    &:before {
+        content: '';
+        display: block;
+        padding-top: 100%;
+    }
+    > .g5core__lazy-image,
+    > img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        height: auto;
+        width: 100%;
+        @include transform(translate(-50%, -50%));
+    }
+}
+
+.gel-our-team-name {
+    font-size: 16px;
+    margin-top: 2.0625em !important;
+    margin-bottom: 0.07em;
+    a {
+        color: inherit;
+    }
+}
+
+.gel-our-team-job {
+    margin-bottom: 0;
+}
+
+.gel-our-team-description {
+    margin-bottom: 1em;
+    margin-top: 1.43em;
+}
+
+.gel-our-team-social {
+    margin-left: 8.5px;
+    margin-right: 8.5px;
+    line-height: 2.5em;
+    color: #999;
+    &:hover {
+        color: #1b1b1b;
+    }
+}

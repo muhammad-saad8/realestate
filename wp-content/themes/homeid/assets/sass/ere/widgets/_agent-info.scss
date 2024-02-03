@@ -1,0 +1,41 @@
+.g5ere__widget-agent-info-layout-01 {
+	.g5ere__loop-agent-position {
+		font-size: 14px;
+	}
+
+	.g5ere__agent-title {
+		font-size: 16px;
+		margin-bottom: 0;
+	}
+
+	.g5ere__rating-count {
+		font-size: 12px;
+		color: var(--g5-color-muted);
+	}
+
+	.g5ere__agent-meta {
+		margin-top: 8px;
+		padding-top: 23px;
+		border-top: 1px solid var(--g5-color-border);
+		margin-bottom: 17px;
+
+		> li + li {
+			margin-top: 2px;
+		}
+
+		.g5ere__loop-agent-meta {
+			overflow: hidden;
+			-o-text-overflow: ellipsis;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+
+		.g5ere__lam-label {
+			width: 90px;
+		}
+	}
+
+	.btn-send-message {
+		margin-top: 34px;
+	}
+}

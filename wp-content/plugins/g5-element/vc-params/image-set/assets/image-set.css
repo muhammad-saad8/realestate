@@ -1,0 +1,25 @@
+/** Image Set **/
+.g5element-vc-image-set-inner {
+	margin-bottom: 5px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.g5element-vc-image-set-inner .g5element-vc-image-set-item {
+	padding: 5px;
+	cursor: pointer;
+}
+.g5element-vc-image-set-inner .g5element-vc-image-set-item img {
+	border: solid 2px #d7d7d7;
+	max-width: 100%;
+}
+.g5element-vc-image-set-inner .g5element-vc-image-set-item.current img {
+	border-color: #ed145b;
+}
+.g5element-vc-image-set-inner .g5element-vc-image-set-item p {
+	text-align: center;
+	margin: 0;
+	font-size: 10px;
+}
+.g5element-vc-image-set-inner .g5element-vc-image-set-item.current p {
+	font-weight: bold;
+}

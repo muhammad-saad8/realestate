@@ -1,0 +1,35 @@
+.paging-navigation {
+	@include d-flex();
+	@include align-items-center();
+
+	.next.page-numbers, .prev.page-numbers {
+		position: static;
+		height: 40px;
+		line-height: 40px;
+
+		&::after {
+			font-family: "Font Awesome 5 Pro";
+			font-size: 16px;
+			font-weight: 300;
+		}
+	}
+
+
+	.next.page-numbers {
+		&::after {
+			content: '\f101';
+		}
+	}
+
+	.prev.page-numbers {
+		&::after {
+			content: '\f100';
+		}
+	}
+
+	.page-numbers {
+		display: inline-block;
+		padding: 0 10px;
+		line-height: 40px;
+	}
+}

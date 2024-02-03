@@ -1,0 +1,49 @@
+.homeid-mailchimp {
+	@include flex-flow-column();
+	input[type="submit"] {
+		margin-top: 18px;
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0;
+	}
+	input[name="EMAIL"] {
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 0;
+	}
+}
+
+.mailchimp-for-footer .homeid-mailchimp {
+	@include flex-flow-row();
+	input[type="submit"] {
+
+		margin-top: 0;
+		width: 33%;
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	input[name="EMAIL"] {
+		width: 67%;
+	}
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+	.mailchimp-for-footer {
+		.homeid-mailchimp input[name="EMAIL"] {
+			width: 55%;
+		}
+		.homeid-mailchimp input[type="submit"] {
+			width: 45%;
+		}
+	}
+}
+
+@media (max-width: 767px) {
+	.mailchimp-for-footer {
+		.homeid-mailchimp input[name="EMAIL"] {
+			width: 60%;
+		}
+		.homeid-mailchimp input[type="submit"] {
+			width: 40%;
+		}
+	}
+}

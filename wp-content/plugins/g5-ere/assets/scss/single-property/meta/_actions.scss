@@ -1,0 +1,23 @@
+.g5ere__property-actions {
+	li {
+		.fa-spinner:before {
+			content: "\f110" !important;
+		}
+		.g5ere__sps-btn,
+		> a {
+			cursor: pointer;
+			width: 30px;
+			height: 30px;
+			line-height: 30px;
+			font-size: 14px;
+			text-align: center;
+			border: 1px solid #eee;
+			display: block;
+			@include border-radius(4px);
+		}
+		margin-right: 0.25rem;
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}

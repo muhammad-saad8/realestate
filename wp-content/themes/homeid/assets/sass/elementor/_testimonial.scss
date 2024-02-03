@@ -1,0 +1,130 @@
+.ube-testimonial-author-job {
+	color: var(--g5-color-text-main);
+}
+
+.ube-testimonial-layout-01, .ube-testimonial-layout-03 {
+	--ube-testimonial-author-width: 140px;
+	--ube-testimonial-author-height: 140px;
+}
+
+.ube-testimonial-layout-01 {
+	border: 1px solid var(--g5-color-border);
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 25px 30px 30px 30px;
+
+	.ube-testimonial-client-say {
+		font-size: 15px;
+		line-height: 2em;
+	}
+
+	.ube-testimonial-content {
+		margin-bottom: 26px;
+	}
+
+	.ube-testimonial-author-name {
+		color: var(--g5-color-heading);
+		font-size: 16px;
+		margin-top: 15px;
+	}
+
+	.ube-testimonial-author-job {
+		font-size: 14px;
+	}
+}
+
+.ube-testimonial-layout-03 {
+	background-color: #fff;
+	box-shadow: 0 0 20px 0 rgb(51 51 51 / 10%);
+	border-radius: 5px;
+	padding: 40px 33px 45px;
+
+	.ube-testimonial-client-say {
+		line-height: 1.73;
+		font-size: 15px;
+		margin-bottom: 48px;
+	}
+
+	.ube-testimonial-avatar {
+		margin-bottom: 20px;
+	}
+
+	.ube-testimonial-author-name {
+		font-size: 16px;
+		font-weight: 700;
+	}
+
+	.ube-testimonial-author-job {
+		font-size: 14px;
+		color: var(--g5-color-muted);
+	}
+}
+
+.ube-testimonial-layout-05 {
+	--ube-testimonial-author-width: 70px;
+	--ube-testimonial-author-height: 70px;
+	background-color: #fff;
+	box-shadow: 0 0 20px 0 rgb(51 51 51 / 10%);
+	border-radius: 5px;
+	padding: 30px 30px 40px 30px;
+
+	.ube-testimonial-client-say {
+		font-size: 15px;
+		line-height: 1.73;
+	}
+
+	.ube-testimonial-content {
+		margin-bottom: 40px;
+	}
+
+	.ube-testimonial-avatar {
+		margin-right: 14px;
+	}
+
+	.ube-testimonial-author-name {
+		font-size: 16px;
+		font-weight: 700;
+	}
+
+	.ube-testimonial-author-job {
+		font-size: 14px;
+		margin-top: 0;
+		color: var(--g5-color-muted);
+	}
+}
+
+.custom-quote .ube-testimonial-client-say {
+	padding: 0;
+
+	&:after,
+	&:before {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		position: unset;
+	}
+
+	&:after {
+		content: '';
+		width: 40px;
+		height: 2px;
+		background-color: var(--g5-color-accent);
+		margin-top: 20px;
+	}
+
+	&:before {
+		font-size: 26px;
+		color: var(--g5-color-accent);
+		margin-bottom: 16px;
+		padding-right: 0;
+	}
+}
+
+.custom-el-testimonial-01 {
+	.ube-testimonial-layout-05 {
+		background-color: transparent;
+		box-shadow: none;
+		border-radius: 0;
+		padding: 0;
+	}
+}

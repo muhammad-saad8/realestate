@@ -1,0 +1,97 @@
+@import "../scss/_variable";
+@import "../scss/_mixin";
+
+.gel-social-icons {
+	li {
+		margin: 0;
+	}
+	.list-si,
+	.list-si a,
+	.list-si span {
+		@include d-flex();
+		@include justify-content-center();
+		@include align-items-center();
+	}
+
+	.list-si {
+		list-style: none;
+		padding-left: 0;
+		margin: 0;
+		@include flex-wrap();
+
+		li + li {
+			margin-left: 1.5em;
+		}
+
+		i + span {
+			margin-left: 0.3em;
+		}
+		span > span {
+			display: none;
+		}
+		a {
+			@include transition(all 0.3s);
+			color: inherit;
+		}
+	}
+	.list-si.si-text,
+	.list-si.si-classic {
+		i {
+			color: inherit;
+		}
+	}
+
+	.si-text span > span {
+		display: block;
+	}
+
+	.si-shape {
+		a {
+			width: 2.5em;
+			height: 2.5em;
+			color: inherit;
+			background-color: currentColor;
+		}
+		i {
+			color: #fff;
+		}
+	}
+	.si-circle a {
+		border-radius: 50%;
+	}
+	.si-outline {
+		a {
+			border: solid 1px currentColor;
+			background-color: transparent;
+
+			&:hover {
+				color: inherit;
+				background-color: currentColor;
+
+				i {
+					color: #fff;
+				}
+			}
+		}
+		i {
+			color: inherit;
+		}
+	}
+
+	.si-small {
+		font-size: 14px;
+	}
+	.si-normal {
+		font-size: 16px;
+	}
+	.si-large {
+		font-size: 20px;
+	}
+
+	.si-left {
+		@include justify-content-start();
+	}
+	.si-right {
+		@include justify-content-end();
+	}
+}

@@ -1,0 +1,32 @@
+.g5blog__post-grid {
+  .g5blog__post-featured {
+    margin-bottom: 1rem;
+  }
+  .g5blog__post-title {
+    margin-bottom: 0.6875rem;
+    font-size: var(--g5blog-loop-grid-post-title-font-size);
+  }
+
+  .g5blog__post-excerpt {
+    margin-top: 1.25rem;
+  }
+  &.sticky {
+    .g5blog__post-inner {
+      padding: 2rem;
+    }
+    .g5blog__post-featured {
+      margin-left: -2rem;
+      margin-right: -2rem;
+      margin-top: -2rem;
+    }
+  }
+}
+
+@media (min-width: (576px)) {
+  .g5blog__post-grid {
+    .g5blog__post-excerpt {
+      max-height: calc(var(--g5blog-loop-post-except-line-height) * var(--g5blog-loop-grid-post-except-max-height));
+      overflow: hidden;
+    }
+  }
+}

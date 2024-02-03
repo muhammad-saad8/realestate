@@ -1,0 +1,75 @@
+@import "../scss/_mixin";
+
+.gel-video,
+.gel-video .view-video {
+    @include d-flex();
+    @include justify-content-center();
+    @include align-items-center();
+}
+
+.gel-video .view-video,
+.gel-video-classic .view-video{
+    border-radius: 50%;
+    color: #fff;
+    background-color: currentColor;
+    border-width: 0;
+    @include justify-content-center();
+    @include align-items-center();
+    @include transition(all .3s);
+
+    i {
+        color: #222;
+        margin-left: 1px;
+        @include transition(color .3s);
+    }
+
+    &:hover {
+        color: #222;
+        i {
+            color: #fff;
+        }
+    }
+}
+.gel-video-text {
+    padding-left: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 75%;
+    letter-spacing: 0.05em;
+}
+.gel-video-sm {
+    font-size: 14px;
+    .view-video {
+        width: 55px;
+        height: 55px;
+    }
+}
+.gel-video-md {
+    font-size: 16px;
+    .view-video {
+        width: 76px;
+        height: 76px;
+    }
+}
+.gel-video-lg {
+    font-size: 20px;
+    .view-video {
+        width: 100px;
+        height: 100px;
+    }
+}
+.gel-video.gel-video-outline .view-video {
+    border: solid 2px currentColor;
+    background-color: transparent;
+    i {
+        color: inherit;
+    }
+
+    &:hover {
+        color: #fff;
+        background-color: currentColor;
+        i {
+            color: #222;
+        }
+    }
+}

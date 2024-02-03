@@ -1,0 +1,16 @@
+.svg-icon {
+	display: inline;
+	position: relative;
+	top: -1px;
+}
+
+
+svg.svg-icon {
+	width: 1em;
+	height: 1em;
+	fill: currentColor;
+}
+
+i:not(.svg-icon) svg {
+	display: none;
+}

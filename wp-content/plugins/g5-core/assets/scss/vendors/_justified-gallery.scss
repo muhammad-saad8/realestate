@@ -1,0 +1,42 @@
+.g5core__justified-gallery {
+  > article {
+    position: absolute;
+    display: inline-block;
+    overflow: hidden;
+    opacity: 0.1;
+    margin: 0;
+    padding: 0;
+
+
+  }
+
+  .g5core__animate-when-almost-visible {
+    opacity: 0;
+  }
+
+  .g5core__post-featured {
+    position: static;
+  }
+
+  .g5core__entry-thumbnail-image {
+    position: static;
+    > img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin: 0;
+      padding: 0;
+      border: none;
+      opacity: 0;
+    }
+  }
+
+  > .entry-visible {
+    .g5core__entry-thumbnail-image > img {
+      opacity: 1;
+      @include transition(opacity 500ms ease-in);
+    }
+
+  }
+
+}

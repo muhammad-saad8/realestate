@@ -1,0 +1,39 @@
+.ere-search-map-properties.color-light {
+  --ere-property-search-form-bg-color: var(--ere-property-search-form-light-bg-color);
+  --ere-property-search-form-text-color: var(--ere-property-search-form-light-text-color);
+  --ere-property-search-form-border-color: var(--ere-property-search-form-light-border-color);
+  --ere-color-heading: #fff;
+}
+.ere-search-map-properties.color-light .form-search-wrap {
+  padding: 15px;
+  background-color: var(--ere-property-search-form-bg-color);
+}
+.ere-search-map-properties.color-light .form-search-wrap.has-status-tab {
+  padding-top: 0;
+}
+.ere-search-map-properties .property-result-wrap {
+  margin-top: 25px;
+}
+.ere-search-map-properties .list-property-result-ajax {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 30px;
+}
+.ere-search-map-properties .property-search-map-paging-wrap {
+  margin-top: 20px;
+}
+
+@media (max-width: 991px) {
+  .ere-search-map-properties .ere-map-search,
+  .ere-search-map-properties .col-scroll-vertical {
+    height: inherit !important;
+    overflow: inherit !important;
+  }
+}
+@media (max-width: 767px) {
+  .ere-search-map-properties .ere-map-result {
+    height: 400px;
+  }
+}
+
+/*# sourceMappingURL=property-search-map.css.map */

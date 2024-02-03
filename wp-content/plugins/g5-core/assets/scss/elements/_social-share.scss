@@ -1,0 +1,21 @@
+ul.g5core__share-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	@include d-inline-flex();
+	@include align-items-center();
+	li {
+		margin: 0;
+		margin-right: 15px;
+		a {
+			@include transition(all .3s);
+			color: inherit;
+		}
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}
+.g5core__share-label {
+	margin: 0 15px 0 0;
+}

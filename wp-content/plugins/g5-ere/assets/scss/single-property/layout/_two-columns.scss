@@ -1,0 +1,31 @@
+.g5ere__property-layout-two-columns {
+	@media (min-width: 1200px) {
+		.g5ere__property-meta-action {
+			@include flex-wrap();
+			.g5ere__property-actions {
+				order: 0;
+			}
+		}
+	}
+
+	.g5ere__property-overview-list {
+		@media (min-width: 1200px) {
+			.col-md-3 {
+				-ms-flex: 0 0 33.333333%;
+				flex: 0 0 33.333333%;
+				max-width: 33.333333%;
+			}
+		}
+
+	}
+
+	.g5ere__review-rating-wrap {
+		@media (min-width: 1200px) {
+			.col-md-6 {
+				-ms-flex: 0 0 100%;
+				flex: 0 0 100%;
+				max-width: 100%;
+			}
+		}
+	}
+}

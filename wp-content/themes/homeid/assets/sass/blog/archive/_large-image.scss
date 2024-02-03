@@ -1,0 +1,53 @@
+.g5blog__post-large-image {
+	&.sticky {
+		.g5blog__post-inner {
+			background-color: $color_background_post_sticky;
+			border-bottom: none;
+			@include border-radius(5px);
+		}
+		.g5core__entry-thumbnail:after,
+		.g5core__entry-thumbnail img,
+		.g5core__entry-thumbnail {
+			@include border-radius(5px 5px 0 0);
+
+		}
+	}
+
+	.g5blog__post-title {
+		margin-bottom: 14px;
+	}
+
+	.g5blog__post-featured {
+		margin-bottom: 23px;
+	}
+
+	.g5blog__post-meta {
+		margin-bottom: 20px;
+	}
+
+	.btn-read-more {
+		margin-top: 20px;
+	}
+
+	.g5blog__post-excerpt {
+		line-height: 2.14;
+	}
+}
+
+
+.g5blog__layout-large-image {
+	.g5blog__post-inner {
+		padding-bottom: 30px;
+		border-bottom: 1px solid var(--g5-color-border);
+	}
+
+	.g5blog__post-default  {
+		&:last-child {
+			padding-bottom: 0;
+		}
+	}
+
+	.g5core__paging {
+		margin-top: 50px;
+	}
+}

@@ -1,0 +1,49 @@
+.g5ere__scb-style-03 {
+	.g5ere__single-block {
+		background-color: transparent;
+		border: none;
+		margin-bottom: 60px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+		> .card-header {
+			background: transparent;
+			border-bottom: none;
+			padding: 0;
+			margin-bottom: 30px;
+			h2 {
+				font-size: 22px;
+			}
+		}
+		> .card-body {
+			border: 1px solid var(--g5-color-border);
+			@include border-radius(5px);
+			background-color: #fff;
+			padding: 25px 30px;
+		}
+	}
+
+	.g5ere__single-block-tabs{
+		.g5ere__panel-heading{
+			border-bottom: 1px solid var(--g5-color-border);
+		}
+		.g5ere__panel-body{
+			border-top: 0;
+		}
+	}
+
+	.g5ere__property-block-header {
+		border: 1px solid var(--g5-color-border);
+		@include border-radius(5px);
+		background-color: #fff;
+		padding: 25px 30px;
+
+		.g5ere__property-block-description {
+			.card-body {
+				border: none;
+				padding: 0;
+			}
+
+		}
+	}
+}

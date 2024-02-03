@@ -1,0 +1,11 @@
+@import "social-share";
+@import "actions";
+
+.g5ere__property-meta {
+	> li {
+		margin-right: 0.25rem;
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}

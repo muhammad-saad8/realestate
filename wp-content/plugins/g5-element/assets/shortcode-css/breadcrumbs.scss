@@ -1,0 +1,16 @@
+@import "../scss/_mixin";
+
+.gel-breadcrumbs-left .g5core-breadcrumbs {
+    @include justify-content-start();
+}
+
+.gel-breadcrumbs-center .g5core-breadcrumbs {
+    @include justify-content-center();
+}
+
+.gel-breadcrumbs-right .g5core-breadcrumbs {
+    @include justify-content-end();
+}
+.gel-breadcrumbs-custom-typo .g5core-breadcrumbs {
+    color: inherit;
+}

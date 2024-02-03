@@ -1,0 +1,26 @@
+.g5ere__spg-thumbnail {
+	.g5ere__spg-slider-thumb {
+		margin-top: 10px;
+
+
+		.g5core__entry-thumbnail {
+			cursor: pointer;
+		}
+		.g5core__entry-thumbnail:after {
+			opacity: 1;
+			background-color: rgba(0, 0, 0, 0.5);
+		}
+
+		.slick-current {
+			.g5core__entry-thumbnail:after {
+				opacity: 0;
+			}
+		}
+		.g5core__entry-thumbnail:hover:after {
+			opacity: 0;
+		}
+	}
+
+
+
+}

@@ -1,0 +1,8 @@
+.g5ere__agency-featured {
+	.g5core__entry-thumbnail {
+		background-color: #fff;
+		&:after {
+			display: none !important;
+		}
+	}
+}

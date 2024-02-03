@@ -1,0 +1,35 @@
+.ere-dashboard-actions {
+  list-style-type: none;
+  padding-left: 0 !important;
+  margin-top: 10px;
+  li {
+    display: inline-block;
+  }
+}
+
+.ere-dashboard-content {
+  .btn-action {
+    text-decoration: none;
+    font-size: 12px;
+    margin: 0 3px 3px 0;
+    padding: 0 5px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    -webkit-appearance: none;
+    white-space: nowrap;
+    background: #f7f7f7;
+    display: inline-block;
+
+    &:hover {
+      background-color: var(--ere-color-accent);
+      color: var(--ere-color-accent-foreground);
+      border-color: var(--ere-color-accent);
+      text-decoration: none;
+    }
+  }
+
+  .paging-navigation
+  {
+    margin-top: 15px;
+  }
+}

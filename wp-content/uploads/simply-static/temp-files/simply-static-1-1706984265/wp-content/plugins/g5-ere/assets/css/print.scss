@@ -1,0 +1,170 @@
+@import "../scss/mixin";
+
+.property-print-inner {
+	max-width: 768px;
+	margin: 0 auto;
+
+	.home-page-info {
+		padding: 30px 0;
+		border-bottom: 1px solid #eee;
+	}
+
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+.property-print-title {
+	padding: 30px 0;
+	a {
+		color: inherit;
+	}
+
+	.g5ere__property-title-price {
+		@include d-flex();
+	}
+
+	.g5ere__property-title-address {
+		@include flex(0 0 auto);
+		max-width: 100%;
+	}
+
+	.g5ere__property-price {
+		@include flex(0 0 145px);
+		max-width: 145px;
+		margin-left: auto;
+	}
+
+	.g5ere__property-title {
+		font-size: 24px;
+	}
+
+	.g5ere__property-price {
+		.g5ere__lpp-price {
+			font-size: 20px;
+			font-weight: 600;
+		}
+	}
+}
+
+.property-main-info {
+	.g5ere__single-property-featured-image {
+		position: relative;
+		margin-bottom: 30px;
+
+		&.has-image {
+			.property-link-api {
+				position: absolute;
+				right: 0;
+				bottom: 0;
+			}
+		}
+	}
+
+
+	.g5ere__property-print-block-title {
+		margin-bottom: 20px;
+		font-size: 18px;
+	}
+
+	.g5ere__property-print-block:not(:last-child) {
+		border-bottom: 1px solid #eee;
+		margin-bottom: 30px;
+		padding-bottom: 30px;
+	}
+
+}
+
+.g5ere__property-print-block-floors {
+	.g5ere__property_floors-title {
+		font-size: 16px;
+	}
+
+	.g5ere__property_floors-item {
+		&:not(:last-child) {
+			margin-bottom: 30px;
+		}
+	}
+}
+
+.g5ere__property-print-block-contact-agent {
+	.g5ere__loop-agent-meta:not(.g5ere__loop-agent-name) {
+		.g5ere__lam-content, a {
+			font-weight: 600;
+			color: #000;
+		}
+	}
+
+	.g5core__entry-thumbnail-image {
+		max-width: 15px;
+		max-height: 150px;
+	}
+
+}
+
+.g5ere__property-print-block-details {
+	.g5ere__property-details-list {
+		border: 1px solid #000;
+		padding: 20px;
+		border-radius: 5px;
+
+		ul {
+			margin-bottom: 0;
+		}
+	}
+
+}
+
+.g5ere__property-print-block-gallery {
+	.g5core__entry-thumbnail-image {
+		margin-bottom: 20px;
+	}
+}
+
+svg.svg-icon {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	fill: currentColor;
+}
+
+.g5ere__property-overview-list {
+	.media-icon {
+		@include box-shadow(0 0 7px 0 rgba(0, 0, 0, 0.07));
+		@include border-radius(5px);
+		font-size: 32px;
+		padding: 10px;
+		color: #0ec6d5;
+
+		.svg-icon {
+			@include d-flex();
+			position: static;
+		}
+	}
+
+	a {
+		color: inherit;
+	}
+
+	margin-top: -15px;
+
+	.media {
+		padding-top: 15px;
+	}
+}
+
+.property-print-inner .g5ere__contact-actions-whatsapp {
+	margin-top: 15px;
+
+	.btn {
+		color: #0ec6d5;
+		border: 1px solid #eee;
+
+		&:hover {
+			background-color: #0ec6d5;
+			border-color: #0ec6d5;
+			color: #fff;
+		}
+	}
+}

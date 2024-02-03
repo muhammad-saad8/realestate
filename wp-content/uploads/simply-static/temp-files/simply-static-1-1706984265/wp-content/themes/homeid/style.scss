@@ -1,0 +1,147 @@
+/*
+Theme Name: Homeid
+Theme URI: https://homeId.g5plus.net/
+Author: G5 Theme
+Author URI: https://themeforest.net/user/g5theme
+Description: HomeId theme gracefully presents properties information to website visitors and facilitates real estate business owners by making properties management easier. HomeID is a handcrafted WordPress theme for real estate businesses, It is regularly updated and well-maintained.
+Requires at least: WordPress 4.9.0
+Version: 1.7.3
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Tags: 	add listing, add property, agent, directory, find houses, home finder, house finder, house rent, interior design, map search, property, property listing, real estate, real estate listing, Real estate template
+Text Domain: homeid
+Domain Path: /languages/
+*/
+
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Variable
+# Typography
+# Helper
+# Elements
+# Elementor
+# Layout
+# Header
+# Footer
+# Page title
+# WP core
+# WP block
+# Blog
+# ERE
+# Widgets
+# 404
+# Utilities
+# Responsive
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Variable
+--------------------------------------------------------------*/
+@import "assets/sass/mixin";
+@import "assets/sass/variables";
+@import "assets/sass/mixin-widget";
+@import "assets/sass/root";
+
+
+/*--------------------------------------------------------------
+## Typography
+--------------------------------------------------------------*/
+@import "assets/sass/typography";
+//@import "assets/sass/button";
+@import "assets/sass/buttons";
+
+
+/*--------------------------------------------------------------
+## Helper
+--------------------------------------------------------------*/
+@import "assets/sass/helper";
+@import "assets/sass/gutter";
+
+
+/*--------------------------------------------------------------
+## Elements
+--------------------------------------------------------------*/
+@import "assets/sass/elements";
+
+
+/*--------------------------------------------------------------
+## Elementor
+--------------------------------------------------------------*/
+@import "assets/sass/elementor";
+
+
+/*--------------------------------------------------------------
+## Layout
+--------------------------------------------------------------*/
+@import "assets/sass/layout";
+
+/*--------------------------------------------------------------
+## Header
+--------------------------------------------------------------*/
+@import "assets/sass/header";
+
+/*--------------------------------------------------------------
+## Footer
+--------------------------------------------------------------*/
+@import "assets/sass/footer";
+
+/*--------------------------------------------------------------
+## Page title
+--------------------------------------------------------------*/
+@import "assets/sass/page-title";
+
+/*--------------------------------------------------------------
+## WP core
+--------------------------------------------------------------*/
+@import "assets/sass/wp-core";
+@import "assets/sass/core/core";
+
+/*--------------------------------------------------------------
+## WP block
+--------------------------------------------------------------*/
+//@import "assets/sass/wp-block";
+@import "assets/sass/wp-blocks";
+
+/*--------------------------------------------------------------
+## Blog
+--------------------------------------------------------------*/
+@import "assets/sass/blog";
+@import "assets/sass/comment";
+@import "assets/sass/navigation";
+@import "assets/sass/blog/blog";
+
+/*--------------------------------------------------------------
+## ERE
+--------------------------------------------------------------*/
+@import "assets/sass/ere/ere";
+
+
+/*--------------------------------------------------------------
+## Widgets
+--------------------------------------------------------------*/
+@import "assets/sass/widgets";
+
+/*--------------------------------------------------------------
+## 404
+--------------------------------------------------------------*/
+@import "assets/sass/404";
+
+
+
+/*--------------------------------------------------------------
+## Responsive
+--------------------------------------------------------------*/
+@import "assets/sass/responsive";
+
+
+/*--------------------------------------------------------------
+## Utilities
+--------------------------------------------------------------*/
+@import "assets/sass/utilities";
+
+/*--------------------------------------------------------------
+## Extends css
+--------------------------------------------------------------*/
+@import "assets/sass/extend";

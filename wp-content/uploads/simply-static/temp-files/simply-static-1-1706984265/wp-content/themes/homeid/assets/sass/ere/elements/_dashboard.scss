@@ -1,0 +1,513 @@
+.g5ere__db-sidebar {
+	.g5ere__dashboard-sidebar-container > .list-group > .list-group-item {
+		padding-left: 16px;
+		padding-right: 16px;
+		padding-top: 30px;
+		padding-bottom: 20px;
+	}
+
+	.sidebar-item {
+		transition: all 0.2s;
+
+		.sidebar-item-number {
+			color: var(--g5-color-accent);
+			font-weight: bold;
+		}
+	}
+
+	.sidebar-item.active, .sidebar-item:hover {
+		background-color: #f8f8f8;
+
+		.sidebar-item-icon {
+			color: var(--g5-color-accent);
+		}
+
+		.sidebar-item-text {
+			color: var(--g5-color-heading);
+		}
+	}
+
+	.ere-my-package {
+		.list-group-item {
+			padding: 7px 16px;
+		}
+	}
+}
+
+.g5ere__dropdown-status {
+	.dropdown-toggle {
+		background-color: #fff;
+		color: var(--g5-color-text-main);
+		border-radius: 0;
+
+		&:hover, &:focus {
+			border-color: var(--g5-color-border);
+			background-color: #fff;
+			color: var(--g5-color-text-main);
+
+		}
+	}
+}
+
+.g5ere__page-main {
+	.table {
+		border: 1px solid var(--g5-color-border);
+		@include border-radius(5px);
+
+		td, th {
+			border-top: 1px solid var(--g5-color-border);
+			border-right: none;
+			border-left: none;
+			border-bottom: none;
+			padding: 25px 20px 20px 30px;
+			vertical-align: middle;
+			color: var(--g5-color-text-main);
+		}
+
+		th {
+			color: var(--g5-color-heading);
+			font-weight: 500;
+		}
+
+		tbody tr:hover {
+			box-shadow: 0 5px 15px 0 rgba(51, 51, 51, .08);
+		}
+
+	}
+
+	.ere-my-properties {
+		span.ere-publish {
+			border: 1px solid rgba(231, 68, 91, .2);
+			background-color: rgba(231, 68, 91, .06);
+			color: #0ec6d5;
+		}
+
+		span.ere-pending {
+			background-color: rgba(246, 181, 0, .06);
+			border: 1px solid rgba(246, 181, 0, .2);
+			color: #f6b500;
+		}
+
+		span.ere-hidden {
+			background-color: rgba(0, 0, 0, .06);
+			border: 1px solid rgba(0, 0, 0, .2);
+			color: #333;
+		}
+	}
+
+	.ere-dashboard-actions {
+		@include d-flex();
+
+		.btn-action {
+			font-size: 0;
+			background-color: transparent !important;
+			border: none !important;
+			display: block;
+
+			&::after {
+				font-size: 18px;
+				font-family: $font_icon;
+				color: var(--g5-color-muted);
+				font-weight: 300;
+			}
+
+			&.ere-dashboard-action-edit {
+				&::after {
+					content: '\f303';
+				}
+			}
+
+			&.ere-dashboard-action-delete {
+				&::after {
+					content: '\f2ed';
+				}
+			}
+
+			&.ere-dashboard-action-allow_edit {
+				&::after {
+					content: '\f4ff';
+				}
+			}
+
+			&.ere-dashboard-action-hidden {
+				&::after {
+					content: '\f070';
+				}
+			}
+
+			&.ere-dashboard-action-mark_featured {
+				&::after {
+					content: '\f005';
+				}
+			}
+
+			&.ere-dashboard-action-remove_featured {
+				&::after {
+					content: '\f005';
+					font-weight: 900;
+				}
+			}
+
+			&.ere-dashboard-action-show {
+				&::after {
+					content: '\f06e';
+				}
+			}
+
+			&.ere-dashboard-action-relist_per_listing {
+				&::after {
+					content: '\f06e';
+				}
+			}
+
+		}
+	}
+
+	.paging-navigation {
+		margin-top: 30px;
+	}
+
+	.g5ere__property-my-favorite {
+		color: var(--g5-color-muted);
+		font-size: 18px;
+	}
+
+	.ere-my-invoices {
+		.form-control {
+			background-color: #fff;
+		}
+
+		.bootstrap-select {
+			.dropdown-toggle {
+				background-color: #fff;
+				border: none;
+				outline: none;
+
+				&:focus, &:hover {
+					border: none;
+					outline: none !important;
+					box-shadow: none;
+				}
+			}
+		}
+
+		.btn-action {
+			background-color: transparent !important;
+			border: none !important;
+			color: var(--g5-color-muted);
+			font-size: 18px;
+		}
+	}
+
+	.ere-my-saved-searches {
+		.ere-my-saved-search-title {
+			a {
+				color: var(--g5-color-heading);
+				font-size: 16px;
+				font-weight: 500;
+				transition: all 0.2s;
+
+				&:hover {
+					color: var(--g5-color-accent);
+				}
+			}
+
+		}
+
+		.g5ere__save-search-view {
+			color: var(--g5-color-text-main);
+		}
+	}
+
+
+	.ere-property-multi-step {
+		.ere-steps {
+			border: 1px solid var(--g5-color-border);
+			padding: 10px 15px 0;
+
+			.nav-link {
+				&:not(.active), &.active:not([disabled]) {
+					background-color: transparent;
+					color: #696969;
+					border: 1px solid transparent;
+				}
+
+				&:hover, &.active {
+					color: var(--g5-color-accent);
+					background-color: #fff;
+					border-color: #e7e7e7;
+				}
+
+				&.active:not([disabled]) {
+					.number {
+						font-size: 0;
+
+						&::after {
+							content: '\f00c';
+							font-family: $font_icon;
+							font-size: 14px;
+							color: var(--g5-color-accent);
+						}
+					}
+
+				}
+			}
+		}
+
+		.property-fields-title h2 {
+			font-size: 22px;
+			line-height: 1.5;
+			margin-bottom: 25px;
+		}
+
+		.card-body {
+			padding: 30px 30px 14px;
+		}
+
+		.property-manager-form label {
+			font-weight: normal;
+		}
+
+		.property-feature {
+			margin-bottom: 0;
+
+			.custom-control {
+				margin-bottom: 10px;
+			}
+		}
+
+		.ere-btn-prev {
+			color: var(--g5-color-text-main);
+			i {
+				color: var(--g5-color-accent);
+			}
+		}
+
+		.select2-container--default .select2-selection--multiple, .select2-selection--single {
+			background-color: $color_background_input;
+			border: none;
+			height: 52px;
+
+			&:focus {
+				border: 1px solid var(--g5-color-accent);
+				outline: none;
+			}
+
+			.select2-selection__rendered {
+				height: 100%;
+				@include d-flex();
+				@include flex-wrap();
+				@include align-items-center();
+				padding: 0 20px;
+
+
+			}
+		}
+
+		textarea:not(:focus) {
+			border: none;
+		}
+
+		.form-control:focus {
+			background-color: $color_background_input;
+		}
+
+		.input-group-text {
+			border: none;
+		}
+
+		.ere_image360 {
+			cursor: pointer;
+		}
+
+		.media-drag-drop {
+			background: #fff;
+
+			.media-drag-drop-icon {
+				font-size: 85px;
+				color: #eee;
+				line-height: 1;
+				margin-bottom: 20px;
+
+			}
+
+			h4 {
+				font-size: 22px;
+				font-weight: normal;
+			}
+		}
+
+		.g5ere__enter-coordinates-toggle {
+			label {
+				font-weight: 600;
+			}
+		}
+	}
+
+	.ere-my-profile {
+		.card-title {
+			font-size: 22px;
+			line-height: 1.5;
+			margin-bottom: 25px;
+		}
+	}
+
+	.g5ere__dashboard-actions {
+		.btn-action{
+			font-size: 18px;
+			color: var(--g5-color-muted);
+		}
+
+	}
+}
+
+.select2-dropdown {
+	border: none !important;
+	box-shadow: 0 5px 15px 0 rgba(51, 51, 51, .08);
+}
+
+
+.g5ere__my-property {
+	.ere-post-title {
+		font-size: 16px;
+		font-weight: 500;
+		margin-bottom: 5px;
+
+		a {
+			@include transition(all 0.3s);
+			&:hover {
+				color: var(--g5-color-accent);
+			}
+		}
+	}
+
+	.ere-property-address {
+		color: var(--g5-color-text-main);
+		line-height: 1.2;
+		margin-bottom: 10px !important;
+	}
+
+	.ere-property-price {
+		font-weight: bold;
+		color: var(--g5-color-heading);
+		font-size: 17px;
+		line-height: 1.5;
+	}
+
+	.property-price-postfix, .property-price-prefix {
+		color: #9b9b9b;
+		font-weight: normal;
+		font-size: 14px;
+
+	}
+
+	.ere-property-status {
+		line-height: 1.15;
+		letter-spacing: .87px;
+		text-transform: uppercase;
+		font-size: 13px;
+		font-weight: 500;
+	}
+
+}
+
+
+.g5ere__invoice-details {
+	@media only screen and (min-width: 1200px) {
+		max-width: 80%;
+		margin: 0 auto;
+	}
+
+
+	.g5ere__invoice-details-header {
+		margin-bottom: 32px;
+		padding-bottom: 24px;
+
+	}
+
+	.g5ere__invoice-pre-title {
+		font-size: 12px;
+		letter-spacing: .08em;
+		color: var(--g5-color-muted);
+		font-weight: 500;
+	}
+
+	.g5ere__invoice-title {
+		font-size: 26px;
+	}
+
+	.single-invoice-action {
+		a {
+			margin-bottom: 10px;
+		}
+
+		a:not(:last-child) {
+			margin-right: 10px;
+		}
+	}
+
+	.g5ere__invoice-details-body {
+		padding: 30px;
+	}
+
+	.g5ere__page-info {
+
+		img {
+			margin-bottom: 30px;
+		}
+
+		.invoice-title {
+			font-size: 20px;
+			margin-bottom: 10px;
+		}
+
+		.invoice-id {
+			color: var(--g5-color-muted);
+			margin-bottom: 70px;
+		}
+
+	}
+
+	.g5ere__single-invoice-info {
+		.invoice-info-label {
+			font-size: 12px;
+			font-weight: 500;
+			letter-spacing: .08em;
+			color: var(--g5-color-muted);
+			text-transform: uppercase;
+			margin-bottom: 10px;
+		}
+
+		.invoice-name {
+			font-weight: 500;
+			color: #333;
+		}
+
+		.invoice-details {
+			color: var(--g5-color-muted);
+		}
+	}
+
+}
+
+.g5element__reviews, .g5element__dashboards {
+
+
+	.g5ere__review-comment-item {
+		.post-title {
+			font-size: 13px;
+
+			a {
+				color: inherit;
+				white-space: normal;
+				transition: all 0.2s;
+
+				&:hover {
+					color: var(--g5-color-accent);
+				}
+			}
+		}
+	}
+}
+
+

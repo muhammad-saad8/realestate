@@ -1,0 +1,11 @@
+.ube-map-box-effect {
+	.mapboxgl-marker {
+		&:before, &:after {
+			border: 2px solid var(--map-box-effect-color2);
+		}
+
+		&:before {
+			border-color: var(--map-box-effect-color1);
+		}
+	}
+}

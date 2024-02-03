@@ -1,0 +1,65 @@
+.gel-social-icons .si-shape {
+	&.si-normal {
+		font-size: 14px;
+	}
+
+	a {
+		width: 40px;
+		height: 40px;
+		background-color: #fff;
+		border: solid 1px;
+		border-color: var(--g5-color-border);
+		@include transition(all 0.3s);
+		i {
+			color: inherit;
+		}
+		&:hover {
+			color: #fff;
+			background-color: var(--g5-color-accent);
+			border-color: var(--g5-color-accent);
+		}
+	}
+	li + li {
+		margin-left: 10px;
+	}
+}
+
+.gel-social-icons .si-classic {
+	&.si-normal {
+		font-size: 18px;
+		li + li {
+			margin-left: 44px;
+		}
+	}
+	&.si-large {
+		font-size: 25px;
+		li + li {
+			margin-left: 50px;
+		}
+	}
+}
+
+.custom-social-icons .list-si {
+	font-size: 20px;
+	li + li {
+		margin-left: 29px;
+	}
+}
+
+div.custom-social-icons-02 .si-classic.list-si {
+	li + li {
+		margin-left: 37px;
+	}
+}
+
+@media (max-width: 1199px) {
+	div.social-icon-center-lg .list-si {
+		@include justify-content-center();
+	}
+}
+
+@media (max-width: 991px) {
+	div.social-icon-center-md .list-si {
+		@include justify-content-center();
+	}
+}

@@ -1,0 +1,35 @@
+.g5ere__sach-layout-2 {
+  background-color: #fff;
+  padding: 30px;
+  margin-bottom: 50px;
+  @include border-radius(5px);
+  border: 1px solid var(--g5-color-border);
+
+  .g5ere__agency-title {
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+
+  .g5ere__loop-agency-address {
+    margin-bottom: 27px;
+  }
+
+  .g5ere__agency-meta > li {
+    margin-top: 6px;
+  }
+
+  .g5ere__loop-agency-meta {
+    .g5ere__lam-label {
+      color: var(--g5-color-text-main);
+    }
+  }
+}
+
+@media (max-height: 767px) {
+  .g5ere__sach-layout-2 {
+    .g5ere__agency-featured {
+      margin-bottom: 30px;
+      min-height: 294px;
+    }
+  }
+}

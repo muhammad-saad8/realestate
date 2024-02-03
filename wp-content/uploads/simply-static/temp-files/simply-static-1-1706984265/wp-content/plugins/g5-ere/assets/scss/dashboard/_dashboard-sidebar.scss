@@ -1,0 +1,116 @@
+.g5ere__db-sidebar {
+	box-shadow: 0 2px 15px 0 rgba(51, 51, 51, .05);
+	position: relative;
+
+	.g5ere__dashboard-sidebar-content {
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 999;
+		width: 320px;
+		height: 100vh;
+
+		.navbar {
+			height: 100%;
+			overflow-y: auto;
+
+			&::-webkit-scrollbar {
+				width: 5px;
+				background-color: #eee;
+			}
+
+			&::-webkit-scrollbar-thumb {
+				border-radius: 0;
+				background-color: #ababab;
+				width: 5px;
+
+			}
+
+			scrollbar-color: #eee #eee;
+			scrollbar-width: thin;
+			scrollbar-base-color: #eee;
+			scrollbar-face-color: #eee;
+			scrollbar-highlight-color: #eee;
+			scrollbar-track-color: #eee;
+		}
+
+		@media only screen and (max-width: 1200px) {
+			height: auto;
+			width: 100%;
+			max-width: 100%;
+			.navbar {
+				max-height: 500px;
+			}
+		}
+
+
+	}
+
+
+	.g5ere__dashboard-sidebar-top {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+
+	.navbar-toggler {
+		color: #333;
+		background-color: transparent;
+		margin-left: 15px;
+	}
+
+	.custom-logo-link {
+		@include d-flex();
+		@include align-items-center();
+	}
+
+	.sidebar-section-title {
+		font-size: 13px;
+		letter-spacing: 0.87px;
+		color: #ababab;
+		text-transform: uppercase;
+		margin-bottom: 15px;
+
+	}
+
+	.sidebar-item {
+		padding-top: 12px;
+		padding-bottom: 12px;
+
+		.sidebar-link {
+			line-height: 1;
+			color: #333;
+		}
+
+		.sidebar-item-icon {
+			color: #ababab;
+			font-size: 18px;
+		}
+
+		&.active {
+			.sidebar-link, .sidebar-item-icon {
+				color: #fff;
+			}
+		}
+
+
+	}
+
+	.navbar-collapse {
+		@media only screen and (max-width: 1200px) {
+			max-height: 500px;
+			overflow-y: auto;
+		}
+	}
+}
+
+.logged-in.admin-bar {
+	.g5ere__dashboard-sidebar-content {
+		padding-top: 32px;
+		@media only screen and (max-width: 768px) {
+			padding-top: 46px;
+		}
+		@media only screen and (max-width: 576px) {
+			padding-top: 0;
+		}
+	}
+}

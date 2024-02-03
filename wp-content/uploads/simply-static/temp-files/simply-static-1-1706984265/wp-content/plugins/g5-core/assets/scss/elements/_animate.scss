@@ -1,0 +1,207 @@
+.g5core__animate-when-almost-visible {
+  opacity: 0;
+  &.g5core__ttb {
+    &.animated {
+      -webkit-animation: g5core_ttb 0.65s ease forwards !important;
+      -o-animation: g5core_ttb 0.65s ease forwards !important;
+      animation: g5core_ttb 0.65s ease forwards !important;
+    }
+  }
+
+  &.g5core__btt {
+    &.animated {
+      -webkit-animation: g5core_btt 0.65s ease forwards !important;
+      -o-animation: g5core_btt 0.65s ease forwards !important;
+      animation: g5core_btt 0.65s ease forwards !important;
+    }
+  }
+
+  &.g5core__ltr {
+    &.animated {
+      -webkit-animation: g5core_ltr 0.65s ease forwards !important;
+      -o-animation: g5core_ltr 0.65s ease forwards !important;
+      animation: g5core_ltr 0.65s ease forwards !important;
+    }
+  }
+
+  &.g5core__rtl {
+    //@include transform(translateX(-100px));
+    //@include transition(all .3s);
+    &.animated {
+      //opacity: 1;
+      //@include transform(translateX(0));
+      -webkit-animation: g5core_rtl 0.65s ease forwards !important;
+      -o-animation: g5core_rtl 0.65s ease forwards !important;
+      animation: g5core_rtl 0.65s ease forwards !important;
+    }
+  }
+
+  &.g5core__appear {
+    &.animated {
+      -webkit-animation: g5core_appear 0.65s ease forwards !important;
+      -o-animation: g5core_appear 0.65s ease forwards !important;
+      animation: g5core_appear 0.65s ease forwards !important;
+    }
+
+  }
+}
+
+
+
+
+/**
+* Top To Bottom
+* ----------------------------------------------------------------------------
+*/
+
+@-webkit-keyframes g5core_ttb {
+  0% {
+    -webkit-transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes g5core_ttb {
+  0% {
+    -webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+/**
+* Bottom To Top
+* ----------------------------------------------------------------------------
+*/
+
+@-webkit-keyframes g5core_btt {
+  0% {
+    -webkit-transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes g5core_btt {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/**
+* Left To Right
+* ----------------------------------------------------------------------------
+*/
+
+@-webkit-keyframes g5core_ltr {
+  0% {
+    -webkit-transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes g5core_ltr {
+  0% {
+    -webkit-transform: translateX(-100px);
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+
+/**
+* Right To Left
+* ----------------------------------------------------------------------------
+*/
+@-webkit-keyframes g5core_rtl {
+  0% {
+    -webkit-transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes g5core_rtl {
+  0% {
+    -webkit-transform: translateX(100px);
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+/**
+* Appear
+* ----------------------------------------------------------------------------
+*/
+
+@-webkit-keyframes g5core_appear {
+  0% {
+    -webkit-transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes g5core_appear {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes g5core_skeleton_loading {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+
+

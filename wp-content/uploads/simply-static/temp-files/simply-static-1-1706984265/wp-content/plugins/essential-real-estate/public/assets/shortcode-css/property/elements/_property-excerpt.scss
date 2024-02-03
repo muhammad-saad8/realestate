@@ -1,0 +1,10 @@
+
+
+.ere-property {
+  .property-excerpt {
+    line-height: var(--ere-loop-property-except-line-height);
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

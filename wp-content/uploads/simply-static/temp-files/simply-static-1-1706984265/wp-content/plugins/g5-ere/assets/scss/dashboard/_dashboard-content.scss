@@ -1,0 +1,109 @@
+.g5ere__my-property {
+	.g5core__entry-thumbnail {
+		width: 120px;
+	}
+
+	img {
+		border-radius: 5px;
+	}
+
+	.ere-property-status {
+		top: 0;
+		left: 0;
+		color: #fff;
+		padding: 5px 8px !important;
+		border-radius: 3px;
+		margin-left: 0;
+		z-index: 2;
+
+		&.ere-property-status-for-rent {
+			background-color: #6969eb;
+
+		}
+
+		&.ere-property-status-for-sale {
+			background-color: #0ec6d5;
+		}
+	}
+
+	.g5ere__loop-property-address {
+		white-space: normal;
+	}
+
+	.ere-post-title {
+		font-size: 16px;
+		margin-bottom: 0;
+
+		a {
+			color: inherit;
+		}
+	}
+
+	.ere-property-address {
+		font-weight: 500;
+	}
+}
+
+.property-fields.property-media {
+	.media-item-actions {
+		.icon-delete {
+			color: #ff0000;
+
+			.fa-trash-o:not(.fa-spinner)::before {
+				content: "\f056";
+
+			}
+
+			.fa-spinner.fa-spin::before {
+				content: "\f110";
+			}
+		}
+
+		.icon-featured {
+			.fa-star::before {
+				content: '\f005';
+			}
+
+			.fa-star-o::before {
+				content: '\f005';
+				font-weight: 300;
+			}
+		}
+	}
+
+}
+
+.ere_floorsImg {
+	background-color: #e9ecef;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	border: none;
+	color: #495057;
+
+	&:focus, &:hover {
+		background-color: #e9ecef;
+		color: inherit;
+	}
+
+	i::before {
+		content: '\f1c5';
+		font-family: "Font Awesome 5 Pro";
+		font-weight: 300;
+	}
+}
+
+.ere-property-multi-step {
+	.sort-additional-row {
+		i::before {
+			content: '\f047';
+			font-family: "Font Awesome 5 Pro";
+		}
+	}
+
+	.remove-additional-feature, .remove-floors-row {
+		i::before {
+			content: '\f2ed';
+			font-family: "Font Awesome 5 Pro";
+		}
+	}
+}

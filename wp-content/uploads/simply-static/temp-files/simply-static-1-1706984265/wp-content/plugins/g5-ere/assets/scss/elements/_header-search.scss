@@ -1,0 +1,39 @@
+/**
+Header Search Sticky
+ */
+.g5ere__ash-sticky {
+	.g5ere__ash-sticky-area {
+		-webkit-transition: -webkit-transform 0.5s;
+		transition: -webkit-transform 0.5s;
+		transition: transform 0.5s;
+		transition: transform 0.5s, -webkit-transform 0.5s;
+	}
+
+	.g5ere__ash-sticky-hidden {
+		@include transform(translate(0, -100%));
+		@include box-shadow(none !important);
+	}
+}
+.g5ere__ash-sticky-area-wrap.sticky .g5ere__ash-sticky-area {
+	@include box-shadow(0 0 15px 5px rgba(0,0,0,0.1));
+	z-index: 999;
+	width: auto;
+	left: 0;
+	right: 0;
+}
+/**
+Header Advanced Search
+ */
+.g5ere__advanced-search-header {
+	.g5ere__ash-inner {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+}
+
+#g5ere__advanced_search_header_mobile {
+	display: none;
+	.g5ere__sf-top .g5ere__search-field {
+		margin-bottom: 0;
+	}
+}

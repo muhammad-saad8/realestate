@@ -1,0 +1,12 @@
+.g5ere__icon {
+	display: inline-block;
+}
+.g5ere__svg-icon {
+	@include transition(fill 120ms ease-in-out);
+	fill: currentColor;
+	height: 1em;
+	width: 1em;
+	stroke: currentColor;
+	position: relative;
+}
+

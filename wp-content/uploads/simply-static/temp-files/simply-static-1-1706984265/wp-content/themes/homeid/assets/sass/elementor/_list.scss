@@ -1,0 +1,22 @@
+.ube-list-icon {
+	.ube-list-icon-icon {
+		padding-right: 0.75em;
+		color: var(--g5-color-accent);
+	}
+
+	a:hover {
+		color: var(--g5-color-accent);
+	}
+
+	&.list-inline .list-inline-item:not(:first-child) {
+		margin-left: 14px;
+	}
+
+	&.list-inline .list-inline-item:not(:last-child) {
+		margin-right: 14px;
+	}
+
+	&.list-unstyled .list-icon-item:not(:last-child) {
+		padding-bottom: 0.2em;
+	}
+}

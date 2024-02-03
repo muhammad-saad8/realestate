@@ -1,0 +1,174 @@
+@import "elementor/elementor";
+
+.order-1 {
+	--order: 1;
+}
+
+.order-2 {
+	--order: 2;
+}
+
+.order-3 {
+	--order: 3;
+}
+
+@media (min-width: 768px) {
+	.order-md-1 {
+		--order: 1;
+	}
+
+	.order-md-2 {
+		--order: 2;
+	}
+
+	.order-md-3 {
+		--order: 3;
+	}
+
+}
+
+.el-text-on-map-01,
+.el-text-on-map-02 {
+	position: absolute;
+	border-radius: 5px;
+	box-shadow: 0 11px 30px 0 rgba(51, 51, 51, 0.15);
+	background-color: #ffffff;
+}
+
+.el-text-on-map-01 {
+	bottom: 48px;
+	right: 20px;
+	margin-bottom: 0;
+	max-width: 227px;
+	padding: 14px;
+}
+
+.el-section-static {
+	&.elementor-section, .elementor-container,
+	.elementor-column, .elementor-widget-wrap {
+		position: static;
+	}
+}
+
+.custom-icon-features-landing img{
+	position: absolute;
+	top: -55px;
+	left: 50%;
+	@include transform(translateX(-50%));
+}
+
+@media (max-width: 1600px) and (min-width: 1025px) {
+	div.custom-el-slider-02 .ube-slider {
+		width: 64vw;
+	}
+}
+
+@media (max-width: 1199px) and (min-width: 1025px) {
+	.el-custom-lg-width-col-100 {
+		min-width: 100% !important;
+		margin-bottom: 20px;
+	}
+	.el-custom-section-flex-col > .elementor-container {
+		@include flex-flow-column();
+	}
+}
+
+@media (min-width: 1025px) {
+	.el-custom-desktop-col-6-full-right {
+		position: absolute;
+		height: 100%;
+		top: 0;
+		width: 50vw !important;
+		right: 50% !important;
+		margin-right: -50vw;
+	}
+
+	.el-custom-desktop-map-height-full {
+		.elementor-widget, .elementor-widget-container, .ube-map-box {
+			height: 100% !important;
+		}
+	}
+
+	.custom-el-slider-02 .ube-slider {
+		height: 100%;
+		top: 0;
+		width: 55vw;
+
+		.slick-list {
+			padding: 0 24.3% 0 0 !important;
+		}
+
+		.slick-active ~ * {
+			opacity: 0.3;
+			@include transition(opacity 0.3s);
+		}
+	}
+
+	.el-custom-width-col-01 {
+		min-width: 280px !important;
+	}
+
+	.el-text-on-map-02 {
+		top: 72px;
+		max-width: 370px;
+		padding: 37px 40px 68px 40px;
+
+		h4 {
+			font-size: 22px;
+			line-height: 2.36em;
+			margin-bottom: 5px;
+		}
+
+		h5 {
+			line-height: 2;
+			margin-top: 52px;
+			margin-bottom: 4px;
+		}
+	}
+	.custom-elementor-wrap-100 {
+		.elementor-container {
+			@include flex-wrap(wrap);
+		}
+
+		.elementor-column {
+			width: 100%;
+		}
+	}
+	.custom-elementor-wrap-33 {
+		.elementor-container {
+			@include flex-wrap(wrap);
+		}
+
+		.elementor-column {
+			width: 33.33%;
+		}
+	}
+	.custom-gap-lg-mg--30 > .elementor-column-gap-custom {
+		margin: -30px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.el-custom-table-col-full {
+		position: absolute !important;
+		width: 100vw !important;
+		right: 50% !important;
+		margin-right: -50vw;
+	}
+	.el-text-on-map-02 {
+		position: relative;
+		width: 100vw !important;
+		left: 50%;
+		margin-left: -50vw;
+		border-radius: 0;
+		padding: 30px 15px;
+		box-shadow: none;
+		margin-bottom: 0;
+	}
+}
+
+@media (min-width: 768px) {
+	body.admin-bar .elementor-section.elementor-section-height-full {
+		height: calc(100vh - 32px);
+	}
+}

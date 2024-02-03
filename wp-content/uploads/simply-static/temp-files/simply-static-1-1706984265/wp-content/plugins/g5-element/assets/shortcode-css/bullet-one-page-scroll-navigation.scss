@@ -1,0 +1,58 @@
+@import "../scss/_mixin";
+@import "../scss/_variable";
+
+.g5element-nav {
+	--g5element-nav-color: #000;
+	padding: 0;
+	list-style: none;
+	font-size: 0.001px;
+	margin-right: 10px;
+	@include flex-flow-column();
+
+	&.alignment-right {
+		right: 10px;
+		top: 50%;
+		margin-top: -50px;
+		z-index: 999;
+		position: fixed;
+	}
+
+	&.alignment-left {
+		left: 10px;
+		top: 50%;
+		margin-top: -50px;
+		z-index: 999;
+		position: fixed;
+	}
+
+	.nav-link {
+		display: block;
+		width: 15px;
+		height: 15px;
+		border-radius: 50%;
+		vertical-align: top;
+		overflow: hidden;
+		padding: 0;
+		text-indent: -999%;
+		border: 2px solid var(--g5element-nav-color);
+		@include transition(all 0.2s);
+	}
+
+	.nav-link:hover,
+	.nav-link:focus {
+		outline: none;
+		background: var(--g5element-nav-color);
+	}
+
+	.nav-link.active {
+		background: var(--g5element-nav-color);
+	}
+
+	&.nav-light {
+		--g5element-nav-color: #fff;
+	}
+
+	.nav-link:nth-child(n+2) {
+		margin-top: 10px;
+	}
+}

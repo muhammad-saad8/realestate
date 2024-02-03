@@ -1,0 +1,121 @@
+@import "../scss/_variable";
+@import "../scss/_mixin";
+
+.g5element-image-marker {
+	position: relative;
+	display: inline-block;
+
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	.g5element-image-pointer {
+		position: absolute;
+		bottom: auto;
+		right: auto;
+		@include d-flex();
+		@include align-items-center();
+		@include justify-content-center();
+		border-radius: 50%;
+		padding: 5px;
+		@include transition(all 0.2s);
+		a{
+			display: block;
+			width: 100%;
+			height: 100%;
+		}
+
+		.g5element-pointer-icon {
+			font-size: 10px;
+			width: 26px;
+			height: 26px;
+			color: #fff;
+			background-color: #000;
+			border-radius: 50%;
+			@include d-flex();
+			@include align-items-center();
+			@include justify-content-center();
+
+		}
+
+		&:hover {
+			background-color: rgba(0, 0, 0, 0.26);
+		}
+
+	}
+
+
+	.tooltip {
+		.arrow {
+			&::before {
+				display: none;
+			}
+		}
+
+		&.show {
+			opacity: 1;
+		}
+
+		.tooltip-inner {
+			background-color: #fff;
+			color: #000;
+			max-width: none;
+			text-align: left;
+			padding: 16px;
+
+			h5 {
+				margin-bottom: 5px;
+				font-size: 15px;
+			}
+
+			p {
+				margin-bottom: 0;
+				line-height: 1;
+			}
+		}
+	}
+}
+
+.g5element-marker-tooltip-arrow {
+	.tooltip {
+		.arrow::before {
+			display: block;
+		}
+	}
+
+	.bs-tooltip-top {
+		top: -15px !important;
+	}
+
+	.bs-tooltip-bottom {
+		top: 15px !important;
+	}
+
+	.bs-tooltip-top .arrow::before {
+		border-top-color: #fff;
+	}
+}
+
+.g5element-image-marker:not(.g5element-marker-tooltip-arrow) {
+	.tooltip {
+		padding: 20px 0;
+	}
+}
+
+.g5element-marker-animate-icon {
+	.g5element-image-pointer {
+		.g5element-pointer-icon {
+			i {
+				transition: all 0.5s;
+			}
+		}
+
+		&:hover {
+			i {
+				transform: rotate(360deg);
+			}
+		}
+	}
+
+}

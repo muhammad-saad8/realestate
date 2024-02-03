@@ -1,0 +1,74 @@
+@import "../scss/variable";
+@import "../scss/mixin";
+.gel-layout-container {
+	@include d-flex();
+}
+.gel-layout-section {
+	@include d-flex();
+	@include flex-column();
+}
+.gel-layout-section + .gel-layout-section {
+	margin-left: 30px;
+}
+.gel-layout-section:first-child {
+	flex: 1 1 50%;
+}
+.gel-layout-section:last-child {
+	flex: 1 1 50%;
+}
+.gel-lc-align-top {
+	@include align-items-start();
+}
+.gel-lc-align-middle {
+	@include align-items-center();
+}
+.gel-lc-align-bottom {
+	@include align-items-end();
+}
+.gel-lc-left-content-left,
+.gel-lc-right-content-left {
+	.gel-layout-section {
+		@include align-items-start();
+		text-align: left;
+	}
+}
+.gel-lc-left-content-center,
+.gel-lc-right-content-center {
+	.gel-layout-section {
+		@include align-items-center();
+		text-align: center;
+	}
+}
+.gel-lc-left-content-right,
+.gel-lc-right-content-right {
+	.gel-layout-section {
+		@include align-items-end();
+		text-align: right;
+	}
+}
+@media (max-width: 767px){
+	.gel-layout-container.gel-lc-vertical-mode-tablet {
+		@include flex-wrap();
+		.gel-layout-section {
+			width: 100%;
+			margin-left: 0!important;
+			flex: 0 0 auto!important;
+		}
+		.gel-layout-section + .gel-layout-section {
+			margin-top: 1.5rem;
+		}
+	}
+}
+@media (max-width: 575px){
+	.gel-layout-container.gel-lc-vertical-mode-mobile {
+		@include flex-wrap();
+		.gel-layout-section {
+			width: 100%;
+			margin-left: 0!important;
+			flex: 0 0 auto!important;;
+		}
+		.gel-layout-section + .gel-layout-section {
+			margin-top: 1.5rem;
+		}
+	}
+}

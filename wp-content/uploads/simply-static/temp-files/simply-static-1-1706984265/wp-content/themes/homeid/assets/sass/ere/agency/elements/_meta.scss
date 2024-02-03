@@ -1,0 +1,25 @@
+.g5ere__loop-agency-meta {
+	.g5ere__lam-label {
+		color: var(--g5-color-muted);
+	}
+
+	li {
+		margin-bottom: 5px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+		&.social {
+			margin-top: 10px;
+		}
+	}
+}
+
+.g5ere__loop-agency-fax,
+.g5ere__loop-agency-office-number,
+.g5ere__loop-agency-phone,
+.g5ere__loop-agency-licenses {
+	.g5ere__lam-content {
+		color: var(--g5-color-heading);
+		font-weight: 500;
+	}
+}

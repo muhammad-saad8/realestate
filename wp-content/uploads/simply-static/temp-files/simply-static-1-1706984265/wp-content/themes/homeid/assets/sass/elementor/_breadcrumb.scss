@@ -1,0 +1,21 @@
+.ube-breadcrumbs {
+	.breadcrumb-item {
+		font-size: 14px;
+		color: var(--g5-color-muted);
+		text-transform: uppercase;
+		letter-spacing: 1px;
+
+		+ .breadcrumb-item, a:hover, + .breadcrumb-item:before {
+			color: var(--g5-color-heading);
+		}
+
+		+ .breadcrumb-item {
+			padding-left: 10px;
+
+			&:before {
+				padding-right: 10px;
+				font-size: inherit;
+			}
+		}
+	}
+}

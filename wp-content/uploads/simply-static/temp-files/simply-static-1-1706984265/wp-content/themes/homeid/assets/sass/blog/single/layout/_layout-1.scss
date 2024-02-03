@@ -1,0 +1,37 @@
+@media (min-width: 992px) {
+  .no-sidebar.g5blog__single-layout-1 {
+    .g5blog__single-breadcrumbs {
+      .container {
+        max-width: 900px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .no-sidebar.g5blog__single-layout-1 {
+    .g5blog__single-breadcrumbs {
+      .container {
+        max-width: $content_width + $grid_gutter_width;
+      }
+    }
+  }
+}
+
+.g5blog__single-layout-1 {
+  .g5blog__single-title {
+    margin-bottom: 20px;
+  }
+
+  .g5blog__single-meta-top {
+    margin-bottom: 45px;
+  }
+
+  .g5blog__single-featured {
+    margin-bottom: 50px;
+  }
+
+  .g5blog__single-meta-top + .entry-content {
+    margin-top: 50px;
+  }
+}

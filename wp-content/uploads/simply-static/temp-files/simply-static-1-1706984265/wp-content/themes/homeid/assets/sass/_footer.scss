@@ -1,0 +1,269 @@
+.site-footer {
+	padding: 3rem 0;
+	background-color: #222;
+	color: #bababa;
+}
+
+.site-info {
+	text-align: center;
+
+	.privacy-policy-link + .powered-by:before {
+		content: ' - ';
+	}
+
+	a, span {
+		font-size: 0.875rem;
+		text-transform: uppercase;
+		font-weight: 600;
+	}
+
+	a {
+		color: var(--g5-color-accent);
+
+		&:hover {
+			color: inherit;
+		}
+	}
+}
+
+.gel-copyright-dark {
+	font-weight: 500;
+	font-size: 0.75rem;
+
+	.template-name {
+		color: var(--g5-color-accent-foreground);
+
+		&:hover {
+			color: var(--g5-color-text-main);
+		}
+	}
+}
+
+.gel-no-pr-md.vc_column_container {
+	@media (min-width: 990px) {
+		> .vc_column-inner {
+			padding-right: 0;
+		}
+	}
+}
+
+.gel-no-pl-md.vc_column_container {
+	@media (min-width: 990px) {
+		> .vc_column-inner {
+			padding-left: 0;
+		}
+	}
+}
+
+.nav-footer {
+	margin-bottom: 0;
+
+	.widget {
+		margin-bottom: 0;
+	}
+
+	.menu {
+		@include d-flex();
+
+		.menu-item {
+			font-weight: 500;
+		}
+
+		ul.sub-menu {
+			padding: 10px 0 10px 0;
+			display: none;
+			position: absolute;
+			min-width: 230px;
+			z-index: 1;
+
+			a {
+				padding: 7px 15px;
+				font-size: 11px;
+			}
+		}
+
+		.menu-item.menu-item-has-children {
+			> a:after {
+				content: "";
+				margin-left: 8px;
+				font-family: "Font Awesome 5 Pro";
+				font-size: 14px;
+				font-weight: 300;
+
+			}
+
+			&:hover {
+				ul.sub-menu {
+					display: block;
+				}
+			}
+		}
+	}
+}
+
+.nav-footer-horizontal-01 .menu,
+.nav-footer-horizontal-02 .menu,
+.nav-footer-horizontal-03 .menu {
+	@include flex-flow-wrap();
+}
+
+.nav-footer-horizontal-01 .menu {
+	> .menu-item {
+		font-size: 13px;
+		letter-spacing: 1.73px;
+		text-transform: uppercase;
+
+		+ .menu-item {
+			margin-left: 95px;
+		}
+	}
+}
+
+.nav-footer-horizontal-02 .menu {
+	> .menu-item {
+		font-size: 16px;
+	}
+}
+
+.nav-footer-horizontal-03 .menu > .menu-item {
+	font-size: 14px;
+}
+
+.nav-center .menu {
+	@include justify-content-center();
+}
+
+.nav-right .menu {
+	@include justify-content-end();
+}
+
+.nav-footer-vertical {
+	margin-bottom: 0;
+
+	.widget {
+		margin-bottom: 0;
+
+		.widget-title {
+			line-height: 2;
+			margin-bottom: 14px;
+		}
+	}
+
+	.menu .menu-item a {
+		padding: 8.3px 0;
+	}
+}
+
+.footer-dark {
+	background-color: #222;
+	color: var(--g5-color-muted);
+
+	.nav-footer ul.sub-menu {
+		background-color: #222;
+		box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+	}
+
+	.nav-footer-horizontal-01 .menu .menu-item,
+	.nav-footer-vertical .widget-title {
+		color: #fff;
+	}
+
+	.gel-heading-title {
+		color: inherit;
+	}
+
+	.homeid-mailchimp input[type="email"] {
+		background-color: #fff;
+		border-color: #fff;
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 0;
+	}
+
+	.g5blog__post-medium-image.g5blog__post-medium-image-2 {
+		.g5blog__post-meta {
+			font-size: 14px;
+			margin-bottom: 3px;
+		}
+
+		.g5blog__post-title {
+			font-size: 16px;
+			color: #fff;
+			font-weight: 500;
+		}
+	}
+
+}
+
+.footer-light {
+	color: #9b9b9b;
+
+	.nav-footer ul.sub-menu {
+		background-color: #fff;
+		box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+	}
+
+	.nav-footer-horizontal-01 .menu .menu-item {
+		color: var(--g5-color-heading);
+	}
+}
+
+@media (max-width: 1199px) {
+	.nav-center-lg .menu {
+		@include justify-content-center();
+	}
+}
+
+@media (min-width: 992px) {
+	.nav-footer-horizontal-02 .menu > .menu-item + .menu-item {
+		margin-left: 65px;
+	}
+
+	.nav-footer-horizontal-03 .menu > .menu-item + .menu-item {
+		margin-left: 34px;
+	}
+
+	.post-medium-image-3 {
+		&.g5blog__post-medium-image.g5blog__post-medium-image-2,
+		.g5blog__post-medium-image.g5blog__post-medium-image-2 {
+			.g5blog__post-featured {
+				width: 124px !important;
+				margin-right: 20px !important;
+				margin-bottom: 0;
+			}
+
+			.g5blog__post-inner {
+				@include flex-flow-row();
+			}
+		}
+	}
+}
+
+@media (max-width: 991px) {
+	.nav-footer-horizontal-01 .menu > .menu-item + .menu-item {
+		margin-left: 30px;
+	}
+
+	.nav-footer-horizontal-02 .menu > .menu-item,
+	.nav-footer-horizontal-03 .menu > .menu-item {
+		@include flex(1 1 33.33%);
+		text-align: center;
+	}
+}
+
+@media (max-width: 768px) {
+	.nav-footer-horizontal-01 .menu {
+		@include flex-flow-column();
+		@include align-items-center();
+
+		> .menu-item + .menu-item {
+			margin-left: 0;
+		}
+	}
+}
+
+@media (max-width: 479px) {
+	.nav-footer-horizontal-02 .menu > .menu-item,
+	.nav-footer-horizontal-03 .menu > .menu-item {
+		@include flex(1 1 50%);
+	}
+}

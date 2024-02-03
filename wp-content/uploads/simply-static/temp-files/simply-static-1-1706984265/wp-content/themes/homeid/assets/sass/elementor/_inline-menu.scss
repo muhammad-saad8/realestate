@@ -1,0 +1,36 @@
+.ube-inline-menu {
+	.navbar-nav > .menu-item {
+		padding: 0 45px;
+
+		> a {
+			font-size: 13px;
+			font-weight: 500;
+			color: inherit;
+			text-transform: uppercase;
+			letter-spacing: 1.73px;
+		}
+	}
+
+	.dropdown-menu {
+		background-color: var(--g5-color-heading);
+		box-shadow: 0 0 20px 0 rgb(0 0 0 / 30%);
+		padding: 10px 15px;
+
+		.menu-item > a {
+			font-size: 12px;
+			color: #fff;
+		}
+	}
+}
+
+@media (max-width: 1024px) {
+	.ube-inline-menu .navbar-nav > .menu-item {
+		padding: 0 20px;
+	}
+}
+
+@media (max-width: 767px) {
+	.menu-vertical-md .navbar-nav {
+		@include flex-flow-column();
+	}
+}

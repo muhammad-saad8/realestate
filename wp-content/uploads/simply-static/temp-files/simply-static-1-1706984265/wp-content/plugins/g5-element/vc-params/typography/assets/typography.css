@@ -1,0 +1,29 @@
+.vc_wrapper-param-type-g5element_typography .wpb_element_label {
+	padding: 10px 15px;
+	background-color: #eee;
+	margin-bottom: 0;
+}
+.g5element-field-typography-wrapper {
+	padding: 15px;
+	border: solid 1px #eee;
+}
+
+.g5element-field-typography-row {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+}
+.g5element-field-typography-row > div {
+	width: 48%;
+}
+div.g5element-field-typography-font-size {
+	width: 100%;
+}
+.g5element-field-typography-font-size > div {
+	display: flex;
+}
+.g5element-field-typography-row > div > span {
+	font-weight: 600;
+	margin-bottom: 5px;
+	display: block;
+}

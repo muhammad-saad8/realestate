@@ -1,0 +1,42 @@
+.g5ere__sph-layout-5 {
+	@include box-shadow(0 7px 15px 0 rgba(51, 51, 51, .05));
+
+	.g5ere__single-property-featured-container .g5ere__single-meta-top {
+		bottom: 70px;
+	}
+
+	.g5ere__property-title {
+		font-size: 54px;
+	}
+
+	.g5ere__property-address {
+		font-size: 18px;
+	}
+
+	.g5ere__property-price {
+		font-size: 15px;
+
+		.g5ere__lpp-price {
+			font-size: 34px;
+			font-weight: bold;
+		}
+	}
+
+	@media (max-width: 768px) {
+		.g5ere__property-title {
+			font-size: 48px;
+		}
+	}
+}
+
+.g5ere__single-property-layout-5 {
+	.g5ere__property-block {
+		max-width: 750px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.g5ere__property-block-gallery, .g5ere__property-block-virtual-tour, .g5ere__property-block-similar {
+		max-width: 100%;
+	}
+}

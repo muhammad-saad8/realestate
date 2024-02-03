@@ -1,0 +1,112 @@
+%clearfix {
+	&:after {
+		content: '';
+		display: block;
+		clear: both;
+	}
+}
+.accent-text-color,
+%accent-text-color {
+	color: $accent_color;
+}
+.accent-bg-color,
+%accent-bg-color {
+	background-color: $accent_color;
+}
+.accent-border-color,
+%accent-border-color {
+	border-color: $accent_color;
+}
+.text-color-for-background-accent,
+%text-color-for-background-accent {
+	color: $accent_color_foreground;
+}
+
+.disabled-color,
+%disabled-color {
+	color: $disabled_color;
+}
+.caption-color,
+%caption-color {
+	color: $caption_color;
+}
+
+.border-color,
+%border-color {
+	border-color: $border_color;
+}
+
+.heading-color,
+%heading-color {
+	color: $heading_color;
+}
+
+.placeholder-color,
+%placeholder-color {
+	color: $placeholder_color;
+}
+
+.primary-text-color,
+%primary-text-color {
+	color: $primary_color;
+}
+
+.primary-bg-color,
+%primary-bg-color {
+	background-color: $primary_color;
+}
+
+.primary-border-color,
+%primary-border-color {
+	border-color: $primary_color;
+}
+
+.secondary-text-color,
+%secondary-text-color {
+	color: $primary_color;
+}
+
+.secondary-bg-color,
+%secondary-bg-color {
+	background-color: $primary_color;
+}
+
+.secondary-border-color,
+%secondary-border-color {
+	border-color: $primary_color;
+}
+
+.dark-text-color,
+%dark-text-color {
+	color: $dark_color;
+}
+
+.dark-bg-color,
+%dark-bg-color {
+	background-color: $dark_color;
+}
+
+.dark-border-color,
+%dark-border-color {
+	border-color: $dark_color;
+}
+
+.light-text-color,
+%light-text-color {
+	color: $light_color;
+}
+
+.light-bg-color,
+%light-bg-color {
+	background-color: $light_color;
+}
+
+.light-border-color,
+%light-border-color {
+	border-color: $light_color;
+}
+
+.gray-text-color,
+%gray-text-color {
+	color: $gray_color;
+}

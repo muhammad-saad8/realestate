@@ -1,0 +1,47 @@
+.ube-heading-title {
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 1.63;
+
+	mark {
+		color: var(--g5-color-accent);
+		padding: 0;
+	}
+}
+
+.ube-heading .ube-heading-title {
+	margin-top: 0;
+}
+
+.ube-heading-sub-title {
+	text-transform: uppercase;
+	color: var(--g5-color-accent);
+	letter-spacing: 2.63px;
+	margin-bottom: 22px;
+}
+
+.ube-heading-divider {
+	width: 75px;
+	height: 2px;
+}
+
+.ube-heading-divider-after {
+	.ube-heading-divider {
+		margin-top: 15px;
+		margin-bottom: 0;
+	}
+
+	.ube-heading-description {
+		margin-top: 20px;
+	}
+}
+
+
+.ube-heading-divider-before .ube-heading-divider {
+	margin-bottom: 15px;
+	margin-top: 0;
+}
+
+.ube-heading-description {
+	margin-top: 10px;
+}

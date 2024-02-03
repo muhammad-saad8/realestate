@@ -1,0 +1,14 @@
+.g5blog__post-title {
+  font-size: var(--g5blog-loop-post-title-font-size);
+  word-break: break-word;
+  margin-top: 0 !important;
+  a {
+    @include transition(all .3s);
+    color: inherit;
+    &:hover,
+    &:active,
+    &:focus {
+      color: var(--g5-color-accent);
+    }
+  }
+}

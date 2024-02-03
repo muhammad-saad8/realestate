@@ -1,0 +1,3764 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: G5 Core\n"
+"POT-Creation-Date: 2023-10-20 11:06+0700\n"
+"PO-Revision-Date: 2017-07-08 15:18+0700\n"
+"Last-Translator: \n"
+"Language-Team: G5Team\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_GB\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;"
+"_n_noop:1,2;_nx_noop:1,2,3c;__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: .idea\n"
+"X-Poedit-SearchPathExcluded-2: .svn\n"
+
+#: g5-core.php:48
+msgid "Mobile Menu"
+msgstr ""
+
+#: g5-core.php:49
+msgid "Top Bar Menu"
+msgstr ""
+
+#: g5-core.php:50
+msgid "Bottom Bar Menu"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:313
+msgid "Slider Options"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:319
+msgid "Slide Rows"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:327
+msgid "Show Pagination"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:329
+#: inc/abstract/elementor-listing.class.php:342
+#: inc/abstract/elementor-listing.class.php:533
+msgid "Show"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:330
+#: inc/abstract/elementor-listing.class.php:343
+#: inc/abstract/elementor-listing.class.php:534
+msgid "Hide"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:340
+msgid "Show Navigation"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:352
+msgid "Center Mode"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:354
+#: inc/abstract/elementor-listing.class.php:379
+#: inc/abstract/elementor-listing.class.php:391
+#: inc/abstract/elementor-listing.class.php:403
+#: inc/abstract/elementor-listing.class.php:415
+#: inc/dashboard/system-status.class.php:79
+#: inc/dashboard/system-status.class.php:89
+#: inc/dashboard/system-status.class.php:130
+msgid "Enable"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:355
+#: inc/abstract/elementor-listing.class.php:380
+#: inc/abstract/elementor-listing.class.php:392
+#: inc/abstract/elementor-listing.class.php:404
+#: inc/abstract/elementor-listing.class.php:416
+#: inc/dashboard/system-status.class.php:79
+#: inc/dashboard/system-status.class.php:89
+#: inc/dashboard/system-status.class.php:130
+msgid "Disable"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:364
+msgid "Center Padding"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:365
+msgid "Side padding when in center mode (px/%)"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:377
+msgid "Auto Height Enable"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:389
+msgid "Loop Mode"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:401
+msgid "Fade Enable"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:413
+msgid "Autoplay Enable"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:425
+msgid "Autoplay Timeout"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:440
+msgid "Item Css Classes"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:442
+msgid "Add custom css classes to item"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:453
+msgid "Columns Gutter"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:454
+msgid "Specify your horizontal space between item."
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:466
+msgid "Columns"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:481
+msgid "Posts Per Page"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:483
+msgid "Enter number of posts per page you want to display. Default 10"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:493
+msgid "Offset Posts"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:495
+msgid ""
+"Start the count with an offset. If you have a block that shows 4 posts "
+"before this one, you can make this one start from the 5'th post (by "
+"using offset 4)"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:506
+msgid "Post Paging"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:507
+msgid "Specify your post paging mode"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:519
+msgid "Animation"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:520
+msgid "Specify your product animation"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:531
+msgid "Category Filter"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:544
+msgid "Category Filter Align"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:556
+msgid "Append Categories"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:558
+msgid ""
+"Change where the categories are attached (Selector, htmlString, Array, "
+"Element, jQuery object)"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:571
+msgid "Image Size"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:579
+msgid "Image size"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:581
+msgid ""
+"Enter image size (Example: \"thumbnail\", \"medium\", \"large\", \"full"
+"\" or other sizes defined by theme). Alternatively enter size in pixels "
+"(Example: 300x400)."
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:594
+msgid "Image Ratio Width"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:606
+msgid "Image Ratio Height"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:618
+msgid "Image Width"
+msgstr ""
+
+#: inc/ajax.class.php:92
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"different keywords."
+msgstr ""
+
+#: inc/ajax.class.php:107
+msgid "User or password incorrect!"
+msgstr ""
+
+#: inc/ajax.class.php:109
+msgid "Login your account success!"
+msgstr ""
+
+#: inc/ajax.class.php:121
+msgid "Don't create account"
+msgstr ""
+
+#: inc/ajax.class.php:130
+msgid "Email or username incorrect!"
+msgstr ""
+
+#: inc/ajax.class.php:135
+msgid "User or email already exists!"
+msgstr ""
+
+#: inc/ajax.class.php:142
+msgid "User could not be created"
+msgstr ""
+
+#: inc/ajax.class.php:146
+msgid ""
+"Please check your email (index or spam folder), the password was sent "
+"there."
+msgstr ""
+
+#: inc/ajax.class.php:160
+msgid "User or email incorrect!"
+msgstr ""
+
+#: inc/ajax.class.php:173
+msgid "User or email not found!"
+msgstr ""
+
+#: inc/ajax.class.php:182
+msgid "Password reset key on fail"
+msgstr ""
+
+#: inc/ajax.class.php:186
+msgid "Someone has requested a password reset for the following account:"
+msgstr ""
+
+#: inc/ajax.class.php:188
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: inc/ajax.class.php:189
+msgid ""
+"If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: inc/ajax.class.php:190
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: inc/ajax.class.php:194
+#, php-format
+msgid "[%s] Password Reset"
+msgstr ""
+
+#: inc/ajax.class.php:201
+msgid "Your password is reset, check your email."
+msgstr ""
+
+#: inc/assets.class.php:81
+msgctxt "bootstrap-select-i18n"
+msgid "Nothing selected"
+msgstr ""
+
+#: inc/assets.class.php:82
+msgctxt "bootstrap-select-i18n"
+msgid "No results matched {0}"
+msgstr ""
+
+#: inc/assets.class.php:84
+msgctxt "bootstrap-select-i18n"
+msgid "{0} item selected"
+msgstr ""
+
+#: inc/assets.class.php:85
+msgctxt "bootstrap-select-i18n"
+msgid "{0} items selected"
+msgstr ""
+
+#: inc/assets.class.php:89
+msgctxt "bootstrap-select-i18n"
+msgid "Limit reached ({n} item max)"
+msgstr ""
+
+#: inc/assets.class.php:90
+msgctxt "bootstrap-select-i18n"
+msgid "Limit reached ({n} items max"
+msgstr ""
+
+#: inc/assets.class.php:93
+msgctxt "bootstrap-select-i18n"
+msgid "Group limit reached ({n} item max)"
+msgstr ""
+
+#: inc/assets.class.php:94
+msgctxt "bootstrap-select-i18n"
+msgid "Group limit reached ({n} items max)"
+msgstr ""
+
+#: inc/assets.class.php:97
+msgctxt "bootstrap-select-i18n"
+msgid "Select All"
+msgstr ""
+
+#: inc/assets.class.php:98
+msgctxt "bootstrap-select-i18n"
+msgid "Deselect All"
+msgstr ""
+
+#: inc/assets.class.php:99
+msgctxt "bootstrap-select-i18n"
+msgid ", "
+msgstr ""
+
+#: inc/assets.class.php:100
+msgctxt "bootstrap-select-i18n"
+msgid "Close"
+msgstr ""
+
+#: inc/background-process/background-process.class.php:117
+#: inc/libraries/wp-background-process.php:420
+#, php-format
+msgid "Every %d minutes"
+msgstr ""
+
+#: inc/breadcrumbs.class.php:117 inc/breadcrumbs.class.php:132
+msgid "Home"
+msgstr ""
+
+#: inc/breadcrumbs.class.php:118 inc/breadcrumbs.class.php:133
+#: inc/breadcrumbs.class.php:373 inc/functions/helper.php:140
+#: inc/functions/helper.php:266 inc/functions/helper.php:270
+msgid "Blog"
+msgstr ""
+
+#: inc/breadcrumbs.class.php:119 inc/breadcrumbs.class.php:134
+msgid "Tag:"
+msgstr ""
+
+#: inc/breadcrumbs.class.php:120 inc/breadcrumbs.class.php:135
+msgid "Search:"
+msgstr ""
+
+#: inc/breadcrumbs.class.php:121 inc/breadcrumbs.class.php:136
+#: inc/functions/helper.php:272
+msgid "Page Not Found"
+msgstr ""
+
+#: inc/config-color-options.class.php:33
+msgid "Color Options"
+msgstr ""
+
+#: inc/config-color-options.class.php:34 inc/config-options.class.php:456
+#: inc/dashboard/dashboard.class.php:157 inc/settings.class.php:702
+#: lib/smart-framework/fields/typography/typography.class.php:198
+msgid "Color"
+msgstr ""
+
+#: inc/config-color-options.class.php:35
+msgid ""
+"You can configure for site color or create preset color to apply for "
+"your page"
+msgstr ""
+
+#: inc/config-color-options.class.php:57
+msgid "Site Color"
+msgstr ""
+
+#: inc/config-color-options.class.php:62
+msgid "Site Background Color"
+msgstr ""
+
+#: inc/config-color-options.class.php:63
+msgid "Specify the background color for website"
+msgstr ""
+
+#: inc/config-color-options.class.php:75
+msgid "General Color"
+msgstr ""
+
+#: inc/config-color-options.class.php:80
+msgid "Site Text Color"
+msgstr ""
+
+#: inc/config-color-options.class.php:81
+msgid "Specify the site text color"
+msgstr ""
+
+#: inc/config-color-options.class.php:88
+msgid "Accent Color"
+msgstr ""
+
+#: inc/config-color-options.class.php:89
+msgid "Specify the accent color"
+msgstr ""
+
+#: inc/config-color-options.class.php:96
+msgid "Link Color"
+msgstr ""
+
+#: inc/config-color-options.class.php:97
+msgid "Specify the link color"
+msgstr ""
+
+#: inc/config-color-options.class.php:104
+#: inc/config-header-options.class.php:441
+#: inc/config-header-options.class.php:526
+#: inc/config-header-options.class.php:607
+#: inc/config-header-options.class.php:682
+#: inc/config-header-options.class.php:917
+#: inc/config-header-options.class.php:982
+msgid "Border Color"
+msgstr ""
+
+#: inc/config-color-options.class.php:105
+msgid "Specify the border color"
+msgstr ""
+
+#: inc/config-color-options.class.php:112
+msgid "Heading Color"
+msgstr ""
+
+#: inc/config-color-options.class.php:113
+msgid "Specify the heading color"
+msgstr ""
+
+#: inc/config-color-options.class.php:120
+msgid "Muted Color"
+msgstr ""
+
+#: inc/config-color-options.class.php:121
+msgid "Specify the muted color"
+msgstr ""
+
+#: inc/config-color-options.class.php:128
+msgid "Placeholder Color"
+msgstr ""
+
+#: inc/config-color-options.class.php:129
+msgid "Specify the placeholder color"
+msgstr ""
+
+#: inc/config-color-options.class.php:141
+msgid "Other Color"
+msgstr ""
+
+#: inc/config-color-options.class.php:146
+msgid "Primary Color"
+msgstr ""
+
+#: inc/config-color-options.class.php:147
+msgid "Specify the primary color"
+msgstr ""
+
+#: inc/config-color-options.class.php:148
+msgid ""
+"Set color for: .primary-text-color, .primary-text-hover-color, .primary-"
+"bg-color, .primary-bg-hover-color, .primary-border-color, .primary-"
+"border-hover-color"
+msgstr ""
+
+#: inc/config-color-options.class.php:155
+msgid "Secondary Color"
+msgstr ""
+
+#: inc/config-color-options.class.php:156
+msgid "Specify the secondary color"
+msgstr ""
+
+#: inc/config-color-options.class.php:157
+msgid ""
+"Set color for: .secondary-text-color, .secondary-text-hover-color, ."
+"secondary-bg-color, .secondary-bg-hover-color, .secondary-border-"
+"color, .secondary-border-hover-color"
+msgstr ""
+
+#: inc/config-color-options.class.php:164
+msgid "Dark Color"
+msgstr ""
+
+#: inc/config-color-options.class.php:165
+msgid "Specify the dark color"
+msgstr ""
+
+#: inc/config-color-options.class.php:166
+msgid ""
+"Set color for: .dark-text-color, .dark-text-hover-color, .dark-bg-"
+"color, .dark-bg-hover-color, .dark-border-color, .dark-border-hover-"
+"color"
+msgstr ""
+
+#: inc/config-color-options.class.php:173
+msgid "Light Color"
+msgstr ""
+
+#: inc/config-color-options.class.php:174
+msgid "Specify the light color"
+msgstr ""
+
+#: inc/config-color-options.class.php:175
+msgid ""
+"Set color for: .light-text-color, .light-text-hover-color, .light-bg-"
+"color, .light-bg-hover-color, .light-border-color, .light-border-hover-"
+"color"
+msgstr ""
+
+#: inc/config-color-options.class.php:182
+msgid "Gray Color"
+msgstr ""
+
+#: inc/config-color-options.class.php:183
+msgid "Specify the gray color"
+msgstr ""
+
+#: inc/config-color-options.class.php:184
+msgid ""
+"Set color for: .gray-text-color, .gray-text-hover-color, .gray-bg-"
+"color, .gray-bg-hover-color, .gray-border-color, .gray-border-hover-"
+"color"
+msgstr ""
+
+#: inc/config-color-options.class.php:197
+msgid "Color Settings"
+msgstr ""
+
+#: inc/config-color-options.class.php:203 inc/config-options.class.php:462
+msgid "Color Preset"
+msgstr ""
+
+#: inc/config-color-options.class.php:210
+#: inc/config-header-options.class.php:1170
+#: inc/config-options.class.php:437 inc/config-options.class.php:469
+#: inc/config-options.class.php:494
+#: inc/config-typography-options.class.php:228
+msgid "Select Preset"
+msgstr ""
+
+#: inc/config-color-options.class.php:212
+#: inc/config-header-options.class.php:1172
+#: inc/config-typography-options.class.php:230
+msgid ""
+"Optionally you can choose to override the setting that is used on the "
+"page"
+msgstr ""
+
+#: inc/config-footer-options.class.php:33
+msgid "Footer Options"
+msgstr ""
+
+#: inc/config-footer-options.class.php:34 inc/config-options.class.php:610
+#: inc/dashboard/dashboard.class.php:145 inc/settings.class.php:742
+msgid "Footer"
+msgstr ""
+
+#: inc/config-footer-options.class.php:48
+#: inc/config-footer-options.class.php:91 inc/config-options.class.php:616
+msgid "Footer Enable"
+msgstr ""
+
+#: inc/config-footer-options.class.php:49
+#: inc/config-footer-options.class.php:92 inc/config-options.class.php:617
+msgid "Turn Off this option if you want to disable footer"
+msgstr ""
+
+#: inc/config-footer-options.class.php:54
+#: inc/config-footer-options.class.php:97 inc/config-options.class.php:623
+msgid "Footer Layout"
+msgstr ""
+
+#: inc/config-footer-options.class.php:63
+#: inc/config-footer-options.class.php:105
+#: inc/config-options.class.php:633
+msgid "Specify the Content Block to use as a footer content."
+msgstr ""
+
+#: inc/config-footer-options.class.php:75
+#: inc/config-footer-options.class.php:117
+#: inc/config-options.class.php:645
+msgid "Footer Fixed"
+msgstr ""
+
+#: inc/config-footer-options.class.php:85
+msgid "Footer Settings"
+msgstr ""
+
+#: inc/config-header-options.class.php:35
+msgid "Header Options"
+msgstr ""
+
+#: inc/config-header-options.class.php:36
+#: inc/config-header-options.class.php:860
+#: inc/config-options.class.php:424 inc/dashboard/dashboard.class.php:141
+msgid "Header"
+msgstr ""
+
+#: inc/config-header-options.class.php:37
+msgid ""
+"You can configure for site header or create preset header to apply for "
+"your page"
+msgstr ""
+
+#: inc/config-header-options.class.php:55
+msgid "Before Logo"
+msgstr ""
+
+#: inc/config-header-options.class.php:59
+msgid "After Logo"
+msgstr ""
+
+#: inc/config-header-options.class.php:65
+msgid "Before Menu"
+msgstr ""
+
+#: inc/config-header-options.class.php:69 inc/settings.class.php:322
+msgid "After Menu"
+msgstr ""
+
+#: inc/config-header-options.class.php:80 inc/config-options.class.php:74
+#: inc/config-options.class.php:79 inc/xmenu/templates/xmenu-panel.php:10
+msgid "General"
+msgstr ""
+
+#: inc/config-header-options.class.php:85
+msgid "Header Enable"
+msgstr ""
+
+#: inc/config-header-options.class.php:86
+msgid "Turn Off this option if you want to hide header"
+msgstr ""
+
+#: inc/config-header-options.class.php:92
+msgid "Header Responsive Breakpoint"
+msgstr ""
+
+#: inc/config-header-options.class.php:94
+msgid "Large Devices: < 1200px"
+msgstr ""
+
+#: inc/config-header-options.class.php:95
+msgid "Medium Devices: < 992px"
+msgstr ""
+
+#: inc/config-header-options.class.php:96
+msgid "Tablet Portrait: < 768px"
+msgstr ""
+
+#: inc/config-header-options.class.php:103
+#: inc/config-header-options.class.php:1001
+msgid "Header Style"
+msgstr ""
+
+#: inc/config-header-options.class.php:114
+#: inc/config-header-options.class.php:1200
+#: inc/config-options.class.php:444
+msgid "Header Layout"
+msgstr ""
+
+#: inc/config-header-options.class.php:123
+#: inc/config-header-options.class.php:458
+#: inc/config-header-options.class.php:925
+#: inc/config-header-options.class.php:1029
+msgid "Header Sticky"
+msgstr ""
+
+#: inc/config-header-options.class.php:124
+msgid "Enable or disable sticky effect for header."
+msgstr ""
+
+#: inc/config-header-options.class.php:133
+msgid "Header Float Enable?"
+msgstr ""
+
+#: inc/config-header-options.class.php:134
+msgid "Turn On this option if you want to float header"
+msgstr ""
+
+#: inc/config-header-options.class.php:140
+msgid "Header Border Enable?"
+msgstr ""
+
+#: inc/config-header-options.class.php:141
+msgid "Turn On this option if you want to show header border"
+msgstr ""
+
+#: inc/config-header-options.class.php:148
+#: inc/config-header-options.class.php:1144
+msgid "Css Classes"
+msgstr ""
+
+#: inc/config-header-options.class.php:149
+msgid "Add custom css classes to the Header"
+msgstr ""
+
+#: inc/config-header-options.class.php:163
+#: inc/config-header-options.class.php:168
+msgid "Logo"
+msgstr ""
+
+#: inc/config-header-options.class.php:169
+msgid ""
+"By default, a text-based logo is created using your site title. But you "
+"can also upload an image-based logo here."
+msgstr ""
+
+#: inc/config-header-options.class.php:175
+msgid "Logo sticky"
+msgstr ""
+
+#: inc/config-header-options.class.php:181
+#: inc/config-header-options.class.php:1052
+msgid "Logo Max Height"
+msgstr ""
+
+#: inc/config-header-options.class.php:182
+#: inc/config-header-options.class.php:1053
+msgid ""
+"If you would like to override the default logo max height, then you can "
+"do so here."
+msgstr ""
+
+#: inc/config-header-options.class.php:189
+#: inc/config-header-options.class.php:1060
+msgid "Logo Sticky Max Height"
+msgstr ""
+
+#: inc/config-header-options.class.php:190
+#: inc/config-header-options.class.php:1061
+msgid ""
+"If you would like to override the default logo sticky max height, then "
+"you can do so here."
+msgstr ""
+
+#: inc/config-header-options.class.php:207
+#: inc/config-header-options.class.php:1124
+msgid "Items"
+msgstr ""
+
+#: inc/config-header-options.class.php:215
+#: inc/config-header-options.class.php:1132
+msgid "Custom Html Content"
+msgstr ""
+
+#: inc/config-header-options.class.php:228
+#: inc/config-header-options.class.php:618
+msgid "Navigation"
+msgstr ""
+
+#: inc/config-header-options.class.php:233
+msgid "Navigation Border Enable?"
+msgstr ""
+
+#: inc/config-header-options.class.php:234
+msgid "Turn On this option if you want to show navigation border"
+msgstr ""
+
+#: inc/config-header-options.class.php:241
+msgid "Menu Item Spacing"
+msgstr ""
+
+#: inc/config-header-options.class.php:242
+msgid ""
+"If you would like to override the default menu item spacing, then you "
+"can do so here."
+msgstr ""
+
+#: inc/config-header-options.class.php:250
+msgid "Submenu Transition"
+msgstr ""
+
+#: inc/config-header-options.class.php:261
+#: inc/config-header-options.class.php:546
+#: inc/config-header-options.class.php:795
+#: inc/config-header-options.class.php:1069
+msgid "Top Bar"
+msgstr ""
+
+#: inc/config-header-options.class.php:266
+#: inc/config-header-options.class.php:1074
+msgid "Top Bar Enable"
+msgstr ""
+
+#: inc/config-header-options.class.php:267
+#: inc/config-header-options.class.php:1075
+msgid "Turn On this option if you want to enable top bar"
+msgstr ""
+
+#: inc/config-header-options.class.php:272
+#: inc/config-header-options.class.php:1087
+msgid "Top Bar Items"
+msgstr ""
+
+#: inc/config-header-options.class.php:279
+#: inc/config-header-options.class.php:1094 inc/settings.class.php:529
+msgid "Custom Html 1"
+msgstr ""
+
+#: inc/config-header-options.class.php:290
+#: inc/config-header-options.class.php:1105 inc/settings.class.php:530
+msgid "Custom Html 2"
+msgstr ""
+
+#: inc/config-header-options.class.php:301
+msgid "Border Bottom Enable?"
+msgstr ""
+
+#: inc/config-header-options.class.php:302
+msgid "Turn On this option if you want to show top bar border bottom"
+msgstr ""
+
+#: inc/config-header-options.class.php:313
+#: inc/config-options.class.php:481
+#: inc/config-typography-options.class.php:34
+#: inc/dashboard/dashboard.class.php:161
+msgid "Typography"
+msgstr ""
+
+#: inc/config-header-options.class.php:318
+msgid "Logo Font"
+msgstr ""
+
+#: inc/config-header-options.class.php:319
+msgid "Set Logo text font"
+msgstr ""
+
+#: inc/config-header-options.class.php:329
+msgid "Top Bar Font"
+msgstr ""
+
+#: inc/config-header-options.class.php:330
+msgid "Specify the top bar font."
+msgstr ""
+
+#: inc/config-header-options.class.php:340
+msgid "Menu Font"
+msgstr ""
+
+#: inc/config-header-options.class.php:341
+msgid "Specify the menu font."
+msgstr ""
+
+#: inc/config-header-options.class.php:351
+msgid "Sub Menu Font"
+msgstr ""
+
+#: inc/config-header-options.class.php:352
+msgid "Specify the sub menu font."
+msgstr ""
+
+#: inc/config-header-options.class.php:368
+msgid "Colors"
+msgstr ""
+
+#: inc/config-header-options.class.php:373
+msgid "Header Desktop"
+msgstr ""
+
+#: inc/config-header-options.class.php:379
+msgid "Header Scheme"
+msgstr ""
+
+#: inc/config-header-options.class.php:382
+#: inc/config-header-options.class.php:468
+#: inc/config-header-options.class.php:555
+#: inc/config-header-options.class.php:627
+#: inc/config-header-options.class.php:709
+#: inc/config-header-options.class.php:804
+#: inc/config-header-options.class.php:869
+#: inc/config-header-options.class.php:934
+#: inc/config-header-options.class.php:1015 inc/settings.class.php:640
+msgid "Light"
+msgstr ""
+
+#: inc/config-header-options.class.php:383
+#: inc/config-header-options.class.php:469
+#: inc/config-header-options.class.php:556
+#: inc/config-header-options.class.php:628
+#: inc/config-header-options.class.php:710
+#: inc/config-header-options.class.php:805
+#: inc/config-header-options.class.php:870
+#: inc/config-header-options.class.php:935
+#: inc/config-header-options.class.php:1014 inc/settings.class.php:641
+msgid "Dark"
+msgstr ""
+
+#: inc/config-header-options.class.php:416
+#: inc/config-header-options.class.php:501
+#: inc/config-header-options.class.php:585
+#: inc/config-header-options.class.php:660
+#: inc/config-header-options.class.php:833
+#: inc/config-header-options.class.php:898
+#: inc/config-header-options.class.php:963
+msgid "Background Color"
+msgstr ""
+
+#: inc/config-header-options.class.php:417
+#: inc/config-header-options.class.php:502
+msgid "Specify the header background color"
+msgstr ""
+
+#: inc/config-header-options.class.php:425
+#: inc/config-header-options.class.php:510
+#: inc/config-header-options.class.php:593
+#: inc/config-header-options.class.php:668
+#: inc/config-header-options.class.php:905
+#: inc/config-header-options.class.php:970
+msgid "Text Color"
+msgstr ""
+
+#: inc/config-header-options.class.php:426
+#: inc/config-header-options.class.php:511
+msgid "Specify the header text color"
+msgstr ""
+
+#: inc/config-header-options.class.php:433
+#: inc/config-header-options.class.php:518
+#: inc/config-header-options.class.php:600
+#: inc/config-header-options.class.php:675
+#: inc/config-header-options.class.php:911
+#: inc/config-header-options.class.php:976
+msgid "Text Hover Color"
+msgstr ""
+
+#: inc/config-header-options.class.php:434
+#: inc/config-header-options.class.php:519
+msgid "Specify the header text hover color"
+msgstr ""
+
+#: inc/config-header-options.class.php:442
+#: inc/config-header-options.class.php:527
+msgid "Specify the header border color"
+msgstr ""
+
+#: inc/config-header-options.class.php:450
+#: inc/config-header-options.class.php:535
+#: inc/config-header-options.class.php:690
+msgid "Disable Color"
+msgstr ""
+
+#: inc/config-header-options.class.php:451
+#: inc/config-header-options.class.php:536
+msgid "Specify the header disable color"
+msgstr ""
+
+#: inc/config-header-options.class.php:465
+msgid "Scheme Color"
+msgstr ""
+
+#: inc/config-header-options.class.php:552
+msgid "Top Bar Scheme"
+msgstr ""
+
+#: inc/config-header-options.class.php:586
+msgid "Specify the Top Bar background color"
+msgstr ""
+
+#: inc/config-header-options.class.php:594
+msgid "Specify the Top Bar text color"
+msgstr ""
+
+#: inc/config-header-options.class.php:601
+msgid "Specify the Top Bar text hover color"
+msgstr ""
+
+#: inc/config-header-options.class.php:608
+msgid "Specify the menu border color"
+msgstr ""
+
+#: inc/config-header-options.class.php:624
+msgid "Navigation Scheme Color"
+msgstr ""
+
+#: inc/config-header-options.class.php:661
+msgid "Specify the navigation background color"
+msgstr ""
+
+#: inc/config-header-options.class.php:669
+msgid "Specify the navigation text color"
+msgstr ""
+
+#: inc/config-header-options.class.php:676
+msgid "Specify the navigation text hover color"
+msgstr ""
+
+#: inc/config-header-options.class.php:683
+msgid "Specify the navigation border color"
+msgstr ""
+
+#: inc/config-header-options.class.php:691
+msgid "Specify the navigation disable color"
+msgstr ""
+
+#: inc/config-header-options.class.php:700 inc/settings.class.php:527
+msgid "Menu"
+msgstr ""
+
+#: inc/config-header-options.class.php:706
+msgid "Submenu Scheme Color"
+msgstr ""
+
+#: inc/config-header-options.class.php:742
+msgid "Submenu Background Color"
+msgstr ""
+
+#: inc/config-header-options.class.php:743
+msgid "Specify the submenu background color"
+msgstr ""
+
+#: inc/config-header-options.class.php:750
+msgid "Submenu Heading Color"
+msgstr ""
+
+#: inc/config-header-options.class.php:751
+msgid "Specify the submenu heading color"
+msgstr ""
+
+#: inc/config-header-options.class.php:757
+msgid "Submenu Text Color"
+msgstr ""
+
+#: inc/config-header-options.class.php:758
+msgid "Specify the submenu text color"
+msgstr ""
+
+#: inc/config-header-options.class.php:764
+msgid "Submenu Item Background Hover Color"
+msgstr ""
+
+#: inc/config-header-options.class.php:765
+msgid "Specify the submenu item background hover color"
+msgstr ""
+
+#: inc/config-header-options.class.php:771
+msgid "Submenu Text Hover Color"
+msgstr ""
+
+#: inc/config-header-options.class.php:772
+msgid "Specify the submenu text hover color"
+msgstr ""
+
+#: inc/config-header-options.class.php:778
+msgid "Submenu Border Color"
+msgstr ""
+
+#: inc/config-header-options.class.php:779
+msgid "Specify the submenu border color"
+msgstr ""
+
+#: inc/config-header-options.class.php:789
+msgid "Header Mobile"
+msgstr ""
+
+#: inc/config-header-options.class.php:801
+#: inc/config-header-options.class.php:866
+#: inc/config-header-options.class.php:931
+msgid "Color Scheme"
+msgstr ""
+
+#: inc/config-header-options.class.php:840
+msgid "Top Bar Text Color"
+msgstr ""
+
+#: inc/config-header-options.class.php:846
+msgid "Top Bar Hover Color"
+msgstr ""
+
+#: inc/config-header-options.class.php:852
+msgid "Top Bar Border Color"
+msgstr ""
+
+#: inc/config-header-options.class.php:996
+msgid "Mobile"
+msgstr ""
+
+#: inc/config-header-options.class.php:1011
+msgid "Navigation Skin"
+msgstr ""
+
+#: inc/config-header-options.class.php:1022
+msgid "Header Float"
+msgstr ""
+
+#: inc/config-header-options.class.php:1023
+msgid "Turn On this option if you want to enable header float"
+msgstr ""
+
+#: inc/config-header-options.class.php:1037
+msgid "Logo Mobile"
+msgstr ""
+
+#: inc/config-header-options.class.php:1038
+#: inc/config-header-options.class.php:1046
+msgid "By default, use the logo setting"
+msgstr ""
+
+#: inc/config-header-options.class.php:1045
+msgid "Sticky Logo Mobile"
+msgstr ""
+
+#: inc/config-header-options.class.php:1080
+msgid "Header Border Bottom Enable?"
+msgstr ""
+
+#: inc/config-header-options.class.php:1081
+msgid "Turn On this option if you want to show header border bottom"
+msgstr ""
+
+#: inc/config-header-options.class.php:1119
+msgid "Customize"
+msgstr ""
+
+#: inc/config-header-options.class.php:1145
+msgid "Add custom css classes to the Mobile Header"
+msgstr ""
+
+#: inc/config-header-options.class.php:1157
+msgid "Header Settings"
+msgstr ""
+
+#: inc/config-header-options.class.php:1163
+#: inc/config-options.class.php:430
+msgid "Header Preset"
+msgstr ""
+
+#: inc/config-header-options.class.php:1177
+msgid "Page Menu"
+msgstr ""
+
+#: inc/config-header-options.class.php:1180
+#: inc/config-header-options.class.php:1189
+msgid "Select Menu"
+msgstr ""
+
+#: inc/config-header-options.class.php:1181
+msgid ""
+"Optionally you can choose to override the menu that is used on the page"
+msgstr ""
+
+#: inc/config-header-options.class.php:1186
+msgid "Page Mobile Menu"
+msgstr ""
+
+#: inc/config-header-options.class.php:1190
+msgid ""
+"Optionally you can choose to override the menu mobile that is used on "
+"the page"
+msgstr ""
+
+#: inc/config-header-options.class.php:1195
+msgid "Is One Page"
+msgstr ""
+
+#: inc/config-header-options.class.php:1196
+msgid "Set page style is One Page"
+msgstr ""
+
+#: inc/config-layout-options.class.php:45
+msgid "Layout Options"
+msgstr ""
+
+#: inc/config-layout-options.class.php:46 inc/config-options.class.php:553
+#: inc/dashboard/dashboard.class.php:149
+msgid "Layout"
+msgstr ""
+
+#: inc/config-layout-options.class.php:60
+#: inc/config-layout-options.class.php:158
+msgid "Site Style"
+msgstr ""
+
+#: inc/config-layout-options.class.php:67
+msgid "Boxed Background Color"
+msgstr ""
+
+#: inc/config-layout-options.class.php:68
+msgid "Specify the background color for boxed style"
+msgstr ""
+
+#: inc/config-layout-options.class.php:77
+#: inc/config-layout-options.class.php:166
+msgid "Site Border Color"
+msgstr ""
+
+#: inc/config-layout-options.class.php:78
+#: inc/config-layout-options.class.php:167
+msgid "Specify the site color for bordered style"
+msgstr ""
+
+#: inc/config-layout-options.class.php:85
+#: inc/config-layout-options.class.php:174
+msgid "Site Border Width"
+msgstr ""
+
+#: inc/config-layout-options.class.php:104
+#: inc/config-layout-options.class.php:197
+#: inc/config-options.class.php:578
+msgid "Content Padding"
+msgstr ""
+
+#: inc/config-layout-options.class.php:105
+#: inc/config-layout-options.class.php:198
+#: inc/config-options.class.php:579
+msgid "Set content padding"
+msgstr ""
+
+#: inc/config-layout-options.class.php:116
+#: inc/config-layout-options.class.php:206
+#: inc/config-options.class.php:592
+msgid "Mobile Content Padding"
+msgstr ""
+
+#: inc/config-layout-options.class.php:117
+#: inc/config-layout-options.class.php:207
+#: inc/config-options.class.php:593
+msgid "Set mobile content padding"
+msgstr ""
+
+#: inc/config-layout-options.class.php:128
+#: inc/config-layout-options.class.php:191
+#: inc/config-options.class.php:570 inc/settings.class.php:126
+#: inc/settings.class.php:141 inc/settings.class.php:758
+msgid "Stretched Content"
+msgstr ""
+
+#: inc/config-layout-options.class.php:129
+#: inc/config-layout-options.class.php:192
+#: inc/config-options.class.php:571
+msgid "Turn On this option if you want to enable site stretched content"
+msgstr ""
+
+#: inc/config-layout-options.class.php:134
+msgid "Sidebar Sticky"
+msgstr ""
+
+#: inc/config-layout-options.class.php:135
+msgid "Turn On this option if you want to enable sidebar sticky"
+msgstr ""
+
+#: inc/config-layout-options.class.php:141
+msgid "Sidebar Mobile Disable"
+msgstr ""
+
+#: inc/config-layout-options.class.php:142
+msgid "Turn On this option if you want to disable sidebar on mobile"
+msgstr ""
+
+#: inc/config-layout-options.class.php:152
+msgid "Layout Settings"
+msgstr ""
+
+#: inc/config-layout-options.class.php:215
+#: inc/config-options.class.php:296 inc/widget.class.php:52
+msgid "Custom Css"
+msgstr ""
+
+#: inc/config-layout-options.class.php:216
+msgid "Enter custom css to page"
+msgstr ""
+
+#: inc/config-options.class.php:38 inc/config-options.class.php:39
+#: inc/dashboard/dashboard.class.php:137
+msgid "Settings"
+msgstr ""
+
+#: inc/config-options.class.php:84
+msgid "Back To Top"
+msgstr ""
+
+#: inc/config-options.class.php:85
+msgid "Turn Off this option if you want to disable back to top"
+msgstr ""
+
+#: inc/config-options.class.php:90
+msgid "Image Lazy Load?"
+msgstr ""
+
+#: inc/config-options.class.php:91
+msgid "Turn on to make images load on scroll."
+msgstr ""
+
+#: inc/config-options.class.php:97
+msgid "Google Map API Key"
+msgstr ""
+
+#: inc/config-options.class.php:98
+#, php-format
+msgid ""
+"Note: you must create personal <a href=\"%s\">Google Map API key</a> "
+"for accurate and long-term use"
+msgstr ""
+
+#: inc/config-options.class.php:104
+msgid "Mapbox API Access Token"
+msgstr ""
+
+#: inc/config-options.class.php:105
+msgid ""
+"A Mapbox API Access Token is required to load maps. You can get it in "
+"<a target=\"_blank\" href=\"https://www.mapbox.com/account/\">in your "
+"Mapbox user dashboard</a>."
+msgstr ""
+
+#: inc/config-options.class.php:106
+msgid "Enter your mapbox api access token"
+msgstr ""
+
+#: inc/config-options.class.php:113
+msgid "Post Default Thumbnail"
+msgstr ""
+
+#: inc/config-options.class.php:119
+msgid "Enable Default Thumbnail Placeholder"
+msgstr ""
+
+#: inc/config-options.class.php:120
+msgid ""
+"You can set default thumbnail for post that haven' featured image with "
+"enabling this option and uploading default image in following field"
+msgstr ""
+
+#: inc/config-options.class.php:126
+msgid "Default Thumbnail Image"
+msgstr ""
+
+#: inc/config-options.class.php:127
+msgid ""
+"By default, the post thumbnail will be shown but when the post haven'nt "
+"thumbnail then this will be replaced"
+msgstr ""
+
+#: inc/config-options.class.php:132
+msgid "First Image as Post Thumbnail"
+msgstr ""
+
+#: inc/config-options.class.php:133
+msgid ""
+"With enabling this options if any post have not thumbnail then theme "
+"will shows first content image as post thumbnail."
+msgstr ""
+
+#: inc/config-options.class.php:140
+msgid "Search"
+msgstr ""
+
+#: inc/config-options.class.php:146
+msgid "Search Post Types"
+msgstr ""
+
+#: inc/config-options.class.php:154
+msgid "Search Ajax Enable"
+msgstr ""
+
+#: inc/config-options.class.php:155
+msgid "Turn On this option if you want to search ajax enable"
+msgstr ""
+
+#: inc/config-options.class.php:161
+msgid "Amount Of Search Result"
+msgstr ""
+
+#: inc/config-options.class.php:169
+msgid "Maintenance"
+msgstr ""
+
+#: inc/config-options.class.php:176
+msgid "Maintenance Mode"
+msgstr ""
+
+#: inc/config-options.class.php:182
+msgid "Maintenance Mode Page"
+msgstr ""
+
+#: inc/config-options.class.php:183
+msgid ""
+"Select the page that is your maintenance page, if you would like to "
+"show a custom page instead of the standard WordPress message. You "
+"should use the Holding Page template for this page."
+msgstr ""
+
+#: inc/config-options.class.php:185 inc/config-options.class.php:248
+msgid "Select Page"
+msgstr ""
+
+#: inc/config-options.class.php:200
+msgid "Page Loading"
+msgstr ""
+
+#: inc/config-options.class.php:207
+msgid "Loading Animation"
+msgstr ""
+
+#: inc/config-options.class.php:208
+msgid "Select type of pre load animation"
+msgstr ""
+
+#: inc/config-options.class.php:215 templates/site-loading.php:12
+msgid "Logo Loading"
+msgstr ""
+
+#: inc/config-options.class.php:221
+msgid "Loading Background Color"
+msgstr ""
+
+#: inc/config-options.class.php:230
+msgid "Spinner color"
+msgstr ""
+
+#: inc/config-options.class.php:240
+msgid "404 Page"
+msgstr ""
+
+#: inc/config-options.class.php:246
+msgid "Custom 404 Page"
+msgstr ""
+
+#: inc/config-options.class.php:261 inc/config-options.class.php:267
+msgid "Social Share"
+msgstr ""
+
+#: inc/config-options.class.php:268
+msgid "Select active social share links and sort them"
+msgstr ""
+
+#: inc/config-options.class.php:290
+msgid "Css & Javascript"
+msgstr ""
+
+#: inc/config-options.class.php:297
+msgid "Enter here your custom CSS. Please do not include any style tags."
+msgstr ""
+
+#: inc/config-options.class.php:304
+msgid "Custom Javascript"
+msgstr ""
+
+#: inc/config-options.class.php:305
+msgid ""
+"Enter here your custom javascript code. Please do not include any "
+"script tags."
+msgstr ""
+
+#: inc/config-options.class.php:317
+msgid "Connections"
+msgstr ""
+
+#: inc/config-options.class.php:323 inc/settings.class.php:302
+#: inc/settings.class.php:312 inc/settings.class.php:528
+msgid "Social Networks"
+msgstr ""
+
+#: inc/config-options.class.php:324
+msgid "Define here all the social networks you will need."
+msgstr ""
+
+#: inc/config-options.class.php:332
+msgid "Title"
+msgstr ""
+
+#: inc/config-options.class.php:333
+msgid "Enter your social network name"
+msgstr ""
+
+#: inc/config-options.class.php:338
+msgid "Unique Social Id"
+msgstr ""
+
+#: inc/config-options.class.php:339
+msgid ""
+"This value is created automatically and it shouldn't be edited unless "
+"you know what you are doing."
+msgstr ""
+
+#: inc/config-options.class.php:346
+msgid "Social Network Icon"
+msgstr ""
+
+#: inc/config-options.class.php:347
+msgid "Specify the social network icon"
+msgstr ""
+
+#: inc/config-options.class.php:352
+msgid "Social Network Link"
+msgstr ""
+
+#: inc/config-options.class.php:353
+msgid "Enter your social network link"
+msgstr ""
+
+#: inc/config-options.class.php:358
+msgid "Social Network Color"
+msgstr ""
+
+#: inc/config-options.class.php:359
+#, php-format
+msgid ""
+"Specify the social network color. Reference in <a target=\"_blank\" "
+"href=\"%s\">brandcolors.net</a>"
+msgstr ""
+
+#: inc/config-options.class.php:384
+msgid "Custom setting for "
+msgstr ""
+
+#: inc/config-options.class.php:385
+#, php-format
+msgid "You can overwrite custom setting on %s page"
+msgstr ""
+
+#: inc/config-options.class.php:389
+msgid "Single setting"
+msgstr ""
+
+#: inc/config-options.class.php:402
+msgid "Archive setting"
+msgstr ""
+
+#: inc/config-options.class.php:439
+msgid "Optionally you can choose to override header default."
+msgstr ""
+
+#: inc/config-options.class.php:471
+msgid "Optionally you can choose to override colors default"
+msgstr ""
+
+#: inc/config-options.class.php:487
+#: inc/config-typography-options.class.php:221
+msgid "Typography Preset"
+msgstr ""
+
+#: inc/config-options.class.php:496
+msgid "Optionally you can choose to override typography default"
+msgstr ""
+
+#: inc/config-options.class.php:506
+#: inc/config-page-title-options.class.php:51
+#: inc/dashboard/dashboard.class.php:153 inc/settings.class.php:741
+msgid "Page Title"
+msgstr ""
+
+#: inc/config-options.class.php:512
+#: inc/config-page-title-options.class.php:65
+#: inc/config-page-title-options.class.php:137
+#: inc/config-page-title-options.class.php:189
+msgid "Page Title Enable"
+msgstr ""
+
+#: inc/config-options.class.php:514
+#: inc/config-page-title-options.class.php:66
+#: inc/config-page-title-options.class.php:138
+#: inc/config-page-title-options.class.php:190
+msgid "Turn Off this option if you want to hide page title"
+msgstr ""
+
+#: inc/config-options.class.php:519
+#: inc/config-page-title-options.class.php:72
+msgid "Page Title Layout"
+msgstr ""
+
+#: inc/config-options.class.php:529
+#: inc/config-page-title-options.class.php:82
+#: inc/config-page-title-options.class.php:144
+#: inc/config-page-title-options.class.php:196
+msgid "Specify the Content Block to use as a page title."
+msgstr ""
+
+#: inc/config-options.class.php:541
+#: inc/config-page-title-options.class.php:99
+#: inc/config-page-title-options.class.php:170
+#: inc/config-page-title-options.class.php:202
+msgid "Breadcrumb Enable"
+msgstr ""
+
+#: inc/config-options.class.php:542
+#: inc/config-page-title-options.class.php:100
+#: inc/config-page-title-options.class.php:171
+#: inc/config-page-title-options.class.php:203
+msgid "Turn Off this option if you want to hide breadcrumb"
+msgstr ""
+
+#: inc/config-options.class.php:666 inc/config-options.class.php:671
+msgid "We are currently in maintenance mode, please check back shortly."
+msgstr ""
+
+#: inc/config-page-title-options.class.php:50
+msgid "Page Title Options"
+msgstr ""
+
+#: inc/config-page-title-options.class.php:73
+msgid "Specify the layout to use as a page title."
+msgstr ""
+
+#: inc/config-page-title-options.class.php:107
+msgid "Show Post Categories in Breadcrumb"
+msgstr ""
+
+#: inc/config-page-title-options.class.php:108
+msgid "Turn on to display the post categories in the breadcrumbs path"
+msgstr ""
+
+#: inc/config-page-title-options.class.php:117
+msgid "Show Post Type Archives in Breadcrumb"
+msgstr ""
+
+#: inc/config-page-title-options.class.php:118
+msgid "Turn on to display post type archives in the breadcrumbs path."
+msgstr ""
+
+#: inc/config-page-title-options.class.php:131
+#: inc/config-page-title-options.class.php:183
+msgid "Page Title Settings"
+msgstr ""
+
+#: inc/config-page-title-options.class.php:157
+msgid "Page Title Custom"
+msgstr ""
+
+#: inc/config-page-title-options.class.php:164
+msgid "Page Subtitle Custom"
+msgstr ""
+
+#: inc/config-typography-options.class.php:33
+msgid "Typography Options"
+msgstr ""
+
+#: inc/config-typography-options.class.php:35
+msgid ""
+"You can configure for site typography or create preset typography to "
+"apply for your page"
+msgstr ""
+
+#: inc/config-typography-options.class.php:57
+msgid "Body"
+msgstr ""
+
+#: inc/config-typography-options.class.php:62
+msgid "Body Font"
+msgstr ""
+
+#: inc/config-typography-options.class.php:73
+msgid "Primary Font"
+msgstr ""
+
+#: inc/config-typography-options.class.php:85
+msgid "Heading"
+msgstr ""
+
+#: inc/config-typography-options.class.php:90
+msgid "H1"
+msgstr ""
+
+#: inc/config-typography-options.class.php:101
+msgid "H2"
+msgstr ""
+
+#: inc/config-typography-options.class.php:112
+msgid "H3"
+msgstr ""
+
+#: inc/config-typography-options.class.php:123
+msgid "H4"
+msgstr ""
+
+#: inc/config-typography-options.class.php:134
+msgid "H5"
+msgstr ""
+
+#: inc/config-typography-options.class.php:145
+msgid "H6"
+msgstr ""
+
+#: inc/config-typography-options.class.php:161
+msgid "Display"
+msgstr ""
+
+#: inc/config-typography-options.class.php:166
+msgid "Display 1"
+msgstr ""
+
+#: inc/config-typography-options.class.php:167
+msgid "Typography for class .display-1"
+msgstr ""
+
+#: inc/config-typography-options.class.php:177
+msgid "Display 2"
+msgstr ""
+
+#: inc/config-typography-options.class.php:178
+msgid "Typography for class .display-2"
+msgstr ""
+
+#: inc/config-typography-options.class.php:188
+msgid "Display 3"
+msgstr ""
+
+#: inc/config-typography-options.class.php:189
+msgid "Typography for class .display-3"
+msgstr ""
+
+#: inc/config-typography-options.class.php:199
+msgid "Display 4"
+msgstr ""
+
+#: inc/config-typography-options.class.php:200
+msgid "Typography for class .display-4"
+msgstr ""
+
+#: inc/config-typography-options.class.php:215
+msgid "Typography Settings"
+msgstr ""
+
+#: inc/dashboard/dashboard.class.php:68
+#: inc/dashboard/dashboard.class.php:69
+#: inc/dashboard/dashboard.class.php:168
+msgid "Theme Options"
+msgstr ""
+
+#: inc/dashboard/dashboard.class.php:81
+#: inc/dashboard/dashboard.class.php:82
+msgid "Welcome"
+msgstr ""
+
+#: inc/dashboard/dashboard.class.php:87
+#: inc/dashboard/dashboard.class.php:88
+msgid "Plugins"
+msgstr ""
+
+#: inc/dashboard/dashboard.class.php:93
+#: inc/dashboard/dashboard.class.php:94
+msgid "System"
+msgstr ""
+
+#: inc/dashboard/dashboard.class.php:99
+#: lib/smart-framework/core/fonts/fonts.class.php:54
+#: lib/smart-framework/core/fonts/fonts.class.php:55
+#: lib/smart-framework/core/fonts/templates/fonts.php:6
+msgid "Fonts Management"
+msgstr ""
+
+#: inc/dashboard/install-demo.class.php:40
+#: inc/dashboard/install-demo.class.php:41
+msgid "Install Demo"
+msgstr ""
+
+#: inc/dashboard/system-status.class.php:44
+#, php-format
+msgid "%s Versions"
+msgstr ""
+
+#: inc/dashboard/system-status.class.php:47
+msgid "Current Version"
+msgstr ""
+
+#: inc/dashboard/system-status.class.php:52
+msgid "Update History"
+msgstr ""
+
+#: inc/dashboard/system-status.class.php:54
+#, php-format
+msgid "<a target=\"_blank\" href=\"%1$s\">View changelog details</a>"
+msgstr ""
+
+#: inc/dashboard/system-status.class.php:59
+msgid "WordPress Environment"
+msgstr ""
+
+#: inc/dashboard/system-status.class.php:62
+msgid "Home URL"
+msgstr ""
+
+#: inc/dashboard/system-status.class.php:63
+msgid "The URL of your site's homepage."
+msgstr ""
+
+#: inc/dashboard/system-status.class.php:67
+msgid "Site URL"
+msgstr ""
+
+#: inc/dashboard/system-status.class.php:68
+msgid "The root URL of your site."
+msgstr ""
+
+#: inc/dashboard/system-status.class.php:72
+msgid "WP Version"
+msgstr ""
+
+#: inc/dashboard/system-status.class.php:73
+msgid "The version of WordPress installed on your site."
+msgstr ""
+
+#: inc/dashboard/system-status.class.php:77
+msgid "WP Multisite"
+msgstr ""
+
+#: inc/dashboard/system-status.class.php:78
+msgid "Whether or not you have WordPress Multisite enabled."
+msgstr ""
+
+#: inc/dashboard/system-status.class.php:82
+msgid "WP Memory Limit"
+msgstr ""
+
+#: inc/dashboard/system-status.class.php:83
+msgid ""
+"The maximum amount of memory (RAM) that your site can use at one time."
+msgstr ""
+
+#: inc/dashboard/system-status.class.php:87
+msgid "WP Debug Mode"
+msgstr ""
+
+#: inc/dashboard/system-status.class.php:88
+msgid "Displays whether or not WordPress is in Debug Mode."
+msgstr ""
+
+#: inc/dashboard/system-status.class.php:92
+msgid "Language"
+msgstr ""
+
+#: inc/dashboard/system-status.class.php:93
+msgid "The current language used by WordPress. Default = English"
+msgstr ""
+
+#: inc/dashboard/system-status.class.php:100
+msgid "Server Environment"
+msgstr ""
+
+#: inc/dashboard/system-status.class.php:103
+msgid "Server Info"
+msgstr ""
+
+#: inc/dashboard/system-status.class.php:104
+msgid ""
+"Information about the web server that is currently hosting your site."
+msgstr ""
+
+#: inc/dashboard/system-status.class.php:108
+msgid "PHP Version"
+msgstr ""
+
+#: inc/dashboard/system-status.class.php:109
+msgid "The version of PHP installed on your hosting server."
+msgstr ""
+
+#: inc/dashboard/system-status.class.php:113
+msgid "Post Max Size"
+msgstr ""
+
+#: inc/dashboard/system-status.class.php:114
+msgid "The largest file size that can be contained in one post."
+msgstr ""
+
+#: inc/dashboard/system-status.class.php:118
+msgid "Max Execution Time"
+msgstr ""
+
+#: inc/dashboard/system-status.class.php:119
+msgid ""
+"The amount of time (in seconds) that your site will spend on a single "
+"operation before timing out (to avoid server lockups)"
+msgstr ""
+
+#: inc/dashboard/system-status.class.php:123
+msgid "Max Input Vars"
+msgstr ""
+
+#: inc/dashboard/system-status.class.php:124
+msgid ""
+"The maximum number of variables your server can use for a single "
+"function to avoid overloads."
+msgstr ""
+
+#: inc/dashboard/system-status.class.php:128
+msgid "ZipArchive"
+msgstr ""
+
+#: inc/dashboard/system-status.class.php:129
+msgid ""
+"ZipArchive is required for importing demos. They are used to import and "
+"export zip files specifically for sliders."
+msgstr ""
+
+#: inc/dashboard/system-status.class.php:133
+msgid "MySQL Version"
+msgstr ""
+
+#: inc/dashboard/system-status.class.php:134
+msgid "The version of MySQL installed on your hosting server."
+msgstr ""
+
+#: inc/dashboard/system-status.class.php:138
+msgid "Max Upload Size"
+msgstr ""
+
+#: inc/dashboard/system-status.class.php:139
+msgid ""
+"The largest file size that can be uploaded to your WordPress "
+"installation."
+msgstr ""
+
+#: inc/dashboard/system-status.class.php:172
+#, php-format
+msgid ""
+"%1$s - We recommend setting memory to at least <strong>128MB</strong>."
+"<br /> Please define memory limit in <strong>wp-config.php</strong> "
+"file.<br /> To learn how, see: <a href=\"%2$s\" target=\"_blank\" rel="
+"\"noopener noreferrer\">Increasing memory allocated to PHP.</a>"
+msgstr ""
+
+#: inc/dashboard/system-status.class.php:189
+#, php-format
+msgid ""
+"%1$s - We recommend use php version at least <strong>5.4</strong>. <br /"
+"> Please <a href=\"%2$s\" target=\"_blank\">download and update latest "
+"version</a>"
+msgstr ""
+
+#: inc/dashboard/system-status.class.php:206
+#, php-format
+msgid ""
+"%1$s - We recommend setting post max size to at least <strong>64MB</"
+"strong>."
+msgstr ""
+
+#: inc/dashboard/system-status.class.php:224
+#, php-format
+msgid ""
+"%1$s - We recommend setting max execution time to at least 300.<br /"
+">See: <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer"
+"\">Increasing max execution to PHP</a>"
+msgstr ""
+
+#: inc/dashboard/system-status.class.php:241
+#, php-format
+msgid ""
+"%1$s - We recommend setting max input var to at least 3000.<br /> Max "
+"input vars limitation will truncate POST data such as menus See: <a "
+"href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">Increasing "
+"max input vars limit.</a>"
+msgstr ""
+
+#: inc/dashboard/system-status.class.php:273
+msgid "Visit plugin homepage"
+msgstr ""
+
+#: inc/dashboard/system-status.class.php:286
+msgid "by "
+msgstr ""
+
+#: inc/dashboard/system-status.class.php:298
+#, php-format
+msgid "Active Plugins (%1$s)"
+msgstr ""
+
+#: inc/dashboard/templates/dashboard.php:17
+#, php-format
+msgid "%s Dashboard"
+msgstr ""
+
+#: inc/dashboard/templates/plugins.php:9
+msgid "Premium and Included Plugins"
+msgstr ""
+
+#: inc/dashboard/templates/plugins.php:10
+msgid ""
+"Install the included plugins with ease using this panel. All the "
+"plugins are well tested to work with the theme and we keep them up to "
+"date. The themes comes packed with the following plugins:"
+msgstr ""
+
+#: inc/dashboard/templates/plugins.php:48
+msgid "Required"
+msgstr ""
+
+#: inc/dashboard/templates/plugins.php:51
+msgid "active"
+msgstr ""
+
+#: inc/dashboard/templates/plugins.php:60
+msgid "Install"
+msgstr ""
+
+#: inc/dashboard/templates/plugins.php:63
+msgid "Activate"
+msgstr ""
+
+#: inc/dashboard/templates/plugins.php:66
+msgid "Deactivate"
+msgstr ""
+
+#: inc/dashboard/templates/plugins.php:69
+msgid "Update"
+msgstr ""
+
+#: inc/dashboard/templates/system.php:14
+#: inc/dashboard/templates/system.php:19
+msgid "Get System Report"
+msgstr ""
+
+#: inc/dashboard/templates/system.php:20
+msgid ""
+"Click the button to produce a report, then copy and paste into your "
+"support ticket."
+msgstr ""
+
+#: inc/dashboard/templates/system.php:24
+msgid "Copy for Support"
+msgstr ""
+
+#: inc/dashboard/templates/welcome.php:10
+msgid "Welcome to"
+msgstr ""
+
+#: inc/dashboard/templates/welcome.php:13
+msgid ""
+"Thank you for choosing the best theme we have ever build! we did a lot "
+"of pressure to release this great product and we will offer our 5 star "
+"support to this theme for fixing all the issues and adding more "
+"features."
+msgstr ""
+
+#: inc/dashboard/templates/welcome.php:17
+msgid "Quick Start"
+msgstr ""
+
+#: inc/dashboard/templates/welcome.php:18
+#, php-format
+msgid ""
+"You can start using theme simply by installing Visual Composer plugin. "
+"Also there is more plugins for social counter, post views, ads "
+"manager ... that you can install them from our <a href=\"%s\">plugin "
+"installer</a>."
+msgstr ""
+
+#: inc/dashboard/welcome.class.php:38 inc/dashboard/welcome.class.php:40
+msgid "Documentation"
+msgstr ""
+
+#: inc/dashboard/welcome.class.php:39
+#, php-format
+msgid ""
+"This is the place to go to reference different aspects of the theme. "
+"Our online documentation is an incredible resource for learning the ins "
+"and outs of using %1$s."
+msgstr ""
+
+#: inc/dashboard/welcome.class.php:45
+msgid "Knowledge Base"
+msgstr ""
+
+#: inc/dashboard/welcome.class.php:46
+msgid ""
+"Our knowledge base contains additional content that is not inside of "
+"our documentation. This information is more specific and unique to "
+"various versions or aspects of theme."
+msgstr ""
+
+#: inc/dashboard/welcome.class.php:47
+msgid "Knowledgebase"
+msgstr ""
+
+#: inc/dashboard/welcome.class.php:52
+msgid "Video Tutorials"
+msgstr ""
+
+#: inc/dashboard/welcome.class.php:53
+#, php-format
+msgid ""
+"Nothing is better than watching a video to learn. We have a growing "
+"library of high-definititon, narrated video tutorials to help teach you "
+"the different aspects of using %1$s."
+msgstr ""
+
+#: inc/dashboard/welcome.class.php:54
+msgid "Watch Videos"
+msgstr ""
+
+#: inc/dashboard/welcome.class.php:59
+msgid "Help Desk"
+msgstr ""
+
+#: inc/dashboard/welcome.class.php:60
+#, php-format
+msgid ""
+"We offer outstanding support through our forum. To get support first "
+"you need to register (create an account) and open a thread in the %1$s "
+"Section."
+msgstr ""
+
+#: inc/dashboard/welcome.class.php:61
+msgid "Open Forum"
+msgstr ""
+
+#: inc/fields.class.php:40 inc/functions/options.php:35
+msgid "Site Layout"
+msgstr ""
+
+#: inc/fields.class.php:53 inc/functions/options.php:55
+msgid "Sidebar"
+msgstr ""
+
+#: inc/fields.class.php:55 inc/functions/options.php:57
+msgid "Select Sidebar"
+msgstr ""
+
+#: inc/functions/font-awesome.php:4
+#: lib/smart-framework/inc/helper.class.php:445
+msgid "Font Awesome"
+msgstr ""
+
+#: inc/functions/font-svg.php:14
+msgid "SVG Icon"
+msgstr ""
+
+#: inc/functions/helper.php:143 inc/functions/helper.php:268
+msgid "Shop"
+msgstr ""
+
+#: inc/functions/helper.php:276
+msgid "Tags: "
+msgstr ""
+
+#: inc/functions/helper.php:278
+#, php-format
+msgid "Search Results For: %s"
+msgstr ""
+
+#: inc/functions/helper.php:280
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: inc/functions/helper.php:282
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: inc/functions/helper.php:282
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: inc/functions/helper.php:284
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: inc/functions/helper.php:284
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/functions/helper.php:286
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: inc/functions/helper.php:288
+msgid "Asides"
+msgstr ""
+
+#: inc/functions/helper.php:290
+msgid "Galleries"
+msgstr ""
+
+#: inc/functions/helper.php:292
+msgid "Images"
+msgstr ""
+
+#: inc/functions/helper.php:294
+msgid "Videos"
+msgstr ""
+
+#: inc/functions/helper.php:296
+msgid "Quotes"
+msgstr ""
+
+#: inc/functions/helper.php:298
+msgid "Links"
+msgstr ""
+
+#: inc/functions/helper.php:300
+msgid "Statuses"
+msgstr ""
+
+#: inc/functions/helper.php:302
+msgid "Audios"
+msgstr ""
+
+#: inc/functions/helper.php:304
+msgid "Chats"
+msgstr ""
+
+#: inc/functions/options.php:11 inc/post-type.class.php:109
+msgid "Content Block"
+msgstr ""
+
+#: inc/functions/options.php:12
+msgid "Select Content Block"
+msgstr ""
+
+#: inc/functions/template.php:121
+msgid "View More"
+msgstr ""
+
+#: inc/post-type.class.php:67
+msgid "Content Block Type"
+msgstr ""
+
+#: inc/post-type.class.php:74
+msgid "Select Types"
+msgstr ""
+
+#: inc/post-type.class.php:125
+msgid "Mega Menu"
+msgstr ""
+
+#: inc/post-type.class.php:148
+msgid "All Types"
+msgstr ""
+
+#: inc/post-type.class.php:177
+msgid "Type"
+msgstr ""
+
+#: inc/settings.class.php:20
+#: lib/smart-framework/fields/switch/switch.class.php:16
+#: lib/smart-framework/fields/switch2/switch2.class.php:16
+msgid "On"
+msgstr ""
+
+#: inc/settings.class.php:21
+#: lib/smart-framework/fields/switch/switch.class.php:17
+#: lib/smart-framework/fields/switch2/switch2.class.php:17
+msgid "Off"
+msgstr ""
+
+#: inc/settings.class.php:25 inc/settings.class.php:114
+#: inc/settings.class.php:131 inc/settings.class.php:147
+#: inc/settings.class.php:636 inc/settings.class.php:764
+#: inc/xmenu/templates/xmenu-panel.php:96
+#: inc/xmenu/templates/xmenu-panel.php:104
+#: lib/smart-framework/inc/assets.class.php:58
+msgid "Default"
+msgstr ""
+
+#: inc/settings.class.php:41 inc/settings.class.php:56
+#: inc/settings.class.php:559 inc/settings.class.php:599
+#: inc/settings.class.php:617 inc/settings.class.php:722
+#: inc/xmenu/templates/xmenu-panel.php:105
+msgid "None"
+msgstr ""
+
+#: inc/settings.class.php:42
+msgid "Chasing Dots"
+msgstr ""
+
+#: inc/settings.class.php:43
+msgid "Circle"
+msgstr ""
+
+#: inc/settings.class.php:44
+msgid "Cube"
+msgstr ""
+
+#: inc/settings.class.php:45
+msgid "Double Bounce"
+msgstr ""
+
+#: inc/settings.class.php:46
+msgid "Fading Circle"
+msgstr ""
+
+#: inc/settings.class.php:47
+msgid "Folding Cube"
+msgstr ""
+
+#: inc/settings.class.php:48
+msgid "Pulse"
+msgstr ""
+
+#: inc/settings.class.php:49
+msgid "Three Bounce"
+msgstr ""
+
+#: inc/settings.class.php:50
+msgid "Wave"
+msgstr ""
+
+#: inc/settings.class.php:57 inc/xmenu/templates/xmenu-panel.php:106
+msgid "Fade In"
+msgstr ""
+
+#: inc/settings.class.php:58 inc/xmenu/templates/xmenu-panel.php:107
+msgid "Fade In Up"
+msgstr ""
+
+#: inc/settings.class.php:59 inc/xmenu/templates/xmenu-panel.php:108
+msgid "Fade In Down"
+msgstr ""
+
+#: inc/settings.class.php:60 inc/xmenu/templates/xmenu-panel.php:109
+msgid "Fade In Left"
+msgstr ""
+
+#: inc/settings.class.php:61 inc/xmenu/templates/xmenu-panel.php:110
+msgid "Fade In Right"
+msgstr ""
+
+#: inc/settings.class.php:62 inc/xmenu/templates/xmenu-panel.php:111
+msgid "Flip In X"
+msgstr ""
+
+#: inc/settings.class.php:63 inc/xmenu/templates/xmenu-panel.php:112
+msgid "Slide In Up"
+msgstr ""
+
+#: inc/settings.class.php:71 inc/settings.class.php:548
+#: inc/settings.class.php:568 inc/settings.class.php:589
+#: inc/settings.class.php:607 inc/settings.class.php:627
+#: inc/settings.class.php:732
+msgid "Inherit"
+msgstr ""
+
+#: inc/settings.class.php:77
+msgid "Wide"
+msgstr ""
+
+#: inc/settings.class.php:81
+msgid "Boxed"
+msgstr ""
+
+#: inc/settings.class.php:85
+msgid "Bordered"
+msgstr ""
+
+#: inc/settings.class.php:98 inc/settings.class.php:142
+#: inc/settings.class.php:759 inc/xmenu/templates/xmenu-panel.php:85
+msgid "Full Width"
+msgstr ""
+
+#: inc/settings.class.php:102
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/settings.class.php:106
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/settings.class.php:125 inc/settings.class.php:140
+#: inc/settings.class.php:757
+msgid "Boxed Content"
+msgstr ""
+
+#: inc/settings.class.php:160
+msgid "Header 1"
+msgstr ""
+
+#: inc/settings.class.php:164
+msgid "Header 2"
+msgstr ""
+
+#: inc/settings.class.php:168
+msgid "Header 3"
+msgstr ""
+
+#: inc/settings.class.php:172
+msgid "Header 4"
+msgstr ""
+
+#: inc/settings.class.php:176
+msgid "Header 5"
+msgstr ""
+
+#: inc/settings.class.php:180
+msgid "Header 6"
+msgstr ""
+
+#: inc/settings.class.php:184
+msgid "Header 7"
+msgstr ""
+
+#: inc/settings.class.php:188
+msgid "Header 8"
+msgstr ""
+
+#: inc/settings.class.php:192
+msgid "Header 9"
+msgstr ""
+
+#: inc/settings.class.php:196
+msgid "Header 10"
+msgstr ""
+
+#: inc/settings.class.php:200
+msgid "Header 11"
+msgstr ""
+
+#: inc/settings.class.php:204
+msgid "Header 12"
+msgstr ""
+
+#: inc/settings.class.php:208
+msgid "Header 13"
+msgstr ""
+
+#: inc/settings.class.php:212
+msgid "Header 14"
+msgstr ""
+
+#: inc/settings.class.php:216
+msgid "Header 15"
+msgstr ""
+
+#: inc/settings.class.php:220
+msgid "Header 16"
+msgstr ""
+
+#: inc/settings.class.php:224
+msgid "Header 17"
+msgstr ""
+
+#: inc/settings.class.php:228
+msgid "Header 18"
+msgstr ""
+
+#: inc/settings.class.php:232
+msgid "Header 19"
+msgstr ""
+
+#: inc/settings.class.php:236
+msgid "Header 20"
+msgstr ""
+
+#: inc/settings.class.php:240
+msgid "Header 21"
+msgstr ""
+
+#: inc/settings.class.php:244
+msgid "Header 22"
+msgstr ""
+
+#: inc/settings.class.php:248
+msgid "Header 23"
+msgstr ""
+
+#: inc/settings.class.php:252
+msgid "Header 24"
+msgstr ""
+
+#: inc/settings.class.php:256
+msgid "Header 25"
+msgstr ""
+
+#: inc/settings.class.php:260
+msgid "Header 26"
+msgstr ""
+
+#: inc/settings.class.php:264
+msgid "Header 27"
+msgstr ""
+
+#: inc/settings.class.php:268
+msgid "Header 28"
+msgstr ""
+
+#: inc/settings.class.php:272
+msgid "Header 29"
+msgstr ""
+
+#: inc/settings.class.php:276
+msgid "Header 30"
+msgstr ""
+
+#: inc/settings.class.php:285
+msgid "Header Style 1"
+msgstr ""
+
+#: inc/settings.class.php:289
+msgid "Header Style 2"
+msgstr ""
+
+#: inc/settings.class.php:293
+msgid "Header Style 3"
+msgstr ""
+
+#: inc/settings.class.php:300 inc/settings.class.php:311
+msgid "Search Button"
+msgstr ""
+
+#: inc/settings.class.php:301
+msgid "Search Box"
+msgstr ""
+
+#: inc/settings.class.php:303 inc/settings.class.php:313
+#: inc/settings.class.php:526
+#: templates/header/customize/login-popup.php:44
+msgid "Login"
+msgstr ""
+
+#: inc/settings.class.php:304 inc/settings.class.php:314
+msgid "Canvas Sidebar"
+msgstr ""
+
+#: inc/settings.class.php:305 inc/settings.class.php:315
+msgid "Custom Html"
+msgstr ""
+
+#: inc/settings.class.php:321
+msgid "Full Menu"
+msgstr ""
+
+#: inc/settings.class.php:328
+msgid "No Sticky"
+msgstr ""
+
+#: inc/settings.class.php:329
+msgid "Always Show"
+msgstr ""
+
+#: inc/settings.class.php:330
+msgid "Show On Scroll Up"
+msgstr ""
+
+#: inc/settings.class.php:336 inc/settings.class.php:364
+#: templates/share.php:34
+msgid "Facebook"
+msgstr ""
+
+#: inc/settings.class.php:337 inc/settings.class.php:371
+#: templates/share.php:40
+msgid "Twitter"
+msgstr ""
+
+#: inc/settings.class.php:338
+msgid "Linkedin"
+msgstr ""
+
+#: inc/settings.class.php:339 inc/settings.class.php:406
+#: templates/share.php:52
+msgid "Tumblr"
+msgstr ""
+
+#: inc/settings.class.php:340 inc/settings.class.php:378
+#: templates/share.php:59
+msgid "Pinterest"
+msgstr ""
+
+#: inc/settings.class.php:341 inc/settings.class.php:469
+#: templates/header/customize/login-popup.php:75 templates/share.php:64
+msgid "Email"
+msgstr ""
+
+#: inc/settings.class.php:342
+msgid "Telegram"
+msgstr ""
+
+#: inc/settings.class.php:343
+msgid "WhatsApp (Only Mobiles)"
+msgstr ""
+
+#: inc/settings.class.php:385
+msgid "Dribbble"
+msgstr ""
+
+#: inc/settings.class.php:392 templates/share.php:46
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/settings.class.php:399
+msgid "Vimeo"
+msgstr ""
+
+#: inc/settings.class.php:413
+msgid "Skype"
+msgstr ""
+
+#: inc/settings.class.php:420
+msgid "Flickr"
+msgstr ""
+
+#: inc/settings.class.php:427
+msgid "YouTube"
+msgstr ""
+
+#: inc/settings.class.php:434
+msgid "Instagram"
+msgstr ""
+
+#: inc/settings.class.php:441
+msgid "GitHub"
+msgstr ""
+
+#: inc/settings.class.php:448
+msgid "Behance"
+msgstr ""
+
+#: inc/settings.class.php:455
+msgid "Tiktok"
+msgstr ""
+
+#: inc/settings.class.php:462
+msgid "Snapchat"
+msgstr ""
+
+#: inc/settings.class.php:509
+#: lib/smart-framework/fields/border/border.class.php:63
+#: templates/loop/cate.php:45
+msgid "All"
+msgstr ""
+
+#: inc/settings.class.php:560
+msgid "Carousel Slider"
+msgstr ""
+
+#: inc/settings.class.php:561 inc/settings.class.php:581
+#: inc/settings.class.php:600
+msgid "Ajax - Pagination"
+msgstr ""
+
+#: inc/settings.class.php:562 inc/settings.class.php:582
+#: inc/settings.class.php:601
+msgid "Ajax - Next Prev"
+msgstr ""
+
+#: inc/settings.class.php:563 inc/settings.class.php:583
+#: inc/settings.class.php:602
+msgid "Ajax - Load More"
+msgstr ""
+
+#: inc/settings.class.php:580
+msgid "Pagination"
+msgstr ""
+
+#: inc/settings.class.php:584
+msgid "Ajax - Infinite Scroll"
+msgstr ""
+
+#: inc/settings.class.php:637
+msgid "Accent"
+msgstr ""
+
+#: inc/settings.class.php:638
+msgid "Primary"
+msgstr ""
+
+#: inc/settings.class.php:639
+msgid "Secondary"
+msgstr ""
+
+#: inc/settings.class.php:642
+msgid "Gray"
+msgstr ""
+
+#: inc/settings.class.php:643 inc/xmenu/templates/xmenu-panel.php:86
+msgid "Custom"
+msgstr ""
+
+#: inc/settings.class.php:658
+msgid "Style"
+msgstr ""
+
+#: inc/settings.class.php:659
+msgid "Select button display style."
+msgstr ""
+
+#: inc/settings.class.php:662
+msgid "Classic"
+msgstr ""
+
+#: inc/settings.class.php:663
+msgid "Outline"
+msgstr ""
+
+#: inc/settings.class.php:664
+msgid "Link"
+msgstr ""
+
+#: inc/settings.class.php:671
+msgid "Shape"
+msgstr ""
+
+#: inc/settings.class.php:672
+msgid "Select button shape."
+msgstr ""
+
+#: inc/settings.class.php:675
+msgid "Rounded"
+msgstr ""
+
+#: inc/settings.class.php:676
+msgid "Square"
+msgstr ""
+
+#: inc/settings.class.php:677
+msgid "Round"
+msgstr ""
+
+#: inc/settings.class.php:688
+msgid "Size"
+msgstr ""
+
+#: inc/settings.class.php:690
+msgid "Select button display size."
+msgstr ""
+
+#: inc/settings.class.php:693
+msgid "Small"
+msgstr ""
+
+#: inc/settings.class.php:694
+msgid "Normal"
+msgstr ""
+
+#: inc/settings.class.php:695
+msgid "Large"
+msgstr ""
+
+#: inc/settings.class.php:696
+msgid "Extra Large"
+msgstr ""
+
+#: inc/settings.class.php:704
+msgid "Select button color."
+msgstr ""
+
+#: inc/settings.class.php:710
+msgid "Button 3D?"
+msgstr ""
+
+#: inc/settings.class.php:723
+msgid "Top to bottom"
+msgstr ""
+
+#: inc/settings.class.php:724
+msgid "Bottom to top"
+msgstr ""
+
+#: inc/settings.class.php:725
+msgid "Left to right"
+msgstr ""
+
+#: inc/settings.class.php:726
+msgid "Right to left"
+msgstr ""
+
+#: inc/settings.class.php:727
+msgid "Appear from center"
+msgstr ""
+
+#: inc/settings.class.php:743
+msgid "Other"
+msgstr ""
+
+#: inc/settings.class.php:749
+#: lib/smart-framework/fields/border/border.class.php:99
+#: lib/smart-framework/fields/spacing/spacing.class.php:31
+msgid "Left"
+msgstr ""
+
+#: inc/settings.class.php:750
+msgid "Center"
+msgstr ""
+
+#: inc/settings.class.php:751
+#: lib/smart-framework/fields/border/border.class.php:81
+#: lib/smart-framework/fields/spacing/spacing.class.php:38
+msgid "Right"
+msgstr ""
+
+#: inc/widget-areas/views/sidebars.php:10
+#: inc/widget-areas/widget-areas.class.php:32
+#: inc/widget-areas/widget-areas.class.php:33
+msgid "Sidebars Management"
+msgstr ""
+
+#: inc/widget-areas/views/sidebars.php:20
+#: inc/widget-areas/views/widget-area-box.php:18
+#: inc/widget-areas/views/widget-area-box.php:19
+msgid "Name"
+msgstr ""
+
+#: inc/widget-areas/views/sidebars.php:33
+#: lib/smart-framework/fields/background/background.class.php:105
+#: lib/smart-framework/fields/file/file.class.php:26
+#: lib/smart-framework/fields/image/image.class.php:47
+msgid "Remove"
+msgstr ""
+
+#: inc/widget-areas/views/sidebars.php:41
+msgid "No Sidebars defined"
+msgstr ""
+
+#: inc/widget-areas/views/widget-area-box.php:12
+#: inc/widget-areas/views/widget-area-box.php:23
+msgid "Create Widget Area"
+msgstr ""
+
+#: inc/widget-areas/widget-areas.class.php:57
+msgid "Are you sure to delete this widget areas?"
+msgstr ""
+
+#: inc/widget.class.php:30
+msgid "Off Canvas"
+msgstr ""
+
+#: inc/widget.class.php:39
+#, php-format
+msgid "Add widgets here to appear in %s sidebar"
+msgstr ""
+
+#: inc/xmenu/inc/xmenu-walker.php:303
+#: inc/xmenu/templates/xmenu-panel.php:59
+msgid "Hot"
+msgstr ""
+
+#: inc/xmenu/inc/xmenu-walker.php:307
+#: inc/xmenu/templates/xmenu-panel.php:58
+msgid "New"
+msgstr ""
+
+#: inc/xmenu/inc/xmenu-walker.php:311
+msgid "Featured"
+msgstr ""
+
+#: inc/xmenu/templates/xmenu-panel.php:11
+msgid "Sub Menu"
+msgstr ""
+
+#: inc/xmenu/templates/xmenu-panel.php:15
+#: inc/xmenu/templates/xmenu-panel.php:16
+msgid "Save"
+msgstr ""
+
+#: inc/xmenu/templates/xmenu-panel.php:16
+msgid "Saving..."
+msgstr ""
+
+#: inc/xmenu/templates/xmenu-panel.php:18
+msgid "Save All"
+msgstr ""
+
+#: inc/xmenu/templates/xmenu-panel.php:24
+msgid "URL"
+msgstr ""
+
+#: inc/xmenu/templates/xmenu-panel.php:28
+msgid "Navigation Label"
+msgstr ""
+
+#: inc/xmenu/templates/xmenu-panel.php:32
+msgid "Title Attribute"
+msgstr ""
+
+#: inc/xmenu/templates/xmenu-panel.php:37
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: inc/xmenu/templates/xmenu-panel.php:40
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: inc/xmenu/templates/xmenu-panel.php:44
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: inc/xmenu/templates/xmenu-panel.php:48
+msgid "Description"
+msgstr ""
+
+#: inc/xmenu/templates/xmenu-panel.php:53
+msgid "Menu Featured"
+msgstr ""
+
+#: inc/xmenu/templates/xmenu-panel.php:57
+msgid "Select style..."
+msgstr ""
+
+#: inc/xmenu/templates/xmenu-panel.php:63
+msgid "Feature menu text..."
+msgstr ""
+
+#: inc/xmenu/templates/xmenu-panel.php:68
+msgid "Icon"
+msgstr ""
+
+#: inc/xmenu/templates/xmenu-panel.php:73
+msgid "Set icon"
+msgstr ""
+
+#: inc/xmenu/templates/xmenu-panel.php:81
+msgid "Sub Menu Width"
+msgstr ""
+
+#: inc/xmenu/templates/xmenu-panel.php:83
+msgid "Auto"
+msgstr ""
+
+#: inc/xmenu/templates/xmenu-panel.php:84
+msgid "Container"
+msgstr ""
+
+#: inc/xmenu/templates/xmenu-panel.php:90
+msgid "Sub Menu Width Custom"
+msgstr ""
+
+#: inc/xmenu/templates/xmenu-panel.php:94
+msgid "Sub Menu Position"
+msgstr ""
+
+#: inc/xmenu/templates/xmenu-panel.php:97
+msgid "Left Of Parent"
+msgstr ""
+
+#: inc/xmenu/templates/xmenu-panel.php:98
+msgid "Right Of Parent"
+msgstr ""
+
+#: inc/xmenu/templates/xmenu-panel.php:102
+msgid "Sub Menu Transition"
+msgstr ""
+
+#: lib/smart-framework/admin/templates/icons-popup.tpl.php:6
+#: lib/smart-framework/core/icons-popup/templates/icons-popup.tpl.php:6
+msgid "Search Icon..."
+msgstr ""
+
+#: lib/smart-framework/admin/templates/icons-popup.tpl.php:22
+#: lib/smart-framework/admin/templates/icons-popup.tpl.php:41
+#: lib/smart-framework/admin/templates/icons-popup.tpl.php:42
+#: lib/smart-framework/core/icons-popup/templates/icons-popup.tpl.php:21
+#: lib/smart-framework/core/icons-popup/templates/icons-popup.tpl.php:40
+#: lib/smart-framework/core/icons-popup/templates/icons-popup.tpl.php:41
+msgid "All Icons"
+msgstr ""
+
+#: lib/smart-framework/admin/templates/icons-popup.tpl.php:35
+#: lib/smart-framework/core/icons-popup/templates/icons-popup.tpl.php:34
+msgid "Select An Icon"
+msgstr ""
+
+#: lib/smart-framework/admin/templates/icons-popup.tpl.php:42
+#: lib/smart-framework/core/icons-popup/templates/icons-popup.tpl.php:41
+msgid "Search result for \"{0}\""
+msgstr ""
+
+#: lib/smart-framework/admin/templates/preset-popup.php:3
+#: lib/smart-framework/admin/templates/theme-options-start.php:67
+msgid "Create Preset Options"
+msgstr ""
+
+#: lib/smart-framework/admin/templates/preset-popup.php:6
+msgid "Enter your preset:"
+msgstr ""
+
+#: lib/smart-framework/admin/templates/preset-popup.php:9
+msgid "Create Preset"
+msgstr ""
+
+#: lib/smart-framework/admin/templates/theme-options-end.php:3
+msgid "Import/Export"
+msgstr ""
+
+#: lib/smart-framework/admin/templates/theme-options-end.php:5
+msgid "Reset Section"
+msgstr ""
+
+#: lib/smart-framework/admin/templates/theme-options-end.php:7
+msgid "Reset Options"
+msgstr ""
+
+#: lib/smart-framework/admin/templates/theme-options-start.php:36
+msgid "version"
+msgstr ""
+
+#: lib/smart-framework/admin/templates/theme-options-start.php:44
+msgid "Make Default Options"
+msgstr ""
+
+#: lib/smart-framework/admin/templates/theme-options-start.php:45
+msgid "Delete Preset"
+msgstr ""
+
+#: lib/smart-framework/admin/templates/theme-options-start.php:46
+msgid "Preview"
+msgstr ""
+
+#: lib/smart-framework/admin/templates/theme-options-start.php:57
+msgid "Select Preset Options..."
+msgstr ""
+
+#: lib/smart-framework/admin/templates/theme-options-start.php:61
+msgid "Default Options"
+msgstr ""
+
+#: lib/smart-framework/admin/templates/theme-options-start.php:71
+msgid "Save Options"
+msgstr ""
+
+#: lib/smart-framework/core/fonts/fonts.class.php:86
+msgid "Are you sure delete custom font?"
+msgstr ""
+
+#: lib/smart-framework/core/fonts/fonts.class.php:87
+msgid "Are you sure remove this font?"
+msgstr ""
+
+#: lib/smart-framework/core/fonts/fonts.class.php:88
+msgid "Are you sure reset active fonts?"
+msgstr ""
+
+#: lib/smart-framework/core/fonts/fonts.class.php:274
+msgid "Google Fonts"
+msgstr ""
+
+#: lib/smart-framework/core/fonts/fonts.class.php:275
+#: lib/smart-framework/inc/admin-ajax.class.php:108
+msgid "Standard Fonts"
+msgstr ""
+
+#: lib/smart-framework/core/fonts/fonts.class.php:276
+msgid "Custom Fonts"
+msgstr ""
+
+#: lib/smart-framework/core/fonts/fonts.class.php:528
+#: lib/smart-framework/core/fonts/fonts.class.php:671
+#: lib/smart-framework/core/fonts/fonts.class.php:699
+#: lib/smart-framework/core/fonts/fonts.class.php:736
+#: lib/smart-framework/core/fonts/fonts.class.php:755
+#: lib/smart-framework/core/fonts/fonts.class.php:778
+#: lib/smart-framework/core/fonts/fonts.class.php:816
+msgid "Access deny!"
+msgstr ""
+
+#: lib/smart-framework/core/fonts/fonts.class.php:573
+#: lib/smart-framework/core/fonts/fonts.class.php:582
+msgid "Font Exist!"
+msgstr ""
+
+#: lib/smart-framework/core/fonts/fonts.class.php:605
+msgid "Missing css file!"
+msgstr ""
+
+#: lib/smart-framework/core/fonts/fonts.class.php:663
+msgid "Only allowed with 1 css file!"
+msgstr ""
+
+#: lib/smart-framework/core/fonts/fonts.class.php:688
+msgid "Font directory is not deleted"
+msgstr ""
+
+#: lib/smart-framework/core/fonts/fonts.class.php:692
+#: lib/smart-framework/core/fonts/fonts.class.php:704
+msgid "Delete custom font done!"
+msgstr ""
+
+#: lib/smart-framework/core/fonts/fonts.class.php:744
+msgid "Fonts already exists!"
+msgstr ""
+
+#: lib/smart-framework/core/fonts/fonts.class.php:809
+msgid "Save Done!"
+msgstr ""
+
+#: lib/smart-framework/core/fonts/templates/active.tpl.php:11
+#: lib/smart-framework/core/fonts/templates/custom.tpl.php:39
+#: lib/smart-framework/core/fonts/templates/google.tpl.php:30
+#: lib/smart-framework/core/fonts/templates/standard.tpl.php:17
+msgid "Replace Font"
+msgstr ""
+
+#: lib/smart-framework/core/fonts/templates/active.tpl.php:14
+msgid "Remove font!"
+msgstr ""
+
+#: lib/smart-framework/core/fonts/templates/active.tpl.php:21
+msgid "Welcome to font preview!"
+msgstr ""
+
+#: lib/smart-framework/core/fonts/templates/active.tpl.php:28
+msgid "Variants"
+msgstr ""
+
+#: lib/smart-framework/core/fonts/templates/active.tpl.php:40
+msgid "Subsets"
+msgstr ""
+
+#: lib/smart-framework/core/fonts/templates/active.tpl.php:53
+msgid "Selector apply:"
+msgstr ""
+
+#: lib/smart-framework/core/fonts/templates/active.tpl.php:61
+msgid "Save Changes"
+msgstr ""
+
+#: lib/smart-framework/core/fonts/templates/custom.tpl.php:5
+#: lib/smart-framework/core/fonts/templates/custom.tpl.php:18
+msgid "Add Custom Font"
+msgstr ""
+
+#: lib/smart-framework/core/fonts/templates/custom.tpl.php:9
+msgid "Font name:"
+msgstr ""
+
+#: lib/smart-framework/core/fonts/templates/custom.tpl.php:13
+msgid "Fonts files (zip):"
+msgstr ""
+
+#: lib/smart-framework/core/fonts/templates/custom.tpl.php:15
+msgid ""
+"File zip contains stylesheet.css and font files (accept: .woff, .eot, ."
+"svg, .ttf)"
+msgstr ""
+
+#: lib/smart-framework/core/fonts/templates/custom.tpl.php:28
+msgid "Delete custom font"
+msgstr ""
+
+#: lib/smart-framework/core/fonts/templates/custom.tpl.php:32
+#: lib/smart-framework/core/fonts/templates/google.tpl.php:22
+#: lib/smart-framework/core/fonts/templates/standard.tpl.php:10
+msgid "Font activated"
+msgstr ""
+
+#: lib/smart-framework/core/fonts/templates/custom.tpl.php:35
+#: lib/smart-framework/core/fonts/templates/google.tpl.php:25
+#: lib/smart-framework/core/fonts/templates/standard.tpl.php:13
+msgid "Use this font"
+msgstr ""
+
+#: lib/smart-framework/core/fonts/templates/custom.tpl.php:47
+msgid "Add Custom Fonts"
+msgstr ""
+
+#: lib/smart-framework/core/fonts/templates/fonts.php:11
+msgid "Available Fonts"
+msgstr ""
+
+#: lib/smart-framework/core/fonts/templates/fonts.php:12
+msgid "Search fonts..."
+msgstr ""
+
+#: lib/smart-framework/core/fonts/templates/fonts.php:28
+msgid "Active Fonts"
+msgstr ""
+
+#: lib/smart-framework/core/fonts/templates/fonts.php:28
+msgid "Reset Fonts"
+msgstr ""
+
+#: lib/smart-framework/core/fonts/templates/google.tpl.php:18
+msgid "Preview font"
+msgstr ""
+
+#: lib/smart-framework/core/fonts/templates/select-active.tpl.php:3
+msgid "Are you sure to change the font from \"{1}\" to \"{2}?\""
+msgstr ""
+
+#: lib/smart-framework/core/fonts/templates/select-active.tpl.php:5
+msgid "Select font to replace"
+msgstr ""
+
+#: lib/smart-framework/core/fonts/templates/select-active.tpl.php:12
+#: lib/smart-framework/fields/select_popup/select_popup.class.php:45
+msgid "Change"
+msgstr ""
+
+#: lib/smart-framework/core/icons-popup/templates/icons-popup.tpl.php:44
+msgid "Load more..."
+msgstr ""
+
+#: lib/smart-framework/fields/background/background.class.php:101
+msgid "No background image"
+msgstr ""
+
+#: lib/smart-framework/fields/background/background.class.php:104
+#: lib/smart-framework/fields/image/image.class.php:45
+msgid "Choose Image"
+msgstr ""
+
+#: lib/smart-framework/fields/background/background.class.php:108
+msgid "Background Image Properties"
+msgstr ""
+
+#: lib/smart-framework/fields/border/border.class.php:72
+#: lib/smart-framework/fields/spacing/spacing.class.php:45
+msgid "Top"
+msgstr ""
+
+#: lib/smart-framework/fields/border/border.class.php:90
+#: lib/smart-framework/fields/spacing/spacing.class.php:52
+msgid "Bottom"
+msgstr ""
+
+#: lib/smart-framework/fields/dimension/dimension.class.php:29
+msgid "Width"
+msgstr ""
+
+#: lib/smart-framework/fields/dimension/dimension.class.php:36
+msgid "Height"
+msgstr ""
+
+#: lib/smart-framework/fields/field.php:345
+msgid "+ Add more"
+msgstr ""
+
+#: lib/smart-framework/fields/file/file.class.php:14
+msgid "Select File"
+msgstr ""
+
+#: lib/smart-framework/fields/file/file.class.php:15
+msgid "Use these files"
+msgstr ""
+
+#: lib/smart-framework/fields/file/file.class.php:56
+msgid "+ Add File"
+msgstr ""
+
+#: lib/smart-framework/fields/font/font.class.php:42
+#: lib/smart-framework/fields/typography/typography.class.php:59
+msgid "Font Family"
+msgstr ""
+
+#: lib/smart-framework/fields/font/font.class.php:43
+#: lib/smart-framework/fields/typography/typography.class.php:60
+msgid "Select Font Family"
+msgstr ""
+
+#: lib/smart-framework/fields/font/font.class.php:51
+#: lib/smart-framework/fields/typography/typography.class.php:77
+msgid "Font Size"
+msgstr ""
+
+#: lib/smart-framework/fields/font/font.class.php:55
+#: lib/smart-framework/fields/typography/typography.class.php:81
+msgid "Font size"
+msgstr ""
+
+#: lib/smart-framework/fields/font/font.class.php:72
+#: lib/smart-framework/fields/typography/typography.class.php:98
+msgid "Font Weight & Style"
+msgstr ""
+
+#: lib/smart-framework/fields/font/font.class.php:80
+msgid "Font Subsets"
+msgstr ""
+
+#: lib/smart-framework/fields/gallery/gallery.class.php:40
+msgid "+ Add Images"
+msgstr ""
+
+#: lib/smart-framework/fields/icon/icon.class.php:22
+msgid "Select icon"
+msgstr ""
+
+#: lib/smart-framework/fields/icon/icon.class.php:23
+#: lib/smart-framework/fields/icon/icon.class.php:28
+msgid "Remove icon"
+msgstr ""
+
+#: lib/smart-framework/fields/icon/icon.class.php:24
+msgid "Search icon..."
+msgstr ""
+
+#: lib/smart-framework/fields/icon/icon.class.php:27
+msgid "Set Icon"
+msgstr ""
+
+#: lib/smart-framework/fields/image/image.class.php:42
+msgid "No image"
+msgstr ""
+
+#: lib/smart-framework/fields/map/map.class.php:31
+msgid "Enter an address..."
+msgstr ""
+
+#: lib/smart-framework/fields/map/map.class.php:40
+msgid "Find Address"
+msgstr ""
+
+#: lib/smart-framework/fields/panel/panel.class.php:76
+msgid "+ Add "
+msgstr ""
+
+#: lib/smart-framework/fields/select_popup/templates/popup.tpl.php:21
+msgid "Current"
+msgstr ""
+
+#: lib/smart-framework/fields/selectize/selectize.class.php:176
+msgid "Edit"
+msgstr ""
+
+#: lib/smart-framework/fields/selectize/selectize.class.php:179
+msgid "Add New"
+msgstr ""
+
+#: lib/smart-framework/fields/typography/typography.class.php:67
+msgid "(Not activated)"
+msgstr ""
+
+#: lib/smart-framework/fields/typography/typography.class.php:104
+msgid "(Missing variant)"
+msgstr ""
+
+#: lib/smart-framework/fields/typography/typography.class.php:129
+msgid "Align"
+msgstr ""
+
+#: lib/smart-framework/fields/typography/typography.class.php:153
+msgid "Text Transform"
+msgstr ""
+
+#: lib/smart-framework/fields/typography/typography.class.php:165
+msgid "Line Height"
+msgstr ""
+
+#: lib/smart-framework/fields/typography/typography.class.php:173
+msgid "Letter Spacing"
+msgstr ""
+
+#: lib/smart-framework/inc/admin-ajax.class.php:111
+msgid "Google Webfonts"
+msgstr ""
+
+#: lib/smart-framework/inc/admin-meta-boxes.class.php:78
+#: lib/smart-framework/inc/admin-taxonomy.class.php:95
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: lib/smart-framework/inc/admin-meta-boxes.class.php:79
+#: lib/smart-framework/inc/admin-taxonomy.class.php:92
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: lib/smart-framework/inc/admin-meta-boxes.class.php:80
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: lib/smart-framework/inc/admin-meta-boxes.class.php:81
+#: lib/smart-framework/inc/admin-taxonomy.class.php:93
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: lib/smart-framework/inc/admin-meta-boxes.class.php:82
+#: lib/smart-framework/inc/admin-taxonomy.class.php:87
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: lib/smart-framework/inc/admin-meta-boxes.class.php:83
+#: lib/smart-framework/inc/admin-taxonomy.class.php:100
+#, php-format
+msgid "No %s found."
+msgstr ""
+
+#: lib/smart-framework/inc/admin-meta-boxes.class.php:84
+#, php-format
+msgid "No %s found in Trash."
+msgstr ""
+
+#: lib/smart-framework/inc/admin-meta-boxes.class.php:85
+#: lib/smart-framework/inc/admin-taxonomy.class.php:89
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: lib/smart-framework/inc/admin-meta-boxes.class.php:86
+#, php-format
+msgid "%s Archives"
+msgstr ""
+
+#: lib/smart-framework/inc/admin-meta-boxes.class.php:87
+#, php-format
+msgid "Insert into %s"
+msgstr ""
+
+#: lib/smart-framework/inc/admin-meta-boxes.class.php:88
+#, php-format
+msgid "Uploaded to this %s"
+msgstr ""
+
+#: lib/smart-framework/inc/admin-meta-boxes.class.php:89
+#, php-format
+msgid "Filter %s list"
+msgstr ""
+
+#: lib/smart-framework/inc/admin-meta-boxes.class.php:90
+#: lib/smart-framework/inc/admin-taxonomy.class.php:102
+#, php-format
+msgid "%s list navigation"
+msgstr ""
+
+#: lib/smart-framework/inc/admin-meta-boxes.class.php:91
+#: lib/smart-framework/inc/admin-taxonomy.class.php:103
+#, php-format
+msgid "%s list"
+msgstr ""
+
+#: lib/smart-framework/inc/admin-taxonomy.class.php:88
+#, php-format
+msgid "Popular %s"
+msgstr ""
+
+#: lib/smart-framework/inc/admin-taxonomy.class.php:90
+#, php-format
+msgid "Parent %s"
+msgstr ""
+
+#: lib/smart-framework/inc/admin-taxonomy.class.php:91
+#, php-format
+msgid "Parent %s:"
+msgstr ""
+
+#: lib/smart-framework/inc/admin-taxonomy.class.php:94
+#, php-format
+msgid "Update %s"
+msgstr ""
+
+#: lib/smart-framework/inc/admin-taxonomy.class.php:96
+#, php-format
+msgid "New %s New"
+msgstr ""
+
+#: lib/smart-framework/inc/admin-taxonomy.class.php:97
+#, php-format
+msgid "Separate %s with commas"
+msgstr ""
+
+#: lib/smart-framework/inc/admin-taxonomy.class.php:98
+#, php-format
+msgid "Add or remove %s"
+msgstr ""
+
+#: lib/smart-framework/inc/admin-taxonomy.class.php:99
+#, php-format
+msgid "Choose from the most used %s"
+msgstr ""
+
+#: lib/smart-framework/inc/admin-taxonomy.class.php:101
+#, php-format
+msgid "No %s"
+msgstr ""
+
+#: lib/smart-framework/inc/admin-theme-options.class.php:106
+msgid "Saving Options..."
+msgstr ""
+
+#: lib/smart-framework/inc/admin-theme-options.class.php:107
+msgid "Resetting Options..."
+msgstr ""
+
+#: lib/smart-framework/inc/admin-theme-options.class.php:108
+msgid "Resetting Section..."
+msgstr ""
+
+#: lib/smart-framework/inc/admin-theme-options.class.php:109
+msgid "Are you sure? Resetting will lose all custom values."
+msgstr ""
+
+#: lib/smart-framework/inc/admin-theme-options.class.php:110
+msgid ""
+"Are you sure? Resetting will lose all custom values in this section."
+msgstr ""
+
+#: lib/smart-framework/inc/admin-theme-options.class.php:111
+msgid "Reset theme options done"
+msgstr ""
+
+#: lib/smart-framework/inc/admin-theme-options.class.php:112
+msgid "Reset theme options error"
+msgstr ""
+
+#: lib/smart-framework/inc/admin-theme-options.class.php:113
+msgid "Reset section done"
+msgstr ""
+
+#: lib/smart-framework/inc/admin-theme-options.class.php:114
+msgid "Reset section error"
+msgstr ""
+
+#: lib/smart-framework/inc/admin-theme-options.class.php:115
+msgid ""
+"Are you sure?  This will overwrite all existing option values, please "
+"proceed with caution!"
+msgstr ""
+
+#: lib/smart-framework/inc/admin-theme-options.class.php:116
+msgid "Import option done"
+msgstr ""
+
+#: lib/smart-framework/inc/admin-theme-options.class.php:117
+msgid "Import option error"
+msgstr ""
+
+#: lib/smart-framework/inc/admin-theme-options.class.php:118
+msgid "Settings have changed, you should save them!"
+msgstr ""
+
+#: lib/smart-framework/inc/admin-theme-options.class.php:119
+msgid "Data saved successfully!"
+msgstr ""
+
+#: lib/smart-framework/inc/admin-theme-options.class.php:120
+msgid "Are you sure? The current preset will be deleted!"
+msgstr ""
+
+#: lib/smart-framework/inc/admin-theme-options.class.php:121
+msgid "Delete preset options done"
+msgstr ""
+
+#: lib/smart-framework/inc/admin-theme-options.class.php:122
+msgid "Delete preset options error"
+msgstr ""
+
+#: lib/smart-framework/inc/admin-theme-options.class.php:123
+msgid "Deleting Section..."
+msgstr ""
+
+#: lib/smart-framework/inc/admin-theme-options.class.php:124
+msgid "Changes you made may not be saved. Do you want change options?"
+msgstr ""
+
+#: lib/smart-framework/inc/admin-theme-options.class.php:125
+msgid "Are you sure? Make this preset to default options."
+msgstr ""
+
+#: lib/smart-framework/inc/admin-theme-options.class.php:126
+msgid "Make this preset to default options..."
+msgstr ""
+
+#: lib/smart-framework/inc/admin-theme-options.class.php:127
+msgid "Make this preset to default options error"
+msgstr ""
+
+#: lib/smart-framework/inc/admin-theme-options.class.php:508
+msgid "Import/Export Options"
+msgstr ""
+
+#: lib/smart-framework/inc/admin-theme-options.class.php:512
+msgid "Import Options"
+msgstr ""
+
+#: lib/smart-framework/inc/admin-theme-options.class.php:516
+#: lib/smart-framework/inc/admin-theme-options.class.php:517
+msgid "Import"
+msgstr ""
+
+#: lib/smart-framework/inc/admin-theme-options.class.php:517
+msgid "Importing..."
+msgstr ""
+
+#: lib/smart-framework/inc/admin-theme-options.class.php:518
+msgid ""
+"WARNING! This will overwrite all existing option values, please proceed "
+"with caution!"
+msgstr ""
+
+#: lib/smart-framework/inc/admin-theme-options.class.php:522
+msgid "Export Options"
+msgstr ""
+
+#: lib/smart-framework/inc/admin-theme-options.class.php:525
+msgid "Download Data File"
+msgstr ""
+
+#: lib/smart-framework/inc/admin-theme-options.class.php:540
+#: lib/smart-framework/inc/admin-theme-options.class.php:592
+msgid "Save options Done"
+msgstr ""
+
+#: lib/smart-framework/inc/assets.class.php:56
+msgid "Clear"
+msgstr ""
+
+#: lib/smart-framework/inc/assets.class.php:57
+msgid "Clear color"
+msgstr ""
+
+#: lib/smart-framework/inc/assets.class.php:59
+msgid "Select default color"
+msgstr ""
+
+#: lib/smart-framework/inc/assets.class.php:60
+msgid "Select Color"
+msgstr ""
+
+#: lib/smart-framework/inc/assets.class.php:61
+msgid "Color value"
+msgstr ""
+
+#: lib/smart-framework/smart-framework.php:161
+msgid "Smart Framework"
+msgstr ""
+
+#: templates/header/customize/login-popup.php:14
+#: templates/header/customize/login.php:30
+#: templates/header/customize/login.php:34
+msgid "Sign in"
+msgstr ""
+
+#: templates/header/customize/login-popup.php:15
+msgid "Welcome, Login to your account"
+msgstr ""
+
+#: templates/header/customize/login-popup.php:23
+#: templates/header/customize/login-popup.php:104
+msgid "Username or Email..."
+msgstr ""
+
+#: templates/header/customize/login-popup.php:25
+#: templates/header/customize/login-popup.php:105
+msgid "Please enter a username or email address"
+msgstr ""
+
+#: templates/header/customize/login-popup.php:28
+msgid "Password"
+msgstr ""
+
+#: templates/header/customize/login-popup.php:30
+msgid "Please enter a password"
+msgstr ""
+
+#: templates/header/customize/login-popup.php:36
+msgid "Remember me"
+msgstr ""
+
+#: templates/header/customize/login-popup.php:40
+msgid "Forget password?"
+msgstr ""
+
+#: templates/header/customize/login-popup.php:54
+msgid "Don’t have an account?"
+msgstr ""
+
+#: templates/header/customize/login-popup.php:54
+msgid "Sign up now"
+msgstr ""
+
+#: templates/header/customize/login-popup.php:64
+#: templates/header/customize/login-popup.php:78
+msgid "Register"
+msgstr ""
+
+#: templates/header/customize/login-popup.php:65
+msgid "Create New Account!"
+msgstr ""
+
+#: templates/header/customize/login-popup.php:72
+msgid "Username"
+msgstr ""
+
+#: templates/header/customize/login-popup.php:72
+msgid "Please enter a username"
+msgstr ""
+
+#: templates/header/customize/login-popup.php:75
+msgid "Please enter a valid email address"
+msgstr ""
+
+#: templates/header/customize/login-popup.php:86
+#: templates/header/customize/login-popup.php:111
+msgid "A password will be e-mailed to you."
+msgstr ""
+
+#: templates/header/customize/login-popup.php:95
+msgid "Password Recovery"
+msgstr ""
+
+#: templates/header/customize/login-popup.php:96
+msgid "Recover your password"
+msgstr ""
+
+#: templates/header/customize/login-popup.php:108
+msgid "Get New Password"
+msgstr ""
+
+#: templates/header/customize/login.php:15
+#: templates/header/customize/login.php:17
+msgid "Logout"
+msgstr ""
+
+#: templates/header/customize/login.php:22
+#: templates/header/customize/login.php:26
+msgid "Sign in / Join"
+msgstr ""
+
+#: templates/header/customize/search-form.php:18
+msgid "Type to search..."
+msgstr ""
+
+#: templates/header/customize/search-form.php:18
+msgid "Type and hit enter"
+msgstr ""
+
+#: templates/header/customize/search-form.php:20
+msgid "Remove search terms"
+msgstr ""
+
+#: templates/loop/cate.php:26 templates/loop/tabs.php:12
+#: templates/paging/load-more.php:29
+msgid "More"
+msgstr ""
+
+#: templates/paging/next-prev.php:39
+msgid "Prev"
+msgstr ""
+
+#: templates/paging/next-prev.php:42
+msgid "Next"
+msgstr ""
+
+#: templates/paging/pagination-ajax.php:36
+#: templates/paging/pagination.php:36
+msgid "PREV"
+msgstr ""
+
+#: templates/paging/pagination-ajax.php:37
+#: templates/paging/pagination.php:37
+msgid "NEXT"
+msgstr ""
+
+#: templates/share.php:22
+msgid "Share:"
+msgstr ""
+
+#: templates/share.php:75
+msgid "Whats App"
+msgstr ""

@@ -1,0 +1,105 @@
+
+.gel-heading-title {
+	margin-bottom: 0;
+	font-size: 32px;
+	line-height: 1.63;
+	mark {
+		color: var(--g5-color-accent);
+		padding: 0;
+	}
+}
+
+.gel-heading-subtitle {
+	text-transform: uppercase;
+	color: var(--g5-color-accent);
+	font-weight: 500;
+	letter-spacing: 2.63px;
+	margin-bottom: 18px;
+}
+
+.gel-heading-separate {
+	width: 75px;
+	height: 3px;
+	margin-top: 15px;
+	margin-bottom: 0;
+	background-color: var(--g5-color-accent);
+}
+
+.gel-heading-description {
+	font-size: 14px;
+	margin-bottom: 0;
+	margin-top: 10px;
+}
+
+.gel-heading.has-line-separator {
+	.gel-heading-description {
+		padding-top: 11px;
+	}
+}
+
+.custom-heading-01 {
+	.gel-heading-title {
+		font-size: 26px;
+		line-height: 1.85;
+	}
+	.gel-heading-separate {
+		margin-top: 16px;
+	}
+}
+
+.custom-heading-02 {
+	.gel-heading-description {
+		font-size: 15px;
+		line-height: 1.73;
+		margin-top: 26px;
+	}
+	&.des-mw-830 .gel-heading-description {
+		max-width: 830px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.custom-heading-03 {
+	.gel-heading-title {
+		font-size: 20px;
+		font-weight: 400;
+		line-height: 1.7;
+		color: var(--g5-color-primary);
+		mark {
+			color: var(--g5-color-primary);
+			font-weight: 600;
+		}
+	}
+	.gel-heading-description {
+		margin-top: 1px;
+	}
+}
+
+.custom-heading-04 {
+	border-left: 4px solid;
+	border-color: var(--g5-color-accent);
+	padding-left: 29px;
+	.gel-heading-title {
+		line-height: 1.5;
+	}
+	.gel-heading-description {
+		font-size: 15px;
+		line-height: 2;
+		margin-top: 6px;
+	}
+}
+
+.custom-heading-desc-pt-17 .gel-heading-description {
+	margin-top: 17px;
+}
+
+.custom-heading-sub-pb-3 .gel-heading-subtitle{
+	margin-bottom: 3px;
+}
+
+@media (max-width: 991px) {
+	.md-heading-no-max-width {
+		max-width: unset !important;
+	}
+}

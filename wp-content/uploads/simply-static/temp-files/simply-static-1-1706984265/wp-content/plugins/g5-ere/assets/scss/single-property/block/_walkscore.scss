@@ -1,0 +1,42 @@
+.g5ere__property-walkscore {
+	.walkscore-logo {
+		margin-bottom: 1rem;
+	}
+
+	.walkscore-score {
+		position: relative;
+		@include d-flex();
+		@include align-items-center();
+		@include justify-content-center();
+		width: 35px;
+		height: 30px;
+		text-align: center;
+		color: #fb6a19;
+		border: 1px solid #fb6a19;
+		background-color: #fff;
+		margin-right: 15px;
+
+		&::before {
+			content: '';
+			position: absolute;
+			bottom: -2px;
+			left: 50%;
+			width: 12px;
+			height: 11px;
+			@include transform(rotate(-42deg) translateX(-50%));
+			border-bottom: 1px solid #fb6a19;
+			border-left: 1px solid #fb6a19;
+			background-color: #fff;
+		}
+	}
+
+	.walkscore-info {
+		.walkscore-description {
+			margin-bottom: 0;
+		}
+	}
+
+	.walk-score-more-detail {
+		margin-left: auto;
+	}
+}

@@ -1,0 +1,52 @@
+.g5ere__scb-style-02 {
+	.g5ere__single-block {
+		margin-bottom: 10px;
+		border-color: var(--g5-color-border);
+		@include border-radius(5px);
+		&:last-child {
+			margin-bottom: 0;
+		}
+		> .card-header {
+			background: transparent;
+			border-bottom: none;
+			padding: 25px 30px;
+			h2 {
+				font-size: 22px;
+			}
+		}
+
+		> .card-body {
+			padding: 0 30px 25px 30px;
+		}
+	}
+
+	.g5ere__single-block-tabs{
+		.g5ere__panel-heading{
+			border-bottom: 1px solid var(--g5-color-border);
+		}
+		.g5ere__tab-panel{
+			border: 0;
+		}
+	}
+
+	.g5ere__property-block-description {
+		.card-header {
+			padding-bottom: 20px;
+		}
+	}
+
+	.g5ere__property-block-header {
+		background-color: #fff;
+		padding: 30px;
+		border: 1px solid var(--g5-color-border);
+		@include border-radius(5px);
+		.g5ere__property-block-description {
+			.card-header {
+				padding: 0;
+			}
+			.card-body {
+				padding: 0;
+			}
+		}
+	}
+}

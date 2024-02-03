@@ -1,0 +1,70 @@
+.ere-property {
+  .property-label {
+    position: absolute;
+    left: 0;
+    top: 15px;
+    font-size: 0;
+    z-index: 3;
+    p {
+      margin-bottom: 5px;
+      color: #fff;
+      font-weight: 400;
+      .property-label-bg {
+        display: inline-block;
+        background-color: #fb6a19;
+        padding-left: 10px;
+        padding-right: 5px;
+        position: relative;
+        line-height: 19px;
+        font-size: 12px;
+        .property-arrow {
+          position: absolute;
+          content: '';
+          display: block;
+          left: 100%;
+          top: 0;
+          border-top: 10px solid transparent;
+          border-bottom: 9px solid transparent;
+          border-left: 7px solid;
+          border-left-color: #fb6a19;
+          border-right-color: #fb6a19;
+          border-right: none;
+        }
+      }
+    }
+  }
+  .property-status {
+    position: absolute;
+    right: 0;
+    top: 15px;
+    font-size: 0;
+    z-index: 3;
+    p {
+      margin-bottom: 5px;
+      color: #fff;
+      font-weight: 400;
+      .property-status-bg {
+        display: inline-block;
+        background-color: #fb6a19;
+        padding-left: 10px;
+        padding-right: 5px;
+        position: relative;
+        line-height: 19px;
+        font-size: 12px;
+        .property-arrow {
+          position: absolute;
+          content: '';
+          display: block;
+          right: 100%;
+          top: 0;
+          border-top: 10px solid transparent;
+          border-bottom: 9px solid transparent;
+          border-right: 7px solid;
+          border-left-color: #fb6a19;
+          border-right-color: #fb6a19;
+          border-left: none;
+        }
+      }
+    }
+  }
+}

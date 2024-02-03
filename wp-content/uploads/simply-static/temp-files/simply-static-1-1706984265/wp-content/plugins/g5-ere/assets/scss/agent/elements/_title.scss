@@ -1,0 +1,9 @@
+.g5ere__loop-agent-title {
+	font-size: 1rem;
+	word-break: break-word;
+	@include transition(color .3s);
+	margin-bottom: 3px;
+	a {
+		color: inherit;
+	}
+}

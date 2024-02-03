@@ -1,0 +1,8 @@
+.g5ere__property-badge {
+	letter-spacing: 0.87px;
+	@include border-radius(3px);
+	background-color: var(--g5-color-accent);
+	&.g5ere__featured{
+		background-color: $color_orange;
+	}
+}

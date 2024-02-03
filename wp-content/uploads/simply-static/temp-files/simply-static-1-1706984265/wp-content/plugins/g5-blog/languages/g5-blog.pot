@@ -1,0 +1,861 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: G5 Blog\n"
+"POT-Creation-Date: 2022-10-19 16:20+0700\n"
+"PO-Revision-Date: 2017-07-08 15:18+0700\n"
+"Last-Translator: \n"
+"Language-Team: G5Team\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_GB\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;"
+"_n_noop:1,2;_nx_noop:1,2,3c;__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: .idea\n"
+"X-Poedit-SearchPathExcluded-2: .svn\n"
+
+#: g5-blog.php:56
+msgid ""
+"G5 Blog is enabled but not effective. It requires G5 Core in order to "
+"work."
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:19
+msgid "Layout"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:44
+#: inc/config-options.class.php:97 inc/config-options.class.php:265
+#: inc/config-options.class.php:411 inc/config-options.class.php:472
+#: inc/config-options.class.php:664
+#: templates/shortcodes/posts-slider/config.php:31
+#: templates/shortcodes/posts/config.php:31
+msgid "Post Layout"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:45
+#: inc/config-options.class.php:98 inc/config-options.class.php:266
+#: inc/config-options.class.php:412 inc/config-options.class.php:473
+#: inc/config-options.class.php:665
+#: templates/shortcodes/posts-slider/config.php:32
+#: templates/shortcodes/posts/config.php:32
+msgid "Specify your post layout"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:56
+#: inc/config-options.class.php:111 inc/config-options.class.php:488
+#: templates/shortcodes/posts-slider/config.php:46
+#: templates/shortcodes/posts/config.php:46
+msgid "Show Excerpt"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:58
+msgid "Show"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:59
+msgid "Hide"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:89
+msgid "Query"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:112
+#: inc/functions/helper.php:74
+msgid "Narrow Category"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:114
+#: inc/functions/helper.php:78
+msgid "Enter categories by names to narrow output."
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:131
+#: inc/functions/helper.php:96
+msgid "Narrow Tag"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:133
+#: inc/functions/helper.php:100
+msgid "Enter tags by names to narrow output."
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:145
+#: inc/functions/helper.php:119
+msgid "Narrow Post"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:147
+#: inc/functions/helper.php:129
+msgid "Enter List of Posts"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:158
+#: inc/functions/helper.php:133
+msgid "Order by"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:159
+#: inc/functions/helper.php:149
+msgid ""
+"Select order type. If \"Meta value\" or \"Meta value Number\" is chosen "
+"then meta key is required."
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:161
+#: inc/functions/helper.php:136
+msgid "Date"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:162
+#: inc/functions/helper.php:137
+msgid "Order by post ID"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:163
+#: inc/functions/helper.php:138
+msgid "Author"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:164
+#: inc/abstract/elementor-listing.class.php:238
+#: inc/functions/helper.php:139 inc/widgets/post.class.php:17
+msgid "Title"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:165
+#: inc/functions/helper.php:140
+msgid "Last modified date"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:166
+#: inc/functions/helper.php:141
+msgid "Post/page parent ID"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:167
+#: inc/functions/helper.php:142
+msgid "Number of comments"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:168
+#: inc/functions/helper.php:143
+msgid "Menu order/Page Order"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:169
+#: inc/functions/helper.php:144
+msgid "Meta value"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:170
+#: inc/functions/helper.php:145
+msgid "Meta value number"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:171
+#: inc/functions/helper.php:146
+msgid "Random order"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:183
+#: inc/functions/helper.php:167
+msgid "Sorting"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:184
+#: inc/functions/helper.php:175
+msgid "Select sorting order."
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:186
+#: inc/functions/helper.php:170
+msgid "Descending"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:187
+#: inc/functions/helper.php:171
+msgid "Ascending"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:198
+#: inc/functions/helper.php:180
+msgid "Meta key"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:200
+msgid "Input meta key for grid ordering"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:214
+#: inc/functions/helper.php:153
+msgid "Time Filter"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:216
+#: inc/functions/helper.php:156
+msgid "No Filter"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:217
+#: inc/functions/helper.php:157
+msgid "Today Posts"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:218
+#: inc/functions/helper.php:158
+msgid "Today + Yesterday Posts"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:219
+#: inc/functions/helper.php:159
+msgid "This Week Posts"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:220
+#: inc/functions/helper.php:160
+msgid "This Month Posts"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:221
+#: inc/functions/helper.php:161
+msgid "This Year Posts"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:254
+#: inc/abstract/elementor-listing.class.php:334
+#: inc/abstract/elementor-listing.class.php:418
+msgid "Spacing"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:271
+#: inc/abstract/elementor-listing.class.php:352
+msgid "Normal"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:278
+#: inc/abstract/elementor-listing.class.php:298
+#: inc/abstract/elementor-listing.class.php:359
+#: inc/abstract/elementor-listing.class.php:379
+#: inc/abstract/elementor-listing.class.php:434
+msgid "Color"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:290
+#: inc/abstract/elementor-listing.class.php:371
+msgid "Hover"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:318
+msgid "Meta"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:399
+msgid "Excerpt"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:449 inc/settings.class.php:23
+#: inc/settings.class.php:62
+msgid "Large Image"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:453 inc/settings.class.php:28
+#: inc/settings.class.php:67
+msgid "Medium Image"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:457
+#: inc/abstract/elementor-listing.class.php:482 inc/settings.class.php:33
+#: inc/settings.class.php:72 inc/settings.class.php:100
+msgid "Grid"
+msgstr ""
+
+#: inc/abstract/elementor-listing.class.php:461 inc/settings.class.php:38
+#: inc/settings.class.php:77
+msgid "Masonry"
+msgstr ""
+
+#: inc/config-options.class.php:37 inc/config-options.class.php:48
+msgid "Blog"
+msgstr ""
+
+#: inc/config-options.class.php:47
+msgid "Blog Options"
+msgstr ""
+
+#: inc/config-options.class.php:67
+msgid "Archive Listing"
+msgstr ""
+
+#: inc/config-options.class.php:72
+msgid "Category Filter Enable"
+msgstr ""
+
+#: inc/config-options.class.php:73
+msgid "Turn On this option if you want to enable category filter"
+msgstr ""
+
+#: inc/config-options.class.php:79
+#: templates/shortcodes/posts-slider/config.php:23
+#: templates/shortcodes/posts/config.php:23
+msgid "Category Filter Align"
+msgstr ""
+
+#: inc/config-options.class.php:80
+msgid "Specify your category filter align"
+msgstr ""
+
+#: inc/config-options.class.php:89
+#: templates/shortcodes/posts-slider/config.php:83
+#: templates/shortcodes/posts/config.php:91
+msgid "Append Categories"
+msgstr ""
+
+#: inc/config-options.class.php:90
+#: templates/shortcodes/posts-slider/config.php:87
+#: templates/shortcodes/posts/config.php:95
+msgid ""
+"Change where the categories are attached (Selector, htmlString, Array, "
+"Element, jQuery object)"
+msgstr ""
+
+#: inc/config-options.class.php:105 inc/config-options.class.php:481
+#: templates/shortcodes/posts-slider/config.php:40
+#: templates/shortcodes/posts/config.php:40
+msgid "Item Css Classes"
+msgstr ""
+
+#: inc/config-options.class.php:106 inc/config-options.class.php:482
+#: templates/shortcodes/posts-slider/config.php:41
+#: templates/shortcodes/posts/config.php:41
+msgid "Add custom css classes to item"
+msgstr ""
+
+#: inc/config-options.class.php:116 inc/config-options.class.php:274
+#: inc/config-options.class.php:504
+msgid "Post Columns Gutter"
+msgstr ""
+
+#: inc/config-options.class.php:117 inc/config-options.class.php:275
+#: inc/config-options.class.php:505
+#: templates/shortcodes/posts/config.php:53
+msgid "Specify your horizontal space between post."
+msgstr ""
+
+#: inc/config-options.class.php:125 inc/config-options.class.php:286
+#: inc/config-options.class.php:513
+msgid "Post Columns"
+msgstr ""
+
+#: inc/config-options.class.php:136 inc/config-options.class.php:300
+#: inc/config-options.class.php:524
+msgid "Extra Large Devices"
+msgstr ""
+
+#: inc/config-options.class.php:137 inc/config-options.class.php:301
+#: inc/config-options.class.php:525
+msgid "Specify your post columns on extra large devices (>= 1200px)"
+msgstr ""
+
+#: inc/config-options.class.php:145 inc/config-options.class.php:309
+#: inc/config-options.class.php:533
+msgid "Large Devices"
+msgstr ""
+
+#: inc/config-options.class.php:146 inc/config-options.class.php:310
+#: inc/config-options.class.php:534
+msgid "Specify your post columns on large devices (>= 992px)"
+msgstr ""
+
+#: inc/config-options.class.php:154 inc/config-options.class.php:318
+#: inc/config-options.class.php:542
+msgid "Medium Devices"
+msgstr ""
+
+#: inc/config-options.class.php:155 inc/config-options.class.php:319
+#: inc/config-options.class.php:543
+msgid "Specify your post columns on medium devices (>= 768px)"
+msgstr ""
+
+#: inc/config-options.class.php:170
+msgid "Small Devices"
+msgstr ""
+
+#: inc/config-options.class.php:171 inc/config-options.class.php:335
+#: inc/config-options.class.php:559
+msgid "Specify your post columns on small devices (< 768px)"
+msgstr ""
+
+#: inc/config-options.class.php:179
+msgid "Extra Small Devices"
+msgstr ""
+
+#: inc/config-options.class.php:180 inc/config-options.class.php:344
+#: inc/config-options.class.php:568
+msgid "Specify your post columns on extra small devices (< 576px)"
+msgstr ""
+
+#: inc/config-options.class.php:192 inc/config-options.class.php:356
+#: inc/config-options.class.php:581
+#: templates/shortcodes/posts-slider/config.php:98
+#: templates/shortcodes/posts/config.php:108
+msgid "Image size"
+msgstr ""
+
+#: inc/config-options.class.php:193 inc/config-options.class.php:357
+#: inc/config-options.class.php:582
+msgid "Enter your post image size"
+msgstr ""
+
+#: inc/config-options.class.php:194 inc/config-options.class.php:358
+#: inc/config-options.class.php:583
+msgid ""
+"Enter image size (Example: \"thumbnail\", \"medium\", \"large\", \"full"
+"\" or other sizes defined by theme). Alternatively enter size in pixels "
+"(Example: 200x100 (Width x Height))."
+msgstr ""
+
+#: inc/config-options.class.php:201 inc/config-options.class.php:368
+#: inc/config-options.class.php:594
+msgid "Image width"
+msgstr ""
+
+#: inc/config-options.class.php:202 inc/config-options.class.php:369
+#: inc/config-options.class.php:595
+msgid "Enter your post image width"
+msgstr ""
+
+#: inc/config-options.class.php:213 inc/config-options.class.php:608
+msgid "Image Ratio"
+msgstr ""
+
+#: inc/config-options.class.php:214 inc/config-options.class.php:609
+msgid "Enter image ratio"
+msgstr ""
+
+#: inc/config-options.class.php:224 inc/config-options.class.php:382
+#: inc/config-options.class.php:495
+#: templates/shortcodes/posts-slider/config.php:61
+#: templates/shortcodes/posts/config.php:61
+msgid "Posts Per Page"
+msgstr ""
+
+#: inc/config-options.class.php:225 inc/config-options.class.php:383
+#: templates/shortcodes/posts-slider/config.php:62
+msgid "Enter number of posts per page you want to display."
+msgstr ""
+
+#: inc/config-options.class.php:232 inc/config-options.class.php:391
+#: inc/config-options.class.php:620
+#: templates/shortcodes/posts/config.php:75
+msgid "Post Paging"
+msgstr ""
+
+#: inc/config-options.class.php:233 inc/config-options.class.php:392
+#: inc/config-options.class.php:621
+#: templates/shortcodes/posts/config.php:76
+msgid "Specify your post paging mode"
+msgstr ""
+
+#: inc/config-options.class.php:240
+#: templates/shortcodes/posts-slider/config.php:75
+#: templates/shortcodes/posts/config.php:83
+msgid "Animation"
+msgstr ""
+
+#: inc/config-options.class.php:241
+#: templates/shortcodes/posts-slider/config.php:76
+#: templates/shortcodes/posts/config.php:84
+msgid "Specify your post animation"
+msgstr ""
+
+#: inc/config-options.class.php:254
+msgid "Search Listing"
+msgstr ""
+
+#: inc/config-options.class.php:259
+msgid "Custom Search Listing"
+msgstr ""
+
+#: inc/config-options.class.php:260
+msgid "Turn On this option if you want to enable custom search listing"
+msgstr ""
+
+#: inc/config-options.class.php:334 inc/config-options.class.php:558
+msgid "Small Devices "
+msgstr ""
+
+#: inc/config-options.class.php:343 inc/config-options.class.php:567
+msgid "Extra Small Devices "
+msgstr ""
+
+#: inc/config-options.class.php:406
+msgid "Single Blog"
+msgstr ""
+
+#: inc/config-options.class.php:419
+msgid "Tags"
+msgstr ""
+
+#: inc/config-options.class.php:420
+msgid "Turn Off this option if you want to hide tags on single blog"
+msgstr ""
+
+#: inc/config-options.class.php:425
+msgid "Share"
+msgstr ""
+
+#: inc/config-options.class.php:426
+msgid "Turn Off this option if you want to hide share on single blog"
+msgstr ""
+
+#: inc/config-options.class.php:431
+msgid "Navigation"
+msgstr ""
+
+#: inc/config-options.class.php:432
+msgid "Turn Off this option if you want to hide navigation on single blog"
+msgstr ""
+
+#: inc/config-options.class.php:437
+msgid "Author Info"
+msgstr ""
+
+#: inc/config-options.class.php:438
+msgid ""
+"Turn Off this option if you want to hide author info area on single blog"
+msgstr ""
+
+#: inc/config-options.class.php:450 inc/config-options.class.php:456
+msgid "Related Posts"
+msgstr ""
+
+#: inc/config-options.class.php:457
+msgid ""
+"Turn Off this option if you want to hide related posts area on single "
+"blog"
+msgstr ""
+
+#: inc/config-options.class.php:462
+msgid "Related Posts Algorithm"
+msgstr ""
+
+#: inc/config-options.class.php:463
+msgid "Specify the algorithm of related posts"
+msgstr ""
+
+#: inc/config-options.class.php:496
+msgid "Enter number of posts per page you want to display"
+msgstr ""
+
+#: inc/config-options.class.php:634
+msgid "Post Settings"
+msgstr ""
+
+#: inc/config-options.class.php:640 inc/config-options.class.php:646
+msgid "Featured Video/Audio Code"
+msgstr ""
+
+#: inc/config-options.class.php:641
+msgid ""
+"Paste YouTube, Vimeo video URL then player automatically will be "
+"generated."
+msgstr ""
+
+#: inc/config-options.class.php:647
+msgid ""
+"Paste YouTube, Vimeo audio URL then player automatically will be "
+"generated."
+msgstr ""
+
+#: inc/config-options.class.php:652
+msgid "Featured Gallery"
+msgstr ""
+
+#: inc/config-options.class.php:653
+msgid ""
+"Select images for featured gallery. (Apply for post format gallery)"
+msgstr ""
+
+#: inc/config-options.class.php:658
+msgid "Featured Link"
+msgstr ""
+
+#: inc/config-options.class.php:659
+msgid "Enter featured link. (Apply for post format link)"
+msgstr ""
+
+#: inc/elementor.class.php:26 templates/shortcodes/posts/config.php:9
+msgid "Posts"
+msgstr ""
+
+#: inc/elementor.class.php:27
+#: templates/shortcodes/posts-slider/config.php:9
+msgid "Posts Slider"
+msgstr ""
+
+#: inc/elementor.class.php:36
+msgid "G5 Elements"
+msgstr ""
+
+#: inc/functions/helper.php:112 inc/functions/helper.php:115
+#: inc/functions/helper.php:128 inc/functions/helper.php:148
+#: inc/functions/helper.php:163 inc/functions/helper.php:174
+#: inc/functions/helper.php:183
+msgid "Posts Filter"
+msgstr ""
+
+#: inc/functions/helper.php:182
+msgid "Input meta key for grid ordering."
+msgstr ""
+
+#: inc/settings.class.php:49 inc/settings.class.php:89
+#: inc/settings.class.php:109 inc/settings.class.php:162
+#: inc/settings.class.php:183
+msgid "Inherit"
+msgstr ""
+
+#: inc/settings.class.php:122
+msgid "Layout 1"
+msgstr ""
+
+#: inc/settings.class.php:127
+msgid "Layout 2"
+msgstr ""
+
+#: inc/settings.class.php:132
+msgid "Layout 3"
+msgstr ""
+
+#: inc/settings.class.php:137
+msgid "Layout 4"
+msgstr ""
+
+#: inc/settings.class.php:142
+msgid "Layout 5"
+msgstr ""
+
+#: inc/settings.class.php:147
+msgid "Layout 6"
+msgstr ""
+
+#: inc/settings.class.php:152
+msgid "Layout 7"
+msgstr ""
+
+#: inc/settings.class.php:173
+msgid "by Category"
+msgstr ""
+
+#: inc/settings.class.php:174
+msgid "by Tag"
+msgstr ""
+
+#: inc/settings.class.php:175
+msgid "by Author"
+msgstr ""
+
+#: inc/settings.class.php:176
+msgid "by Category & Tag"
+msgstr ""
+
+#: inc/settings.class.php:177
+msgid "by Category & Tag & Author"
+msgstr ""
+
+#: inc/settings.class.php:178
+msgid "Randomly"
+msgstr ""
+
+#: inc/settings.class.php:197
+msgid "All"
+msgstr ""
+
+#: inc/widgets/post.class.php:12
+msgid "G5Plus: Post"
+msgstr ""
+
+#: inc/widgets/post.class.php:19
+msgid "Recent Post"
+msgstr ""
+
+#: inc/widgets/post.class.php:24
+msgid "Source"
+msgstr ""
+
+#: inc/widgets/post.class.php:27
+msgid "Random"
+msgstr ""
+
+#: inc/widgets/post.class.php:28
+msgid "Popular"
+msgstr ""
+
+#: inc/widgets/post.class.php:29
+msgid "Recent"
+msgstr ""
+
+#: inc/widgets/post.class.php:30
+msgid "Oldest"
+msgstr ""
+
+#: inc/widgets/post.class.php:37
+msgid "Number of posts to show:"
+msgstr ""
+
+#: templates/elements/posts-slider/config.php:34
+msgid "G5 Posts Slider"
+msgstr ""
+
+#: templates/elements/posts/config.php:21
+msgid "G5 Posts"
+msgstr ""
+
+#: templates/loop/content-none.php:8
+msgid "Nothing found"
+msgstr ""
+
+#: templates/loop/content-none.php:9
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"some different keywords."
+msgstr ""
+
+#: templates/loop/meta.php:47
+msgid "Edit"
+msgstr ""
+
+#: templates/loop/meta/author.php:11
+msgid "Browse Author Articles"
+msgstr ""
+
+#: templates/loop/meta/comment.php:6
+msgid "0 Comments"
+msgstr ""
+
+#: templates/loop/meta/comment.php:7
+msgid "1 Comment"
+msgstr ""
+
+#: templates/loop/meta/comment.php:8
+msgid "Comments"
+msgstr ""
+
+#: templates/shortcodes/posts-slider/config.php:10
+msgid "Display slider of posts"
+msgstr ""
+
+#: templates/shortcodes/posts-slider/config.php:17
+#: templates/shortcodes/posts/config.php:17
+msgid "Category Filter"
+msgstr ""
+
+#: templates/shortcodes/posts-slider/config.php:52
+#: templates/shortcodes/posts/config.php:52
+msgid "Columns Gutter"
+msgstr ""
+
+#: templates/shortcodes/posts-slider/config.php:53
+msgid "Specify your horizontal space between items."
+msgstr ""
+
+#: templates/shortcodes/posts-slider/config.php:68
+#: templates/shortcodes/posts/config.php:68
+msgid "Offset posts"
+msgstr ""
+
+#: templates/shortcodes/posts-slider/config.php:69
+#: templates/shortcodes/posts/config.php:69
+msgid ""
+"Start the count with an offset. If you have a block that shows 4 posts "
+"before this one, you can make this one start from the 5'th post (by "
+"using offset 4)"
+msgstr ""
+
+#: templates/shortcodes/posts-slider/config.php:93
+#: templates/shortcodes/posts/config.php:104
+msgid "Columns"
+msgstr ""
+
+#: templates/shortcodes/posts-slider/config.php:94
+msgid "Slider Options"
+msgstr ""
+
+#: templates/shortcodes/posts-slider/config.php:99
+#: templates/shortcodes/posts/config.php:109
+msgid ""
+"Enter image size (Example: \"thumbnail\", \"medium\", \"large\", \"full"
+"\" or other sizes defined by theme). Alternatively enter size in pixels "
+"(Example: 300x400)."
+msgstr ""
+
+#: templates/shortcodes/posts-slider/config.php:102
+#: templates/shortcodes/posts-slider/config.php:112
+#: templates/shortcodes/posts-slider/config.php:122
+#: templates/shortcodes/posts/config.php:113
+#: templates/shortcodes/posts/config.php:121
+#: templates/shortcodes/posts/config.php:131
+#: templates/shortcodes/posts/config.php:141
+msgid "Image Size"
+msgstr ""
+
+#: templates/shortcodes/posts-slider/config.php:106
+#: templates/shortcodes/posts/config.php:125
+msgid "Image ratio width"
+msgstr ""
+
+#: templates/shortcodes/posts-slider/config.php:107
+#: templates/shortcodes/posts/config.php:126
+msgid "Enter width for image ratio"
+msgstr ""
+
+#: templates/shortcodes/posts-slider/config.php:116
+#: templates/shortcodes/posts/config.php:135
+msgid "Image ratio height"
+msgstr ""
+
+#: templates/shortcodes/posts-slider/config.php:117
+#: templates/shortcodes/posts/config.php:136
+msgid "Enter height for image ratio"
+msgstr ""
+
+#: templates/shortcodes/posts/config.php:10
+msgid "Display list of posts"
+msgstr ""
+
+#: templates/shortcodes/posts/config.php:62
+msgid "Enter number of posts per page you want to display. Default 10"
+msgstr ""
+
+#: templates/shortcodes/posts/config.php:117
+msgid "Image Width"
+msgstr ""
+
+#: templates/single/link-pages.php:7
+msgid "Pages:"
+msgstr ""
+
+#: templates/single/meta/tag.php:8
+msgid "Tags:"
+msgstr ""
+
+#: templates/single/navigation.php:8
+msgid "Previous"
+msgstr ""
+
+#: templates/single/navigation.php:9
+msgid "Next"
+msgstr ""
+
+#: templates/single/related.php:141
+msgid "Related Post"
+msgstr ""

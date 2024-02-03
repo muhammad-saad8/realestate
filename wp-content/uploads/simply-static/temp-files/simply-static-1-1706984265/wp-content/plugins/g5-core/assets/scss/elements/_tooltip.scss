@@ -1,0 +1,64 @@
+.tooltip {
+  white-space: nowrap;
+  .tooltip-inner {
+    -webkit-transition: opacity .3s ease, top 0.4s cubic-bezier(.71,1.7,.77,1.24), left 0.4s cubic-bezier(.71,1.7,.77,1.24), -webkit-transform 0.4s;
+    -moz-transition: opacity .3s ease, top 0.4s cubic-bezier(.71,1.7,.77,1.24), left 0.4s cubic-bezier(.71,1.7,.77,1.24), -moz-transform 0.4s;
+    transition: opacity .3s ease, top 0.4s cubic-bezier(.71,1.7,.77,1.24), left 0.4s cubic-bezier(.71,1.7,.77,1.24), transform 0.4s;
+    font-size: 12px;
+    white-space: nowrap;
+  }
+  .arrow {
+    -webkit-transition: opacity .3s ease, top 0.3s cubic-bezier(.71,1.7,.77,1.24), left 0.3s cubic-bezier(.71,1.7,.77,1.24), -webkit-transform 0.3s;
+    -moz-transition: opacity .3s ease, top 0.3s cubic-bezier(.71,1.7,.77,1.24), left 0.3s cubic-bezier(.71,1.7,.77,1.24), -moz-transform 0.3s;
+    transition: opacity .3s ease, top 0.3s cubic-bezier(.71,1.7,.77,1.24), left 0.3s cubic-bezier(.71,1.7,.77,1.24), transform 0.3s;
+  }
+  &.bs-tooltip-top {
+    .tooltip-inner,
+    .arrow {
+      @include transform(translateY(5px));
+    }
+    &.show {
+      .tooltip-inner,
+      .arrow {
+        @include transform(translateY(0));
+      }
+    }
+  }
+  &.bs-tooltip-bottom {
+    .tooltip-inner,
+    .arrow {
+      @include transform(translateY(-5px));
+    }
+    &.show {
+      .tooltip-inner,
+      .arrow {
+        @include transform(translateY(0));
+      }
+    }
+  }
+  &.bs-tooltip-left {
+    .tooltip-inner,
+    .arrow {
+      @include transform(translateX(5px));
+      white-space: nowrap;
+    }
+    &.show {
+      .tooltip-inner,
+      .arrow {
+        @include transform(translateX(0));
+      }
+    }
+  }
+  &.bs-tooltip-right {
+    .tooltip-inner,
+    .arrow {
+      @include transform(translateX(-5px));
+    }
+    &.show {
+      .tooltip-inner,
+      .arrow {
+        @include transform(translateX(0));
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+.g5core-back-to-top {
+	&:focus,
+	&:hover {
+		text-decoration: none;
+		color: var(--g5-color-accent-foreground);
+		background-color: var(--g5-color-accent);
+	}
+}

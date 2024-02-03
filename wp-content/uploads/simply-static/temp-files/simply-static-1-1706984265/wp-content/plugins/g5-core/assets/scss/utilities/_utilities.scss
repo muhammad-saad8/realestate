@@ -1,0 +1,310 @@
+@import "../variable/variable";
+@import "../mixin/mixin";
+
+
+.white-text-color,
+.white-text-hover-color {
+	color: #fff!important;
+}
+
+.white-bg-color,
+.white-bg-hover-color {
+	background-color: #fff!important;
+}
+
+.white-border-color,
+.white-border-hover-color {
+	border-color: #fff!important;
+}
+
+.black-text-color,
+.black-text-hover-color {
+	color: #000!important;
+}
+
+.black-bg-color,
+.black-bg-hover-color {
+	background-color: #000!important;
+}
+
+.black-border-color,
+.black-border-hover-color {
+	border-color: #000!important;
+}
+
+.content-left {
+	@include d-flex(important);
+	@include justify-content-start(important);
+}
+.content-right {
+	@include d-flex(important);
+	@include justify-content-end(important);
+}
+.content-center {
+	@include d-flex(important);
+	@include justify-content-center(important);
+}
+.content-top {
+	@include d-flex(important);
+	@include align-items-start(important);
+}
+.content-bottom {
+	@include d-flex(important);
+	@include align-items-end(important);
+}
+.content-fill {
+	@include flex-fill(important);
+	@include flex-shrink-0(important);
+}
+
+@mixin reponsive-untilies($media) {
+	.ml-auto#{$media} {
+		margin-left: auto!important;
+	}
+	.mr-auto#{$media} {
+		margin-right: auto!important;
+	}
+	.mt-auto#{$media} {
+		margin-top: auto!important;
+	}
+	.mb-auto#{$media} {
+		margin-bottom: auto!important;
+	}
+	.fl#{$media} {
+		float: left!important;
+	}
+	.fr#{$media} {
+		float: right!important;
+	}
+	.f-none#{$media} {
+		float: none!important;
+	}
+
+	.d-flex#{$media} {
+		@include d-flex(important);
+	}
+
+
+	@each $size_name, $size_value in (xxs:0.625rem, xs: 0.75rem, sm:0.875rem, md:1rem, lg:1.25rem, xl:1.5rem, xxl:2rem) {
+		.#{$size_name}-text#{$media} {
+			font-size: #{$size_value}!important;
+		}
+	}
+
+	@for $i from 0 through 10 {
+		.width-#{$i * 10}#{$media} {
+			width: #{$i * 10}#{"%"}!important;
+		}
+	}
+
+	@if ($media != '') {
+		@each $align in (center, left, right) {
+			.text-#{$align}#{$media} {
+				text-align: #{$align}!important;
+			}
+		}
+		@each $pos in (relative, static, absolute, fixed) {
+			.position-#{$pos}#{$media} {
+				position: #{$pos}!important;
+			}
+		}
+
+		.flex-row#{$media} {
+			-ms-flex-direction: row !important;
+			flex-direction: row !important;
+		}
+
+		.flex-column#{$media} {
+			-ms-flex-direction: column !important;
+			flex-direction: column !important;
+		}
+
+		.flex-row-reverse#{$media} {
+			-ms-flex-direction: row-reverse !important;
+			flex-direction: row-reverse !important;
+		}
+
+		.flex-column-reverse#{$media} {
+			-ms-flex-direction: column-reverse !important;
+			flex-direction: column-reverse !important;
+		}
+
+		.flex-wrap#{$media} {
+			-ms-flex-wrap: wrap !important;
+			flex-wrap: wrap !important;
+		}
+
+		.flex-nowrap#{$media} {
+			-ms-flex-wrap: nowrap !important;
+			flex-wrap: nowrap !important;
+		}
+
+		.flex-wrap-reverse#{$media} {
+			-ms-flex-wrap: wrap-reverse !important;
+			flex-wrap: wrap-reverse !important;
+		}
+
+		.flex-fill#{$media} {
+			-ms-flex: 1 1 auto !important;
+			flex: 1 1 auto !important;
+		}
+
+		.flex-grow-0#{$media} {
+			-ms-flex-positive: 0 !important;
+			flex-grow: 0 !important;
+		}
+
+		.flex-grow-1#{$media} {
+			-ms-flex-positive: 1 !important;
+			flex-grow: 1 !important;
+		}
+
+		.flex-shrink-0#{$media} {
+			-ms-flex-negative: 0 !important;
+			flex-shrink: 0 !important;
+		}
+
+		.flex-shrink-1#{$media} {
+			-ms-flex-negative: 1 !important;
+			flex-shrink: 1 !important;
+		}
+
+		.justify-content-start#{$media} {
+			-ms-flex-pack: start !important;
+			justify-content: flex-start !important;
+		}
+
+		.justify-content-end#{$media} {
+			-ms-flex-pack: end !important;
+			justify-content: flex-end !important;
+		}
+
+		.justify-content-center#{$media} {
+			-ms-flex-pack: center !important;
+			justify-content: center !important;
+		}
+
+		.justify-content-between#{$media} {
+			-ms-flex-pack: justify !important;
+			justify-content: space-between !important;
+		}
+
+		.justify-content-around#{$media} {
+			-ms-flex-pack: distribute !important;
+			justify-content: space-around !important;
+		}
+
+		.align-items-start#{$media} {
+			-ms-flex-align: start !important;
+			align-items: flex-start !important;
+		}
+
+		.align-items-end#{$media} {
+			-ms-flex-align: end !important;
+			align-items: flex-end !important;
+		}
+
+		.align-items-center#{$media} {
+			-ms-flex-align: center !important;
+			align-items: center !important;
+		}
+
+		.align-items-baseline#{$media} {
+			-ms-flex-align: baseline !important;
+			align-items: baseline !important;
+		}
+
+		.align-items-stretch#{$media} {
+			-ms-flex-align: stretch !important;
+			align-items: stretch !important;
+		}
+
+		.align-content-start#{$media} {
+			-ms-flex-line-pack: start !important;
+			align-content: flex-start !important;
+		}
+
+		.align-content-end#{$media} {
+			-ms-flex-line-pack: end !important;
+			align-content: flex-end !important;
+		}
+
+		.align-content-center#{$media} {
+			-ms-flex-line-pack: center !important;
+			align-content: center !important;
+		}
+
+		.align-content-between#{$media} {
+			-ms-flex-line-pack: justify !important;
+			align-content: space-between !important;
+		}
+
+		.align-content-around#{$media} {
+			-ms-flex-line-pack: distribute !important;
+			align-content: space-around !important;
+		}
+
+		.align-content-stretch#{$media} {
+			-ms-flex-line-pack: stretch !important;
+			align-content: stretch !important;
+		}
+
+		.align-self-auto#{$media} {
+			-ms-flex-item-align: auto !important;
+			align-self: auto !important;
+		}
+
+		.align-self-start#{$media} {
+			-ms-flex-item-align: start !important;
+			align-self: flex-start !important;
+		}
+
+		.align-self-end#{$media} {
+			-ms-flex-item-align: end !important;
+			align-self: flex-end !important;
+		}
+
+		.align-self-center#{$media} {
+			-ms-flex-item-align: center !important;
+			align-self: center !important;
+		}
+
+		.align-self-baseline#{$media} {
+			-ms-flex-item-align: baseline !important;
+			align-self: baseline !important;
+		}
+
+		.align-self-stretch#{$media} {
+			-ms-flex-item-align: stretch !important;
+			align-self: stretch !important;
+		}
+	}
+}
+
+@include reponsive-untilies('');
+@include media-lg() {
+	@include reponsive-untilies('-lg');
+}
+@include media-md() {
+	@include reponsive-untilies('-md');
+}
+@include media-sm() {
+	@include reponsive-untilies('-sm');
+}
+@include media-xs() {
+	@include reponsive-untilies('-xs');
+}
+
+.fs-0 {
+	font-size: 0 !important;
+}
+
+.g5core__link {
+	color: inherit;
+	@include transition(all .3s);
+	&:hover,
+	&:active,
+	&:focus {
+		color: var(--g5-color-accent);
+	}
+}

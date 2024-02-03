@@ -1,0 +1,6 @@
+.g5blog__post-excerpt {
+  line-height: var(--g5blog-loop-post-except-line-height);
+  p:last-child {
+    margin-bottom: 0;
+  }
+}

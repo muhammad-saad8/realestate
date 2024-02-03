@@ -1,0 +1,19 @@
+@media (min-width: 768px) {
+	.g5ere__contact-agent-info {
+		.g5core__post-featured {
+			width: 240px;
+		}
+		.g5ere__agent-content {
+			@include align-self-center();
+		}
+	}
+}
+.g5ere__contact-agent-info {
+	.g5ere__loop-agent-position {
+		margin-bottom: 15px;
+		color: var(--g5-color-muted);
+	}
+	.g5ere__loop-agent-social {
+		margin-top: 20px;
+	}
+}

@@ -1,0 +1,36 @@
+ul.g5blog__post-meta {
+  padding: 0;
+  margin-bottom: 0;
+  list-style: none;
+  @include d-flex();
+  @include flex-wrap();
+  font-size: var(--g5blog-loop-post-meta-font-size);
+  li {
+    margin: 0;
+    margin-right: 25px;
+    a {
+      color: inherit;
+      @include transition(all .3s);
+      &:hover,
+      &:focus,
+      &:active {
+        color: var(--g5-color-accent);
+      }
+    }
+    i {
+      margin-right: 5px;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+    > div {
+      display: inline-block;
+    }
+  }
+
+  .fa-heart-o:before {
+    content: '\f004';
+    font-weight: 400;
+  }
+}
+

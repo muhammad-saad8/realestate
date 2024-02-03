@@ -1,0 +1,36 @@
+#toplevel_page_g5core_options,
+#toplevel_page_g5core_welcome,
+#menu-posts-g5core_content,
+#menu-posts-g5core_xmenu_mega,
+#menu-posts-g5core_vc_template {
+  background-color: #00344d;
+}
+#toplevel_page_g5core_options.wp-has-current-submenu.opensub ul.wp-submenu, #toplevel_page_g5core_options.wp-has-current-submenu ul.wp-submenu,
+#toplevel_page_g5core_welcome.wp-has-current-submenu.opensub ul.wp-submenu,
+#toplevel_page_g5core_welcome.wp-has-current-submenu ul.wp-submenu,
+#menu-posts-g5core_content.wp-has-current-submenu.opensub ul.wp-submenu,
+#menu-posts-g5core_content.wp-has-current-submenu ul.wp-submenu,
+#menu-posts-g5core_xmenu_mega.wp-has-current-submenu.opensub ul.wp-submenu,
+#menu-posts-g5core_xmenu_mega.wp-has-current-submenu ul.wp-submenu,
+#menu-posts-g5core_vc_template.wp-has-current-submenu.opensub ul.wp-submenu,
+#menu-posts-g5core_vc_template.wp-has-current-submenu ul.wp-submenu {
+  background-color: #004666;
+}
+
+.svg-icon {
+  display: inline;
+  position: relative;
+  top: -1px;
+}
+
+svg.svg-icon {
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+}
+
+i:not(.svg-icon) svg {
+  display: none;
+}
+
+/*# sourceMappingURL=admin.css.map */

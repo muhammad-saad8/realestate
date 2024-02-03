@@ -1,0 +1,33 @@
+.g5ere__agent-skin-04 {
+	.g5ere__agent-item-inner {
+		padding: 30px 20px 0 20px;
+	}
+
+	.g5core__post-featured {
+		width: 120px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.g5ere__loop-agent-social {
+		margin-top: 3px;
+	}
+
+	.g5ere__lac-top {
+		margin-left: -20px;
+		margin-right: -20px;
+		border-bottom: 1px solid var(--g5-color-border);
+		padding-bottom: 10px;
+		margin-bottom: 10px;
+	}
+
+	.g5ere__rating-stars {
+		margin-top: 9px;
+	}
+
+	.g5ere__loop-agent-property {
+		margin-left: -20px;
+		margin-right: -20px;
+		margin-top: 20px;
+		@include border-radius(0 0 5px 5px);
+	}
+}

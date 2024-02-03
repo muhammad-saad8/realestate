@@ -1,0 +1,28 @@
+.g5ere__single-property-bottom-bar-mobile {
+	.g5ere__single-property-bottom-bar-actions {
+		.btn {
+			padding-left: 0;
+			padding-right: 0;
+			height: 50px;
+			line-height: 50px;
+			font-size: 20px;
+			width: 50px;
+			text-align: center;
+		}
+	}
+
+	@media (max-width: 320px) {
+		.g5ere__loop-agent-position {
+			display: none;
+		}
+	}
+	.g5core__entry-thumbnail {
+		border-radius: 100%;
+		margin-right: 10px;
+		width: 50px;
+		height: 50px;
+		img {
+			border-radius: 100%;
+		}
+	}
+}

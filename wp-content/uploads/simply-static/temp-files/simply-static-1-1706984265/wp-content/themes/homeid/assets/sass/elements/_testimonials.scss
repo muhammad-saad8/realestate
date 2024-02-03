@@ -1,0 +1,135 @@
+.testimonial-style-04 {
+	.gel-testimonial-bio {
+		font-size: 18px;
+		color: var(--g5-color-heading);
+		line-height: 2em;
+	}
+
+	.author-avatar {
+		padding-right: 20px;
+	}
+
+	.gel-testimonial-name {
+		font-size: 17px;
+		font-weight: 600;
+	}
+	.author-attr {
+		@include flex-flow-column();
+	}
+	.gel-testimonial-job {
+		margin-top: 10px;
+	}
+	.testi-quote {
+		padding-bottom: 34px;
+	}
+}
+
+.testimonial-style-02 {
+	.gel-testimonial-bio {
+		font-size: 15px;
+		line-height: 2em;
+
+		&.content-quote:after,
+		&.content-quote:before {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			position: unset;
+		}
+		&:after {
+			content: '';
+			width: 40px;
+			height: 2px;
+			background-color: var(--g5-color-accent);
+			margin-top: 20px;
+
+		}
+		&:before {
+			font-size: 26px;
+			position: unset;
+			color: var(--g5-color-accent);
+			margin-bottom: 16px;
+			padding-right: 0;
+
+		}
+	}
+
+	.gel-testimonial-name {
+		color: var(--g5-color-heading);
+		font-size: 16px;
+	}
+
+	span.gel-testimonial-job {
+		margin-top: 2px;
+		margin-left: 0;
+	}
+
+	.testi-quote {
+		padding-bottom: 26.5px;
+	}
+
+	.author-avatar {
+		margin-bottom: 10px;
+	}
+}
+
+.testimonial-style-05 {
+	.gel-testimonial-bio {
+		font-size: 15px;
+		line-height: 1.73em;
+	}
+
+	.author-avatar {
+		padding-bottom: 17px;
+	}
+
+	h4.gel-testimonial-name {
+		display: block;
+		font-size: 16px;
+		font-weight: 700;
+	}
+
+	.gel-testimonial-job {
+		font-size: 14px;
+		line-height: 2.29em;
+	}
+
+	.testimonial-content {
+		padding-bottom: 48px;
+	}
+}
+
+div.custom-testimonial {
+	.author-avatar {
+		padding-right: 12.5px;
+	}
+
+	.gel-testimonial-bio {
+		font-size: 15px;
+		line-height: 1.73em;
+	}
+
+	.gel-testimonial-name {
+		font-size: 16px;
+		font-weight: 700;
+	}
+
+	.gel-testimonial-job {
+		margin-top: 3px;
+	}
+	.testi-quote {
+		padding-bottom: 38px;
+	}
+}
+
+.testimonial-border {
+	border: 1px solid var(--g5-color-border);
+	background-color: #fff;
+	border-radius: 5px;
+}
+
+.testimonial-box-shadow {
+	background-color: #fff;
+	box-shadow: 0 0 20px 0 rgba(51, 51, 51, 0.1);
+	border-radius: 5px;
+}

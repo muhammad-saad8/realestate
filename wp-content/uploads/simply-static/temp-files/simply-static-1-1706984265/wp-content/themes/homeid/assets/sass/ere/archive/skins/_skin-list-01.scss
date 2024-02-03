@@ -1,0 +1,42 @@
+.g5ere__property-skin-list-01{
+	.g5ere__property-excerpt{
+		margin-bottom: 7px;
+	}
+
+	.g5ere__loop-property-meta {
+		border-top: 1px solid var(--g5-color-border);
+		margin-top: 14px;
+		padding-top: 14px;
+	}
+}
+
+@media (min-width: 992px) {
+	.g5ere__property-skin-list-01{
+		.g5core__post-featured {
+			width: 370px;
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	.g5ere__property-skin-list-01{
+		.g5ere__loop-content {
+			margin-top: 5px;
+		}
+		.g5ere__property-excerpt{
+			max-height: $font_line_height_body * 3em;
+			overflow: hidden;
+		}
+	}
+}
+
+
+@media (max-width: 1400px) and (min-width: 1200px){
+	.g5ere__property-halt-map {
+		.g5ere__property-skin-list-01 {
+			.g5ere__property-featured {
+				width: 280px;
+			}
+		}
+	}
+}

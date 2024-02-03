@@ -1,0 +1,97 @@
+.homeid-contact-form {
+	input[type="text"],
+	input[type="email"],
+	input[type="tel"],
+	textarea {
+		width: 100%;
+	}
+
+	textarea {
+		height: 140px;
+	}
+
+	.wpcf7-not-valid-tip {
+		display: none;
+	}
+
+	.wpcf7-not-valid {
+		border-color: #dc3545 !important;
+	}
+
+	& + div.wpcf7-response-output {
+		text-align: center;
+		color: #fff;
+		background: #dc3545;
+		border: none;
+		border-radius: 4px;
+		padding: 10px;
+	}
+
+	&.style-01 {
+		span.ajax-loader{
+			display: block;
+			margin: 3px 0 -3px;
+		}
+		.item-contact:not(.submit):not(.consent) {
+			padding-bottom: 10px;
+		}
+		.item-contact.submit {
+			padding-top: 3px;
+		}
+		input[type="submit"] {
+			width: 100%;
+		}
+		.wpcf7-list-item {
+			margin-left: 0;
+			@include d-flex();
+			@include align-items-start();
+			input[type="checkbox"] {
+				margin-top: 6px;
+			}
+		}
+		.wpcf7-list-item-label {
+			font-size: $font_size_h6;
+			line-height: 26px;
+			color: var(--g5-color-text-main);
+			margin-left: 10px;
+		}
+
+	}
+
+	&.style-02, &.style-03, &.style-04 {
+		.item-contact:not(.submit):not(.consent) {
+			padding-bottom: 20px;
+		}
+	}
+
+	&.style-03, &.style-04 {
+		input[type="submit"] {
+			width: 194px;
+		}
+	}
+}
+
+.custom-col-cf-box-shadow > .vc_column-inner{
+	@include border-radius(5px);
+	@include box-shadow(0 19px 34px 0 rgba(94, 122, 183, 0.14));
+}
+
+@media (min-width: 768px) {
+	.homeid-contact-form.style-01 {
+		.item-contact.name {
+			padding-right: 5px;
+		}
+		.item-contact.phone {
+			padding-left: 5px;
+		}
+	}
+
+	.homeid-contact-form.style-02 {
+		.item-contact.name {
+			padding-right: 10px;
+		}
+		.item-contact.email {
+			padding-left: 10px;
+		}
+	}
+}

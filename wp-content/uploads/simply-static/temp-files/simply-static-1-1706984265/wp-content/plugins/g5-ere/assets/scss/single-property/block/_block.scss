@@ -1,0 +1,38 @@
+.g5ere__single-content {
+	.g5ere__single-block {
+		margin-bottom: 2rem;
+	}
+
+	.g5ere__single-property-gallery {
+		margin-bottom: 30px;
+	}
+}
+
+.g5ere__single-block {
+	.card-header {
+		h2 {
+			font-size: 1.2rem;
+			margin: 0;
+		}
+	}
+
+	.card-body {
+		*:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+@import "header";
+@import "address";
+@import "overview";
+@import "features";
+@import "details";
+@import "floors";
+@import "walkscore";
+@import "contact-agent";
+@import "near-places";
+@import "tabs";
+
+
+

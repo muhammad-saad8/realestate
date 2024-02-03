@@ -1,0 +1,2 @@
+<br>
+<b>Fatal error</b>:  Trait &quot;WPMailSMTP\Vendor\Google\Auth\CacheTrait&quot; not found in <b>D:\PORTFOLIO\htdocs\realestate\wp-content\plugins\wp-mail-smtp\vendor_prefixed\google\auth\src\FetchAuthTokenCache.php</b> on line <b>25</b><br>

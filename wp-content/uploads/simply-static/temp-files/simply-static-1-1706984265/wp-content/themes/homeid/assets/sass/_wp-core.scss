@@ -1,0 +1,180 @@
+/* =WordPress Core
+-------------------------------------------------------------- */
+.bypostauthor {
+	display: block;
+}
+
+.alignnone {
+	margin: 0.375rem $margin_element $margin_element 0;
+}
+
+.aligncenter {
+	margin: 0.375rem auto 0.375rem auto;
+}
+img.aligncenter {
+	display: block;
+}
+
+.alignright {
+	float: right;
+	margin: 0.375rem 0 $margin_element 1.25rem;
+}
+
+.alignleft {
+	float: left;
+	margin: 0.375rem 1.25rem $margin_element 0;
+}
+
+.wp-caption {
+	max-width: 100%; /* Image does not overflow the content area */
+	text-align: center;
+}
+
+dl.wp-caption.alignnone {
+	margin: 0.375rem 1.25rem $margin_element 0;
+}
+
+dl.wp-caption.alignleft {
+	margin: 0.375rem 1.25rem $margin_element 0;
+}
+
+dl.wp-caption.alignright {
+	margin: 0.375rem 0 $margin_element 1.25rem;
+}
+
+.wp-caption img {
+	border: 0 none;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+
+.wp-caption .wp-caption-text {
+	font-size: $font_size_sm;
+	margin-top: 0.25rem;
+	color: var(--g5-color-gray);
+}
+
+.wp-block-separator {
+	border-bottom: solid 2px;
+	border-color: var(--g5-color-border);
+	border-top: 0;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+	background-color: #eee;
+	clip: auto !important;
+	clip-path: none;
+	color: #444;
+	display: block;
+	font-size: 1em;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+	/* Above WP toolbar. */
+}
+
+/* Galleries */
+.gallery-item {
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+	margin: 0 0 1.5em;
+	padding: 0 1em 0 0;
+	width: 50%;
+}
+
+.gallery-columns-1 .gallery-item {
+	width: 100%;
+}
+
+.gallery-columns-2 .gallery-item {
+	max-width: 50%;
+}
+
+.gallery-columns-3 .gallery-item {
+	max-width: 33.33%;
+}
+
+.gallery-columns-4 .gallery-item {
+	max-width: 25%;
+}
+
+.gallery-columns-5 .gallery-item {
+	max-width: 20%;
+}
+
+.gallery-columns-6 .gallery-item {
+	max-width: 16.66%;
+}
+
+.gallery-columns-7 .gallery-item {
+	max-width: 14.28%;
+}
+
+.gallery-columns-8 .gallery-item {
+	max-width: 12.5%;
+}
+
+.gallery-columns-9 .gallery-item {
+	max-width: 11.11%;
+}
+
+.gallery-columns-6 .gallery-caption,
+.gallery-columns-7 .gallery-caption,
+.gallery-columns-8 .gallery-caption,
+.gallery-columns-9 .gallery-caption {
+	display: none;
+}
+
+.gallery-item a,
+.gallery-item a:hover,
+.gallery-item a:focus {
+	@include box-shadow(none);
+	background: none;
+	display: inline-block;
+	max-width: 100%;
+}
+
+.gallery-item a img {
+	display: block;
+	-webkit-transition: -webkit-filter 0.2s ease-in;
+	transition: -webkit-filter 0.2s ease-in;
+	transition: filter 0.2s ease-in;
+	transition: filter 0.2s ease-in, -webkit-filter 0.2s ease-in;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.gallery-item a:hover img,
+.gallery-item a:focus img {
+	-webkit-filter: opacity(60%);
+	filter: opacity(60%);
+}
+
+.gallery-caption {
+	display: block;
+	text-align: left;
+	padding: 0 0.75rem 0 0;
+	margin-bottom: 0;
+}

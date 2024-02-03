@@ -1,0 +1,3 @@
+<div class="content-404-wrapper">
+	<img src="https://muhammad-saad8.github.io/realestate/wp-content/themes/homeid/templates/404/<br />_<b>Fatal error</b>:  Uncaught Error: Call to undefined function esc_url() in D:\PORTFOLIO\htdocs\realestate\wp-content\themes\homeid\templates\404\layout.php:18_Stack trace:_#0 {main}_  thrown in <b>D:\PORTFOLIO\htdocs\realestate\wp-content\themes\homeid\templates\404\layout.php</b> on line <b>18</b><br />">
+</div>

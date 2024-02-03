@@ -1,0 +1,29 @@
+.g5core-back-to-top {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	width: 44px;
+	height: 44px;
+	z-index: 2;
+	color: #fff;
+	background-color: #666;
+	@include d-flex();
+	@include align-items-center();
+	@include justify-content-center();
+	@include backface-visibility(visible);
+	@include transform(translateX(100px));
+	@include transition(all 0.5s);
+	i {
+		font-size: 22px;
+	}
+
+	&.in {
+		@include transform(translateX(0)!important);
+	}
+}
+body.g5core-is-header-vertical-right.g5core-is-header-vertical-large .g5core-back-to-top,
+body.g5core-is-header-vertical-right.g5core-is-header-vertical-mini .g5core-back-to-top {
+	left: 10px;
+	right: auto;
+	@include transform(translateX(-100px));
+}

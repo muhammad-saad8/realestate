@@ -1,0 +1,61 @@
+.ere_widget_top_agents {
+	.agent-item {
+		@include d-flex();
+
+		&:not(:last-child) {
+			border-bottom: 1px solid var(--g5-color-border);
+			padding-bottom: 20px;
+			margin-bottom: 20px;
+		}
+	}
+
+	.agent-avatar {
+		border-radius: 100%;
+		background-color: #f3f3f3;
+		max-height: 70px;
+	}
+
+	.agent-avatar + .agent-info {
+		margin-left: 15px !important;
+	}
+
+	.agent-info {
+		h2.agent-name {
+			font-size: 14px;
+			line-height: 2;
+
+		}
+
+		a {
+			color: #252525;
+
+			&:hover {
+				color: var(--g5-color-accent);
+			}
+		}
+
+		.agent-position {
+			font-size: 13px;
+		}
+
+		.agent-total-properties {
+			font-size: 13px;
+			color: var(--g5-color-heading);
+			font-weight: 500;
+			line-height: 1.5;
+			@include d-flex();
+			@include align-items-center();
+
+			.total-properties {
+				font-size: 13px;
+				display: inline-block;
+				color: var(--g5-color-heading);
+				font-weight: 500;
+				margin-right: 5px;
+				margin-top: 0;
+			}
+		}
+
+	}
+
+}

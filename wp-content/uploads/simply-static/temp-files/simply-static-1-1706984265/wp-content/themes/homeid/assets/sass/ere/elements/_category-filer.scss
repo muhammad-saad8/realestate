@@ -1,0 +1,28 @@
+.g5ere__single-block .g5core__cate-filer {
+	margin-bottom: 30px;
+
+	> li > a {
+		color: rgba(37, 37, 37, 0.4);
+		padding: 10px 0;
+		background-color: transparent !important;
+		border-width: 0 0 1px 0 !important;
+		border-color: transparent;
+		font-size: 14px;
+
+		&:hover {
+			color: rgba(37, 37, 37, 0.4);
+		}
+	}
+
+	> li + li {
+		margin-left: 20px;
+	}
+
+	> li.active > a,
+	> li > a:hover {
+		color: var(--g5-color-heading);
+		border-color: var(--g5-color-accent);
+		@include border-radius(0);
+		border-style: solid;
+	}
+}

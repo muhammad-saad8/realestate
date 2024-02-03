@@ -1,0 +1,20 @@
+.g5ere__property-overview-list{
+	.media-icon {
+		@include box-shadow(0 0 7px 0 rgba(0, 0, 0, 0.07));
+		@include border-radius(5px);
+		font-size: 32px;
+		padding: 10px;
+		.svg-icon {
+			@include d-flex();
+			position: static;
+		}
+	}
+	a {
+		color: inherit;
+	}
+
+	margin-top: -15px;
+	.media {
+		padding-top: 15px;
+	}
+}

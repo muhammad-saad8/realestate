@@ -1,0 +1,48 @@
+.list-property-result-ajax {
+  .title-result {
+    h2 {
+      margin-top: 15px;
+      margin-bottom: 10px;
+      font-weight: 600;
+      line-height: 1;
+      font-size: 26px;
+    }
+
+    .text-no-result {
+      display: none;
+    }
+  }
+
+  .owl-carousel {
+    .owl-nav .owl-prev,
+    .owl-nav .owl-next {
+      top: -20px;
+      width: 40px;
+      height: 45px;
+    }
+
+    .owl-nav .owl-prev {
+      left: inherit;
+      right: 55px;
+    }
+
+    .owl-nav .owl-next {
+      left: inherit;
+      right: 0;
+    }
+
+    .owl-nav .owl-next:after {
+      border-bottom-width: 45px;
+    }
+
+    .owl-nav .owl-prev:after {
+      border-top-width: 45px;
+    }
+
+    .owl-nav .owl-prev i,
+    .owl-nav .owl-next i {
+      line-height: 45px;
+      font-size: 24px;
+    }
+  }
+}

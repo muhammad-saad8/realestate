@@ -1,0 +1,18 @@
+.g5ere__property-layout-two-columns {
+	.g5ere__property-attachments{
+		.media-thumb-wrap{
+			max-width: 200px;
+			@include flex(200px);
+		}
+	}
+
+
+	.g5ere__review-rating-wrap {
+		@media (min-width: 1200px) {
+			.g5ere__rating-breakdown {
+				margin-top: 20px;
+			}
+		}
+
+	}
+}

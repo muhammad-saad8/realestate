@@ -1,0 +1,26 @@
+//@import "tag";
+.g5blog__single-meta-bottom {
+  @include d-flex();
+  @include align-items-center();
+  @include flex-wrap();
+  padding-top: 10px;
+  margin-top: 30px;
+}
+.g5blog__single-meta-tag {
+  @include flex-grow-1();
+  margin: 5px 0;
+  &.tagcloud a {
+    margin-bottom: 0 !important;
+  }
+
+}
+.g5core__social-share.post {
+  margin: 5px 0;
+}
+
+@media (max-width: 767px) {
+  .g5blog__single-meta-bottom {
+    @include flex-column();
+    @include align-items-start();
+  }
+}

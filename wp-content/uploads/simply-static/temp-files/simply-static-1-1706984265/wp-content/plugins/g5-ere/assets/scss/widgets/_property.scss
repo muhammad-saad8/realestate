@@ -1,0 +1,28 @@
+.g5ere__widget-property-item {
+	margin-bottom: 20px;
+	.g5ere__loop-property-title{
+		margin-bottom: 8px;
+	}
+}
+
+.slick-slider .g5ere__widget-property-item {
+	margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+	.g5ere__widget-property-skin-01 {
+		.g5ere__property-featured {
+			width: 90px;
+			margin-right: 20px;
+		}
+	}
+}
+
+
+@media (max-width: 767px) {
+	.g5ere__widget-property-skin-01 {
+		.g5ere__property-content {
+			margin-top: 20px;
+		}
+	}
+}

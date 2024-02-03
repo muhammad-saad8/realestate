@@ -1,0 +1,36 @@
+.g5ere__property-skin-09 {
+	.g5ere__loop-property-title{
+		font-size: 20px;
+		margin-bottom: 0;
+	}
+	.g5ere__loop-property-price{
+		font-size: 20px;
+	}
+	.g5ere__lpp-postfix{
+		font-size: 17px;
+	}
+}
+
+@media (min-width: 576px) {
+	.g5ere__property-skin-09 {
+		.g5ere__loop-content {
+			position: absolute;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			z-index: 2;
+			padding: 20px;
+			margin: 20px;
+			background-color: #fff;
+			@include border-radius(5px);
+		}
+	}
+}
+
+@media (max-width: 575px) {
+	.g5ere__property-skin-09 {
+		.g5core__entry-thumbnail {
+			margin-bottom: 15px;
+		}
+	}
+}

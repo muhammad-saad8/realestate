@@ -1,0 +1,147 @@
+@import "../scss/_variable";
+@import "../scss/_mixin";
+
+.gel-pricing {
+	@include transition(0.3s);
+	@include d-flex();
+	@include justify-content-center();
+	@include flex-column();
+	border: 1px;
+	border-style: solid;
+	border-color: transparent;
+	position: relative;
+	&:hover {
+		@include box-shadow(0 2px 30px rgba(89, 69, 230, .12));
+		@include transform(translateY(-10px));
+		border-color: transparent;
+	}
+}
+
+.pricing-featured-text {
+	@include d-flex();
+	@include justify-content-center();
+	@include align-items-center();
+	position: absolute;
+	bottom: 100%;
+	width: 100%;
+	right: 0;
+}
+
+.pricing-price .price, .pricing-image {
+	@include d-flex();
+	@include justify-content-center();
+	@include align-items-center();
+}
+
+.gel-pricing-style-1, .gel-pricing-style-2, .gel-pricing-style-3, .gel-pricing-style-4 {
+	.pricing-desc {
+		text-align: center;
+	}
+	.pricing-name {
+		margin: 0;
+	}
+	.pricing-price {
+		text-align: center;
+	}
+}
+
+.gel-pricing-style-3 {
+	.pricing-price {
+		margin-top: 1.75rem;
+	}
+	.pricing-button {
+		margin-top: 1.75rem;
+	}
+}
+
+.gel-pricing-style-5 {
+	padding: 1.875rem 1.875rem 3.5rem;
+	.pricing-price {
+		padding-top: 0;
+		.price {
+			@include justify-content-start();
+		}
+	}
+	.pricing-desc {
+		position: relative;
+		&:after {
+			background-color: $border_color;
+			position: absolute;
+			content: '';
+			width: 5rem;
+			height: 1px;
+			right: 0;
+			top: 1rem;
+		}
+	}
+	.pricing-name {
+		margin-bottom: 1.5rem;
+	}
+	.pricing-button {
+		@include justify-content-start();
+	}
+	li {
+		@include justify-content-start();
+		span {
+			text-align: left;
+		}
+	}
+}
+
+.pricing-name {
+	position: relative;
+}
+
+.pricing-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	> li {
+		margin: 0;
+		@include d-flex();
+		@include align-items-center();
+		padding-top: 5px;
+	}
+	.list-bullet {
+		padding-right: 0.75rem;
+		font-size: 8px;
+	}
+}
+
+.pricing-list-left {
+	li {
+		@include justify-content-start();
+		@include flex-row();
+	}
+	span {
+		text-align: left;
+	}
+}
+
+.pricing-list-center {
+	li {
+		@include justify-content-center();
+		@include flex-column();
+	}
+	span {
+		text-align: center;
+	}
+}
+
+.pricing-list-right {
+	li {
+		@include justify-content-end();
+		@include flex-row-reverse();
+	}
+	span {
+		text-align: right;
+	}
+	.list-bullet {
+		padding-left: 0.625rem;
+	}
+}
+
+.pricing-button {
+	@include d-flex();
+	@include justify-content-center();
+}

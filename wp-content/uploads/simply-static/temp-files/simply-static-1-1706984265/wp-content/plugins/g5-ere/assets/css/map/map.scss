@@ -1,0 +1,215 @@
+@import "../../scss/mixin";
+
+:root {
+	--g5ere-map-pin-color: #cc0000;
+}
+
+.g5ere__pin-shadow {
+	position: absolute;
+	opacity: 0;
+	visibility: hidden;
+	bottom: -12.5px;
+	left: -110px;
+
+	&:after {
+		display: block;
+		width: 25px;
+		height: 25px;
+		content: '';
+		@include transform(rotateX(55deg));
+		@include border_radius(50%);
+		@include box_shadow(rgba(0, 0, 0, 0.5) 100px 0 20px);
+	}
+}
+
+.g5ere__pin-pulse {
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	bottom: -25px;
+	@include transform(rotateX(55deg) translateX(-50%));
+	left: 50%;
+	&:after {
+		display: block;
+		width: 50px;
+		height: 50px;
+		content: '';
+		@include animation(g5ere__pulsate 1s ease-out infinite);
+		opacity: 0;
+		@include border_radius(50%);
+		@include box-shadow(0 0 6px 3px var(--g5ere-map-pin-color));
+	}
+}
+
+
+.g5ere__pin {
+	width: 50px;
+	height: 50px;
+
+	&:before {
+		position: absolute;
+		display: block;
+		box-sizing: border-box;
+		width: 50px;
+		height: 50px;
+		content: '';
+		@include transform(rotateZ(-45deg));
+		@include border-radius(50% 50% 50% 0);
+		background: var(--g5ere-map-pin-color);
+	}
+
+	&:after {
+		position: absolute;
+		display: block;
+		box-sizing: border-box;
+		width: 50px;
+		height: 50px;
+		content: '';
+		@include transform(rotateZ(-45deg));
+		border: 5px solid var(--g5ere-map-pin-color);
+		@include border-radius(50% 50% 50% 50%);
+		background: #fff;
+	}
+}
+
+.g5ere__pin-wrap {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	bottom: 10px;
+	@include transform(translateX(-50%));
+	left: 50%;
+	i {
+		font-size: 18px;
+		color: var(--g5ere-map-pin-color);
+		position: absolute;
+		z-index: 1;
+		width: 50px;
+		height: 50px;
+		text-align: center;
+		line-height: 50px;
+	}
+
+	&.image {
+		bottom: 0;
+
+		.g5ere__pin {
+			display: none;
+		}
+	}
+
+}
+
+.g5ere__marker-container.active {
+	.g5ere__pin-shadow,
+	.g5ere__pin-pulse {
+		opacity: 1;
+		visibility: visible;
+	}
+}
+
+.g5ere__map-popup-wrap {
+	overflow: hidden;
+	opacity: 0 !important;
+	visibility: hidden !important;
+	@include transition(opacity .2s);
+	padding-bottom: 15px;
+	width: 270px !important;
+
+	&.show {
+		opacity: 1 !important;
+		visibility: visible !important;
+	}
+
+	&:after {
+		background: linear-gradient(45deg, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 51%, rgba(255, 255, 255, 0) 100%);
+		box-shadow: -2px 2px 2px 0 rgba(178, 178, 178, .4);
+		content: "";
+		height: 15px;
+		left: 0;
+		bottom: 0;
+		right: -15px;
+		margin: auto;
+		position: absolute;
+		transform: translate(-50%, -50%) rotate(-45deg);
+		width: 15px;
+	}
+	&.g5ere__map-popup-mapbox {
+		top: -60px;
+	}
+
+	&.g5ere__map-popup-google {
+		@include transform(translateX(-50%) !important);
+	}
+}
+
+.g5ere__map-popup {
+	background: #fff;
+	@include box_shadow(0 0 8px rgba(0, 0, 0, .53));
+}
+
+.g5ere__map-popup-thumb {
+	a {
+		display: block;
+		background-repeat: no-repeat;
+		background-size: cover;
+
+		&:before {
+			content: '';
+			display: block;
+			padding-top: 66.66666666666667%;
+		}
+	}
+}
+
+
+.g5ere__map-popup-content {
+	padding: 15px;
+}
+
+
+.g5ere__map-popup-title {
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: none;
+	margin-bottom: 10px;
+	a {
+		color: inherit;
+	}
+}
+
+.g5ere__map-popup-address {
+	font-size: 14px;
+
+	i {
+		margin-right: 5px;
+	}
+}
+
+
+.g5ere__cluster {
+	background-color: rgba(184, 122, 122, 0.6);
+	@include border_radius(50%);
+
+	> div {
+		margin-left: 5px;
+		margin-top: 5px;
+		@include border_radius(50%);
+		background-color: rgba(204, 0, 0, 1);
+	}
+}
+
+
+@keyframes g5ere__pulsate {
+	0% {
+		@include transform(scale(.1, .1));
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		@include transform(scale(1.2, 1.2));
+		opacity: 0;
+	}
+}

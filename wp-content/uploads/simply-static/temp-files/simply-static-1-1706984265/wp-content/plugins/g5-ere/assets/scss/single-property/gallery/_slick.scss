@@ -1,0 +1,48 @@
+.g5ere__slick-arrows-absolute {
+	.slick-arrow {
+		opacity: 0;
+		@include transition(all .3s);
+		&.slick-prev {
+			left: 20px;
+			@include transform(translate(0,-50%));
+		}
+		&.slick-next {
+			right: 20px;
+			@include transform(translate(0,-50%));
+		}
+	}
+
+	&:hover {
+		.slick-arrow {
+			opacity: 1;
+		}
+	}
+
+	.slick-dots {
+		position: absolute;
+		bottom: -10px;
+		left: 50%;
+		@include transform(translate(-50%,100%));
+		margin: 0 !important;
+	}
+}
+
+.g5ere__slick-dots-absolute {
+	.slick-dots {
+		position: absolute;
+		bottom: 10px;
+		left: 50%;
+		@include transform(translateX(-50%));
+		margin: 0 !important;
+		color: #fff;
+		li {
+			opacity: 0.6;
+		}
+		li:hover,
+		li.slick-active {
+			color: #fff;
+			opacity: 1;
+		}
+	}
+
+}

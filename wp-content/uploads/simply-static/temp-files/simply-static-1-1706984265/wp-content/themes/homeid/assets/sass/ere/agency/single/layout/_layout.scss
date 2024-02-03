@@ -1,0 +1,10 @@
+@import "layout-01";
+@import "layout-02";
+
+.g5ere__single-agency-head .g5ere__agency-featured {
+  border: 2px solid;
+  @include d-flex();
+  @include align-items-center();
+  @include border-radius(5px);
+  border-color: var(--g5-color-border);
+}

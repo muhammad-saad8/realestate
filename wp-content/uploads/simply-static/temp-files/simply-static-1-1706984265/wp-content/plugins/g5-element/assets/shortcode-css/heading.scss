@@ -1,0 +1,56 @@
+@import "../scss/_variable";
+@import "../scss/_mixin";
+
+.gel-heading-subtitle {
+    font-size: 0.875rem;
+    margin-bottom: 0.775rem;
+}
+
+.gel-heading-title {
+    margin-top: 0 !important;
+    margin-bottom: 0.7em;
+    mark {
+        color: #6ea820;
+        background-color: transparent;
+    }
+}
+
+.gel-heading-separate {
+    width: 42px;
+    height: 4px;
+    margin-bottom: 0.7em;
+    font-size: 0.875rem;
+    background-color: #222;
+}
+
+.gel-heading-description {
+    font-size: 1rem;
+}
+
+.gel-heading {
+    &.text-left {
+        margin-right: auto;
+        .gel-heading-separate {
+            margin-right: auto;
+        }
+    }
+    &.text-center {
+        margin-right: auto;
+        margin-left: auto;
+        .gel-heading-separate {
+            margin-right: auto;
+            margin-left: auto;
+        }
+    }
+    &.text-right {
+        margin-left: auto;
+        .gel-heading-separate {
+            margin-left: auto;
+        }
+    }
+    &.has-line-separator {
+        .gel-heading-description {
+            padding-top: 4px;
+        }
+    }
+}

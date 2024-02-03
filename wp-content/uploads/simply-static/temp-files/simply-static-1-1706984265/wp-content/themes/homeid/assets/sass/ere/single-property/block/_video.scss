@@ -1,0 +1,11 @@
+.g5ere__property-video{
+	.video-icon{
+		width: 76px;
+		height: 76px;
+		line-height: 76px;
+		text-align: center;
+		@include border-radius(50%);
+		background-color: var(--g5-color-accent);
+		color: $color-white;
+	}
+}

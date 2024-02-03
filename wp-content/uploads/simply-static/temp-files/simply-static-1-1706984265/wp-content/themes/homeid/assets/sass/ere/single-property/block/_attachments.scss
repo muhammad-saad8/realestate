@@ -1,0 +1,41 @@
+.g5ere__property-attachments{
+	p{
+		font-size: 13px;
+	}
+	.btn-download{
+		height: 40px;
+		line-height: 40px;
+		margin-top: 5px;
+		width: 100%;
+		@include border-radius(0 0 5px 5px);
+		&:after{
+			content: "\f358";
+			font-family: "Font Awesome 5 Pro";
+			color: var(--g5-color-accent);
+			margin-left: 5px;
+		}
+	}
+	.media-thumb-wrap{
+		text-align: center;
+	}
+	.media-thumb{
+		padding-bottom: 20px;
+		margin-bottom: 0;
+		border-style: solid;
+		border-width: 1px 1px 0 1px;
+		@include border-radius(5px 5px 0 0);
+		border-color: var(--g5-color-border);
+		padding-top: 20px;
+	}
+	.media-file-name{
+		margin-bottom: 3px !important;
+		line-height: 1.6;
+	}
+	.media-info{
+		border-style: solid;
+		border-width: 0 1px 1px 1px;
+		@include border-radius(0 0 5px 5px);
+		border-color: var(--g5-color-border);
+	}
+}
+

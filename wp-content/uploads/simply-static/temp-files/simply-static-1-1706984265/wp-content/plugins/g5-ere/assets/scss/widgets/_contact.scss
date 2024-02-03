@@ -1,0 +1,99 @@
+.invalid-feedback {
+	font-size: 100%;
+}
+
+.g5ere__contact-form {
+	.ere-recaptcha-wrap {
+		margin-bottom: 1rem;
+	}
+
+	.g5ere__contact-actions,
+	.g5ere__message {
+		margin-top: 1rem;
+	}
+}
+
+.g5ere__widget-contact-info-layout-01 {
+	margin-bottom: 20px;
+
+	.g5core__post-featured {
+		width: 80px;
+		margin-right: 15px;
+	}
+
+	.g5core__entry-thumbnail {
+		border: 1px solid #E0E8EE;
+	}
+}
+
+.g5ere__contact-actions-phone {
+	margin-top: 1rem;
+}
+
+.g5ere__property-block-contact-agent {
+	.g5ere__contact-actions:not(.g5ere__contact-actions-col) {
+		@include d-flex();
+		@include flex-wrap();
+		margin-left: -0.5rem;
+		margin-right: -0.5rem;
+
+		.ere-recaptcha-wrap {
+			width: 100%;
+			padding: 0 0.5rem;
+		}
+
+		.g5ere__contact-actions-phone, .g5ere__contact-actions-send-message {
+			@include flex(0 0 50%);
+			max-width: 50%;
+			padding: 0 0.5rem;
+		}
+		.g5ere__contact-actions-phone {
+			margin-top: 0;
+		}
+	}
+
+	@media (max-width: 480px) {
+		.g5ere__contact-actions {
+			.g5ere__contact-actions-phone, .g5ere__contact-actions-send-message {
+				@include flex(0 0 100%);
+				max-width: 100%;
+			}
+
+			.g5ere__contact-actions-send-message {
+				margin-bottom: 1rem;
+			}
+		}
+	}
+}
+
+.g5ere__contact-actions-col {
+	.g5ere__contact-actions-phone {
+		@include d-flex();
+		@include flex-wrap();
+		margin-left: -0.5rem;
+		margin-right: -0.5rem;
+
+		.g5ere__contact-actions-item {
+			@include flex(0 0 50%);
+			max-width: 50%;
+			padding: 0 0.5rem;
+		}
+	}
+
+	@media (max-width: 480px) {
+		.g5ere__contact-actions-phone {
+			.g5ere__contact-actions-item {
+				@include flex(0 0 100%);
+				max-width: 100%;
+			}
+
+			.g5ere__contact-actions-call {
+				margin-top: 1rem;
+			}
+		}
+	}
+
+}
+
+
+

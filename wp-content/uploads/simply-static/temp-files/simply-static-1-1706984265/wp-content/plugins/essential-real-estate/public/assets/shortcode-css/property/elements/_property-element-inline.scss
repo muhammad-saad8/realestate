@@ -1,0 +1,17 @@
+.property-element-inline{
+/*  display: table;
+  width: 100%;
+  > div {
+    display: table-cell;
+    vertical-align: top;
+    &:last-child {
+      text-align: right;
+    }
+    &.property-type-list {
+      display: table-row;
+    }
+  }*/
+  @include d-flex();
+  @include flex-wrap();
+  @include justify-content-between();
+}

@@ -1,0 +1,40 @@
+.g5ere__property-skin-list-04 {
+	.g5ere__lpp-price{
+		font-size: 20px;
+	}
+	.g5ere__lpp-postfix{
+		font-size: 17px;
+	}
+
+	.g5ere__lpc-bottom {
+		margin-top: 8px;
+	}
+
+	.g5ere__loop-content {
+		.g5ere__property-badge {
+			padding: 0;
+			color: var(--g5-color-accent);
+			background-color: transparent !important;
+			margin-bottom: 6px;
+			text-align: left;
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	.g5ere__property-skin-list-04 {
+		.g5ere__loop-content {
+			margin-top: 5px;
+		}
+
+		.g5core__post-featured {
+			width: 200px;
+			margin-right: 20px;
+		}
+
+		.g5ere__property-excerpt{
+			max-height: $font_line_height_body * 2em;
+			overflow: hidden;
+		}
+	}
+}

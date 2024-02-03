@@ -1,0 +1,277 @@
+.article-post {
+	&.page {
+		.entry-content {
+			margin-bottom: 0;
+		}
+	}
+
+	&.sticky {
+		background-color: $color_background_post_sticky;
+		padding: 2rem;
+		border-bottom: none;
+		@include border-radius(0.25rem);
+	}
+
+	.post-thumbnail {
+		margin-bottom: 23px;
+		img {
+			@include border-radius(0.25rem);
+		}
+	}
+
+	.entry-title {
+		font-size: 32px;
+		font-weight: 500;
+		word-break: break-word;
+		margin-bottom: 0;
+		a {
+			color: inherit;
+			@include transition(all .3s);
+			&:hover {
+				color: var(--g5-color-accent);
+			}
+		}
+	}
+
+	.entry-meta {
+		padding: 0;
+		list-style: none;
+		font-size: 14px;
+		margin-bottom: 20px;
+		a {
+			color: inherit;
+			@include transition(all .3s);
+			&:hover {
+				color: var(--g5-color-accent);
+			}
+		}
+		.meta-author {
+			img {
+				@include border-radius(50%);
+				margin-right: 10px;
+				width: 32px;
+			}
+		}
+		li {
+			margin-right: 20px;
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+		i {
+			margin-right: 10px;
+		}
+	}
+
+	.entry-header + .entry-excerpt {
+		margin-top: 22px;
+	}
+
+	.btn-read-more {
+		margin-top: 20px;
+	}
+
+}
+
+.entry-meta-cat {
+	ul.post-categories {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		li {
+			display: inline-block;
+			margin-right: 5px;
+			margin-bottom: 5px;
+			&:last-child {
+				margin-right: 0;
+			}
+			a {
+				font-size: 13px;
+				font-weight: 500;
+				letter-spacing: 1px;
+				background-color: #f8f8f8;
+				color: #696969;
+				padding: 2px 20px;
+				line-height: 20px;
+				@include border-radius(3px);
+				display: block;
+				@include transition(all .3s);
+				&:hover {
+					background-color: var(--g5-color-accent);
+					color: var(--g5-color-accent-foreground);
+				}
+			}
+		}
+	}
+}
+
+.btn-read-more {
+	i {
+		font-size: 16px;
+		margin-left: 5px;
+	}
+}
+
+.entry-excerpt {
+	line-height: 2.14;
+	p:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.article-archive-post {
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid var(--g5-color-border);
+}
+
+#main-content .article-post:last-child {
+	margin-bottom: 0;
+}
+
+body.page {
+	.article-post {
+		margin-bottom: 0;
+	}
+}
+
+.article-single-post {
+	.entry-meta-cat {
+		margin-bottom: 10px;
+	}
+
+	.entry-meta {
+		margin-top: 18px;
+		margin-bottom: 0;
+	}
+
+	.entry-header + .entry-content {
+		margin-top: 30px;
+	}
+
+	.tagcloud {
+		margin-top: 45px;
+	}
+
+	padding-bottom: 55px;
+	border-bottom: 1px solid var(--g5-color-border);
+}
+
+.entry-content {
+	@extend %clearfix;
+
+	h1, h2, h3, h4, h5, h6 {
+		margin-top: 2rem;
+	}
+	h1, h2, h3, h4, h5, h6 {
+		&:first-child {
+			margin-top: 0;
+		}
+	}
+	> p:last-child,
+	> ul:last-child {
+		margin-bottom: 0;
+	}
+}
+
+
+
+.author-info-wrap {
+	margin-top: 60px;
+}
+
+.author-info-inner {
+	@include d-flex();
+	padding: 0 25px;
+	@include media-sm() {
+		padding: 0;
+	}
+}
+
+.author-info-avatar {
+	margin-right: 30px;
+	@include flex-shrink-0;
+	img {
+		@include border-radius(50%);
+		margin: 0;
+	}
+}
+
+@media (max-width: 767px) {
+	.author-info-avatar {
+		width: 50px;
+		margin-right: 20px;
+	}
+}
+
+.author-info-content {
+	.name {
+		font-size: 16px;
+		margin-bottom: 10px;
+		a {
+			color: inherit;
+			&:hover {
+				color: var(--g5-color-accent);
+			}
+		}
+	}
+}
+
+.site-search-results-not-found {
+	text-align: center;
+
+	h2 {
+		font-size: 30px;
+		font-weight: 600;
+		margin-bottom: 30px;
+	}
+
+	p {
+		font-size: 15px;
+		margin-bottom: 35px;
+	}
+
+	.search-form {
+		@include d-flex();
+		position: relative;
+		max-width: 670px;
+		margin: auto;
+		button {
+			position: absolute;
+			right: 20px;
+			background: transparent;
+			color: inherit;
+			border: 0;
+			font-size: 0;
+			padding: 0;
+			color: var(--g5-color-heading);
+			top: 0;
+			bottom: 0;
+			margin: auto;
+			&:before {
+				content: '\f002';
+				font-family: $font_icon;
+				font-size: 18px;
+			}
+			> span {
+				display: none;
+			}
+
+		}
+		input {
+			height: 62px;
+			@include flex-fill;
+			border: 1px solid var(--g5-color-border);
+			background-color: #fff;
+			padding: 0 30px;
+			&:focus {
+				border-color: var(--g5-color-accent);
+				+ button {
+					&:before {
+						color: var(--g5-color-accent);
+					}
+				}
+			}
+		}
+	}
+}

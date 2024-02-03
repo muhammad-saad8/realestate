@@ -1,0 +1,91 @@
+
+.g5ere__search-form-widget{
+	.row {
+		margin-left: -6px;
+		margin-right: -6px;
+	}
+	.g5ere__search-field{
+		padding-left: 6px;
+		padding-right: 6px;
+		margin-bottom: 12px;
+		.g5ere__s-label{
+			display: none;
+		}
+		.bootstrap-select > .dropdown-toggle,
+		.bootstrap-select > .dropdown-toggle.bs-placeholder,
+		 input{
+			border: 0;
+			padding: 0 15px;
+			height: 52px;
+			background-color: $color_background_input;
+			@include border-radius(3px !important);
+			font-size: 13px;
+		}
+		.bootstrap-select{
+			height: 52px;
+			line-height: 52px;
+		}
+		.bootstrap-select .dropdown-menu{
+			a{
+				padding: 0 15px;
+			}
+			input{
+				padding: 0;
+			}
+		}
+	}
+	.g5ere__rs-text{
+		letter-spacing: 0;
+		padding-bottom: 18px;
+		text-transform: capitalize;
+	}
+	.g5ere__sf-price-range,
+	.g5ere__sf-area-range,
+	.g5ere__sf-land-area-range{
+		padding-top: 10px;
+		margin-bottom: 25px;
+	}
+	.g5ere__btn-features-list{
+		text-transform: capitalize;
+		font-size: 15px;
+		color: var(--g5-color-heading);
+		letter-spacing: 0;
+		i{
+			margin-right: 5px;
+		}
+	}
+	.ui-slider-horizontal {
+		.ui-slider-handle{
+			height: 18px;
+			width: 18px;
+			@include box-shadow(0 1px 5px 0 rgba(0, 0, 0, 0.22));
+			top: -7px;
+		}
+		.ui-slider-range{
+			height: 3px;
+			background-color: var(--g5-color-primary);
+		}
+
+	}
+	.g5ere__features-list-wrap{
+		margin-bottom: 18px;
+	}
+	.g5ere__sf-keyword {
+		.g5ere__sf-icon-submit{
+			top: 0;
+			bottom: 0;
+			font-size: 16px;
+		}
+		input{
+			padding-right: 40px;
+		}
+	}
+	.g5ere__features-list .g5ere__search-field:last-child{
+		margin-bottom: 0;
+	}
+	.g5ere__sf-submit-button .btn{
+		height: 52px;
+		font-size: 14px;
+		font-weight: 500;
+	}
+}

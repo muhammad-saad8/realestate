@@ -1,0 +1,13 @@
+.g5core__paging {
+  &.next-prev {
+    > a {
+      color: var(--g5-color-muted);
+      border-color: var(--g5-color-border);
+      &:not(.disable):hover {
+        background-color: var(--g5-color-accent);
+        color: var(--g5-color-accent-foreground);
+        border-color: var(--g5-color-accent);
+      }
+    }
+  }
+}

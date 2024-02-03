@@ -1,0 +1,55 @@
+.ui-dialog {
+	padding: 0;
+	background-image: none;
+	background-color: #fff;
+	min-width: 450px;
+	max-width: 100%;
+
+	.ui-dialog-titlebar {
+		@include d-flex();
+		@include align-items-center();
+		font-size: 18px;
+
+		.ui-dialog-title {
+			float: none;
+			margin: 0 auto 0 0;
+			width: auto;
+		}
+	}
+
+	.ui-dialog-titlebar-close {
+		position: static;
+		margin: 0;
+		line-height: 20px;
+		background-color: transparent;
+		border: none;
+		width: auto;
+		height: auto;
+		font-size: 0;
+
+		&::before {
+			content: '\f00d';
+			font-family: "Font Awesome 5 Pro";
+			color: inherit;
+			font-size: 18px;
+		}
+	}
+
+	.ui-dialog-buttonpane {
+		border-top: 0;
+		margin: 0;
+		padding-top: 0;
+		padding-bottom: 1rem;
+
+		button {
+			height: 40px;
+			line-height: 39px;
+			text-transform: uppercase;
+			font-weight: 600;
+			margin: 0;
+		}
+	}
+	.ere-dialog-popup {
+		padding: 20px 16px;
+	}
+}

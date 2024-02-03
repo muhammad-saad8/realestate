@@ -1,0 +1,52 @@
+.ui-dialog {
+
+	font-family: var(--g5-body-font);
+
+
+
+
+	.ui-dialog-titlebar {
+		background-image: none;
+		border: none;
+		background-color: var(--g5-color-secondary);
+		color: var(--g5-color-heading);
+		font-weight: 500;
+		padding: 1rem;
+		border-bottom: 1px solid var(--g5-color-border);
+	}
+
+	.ui-icon-closethick {
+		display: none;
+	}
+
+	.ui-dialog-titlebar-close {
+		color: var(--g5-color-text-main);
+
+	}
+
+	.ui-dialog-buttonpane {
+		background-image: none;
+		background-color: transparent;
+
+		button {
+			//@include button-variant(var(--g5-color-primary), var(--g5-color-secondary), var(--g5-color-secondary),var(--g5-color-primary),var(--g5-color-secondary-brightness),var(--g5-color-secondary-brightness));
+			padding-left: 20px;
+			padding-right: 20px;
+			@include btn-variants(var(--g5-color-primary), var(--g5-color-secondary), var(--g5-color-secondary),var(--g5-color-primary),var(--g5-color-secondary-brightness),var(--g5-color-secondary-brightness));
+		}
+
+		button + button {
+			margin-left: 10px;
+		}
+	}
+
+	.ere-dialog-popup {
+
+		.message {
+			i::after {
+				color: var(--g5-color-accent);
+			}
+		}
+	}
+
+}

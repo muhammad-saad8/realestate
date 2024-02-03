@@ -1,0 +1,32 @@
+.g5ere__loop-property-actions {
+	.fa-spinner:before {
+		content: "\f110" !important;
+	}
+	a {
+		color: inherit;
+		width: 1.2em;
+		display: inline-block;
+		text-align: center;
+	}
+
+	a + a {
+		margin-left: 5px;
+	}
+}
+
+.g5ere__property-featured {
+	.g5ere__loop-property-actions {
+		position: absolute;
+		bottom: 10px;
+		right: 10px;
+		z-index: 2;
+		color: #fff;
+		opacity: 0;
+		@include transition(all .3s);
+	}
+	&:hover {
+		.g5ere__loop-property-actions {
+			opacity: 1;
+		}
+	}
+}

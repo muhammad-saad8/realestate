@@ -1,0 +1,29 @@
+.g5ere__agent-skin-list-01 {
+	.g5ere__loop-agent-social {
+		margin-top: 20px;
+	}
+	.g5ere__agent-item-inner {
+		background-color: #fff;
+		padding: 15px;
+		@include border-radius(5px);
+		border: 1px solid var(--g5-color-border);
+	}
+}
+
+@media (min-width: 768px) {
+	.g5ere__agent-skin-list-01 {
+		.g5core__post-featured {
+			margin-right: 45px;
+			width: 240px;
+		}
+		.g5ere__agent-content {
+			@include align-self-center();
+		}
+	}
+}
+
+@media (max-width: 767px) {
+	.g5ere__agent-skin-list-01 .g5core__post-featured {
+		margin-bottom: 17px;
+	}
+}

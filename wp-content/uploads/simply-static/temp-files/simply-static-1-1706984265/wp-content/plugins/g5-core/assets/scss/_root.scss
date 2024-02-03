@@ -1,0 +1,101 @@
+:root {
+	--g5-modal-spacing: 1.5rem;
+	--g5-modal-width: 320px;
+	--g5-modal-rounded: 5px;
+	--g5-color-border: #{$border_color};
+	--g5-cate-filter-color: inherit;
+	--g5-cate-filter-color-hover: var(--g5-color-accent);
+	--g5-cate-filter-item-spacing: 30px;
+
+
+	--g5-top-bar-item-spacing: 1.5rem;
+	--g5-top-bar-background-color: #{$top_bar_background_color};
+	--g5-top-bar-text-color: #{$top_bar_text_color};
+	--g5-top-bar-text-hover-color: #{$top_bar_text_hover_color};
+	--g5-top-bar-border-color: #{$top_bar_border_color};
+
+	--g5-top-bar-font: #{inspect($top_bar_font)};
+	--g5-top-bar-font-weight: #{inspect($top_bar_font_weight)};
+	--g5-top-bar-font-size: #{$top_bar_font_size};
+	--g5-top-bar-font-style: #{$top_bar_font_style};
+	--g5-top-bar-text-transform: #{$top_bar_text_transform};
+	--g5-top-bar-letter-spacing: #{$top_bar_letter_spacing};
+
+
+	--g5-mobile-top-bar-background-color: #{$mobile_top_bar_background_color};
+	--g5-mobile-top-bar-text-color: #{$mobile_top_bar_text_color};
+	--g5-mobile-top-bar-text-hover-color: #{$mobile_top_bar_text_hover_color};
+	--g5-mobile-top-bar-border-color: #{$mobile_top_bar_border_color};
+
+	--g5-layout-stretched-width: 95%;
+	--g5-site-style-bordered-width: 30px;
+	--g5-site-style-bordered-color: #eee;
+
+	--g5-content-padding-top: 60px;
+	--g5-content-padding-bottom: 100px;
+
+
+	--g5-logo-font: #{inspect($logo_font)};
+	--g5-logo-font-size: #{$logo_font_size};
+	--g5-logo-font-style: #{$logo_font_style};
+	--g5-logo-font-weight: #{$logo_font_weight};
+	--g5-logo-text-transform: #{$logo_text_transform};
+	--g5-logo-letter-spacing: #{$logo_letter_spacing};
+	--g5-logo-line-height: #{inspect($logo_line_height)};
+
+
+	--g5-menu-font: #{inspect($menu_font)};
+	--g5-menu-font-weight: #{inspect($menu_font_weight)};
+	--g5-menu-line-height: #{inspect($menu_line_height)};
+	--g5-menu-font-size: #{$menu_font_size};
+	--g5-menu-font-style: #{$menu_font_style};
+	--g5-menu-text-transform: #{$menu_text_transform};
+	--g5-menu-letter-spacing: #{$menu_letter_spacing};
+
+
+
+	--g5-submenu-font: #{inspect($submenu_font)};
+	--g5-submenu-font-size: #{$submenu_font_size};
+	--g5-submenu-font-style: #{$submenu_font_style};
+	--g5-submenu-font-weight: #{$submenu_font_weight};
+	--g5-submenu-text-transform: #{$submenu_text_transform};
+	--g5-submenu-letter-spacing: #{$submenu_letter_spacing};
+	--g5-submenu-line-height: #{inspect($submenu_line_height)};
+
+
+	--g5-submenu-text-color: #{$submenu_text_color};
+	--g5-submenu-text-hover-color: #{$submenu_text_hover_color};
+	--g5-submenu-bg-color: #{$submenu_background_color};
+	--g5-submenu-bg-hover-color: #{$sub_menu_background_hover_color};
+	--g5-submenu-border-color: #{$submenu_border_color};
+	--g5-submenu-heading-color: #{$submenu_heading_color};
+
+
+	--g5-header-bg-color: #{$header_background_color};
+	--g5-header-text-color: #{$header_text_color};
+	--g5-header-text-hover-color: #{$header_text_hover_color};
+	--g5-header-border-color: #{$header_border_color};
+	--g5-header-disable-color: #{$header_disable_color};
+
+	--g5-header-sticky-bg-color: #{$header_sticky_background_color};
+	--g5-header-sticky-text-color: #{$header_sticky_text_color};
+	--g5-header-sticky-text-hover-color: #{$header_sticky_text_hover_color};
+	--g5-header-sticky-border-color: #{$header_sticky_border_color};
+	--g5-header-sticky-disable-color: #{$header_sticky_disable_color};
+
+	--g5-navigation-bg-color: #{$navigation_background_color};
+	--g5-navigation-text-color: #{$navigation_text_color};
+	--g5-navigation-text-hover-color: #{$navigation_text_hover_color};
+	--g5-navigation-border-color: #{$navigation_border_color};
+	--g5-navigation-disable-color: #{$navigation_disable_color};
+
+	--g5-header-mobile-bg-color: #{$header_mobile_background_color};
+	--g5-header-mobile-text-color: #{$header_mobile_text_color};
+	--g5-header-mobile-text-hover-color: #{$header_mobile_text_hover_color};
+	--g5-header-mobile-border-color: #{$header_mobile_border_color};
+
+	--g5-header-mobile-sticky-bg-color: #{$header_mobile_sticky_background_color};
+	--g5-header-mobile-sticky-text-color: #{$header_mobile_sticky_text_color};
+	--g5-header-mobile-sticky-text-hover-color: #{$header_mobile_sticky_text_hover_color};
+	--g5-header-mobile-sticky-border-color: #{$header_mobile_sticky_border_color};
+}

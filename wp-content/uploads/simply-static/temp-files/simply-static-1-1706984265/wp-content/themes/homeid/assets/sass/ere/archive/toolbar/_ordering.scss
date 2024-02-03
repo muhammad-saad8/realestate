@@ -1,0 +1,21 @@
+.g5ere__toolbar .g5ere__ordering{
+	button,
+	.bootstrap-select .dropdown-toggle:focus{
+		background-color: transparent;
+		border-color: var(--g5-color-border);
+	}
+	.dropdown-item:focus,
+	.bootstrap-select,
+	.bootstrap-select .dropdown-toggle:focus{
+		outline: none !important;
+		@include box-shadow(none);
+	}
+	button{
+		font-weight: 600;
+		color: var(--g5-color-text-main);
+	}
+	.filter-option-inner-inner{
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+}

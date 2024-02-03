@@ -1,0 +1,14 @@
+.g5ere__switch-layout{
+	a{
+		font-size: 18px;
+		color: var(--g5-color-heading);
+		opacity: 0.2;
+		+ a{
+			margin-left: 20px;
+		}
+		&:hover,&.active{
+			color: var(--g5-color-heading);
+			opacity: 1;
+		}
+	}
+}

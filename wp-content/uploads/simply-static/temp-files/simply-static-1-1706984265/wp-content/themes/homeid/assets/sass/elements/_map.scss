@@ -1,0 +1,13 @@
+.g5ere__cluster {
+	background-color: rgba(var(--g5-color-accent), 0.6);
+	> div {
+		background-color: var(--g5-color-accent);
+	}
+}
+
+.mapboxgl-map, .leaflet-container {
+	.g5ere__cluster {
+		background-color: var(--g5-color-accent);
+		border: 5px solid rgba(var(--g5-color-accent), 0.6);
+	}
+}

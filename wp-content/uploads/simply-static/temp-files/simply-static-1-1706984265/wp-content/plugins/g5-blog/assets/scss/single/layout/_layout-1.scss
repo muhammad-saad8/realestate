@@ -1,0 +1,22 @@
+.g5blog__single-layout-1 {
+  .g5blog__single-featured {
+    margin-bottom: 2.5rem;
+  }
+
+  .g5blog__single-title {
+    margin-bottom: 0.5rem;
+  }
+  .g5blog__single ul.g5blog__post-meta {
+    margin-bottom: 0;
+  }
+
+  .g5blog__single-meta-top {
+    margin-bottom: 1.5rem;
+  }
+
+  &.g5blog__no-post-thumbnail {
+    .g5blog__single-meta-top {
+      margin-bottom: 2rem;
+    }
+  }
+}

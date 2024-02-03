@@ -1,0 +1,40 @@
+.g5ere__single-bottom-bar {
+	display: none;
+	@include box-shadow(0 0 15px 0 rgba(0, 0, 0, 0.1));
+
+	@media (max-width: 576px) {
+		display: block;
+	}
+
+	@include transform(translateY(0));
+	@include transition(all 0.5s);
+	&.out {
+		@include transform(translateY(100%));
+	}
+
+	.g5ere__sbb-inner {
+		margin: 0 -5px;
+		.g5ere__sbb-item {
+			padding: 0 5px;
+		}
+		.btn {
+			padding-left: 5px;
+			padding-right: 5px;
+			height: 50px;
+			line-height: 50px;
+			i {
+				display: none;
+				font-size: 20px;
+
+			}
+			@media (max-width: 480px) {
+				i {
+					display: inline-block;
+				}
+				span {
+					display: none;
+				}
+			}
+		}
+	}
+}

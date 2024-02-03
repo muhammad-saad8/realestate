@@ -1,0 +1,34 @@
+/** Number Responsive **/
+.g5element-vc_number-responsive-inner {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+.g5element-vc_number-responsive-inner .vc_screen-size {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin-right: 10px;
+}
+.g5element-vc_number-responsive-inner .vc_screen-size > label {
+	padding: 0 5px;
+	height: 28px;
+	line-height: 28px;
+	box-shadow: inset 0 0 3px #aaa;
+	color: #0473aa;
+}
+@media (max-width: 575px) {
+	.g5element-vc_number-responsive-inner {
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+}

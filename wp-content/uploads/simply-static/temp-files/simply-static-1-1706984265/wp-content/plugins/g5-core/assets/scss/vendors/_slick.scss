@@ -1,0 +1,94 @@
+.slick-slider {
+	margin-left: -15px;
+	margin-right: -15px;
+	.wpb_content_element {
+		margin-bottom: 0;
+	}
+}
+.slick-slide {
+	height: auto;
+}
+
+.slick-slide-center {
+	opacity: 0.3;
+	@include transition(opacity .3s);
+	&.slick-active {
+		opacity: 1;
+	}
+}
+
+.slick-slide > div {
+	padding: 15px;
+}
+.slick-slide img {
+	width: auto;
+}
+
+.slick-arrows {
+	@include d-flex();
+	@include justify-content-center();
+}
+
+.slick-arrow {
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	@include d-flex();
+	@include align-items-center();
+	@include justify-content-center();
+	@include transition(all 0.2s);
+	&.slick-disabled {
+		opacity: 0.5;
+		cursor: no-drop;
+	}
+
+	i {
+		line-height: inherit;
+	}
+	cursor: pointer;
+}
+.slick-prev {
+	margin-right: 10px;
+}
+
+.slick-dots {
+	> ul {
+		@include d-flex();
+		@include justify-content-center();
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+	li {
+		width: 30px;
+		cursor: pointer;
+		text-align: center;
+		color: currentColor;
+		opacity: 0.4;
+	}
+	span:before {
+		font-family: "Font Awesome 5 Pro";
+		content: "\f111";
+		font-weight: 700;
+		line-height: 30px;
+		width: 30px;
+		height: 30px;
+		font-size: 80%;
+	}
+}
+
+.slick-dots li.slick-active,
+.slick-dots li:hover,
+.slick-arrow:active,
+.slick-dots li:active,
+.slick-arrow:focus,
+.slick-dots li:focus {
+	opacity: 1;
+}
+
+.slick-dots li.slick-active span:before {
+	content: "\f192";
+}
+.slick-dots {
+	margin-top: 15px;
+}

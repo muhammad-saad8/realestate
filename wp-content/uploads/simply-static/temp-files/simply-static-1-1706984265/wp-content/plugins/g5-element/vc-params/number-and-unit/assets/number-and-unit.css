@@ -1,0 +1,36 @@
+/** Number and Unit **/
+.g5element-vc_number-and-unit-inner {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-flex-flow: row nowrap;
+	-moz-flex-flow: row nowrap;
+	-ms-flex-flow: row nowrap;
+	flex-flow: row nowrap;
+	-webkit-justify-content: space-between;
+	-moz-justify-content: space-between;
+	-ms-justify-content: space-between;
+	justify-content: space-between;
+}
+.g5element-vc_number-and-unit-inner .g5element-number-value {
+	width: 100%;
+}
+.g5element-vc_number-and-unit-inner .g5element-number-value input {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+.g5element-vc_number-and-unit-inner [name="g5element-number-unit"] {
+	-webkit-flex-shrink: 0;
+	flex-shrink: 0;
+	width: 70px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	margin-left: -1px;
+	padding: 7.5px 24px 7.5px 6px;
+
+}

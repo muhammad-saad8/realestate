@@ -1,0 +1,20 @@
+@media (min-width: 768px) and (max-width: 1199px) {
+	body.has-sidebar {
+		.g5ere__property-overview-list li {
+			@include flex(0 0 50%);
+			max-width: 50%;
+		}
+
+		.g5ere__property_floors-details {
+			display: none;
+		}
+	}
+}
+
+
+@import "title";
+@import "price";
+@import "meta/meta";
+@import "block/block";
+@import "style/style";
+@import "layout/layout";
